@@ -1,21 +1,7 @@
-# iptables Malicious Countries
-### Block Malicious Countries with ipset Blocklists
+# Whymark_dot_net
+### Source code for the whymark.net (and similar) websites
 
 
-Blocks *all* IPv4 and IPv6 traffic from the following countries:
-- China
-- Russia
-- Ukraine
-- India
-- Iran
-- Vietnam
-- Brazil
-- Thailand
-- Indonesia
-- Pakistan
-- Algeria
+Simple landing page with links to various services or resources. Original template is from https://html5up.net/aerial
 
-Then blocks all incoming SSH connections unless they are from Great Britain.
-
-
-Also included is a debugging script to test SSH server security. Example run: `python ssh-audit.py -p <port> <hostname>`
+Use https://fontawesome.com/v6/icons/ to reference icon names.

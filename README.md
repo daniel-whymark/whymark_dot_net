@@ -3,6 +3,6 @@
 
 Minimal and fast landing page with links to various services or resources.
 
-- Original template is from https://html5up.net/aerial, instructions are in the `Template Docs` file.
+- Original template is from https://html5up.net/aerial, instructions are in the `TemplateDocs.txt` file.
 
 - Use https://fontawesome.com/v6/icons/ to look up icon names/references used in the buttons.

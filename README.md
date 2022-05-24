@@ -8,3 +8,5 @@ Minimal and fast landing page with links to various services or resources.
 - Use [this list](https://fontawesome.com/v6/icons/) to look up icon names/references from the font file used for the buttons.
 
 - Background image is from the [Chrome Dinosaur Game](https://en.wikipedia.org/wiki/Dinosaur_Game) created by the Chrome UX team.
+
+Distributed under [Creative Commons Attribution 3.0 License](https://creativecommons.org/licenses/by/3.0/). Feel free to copy onwards, just give credit to the original authors!

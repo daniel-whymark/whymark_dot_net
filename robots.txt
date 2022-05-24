@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /error-pages/
+Disallow: /request*
+Disallow: /request
+Disallow: /tautulli*
+Disallow: /tautulli
+Disallow: /sonarr*
+Disallow: /sonarr
+Disallow: /nzbgett*
+Disallow: /nzbget
+Disallow: /radarr*
+Disallow: /radarr
+Disallow: /transmission*
+Disallow: /transmission

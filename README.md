@@ -9,7 +9,6 @@ Minimal and fast landing page with links to various services or resources.
 
 - Background image is from the [Chrome Dinosaur Game](https://en.wikipedia.org/wiki/Dinosaur_Game) created by the Chrome UX team.
 
-<<<<<<< HEAD
 - Error pages are present for use with AWS Cloudfront, to retain the styled theme in case of backend issues. If you don't need these for your use case then you can safely delete.
 
 - I would strongly recommened that you review the following files to ensure that the level of securityis suitable for your site:
@@ -17,6 +16,4 @@ Minimal and fast landing page with links to various services or resources.
   - crossdomain.xml & clientaccespolicy.xml [Flash & Silverlight policies](https://en.wikipedia.org/wiki/Cross-site_request_forgery)
   - .well-known/mta-sts.txt [Mail Transfer Agent Strict Transport Security](https://www.ncsc.gov.uk/collection/email-security-and-anti-spoofing/using-mta-sts-to-protect-the-privacy-of-your-emails)
 
-=======
 Distributed under [Creative Commons Attribution 3.0 License](https://creativecommons.org/licenses/by/3.0/). Feel free to copy onwards, just give credit to the original authors!
->>>>>>> 34c98e28a5703d6c8ec70e3366b5af7f6216015b

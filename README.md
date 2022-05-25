@@ -8,6 +8,7 @@ Minimal and fast landing page with links to various services or resources.
 - Use [this list](https://fontawesome.com/v6/icons/) to look up icon names/references from the font file used for the buttons.
 - Background image is from the [Chrome Dinosaur Game](https://en.wikipedia.org/wiki/Dinosaur_Game) created by the Chrome UX team.
 - Error pages are present for use with AWS Cloudfront, to retain the styled theme in case of backend issues. If you don't need these for your use case then you can safely remove the whole directory.
+- Cloudflare images are present for use in Cloudflare Access / Zero Trust and can also be safely deleted if you have no need for them.
 <br/>
   
 I would strongly recommened that you review the following files and linked documentation to ensure that the level of security is suitable for your site.

@@ -4,34 +4,49 @@
 	<url>
 		<loc>https://whymark.net/</loc>
 		<priority>1.0</priority>
+		<changefreq>daily</changefreq>
 	</url>
 
 	<url>
 		<loc>https://whymark.io/</loc>
+		<priority>0.5</priority>
+		<changefreq>daily</changefreq>
 	</url>
 
 	<url>
 		<loc>https://whymark.co/</loc>
+		<priority>0.5</priority>
+		<changefreq>daily</changefreq>
 	</url>
 
 	<url>
 		<loc>https://whymark.org/</loc>
+		<priority>0.5</priority>
+		<changefreq>daily</changefreq>
 	</url>
 
 	<url>
 		<loc>https://whymark.me/</loc>
+		<priority>0.5</priority>
+		<changefreq>daily</changefreq>
 	</url>
 
 	<url>
 		<loc>https://whymark.org.uk/</loc>
+		<priority>0.5</priority>
+		<changefreq>daily</changefreq>
 	</url>
 
 	<url>
 		<loc>https://whymark.email/</loc>
+		<priority>0.5</priority>
+		<changefreq>daily</changefreq>
 	</url>
 
 	<url>
 		<loc>https://whymark.xyz/</loc>
+		<priority>0.5</priority>
+		<changefreq>daily</changefreq>
 	</url>
 
 </urlset>

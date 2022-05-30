@@ -8,6 +8,12 @@
 	</url>
 
 	<url>
+		<loc>https://whymark-cdn.net/</loc>
+		<priority>0.1</priority>
+		<changefreq>daily</changefreq>
+	</url>
+
+	<url>
 		<loc>https://whymark.io/</loc>
 		<priority>0.5</priority>
 		<changefreq>daily</changefreq>

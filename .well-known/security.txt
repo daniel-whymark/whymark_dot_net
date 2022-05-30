@@ -1,4 +1,4 @@
 Contact: mailto:admin@whymark.net
-Contact: https://github.com/xermin/whymark_dot_net/issues/new
+Contact: https://github.com/daniel-whymark/whymark_dot_net/issues/new
 Preferred-Languages: en
 Canonical: https://whymark.net/security.txt

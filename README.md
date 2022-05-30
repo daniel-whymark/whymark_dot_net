@@ -1,5 +1,5 @@
 # Whymark_dot_net
-### Source code for the whymark.net (and similar) websites
+### Source code for the [whymark.net](https://whymark.net/) websites (and mirrors)
   
 Minimal and fast landing page with links to various services or resources.
 <br/>

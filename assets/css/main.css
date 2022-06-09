@@ -2,15 +2,24 @@
 	font-family: 'Source Sans Pro';
 	font-style: normal;
 	font-weight: 300;
-	src: url(/assets/webfonts/googlefonts_source-sans-pro_300.ttf) format('truetype');
-  }
-  @font-face {
+	src: local(''),
+		url('/assets/webfonts/source-sans-pro-v21-latin-300.woff2') format('woff2'),
+		url('/assets/webfonts/source-sans-pro-v21-latin-300.woff') format('woff');
+	font-display: swap;
+}
+
+@font-face {
 	font-family: 'Source Sans Pro';
 	font-style: normal;
 	font-weight: 900;
-	src: url(/assets/webfonts/googlefonts_source-sans-pro_900.ttf) format('truetype');
-  }
-  
+	src: local(''),
+		url('/assets/webfonts//source-sans-pro-v21-latin-900.woff2') format('woff2'),
+		url('/assets/webfonts//source-sans-pro-v21-latin-900.woff') format('woff');
+	font-display: swap;
+}
+
+@import url("/assets/css/fontawesome-all.min.css");
+
 
 /*
 	Aerial by HTML5 UP

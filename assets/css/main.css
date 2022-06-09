@@ -1,3 +1,5 @@
+@import url("/assets/css/fontawesome-all.min.css");
+
 @font-face {
 	font-family: 'Source Sans Pro';
 	font-style: normal;
@@ -19,8 +21,6 @@
 		url('/assets/webfonts/source-sans-pro-light-latin-900.ttf') format('ttf');
 	font-display: swap;
 }
-
-@import url("/assets/css/fontawesome-all.min.css");
 
 
 /*

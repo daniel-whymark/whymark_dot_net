@@ -4,7 +4,8 @@
 	font-weight: 300;
 	src: local(''),
 		url('/assets/webfonts/source-sans-pro-v21-latin-300.woff2') format('woff2'),
-		url('/assets/webfonts/source-sans-pro-v21-latin-300.woff') format('woff');
+		url('/assets/webfonts/source-sans-pro-v21-latin-300.woff') format('woff'),
+		url('/assets/webfonts/source-sans-pro-light-latin-300.ttf') format('ttf');
 	font-display: swap;
 }
 
@@ -13,8 +14,9 @@
 	font-style: normal;
 	font-weight: 900;
 	src: local(''),
-		url('/assets/webfonts//source-sans-pro-v21-latin-900.woff2') format('woff2'),
-		url('/assets/webfonts//source-sans-pro-v21-latin-900.woff') format('woff');
+		url('/assets/webfonts/source-sans-pro-v21-latin-900.woff2') format('woff2'),
+		url('/assets/webfonts/source-sans-pro-v21-latin-900.woff') format('woff'),
+		url('/assets/webfonts/source-sans-pro-light-latin-900.ttf') format('ttf');
 	font-display: swap;
 }
 

@@ -43,24 +43,23 @@
 	<link rel="alternate" href="https://whymark.xyz" />
 
 	<script type="application/ld+json">
-		{
+		[{
 			"@context": "https://schema.org",
-			"@type": "NewsArticle",
+			"@type": "Article",
 			"headline": "Daniel Whymark",
-			"image": [
-				"https://whymark.net/assets/images/profile.png",
-    			"https://whymark.net/assets/images/profile-mini.png"
-			],
-			"author": {
+			"image": "https://whymark.net/assets/images/profile.png",
+			"author": [{
 				"@type": "Person",
 				"name": "Daniel Whymark",
-				"sameAs": [
- 					"https://www.linkedin.com/in/danielwhymark",
- 					"https://twitter.com/Daniel_Whymark",
- 					"https://github.com/daniel-whymark"
- 				]
-			}
-		}
+				"url": "https://whymark.net/"
+			}]
+		},
+		{
+			"@context":"https://schema.org",
+ 			"@type":"Organization",
+ 			"url":"https://whymark.net",
+ 			"logo":"https://whymark.net/assets/images/profile.png"
+		}]
 	</script>
 
 	<link rel="stylesheet" href="/assets/css/main.css" crossorigin="anonymous" />

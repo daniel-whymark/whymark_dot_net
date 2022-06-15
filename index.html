@@ -6,7 +6,7 @@
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" crossorigin="anonymous" />
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" crossorigin="anonymous" />
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" crossorigin="anonymous" />
-	<link rel="icon" href="/favicon.ico" type="image/x-icon" crossorigin="anonymous" />
+	<link rel="icon" type="image/x-icon" href="/favicon.ico" crossorigin="anonymous" />
 
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -44,18 +44,56 @@
 
 	<script type="application/ld+json">
 		[{
-			"@context": "https://schema.org",
-			"@type": "NewsArticle",
-			"headline": "Daniel Whymark",
+			"@context": "http://www.schema.org",
+			"@type": "Person",
 			"name": "Daniel Whymark",
+			"alternateName": "Dan Whymark",
+			"nationality": "United Kingdom",
+			"birthPlace": {
+				"@type": "Place",
+				"address": {
+					"@type": "PostalAddress",
+					"addressLocality": "Leeds",
+					"addressRegion": "England",
+					"addressCountry": "United Kingdom"
+				}
+			},
+			"alumniOf": [{
+				"@type": "CollegeOrUniversity",
+				"name": "Huddersfield University",
+				"sameAs": [
+					"https://www.hud.ac.uk",
+					"https://en.wikipedia.org/wiki/University_of_Huddersfield"
+				]
+			}],
+			"gender": "Male",
+			"Description": "Infrastructure Engineer",
+			"jobTitle": "Infrastructure Engineer",
+			"worksFor": [{
+				"@type": "Organization",
+				"name": "WANdisco, plc.",
+				"sameAs": [
+					"https://wandisco.com/",
+					"https://twitter.com/WANdisco",
+					"https://www.linkedin.com/company/wandisco/"
+				]
+			}],
+			"email": "dan@whymark.net",
+			"url": "https://whymark.net/",
 			"image": "https://whymark.net/assets/images/profile.png",
-			"author": [{
-				"@context":"https://schema.org",
-				"@type":"Organization",
-				"name": "Daniel Whymark",
-				"url":"https://whymark.net",
-				"logo":"https://whymark.net/assets/images/profile.png"
-			}]
+			"address": {
+				"@type": "PostalAddress",
+				"addressLocality": "Leeds",
+				"addressRegion": "England",
+				"addressCountry": "United Kingdom"
+			},
+			"sameAs": [
+				"https://whymark.net/",
+				"https://www.linkedin.com/in/danielwhymark",
+				"https://github.com/daniel-whymark",
+				"https://twitter.com/Daniel_Whymark",
+				"https://www.youtube.com/DanielWhymarkUK"
+			]
 		},
 		{
 			"@context":"https://schema.org",

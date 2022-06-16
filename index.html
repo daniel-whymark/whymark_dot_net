@@ -1,182 +1,241 @@
 <!DOCTYPE HTML>
 <html lang="en">
+	<head>
 
-<head>
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" crossorigin="anonymous" />
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" crossorigin="anonymous" />
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" crossorigin="anonymous" />
+		<link rel="icon" type="image/x-icon" href="/favicon.ico" crossorigin="anonymous" />
+	
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" crossorigin="anonymous" />
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" crossorigin="anonymous" />
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" crossorigin="anonymous" />
-	<link rel="icon" type="image/x-icon" href="/favicon.ico" crossorigin="anonymous" />
+		<meta name="robots" content="follow,index,max-image-preview:large" />
 
-	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<meta name="robots" content="follow,index,max-image-preview:large" />
+		<title>Daniel Whymark | Daniel Whymark</title>
+		<meta name="description" content="Daniel Whymark is an IT Infrastructure Engineer, general technophile, lifelong gamer, and reader of many things." />
+		<meta name="author" content="Daniel Whymark" />
 
-	<title>Daniel Whymark | Daniel Whymark</title>
-	<meta name="description" content="Daniel Whymark is an IT Infrastructure Engineer, general technophile, lifelong gamer, and reader of many things." />
-	<meta name="author" content="Daniel Whymark" />
-
-	<meta property="og:site_name" content="Daniel Whymark" />
-	<meta property="og:locale" content="en_GB" />
-	<meta property="og:type" content="profile" />
-	<meta property="og:url" content="https://whymark.net/" />
-	<meta property="og:image" content="https://whymark.net/assets/images/profile.png" />
-	<meta property="og:title" content="Daniel Whymark" />
-	<meta property="og:description" content="Daniel Whymark is an IT Infrastructure Engineer, general technophile, lifelong gamer, and reader of many things." />
-
-	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:creator:id" content="@Daniel_Whymark" />
-	<meta name="twitter:title" content="Daniel Whymark" />
-	<meta name="twitter:description" content="Daniel Whymark is an IT Infrastructure Engineer, general technophile, lifelong gamer, and reader of many things." />
-	<meta name="twitter:image:src" content="https://whymark.net/assets/images/profile.png" />
-	<meta name="twitter:image:alt" content="Profile photo of Daniel Whymark" />
-
-	<link rel="canonical" href="https://whymark.net/" />
-	<link rel="alternate" href="https://whymark-cdn.net/" />
-	<link rel="alternate" href="https://whymark.io/" />
-	<link rel="alternate" href="https://whymark.co/" />
-	<link rel="alternate" href="https://whymark.org/" />
-	<link rel="alternate" href="https://whymark.me/" />
-	<link rel="alternate" href="https://whymark.org.uk/" />
-	<link rel="alternate" href="https://whymark.email/" />
-	<link rel="alternate" href="https://whymark.xyz/" />
-
-	<script type="application/ld+json">
-	[
-		{
-			"@context": "http://www.schema.org",
-			"@type": "Person",
-			"@id": "Daniel Whymark",
-			"name": "Daniel Whymark",
-			"alternateName": "Dan Whymark",
-			"nationality": "United Kingdom",
-			"birthPlace": {
-				"@type": "Place",
-				"address": {
-					"@type": "PostalAddress",
-					"addressLocality": "Leeds",
-					"addressRegion": "England",
-					"addressCountry": "United Kingdom"
-				}
-			},
-			"alumniOf": [
+		<meta property="og:site_name" content="Daniel Whymark" />
+		<meta property="og:locale" content="en_GB" />
+		<meta property="og:type" content="profile" />
+		<meta property="og:url" content="https://whymark.net/" />
+		<meta property="og:image" content="https://whymark.net/assets/images/me.png" />
+		<meta property="og:title" content="Daniel Whymark" />
+		<meta property="og:description" content="Daniel Whymark is an IT Infrastructure Engineer, general technophile, lifelong gamer, and reader of many things." />
+	
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:creator:id" content="@Daniel_Whymark" />
+		<meta name="twitter:title" content="Daniel Whymark" />
+		<meta name="twitter:description" content="Daniel Whymark is an IT Infrastructure Engineer, general technophile, lifelong gamer, and reader of many things." />
+		<meta name="twitter:image:src" content="https://whymark.net/assets/images/me.png" />
+		<meta name="twitter:image:alt" content="Profile photo of Daniel Whymark" />
+	
+		<link rel="canonical" href="https://whymark.net/" />
+		<link rel="alternate" href="https://whymark-cdn.net/" />
+		<link rel="alternate" href="https://whymark.io/" />
+		<link rel="alternate" href="https://whymark.co/" />
+		<link rel="alternate" href="https://whymark.org/" />
+		<link rel="alternate" href="https://whymark.me/" />
+		<link rel="alternate" href="https://whymark.org.uk/" />
+		<link rel="alternate" href="https://whymark.email/" />
+		<link rel="alternate" href="https://whymark.xyz/" />
+	
+		<script type="application/ld+json">
+			[
 				{
-					"@type": "CollegeOrUniversity",
-					"name": "Huddersfield University",
+					"@context": "http://www.schema.org",
+					"@type": "Person",
+					"@id": "Daniel Whymark",
+					"name": "Daniel Whymark",
+					"alternateName": "Dan Whymark",
+					"nationality": "United Kingdom",
+					"birthPlace": {
+						"@type": "Place",
+						"address": {
+							"@type": "PostalAddress",
+							"addressLocality": "Leeds",
+							"addressRegion": "England",
+							"addressCountry": "United Kingdom"
+						}
+					},
+					"alumniOf": [
+						{
+							"@type": "CollegeOrUniversity",
+							"name": "Huddersfield University",
+							"sameAs": [
+								"https://www.hud.ac.uk/",
+								"https://en.wikipedia.org/wiki/University_of_Huddersfield"
+							]
+						}
+					],
+					"gender": "Male",
+					"Description": "Infrastructure Engineer",
+					"jobTitle": "Infrastructure Engineer",
+					"worksFor": [
+						{
+							"@type": "Organization",
+							"name": "WANdisco, plc.",
+							"sameAs": [
+								"https://wandisco.com/",
+								"https://twitter.com/WANdisco",
+								"https://www.linkedin.com/company/wandisco/"
+							]
+						}
+					],
+					"image": "https://whymark.net/assets/images/me.png",
+					"address": {
+						"@type": "PostalAddress",
+						"addressLocality": "Leeds",
+						"addressRegion": "England",
+						"addressCountry": "United Kingdom"
+					},
+					"url": "https://whymark.net/",
 					"sameAs": [
-						"https://www.hud.ac.uk/",
-						"https://en.wikipedia.org/wiki/University_of_Huddersfield"
+						"https://www.linkedin.com/in/danielwhymark",
+						"https://github.com/daniel-whymark",
+						"https://twitter.com/Daniel_Whymark",
+						"https://www.youtube.com/DanielWhymarkUK"
 					]
-				}
-			],
-			"gender": "Male",
-			"Description": "Infrastructure Engineer",
-			"jobTitle": "Infrastructure Engineer",
-			"worksFor": [
+				},
 				{
+					"@type": "WebSite",
+					"@id": "https://whymark.net/",
+					"url": "https://whymark.net/",
+					"name": "Daniel Whymark",
+					"description": "Daniel Whymark is an IT Infrastructure Engineer, general technophile, lifelong gamer, and reader of many things.",
+					"inLanguage": "en-GB",
+					"image": "https://whymark.net/assets/images/me.png",
+					"author": {
+						"@id": "Daniel Whymark"
+					}
+				},
+				{
+					"@context": "https://schema.org",
 					"@type": "Organization",
-					"name": "WANdisco, plc.",
-					"sameAs": [
-						"https://wandisco.com/",
-						"https://twitter.com/WANdisco",
-						"https://www.linkedin.com/company/wandisco/"
-					]
+					"url": "https://whymark.net/",
+					"logo": "https://whymark.net/assets/images/me.png"
 				}
-			],
-			"image": "https://whymark.net/assets/images/profile.png",
-			"address": {
-				"@type": "PostalAddress",
-				"addressLocality": "Leeds",
-				"addressRegion": "England",
-				"addressCountry": "United Kingdom"
-			},
-			"url": "https://whymark.net/",
-			"sameAs": [
-				"https://www.linkedin.com/in/danielwhymark",
-				"https://github.com/daniel-whymark",
-				"https://twitter.com/Daniel_Whymark",
-				"https://www.youtube.com/DanielWhymarkUK"
 			]
-		},
-		{
-			"@type": "WebSite",
-			"@id": "https://whymark.net/",
-			"url": "https://whymark.net/",
-			"name": "Daniel Whymark",
-			"description": "Daniel Whymark is an IT Infrastructure Engineer, general technophile, lifelong gamer, and reader of many things.",
-			"inLanguage": "en-GB",
-			"image": "https://whymark.net/assets/images/profile.png",
-			"author": {
-				"@id": "Daniel Whymark"
-			}
-		},
-		{
-			"@context": "https://schema.org",
-			"@type": "Organization",
-			"url": "https://whymark.net/",
-			"logo": "https://whymark.net/assets/images/profile.png"
-		}
-	]
-	</script>
+			</script>
+		
+			<link rel="stylesheet" href="/assets/css/main.css" crossorigin="anonymous" />
+			<link rel="stylesheet" href="/assets/css/fontawesome-all.min.css" crossorigin="anonymous" />
+			<noscript>
+				<link rel="stylesheet" href="/assets/css/noscript.css" crossorigin="anonymous" />
+			</noscript>
+		
+		<script defer src="/assets/js/jquery.min.js" crossorigin="anonymous"></script>
+		<script defer src="/assets/js/browser.min.js" crossorigin="anonymous"></script>
+		<script defer src="/assets/js/breakpoints.min.js" crossorigin="anonymous"></script>
+		<script defer src="/assets/js/util.js" crossorigin="anonymous"></script>
+		<script defer src="/assets/js/main.js" crossorigin="anonymous"></script>
 
-	<link rel="stylesheet" href="/assets/css/main.css" crossorigin="anonymous" />
-	<link rel="stylesheet" href="/assets/css/fontawesome-all.min.css" crossorigin="anonymous" />
-	<noscript>
-		<link rel="stylesheet" href="/assets/css/noscript.css" crossorigin="anonymous" />
-	</noscript>
+		<script defer data-domain="whymark.net" src="/js/plausible.outbound-links.js" crossorigin="anonymous"></script>
 
-	<script defer data-domain="whymark.net" src="/js/plausible.outbound-links.js" crossorigin="anonymous"></script>
+	</head>
+	<body class="is-preload">
 
-</head>
+			<div id="wrapper">
 
-<body class="is-preload">
+					<nav id="nav">
+						<a href="#" class="icon solid fa-home" title="Home"><span>Home</span></a>
+						<a href="#about" class="icon solid fa-folder" title="About"><span>About</span></a>
+						<a href="#contact" class="icon solid fa-envelope" title="Contact"><span>Contact</span></a>
+						<a href="https://www.linkedin.com/in/danielwhymark" class="icon brands fa-linkedin" title="My LinkedIn Profile" target="_blank"><span>LinkedIn</span></a>
+						<a href="https://github.com/daniel-whymark" class="icon brands fa-github" title="My Github Profile" target="_blank"><span>Github</span></a>
+						<a href="https://twitter.com/Daniel_Whymark" class="icon brands fa-twitter" title="My Twitter Profile" target="_blank"><span>Twitter</span></a>
+					</nav>
 
-	<div id="wrapper">
-		<div id="bg"></div>
-		<div id="overlay"></div>
-		<div id="main">
+					<div id="main">
 
-			<header id="header">
-				<img src="/assets/images/profile.png" alt="Photograph of Daniel Whymark" style="width:150px;height:150px;border-radius:50%;">
-				<h1>Daniel Whymark</h1>
-				<p>Infrastructure Engineer &nbsp;&bull;&nbsp; Turing-tested &nbsp;&bull;&nbsp; Y2K survivor</p>
-				<nav>
-					<ul>
-						<li><a href="https://www.linkedin.com/in/danielwhymark" class="icon brands fa-linkedin" title="My LinkedIn Profile" target="_blank"><span class="label">LinkedIn</span></a></li>
-						<li><a href="https://github.com/daniel-whymark" class="icon brands fa-github" title="My Github Profile" target="_blank"><span class="label">Github</span></a></li>
-						<li><a href="https://twitter.com/Daniel_Whymark" class="icon brands fa-twitter" title="My Twitter Profile" target="_blank"><span class="label">Twitter</span></a></li>
-						<li><a href="https://account.xbox.com/en-GB/profile?gamertag=Xermin" class="icon brands fa-xbox" title="My Xbox Gamertag" target="_blank"><span class="label">Xbox</span></a></li>
-						<li><a href="https://steamcommunity.com/id/Xermin" class="icon brands fa-steam" title="My Steam Profile" target="_blank"><span class="label">Steam</span></a></li>
-						<li><a href="https://www.youtube.com/DanielWhymarkUK" class="icon brands fa-youtube" title="My YouTube Channel" target="_blank"><span class="label">YouTube</span></a></li>
-						<li><a href="https://goodreads.com/danielwhymark" class="icon brands fa-goodreads" title="My Goodreads profile" target="_blank"><span class="label">Goodreads</span></a></li>
-						<li><a href="https://signal.me/#p/+447912376135" class="icon regular fa-comment" title="Contact me on Signal" target="_blank"><span class="label">Signal</span></a></li>
-						<li><a href="mailto:dan@whymark.net?subject=Hello" class="icon regular fa-envelope" title="Email Me" target="_blank"><span class="label">Email Me</span></a></li>
-						<li><a href="https://whymark.cloudflareaccess.com/" class="icon solid fa-server" title="Login to Cloudflare Access" target="_blank"><span class="label">Login to Cloudflare Access</span></a></li>
-						<li><a href="https://workspace.google.com/dashboard" class="icon solid fa-sign-in-alt" title="Login to Google Workspace" target="_blank"><span class="label">Login to Google Workspace</span></a></li>
-					</ul>
-				</nav>
-			</header>
+							<article id="home" class="panel intro">
+								<header>
+									<h1>Daniel Whymark</h1>
+									<p>Infrastructure Engineer &nbsp;&bull;&nbsp; Turing-tested &nbsp;&bull;&nbsp; Y2K survivor</p>
+								</header>
+								<a href="#about" class="jumplink pic">
+									<span class="arrow icon solid fa-chevron-right"><span>About Me</span></span>
+									<img src="/assets/images/me.png" alt="Black & White Photograph of Daniel Whymark" />
+								</a>
+							</article>
 
-			<footer id="footer">
-				<span class="copyright">&copy; <a href="https://github.com/daniel-whymark/whymark_dot_net/blob/main/README.md" title="Link to the site source code and credits" target="_blank"><span class="label">Daniel Whymark</span></a>
-			</footer>
+							<article id="about" class="panel">
+								<header>
+									<h1>Hi.</h1>
+									<p>Nice to meet you! My name is Daniel Whymark and I am an Infrastructure Engineer living in Leeds and working at <a href="https://wandisco.com/" title="WANdisco plc" target="_blank">WANdisco</a> to help create awesome stuff.</p>
+									<p>In my spare time I am a general technophile, lifelong gamer, and reader of many things.</p>
+								</header>
+								<br />
+								<section>
+									<div class="row">
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="https://www.linkedin.com/in/danielwhymark" class="icon brands fa-linkedin" title="My LinkedIn Profile" target="_blank">&nbsp; LinkedIn</a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="https://github.com/daniel-whymark" class="icon brands fa-github" title="My Github Profile" target="_blank">&nbsp; Github</a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="https://twitter.com/Daniel_Whymark" class="icon brands fa-twitter" title="My Twitter Profile" target="_blank">&nbsp; Twitter</a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="https://account.xbox.com/en-GB/profile?gamertag=Xermin" class="icon brands fa-xbox" title="My Xbox Gamertag" target="_blank">&nbsp; Xbox</a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="https://steamcommunity.com/id/Xermin" class="icon brands fa-steam" title="My Steam Profile" target="_blank">&nbsp; Steam</a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="https://www.youtube.com/DanielWhymarkUK" class="icon brands fa-youtube" title="My YouTube Channel" target="_blank">&nbsp; YouTube</a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="https://goodreads.com/danielwhymark" class="icon brands fa-goodreads" title="My Goodreads profile" target="_blank">&nbsp; Goodreads</a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="https://signal.me/#p/+447912376135" class="icon regular fa-comment" title="Contact me on Signal" target="_blank">&nbsp; Signal</a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#contact" class="icon regular fa-envelope" title="Email Me">&nbsp; Email</a>
+										</div>
+									</div>
+								</section>							
+							</article>
 
-		</div>
-	</div>
+							<article id="contact" class="panel">
+								<header>
+									<h2>Contact Me</h2>
+								</header>
+								<form action="#" method="post">
+									<div>
+										<div class="row">
+											<div class="col-6 col-12-medium">
+												<input type="text" name="name" placeholder="Name" />
+											</div>
+											<div class="col-6 col-12-medium">
+												<input type="text" name="email" placeholder="Email" />
+											</div>
+											<div class="col-12">
+												<input type="text" name="subject" placeholder="Subject" />
+											</div>
+											<div class="col-12">
+												<textarea name="message" placeholder="Message" rows="6"></textarea>
+											</div>
+											<div class="col-12">
+												<input type="submit" value="Send Message" />
+											</div>
+										</div>
+									</div>
+								</form>
+							</article>
 
-	<script>
-		window.onload = function() {
-			document.body.classList.remove('is-preload');
-		}
-		window.ontouchmove = function() {
-			return false;
-		}
-		window.onorientationchange = function() {
-			document.body.scrollTop = 0;
-		}
-	</script>
+					</div>
 
-</body>
+					<div id="footer">
+						<ul class="copyright">
+							<li>&copy; <a href="https://github.com/daniel-whymark/whymark_dot_net/blob/main/README.md" title="Link to the site source code and credits" target="_blank">Daniel Whymark</a></li>
+						</ul>
+					</div>
 
+			</div>
+	</body>
 </html>

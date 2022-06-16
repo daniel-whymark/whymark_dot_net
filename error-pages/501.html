@@ -9,59 +9,57 @@
 	<link rel="icon" type="image/x-icon" href="/favicon.ico" crossorigin="anonymous" />
 
 	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<meta name="description" content="Error 400 (Bad Request)" />
+
+	<meta name="description" content="Error 501 (Not Implemented)" />
 	<meta name="author" content="Daniel Whymark" />
 	<meta name="robots" content="nofollow,noindex" />
 
 	<title>Error 501 (Not Implemented)</title>
 
 	<link rel="stylesheet" href="/assets/css/main.css" crossorigin="anonymous" />
+	<link rel="stylesheet" href="/assets/css/fontawesome-all.min.css" crossorigin="anonymous" />
 	<noscript>
 		<link rel="stylesheet" href="/assets/css/noscript.css" crossorigin="anonymous" />
 	</noscript>
+
+	<script defer src="/assets/js/jquery.min.js" crossorigin="anonymous"></script>
+	<script defer src="/assets/js/browser.min.js" crossorigin="anonymous"></script>
+	<script defer src="/assets/js/breakpoints.min.js" crossorigin="anonymous"></script>
+	<script defer src="/assets/js/util.js" crossorigin="anonymous"></script>
+	<script defer src="/assets/js/main.js" crossorigin="anonymous"></script>
 
 </head>
 
 <body class="is-preload">
 
 	<div id="wrapper">
-		<div id="bg"></div>
-		<div id="overlay"></div>
+
 		<div id="main">
 
-			<header id="header">
-				<h1>Error 501 (Not Implemented)</h1>
-				<p style="padding-left:20%; padding-right:20%;">The server either does not recognize the request method, or it lacks the ability to fulfill the request.</p>
-				<code>
-					<script>
-						document.write(document.URL);
-					</script>
-				</code>
-				<br>
-				<p><a href="https://github.com/daniel-whymark/whymark_dot_net/issues/new" title="Log an Issue on Github">Let me know about a problem</a></p>
-				<p>Otherwise, click <a href="" onclick="history.go(-1);" title="Go Back">here</a> to return, or click <a href="/" title="Go Home">here</a> to go back home.</p>
-			</header>
+			<article id="home" class="panel intro">
 
-			<footer id="footer">
-				<span class="copyright">&copy; <a href="https://github.com/daniel-whymark/whymark_dot_net/blob/main/README.md" title="Link to the site source code and credits" target="_blank"><span class="label">Daniel Whymark</span></a>
-			</footer>
+				<header id="header" style="font-size:large">
+					<h1>Error 501 (Not Implemented)</h1>
+					<p>The server either does not recognize the request method, or it lacks the ability to fulfill the request.</p>
+					<p><blockquote><script>document.write(document.URL);</script></blockquote></p>
+					<br />
+					<p><a href="https://github.com/daniel-whymark/whymark_dot_net/issues/new" title="Log an Issue on Github">Let me know about a problem</a></p>
+					<p>Otherwise, click <a href="" onclick="history.go(-1);" title="Go Back">here</a> to return, or click <a href="/" title="Go Home">here</a> to go back home.</p>
+				</header>
+			</article>
 
 		</div>
-	</div>
 
-	<script>
-		window.onload = function() {
-			document.body.classList.remove('is-preload');
-		}
-		window.ontouchmove = function() {
-			return false;
-		}
-		window.onorientationchange = function() {
-			document.body.scrollTop = 0;
-		}
-	</script>
+		<div id="footer">
+			<ul class="copyright">
+				<li>&copy; <a href="https://github.com/daniel-whymark/whymark_dot_net/blob/main/README.md" title="Link to the site source code and credits" target="_blank">Daniel Whymark</a></li>
+			</ul>
+		</div>
+
+
+	</div>
 
 </body>
 

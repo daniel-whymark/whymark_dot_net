@@ -46,54 +46,54 @@
 	<script type="application/ld+json">
 	[
 		{
-			"@context": "http://www.schema.org",
-			"@type": "Person",
-			"@id": "Daniel Whymark",
-			"name": "Daniel Whymark",
-			"alternateName": "Dan Whymark",
-			"nationality": "United Kingdom",
-			"birthPlace": {
-				"@type": "Place",
-				"address": {
-					"@type": "PostalAddress",
-					"addressLocality": "Leeds",
-					"addressRegion": "England",
-					"addressCountry": "United Kingdom"
+			"@context":"http://www.schema.org",
+			"@type":"Person",
+			"@id":"#author",
+			"name":"Daniel Whymark",
+			"alternateName":"Dan Whymark",
+			"nationality":"United Kingdom",
+			"birthPlace":{
+				"@type":"Place",
+				"address":{
+					"@type":"PostalAddress",
+					"addressLocality":"Leeds",
+					"addressRegion":"England",
+					"addressCountry":"United Kingdom"
 				}
 			},
-			"alumniOf": [
+			"alumniOf":[
 				{
-					"@type": "CollegeOrUniversity",
-					"name": "Huddersfield University",
-					"sameAs": [
+					"@type":"CollegeOrUniversity",
+					"name":"Huddersfield University",
+					"sameAs":[
 						"https://www.hud.ac.uk/",
 						"https://en.wikipedia.org/wiki/University_of_Huddersfield"
 					]
 				}
 			],
-			"gender": "Male",
-			"Description": "Infrastructure Engineer",
-			"jobTitle": "Infrastructure Engineer",
-			"worksFor": [
+			"gender":"Male",
+			"Description":"Infrastructure Engineer",
+			"jobTitle":"Infrastructure Engineer",
+			"worksFor":[
 				{
-					"@type": "Organization",
-					"name": "WANdisco, plc.",
-					"sameAs": [
+					"@type":"Organization",
+					"name":"WANdisco, plc.",
+					"sameAs":[
 						"https://wandisco.com/",
 						"https://twitter.com/WANdisco",
 						"https://www.linkedin.com/company/wandisco/"
 					]
 				}
 			],
-			"image": "https://whymark.net/assets/images/me.jpg",
-			"address": {
-				"@type": "PostalAddress",
-				"addressLocality": "Leeds",
-				"addressRegion": "England",
-				"addressCountry": "United Kingdom"
+			"image":"https://whymark.net/assets/images/me.jpg",
+			"address":{
+				"@type":"PostalAddress",
+				"addressLocality":"Leeds",
+				"addressRegion":"England",
+				"addressCountry":"United Kingdom"
 			},
-			"url": "https://whymark.net/",
-			"sameAs": [
+			"url":"https://whymark.net/",
+			"sameAs":[
 				"https://www.linkedin.com/in/danielwhymark",
 				"https://github.com/daniel-whymark",
 				"https://twitter.com/Daniel_Whymark",
@@ -101,61 +101,50 @@
 			]
 		},
 		{
-			"@context": "https://schema.org",
-			"@type": "BreadcrumbList",
-			"itemListElement": [
-				{
-					"@type": "ListItem",
-					"position": 1,
-					"name": "https://whymark.net/",
-					"item": "https://whymark.net/"
-				},
-				{
-					"@type": "ListItem",
-					"position": 2,
-					"name": "About",
-					"item": "https://whymark.net/#about"
-				}
-			]
-		},
-		{
-			"@context": "https://schema.org",
-			"@type": "BreadcrumbList",
-			"itemListElement": [
-				{
-					"@type": "ListItem",
-					"position": 1,
-					"name": "https://whymark.net/",
-					"item": "https://whymark.net/"
-				},
-				{
-					"@type": "ListItem",
-					"position": 2,
-					"name": "Contact",
-					"item": "https://whymark.net/#contact"
-				}
-			]
-		},
-		{
-			"@context": "https://schema.org",
-			"@type": "WebSite",
-			"@id": "https://whymark.net/",
-			"url": "https://whymark.net/",
-			"name": "Daniel Whymark",
-			"description": "Daniel Whymark is an IT Infrastructure Engineer, general technophile, lifelong gamer, and reader of many things.",
-			"inLanguage": "en-GB",
-			"image": "https://whymark.net/assets/images/me.jpg",
-			"author": {
-				"@id": "Daniel Whymark"
+			"@context":"https://schema.org",
+			"@type":"WebSite",
+			"@id":"#website",
+			"url":"https://whymark.net/",
+			"name":"Daniel Whymark",
+			"description":"Daniel Whymark is an IT Infrastructure Engineer, general technophile, lifelong gamer, and reader of many things.",
+			"inLanguage":"en-GB",
+			"image":"https://whymark.net/assets/images/me.jpg",
+			"author":{
+				"@id":"#author"
 			}
 		},
 		{
-			"@context": "https://schema.org",
-			"@type": "Organization",
-			"url": "https://whymark.net/",
-			"logo": "https://whymark.net/assets/images/me.jpg",
-			"author": {
-				"@id": "Daniel Whymark"
+			"@context":"http://schema.org",
+			"@type":"WebPage",
+			"@id":"#webpage",
+			"url":"https://whymark.net/",
+			"name":"Daniel Whymark",
+			"primaryImageOfPage":"https://whymark.net/assets/images/me.jpg",
+			"isPartOf":{
+				"@id":"#website"
+			}
+		},
+		{
+			"@context":"https://schema.org",
+			"@type":"Organization",
+			"url":"https://whymark.net/",
+			"logo":"https://whymark.net/assets/images/me.jpg"
+		},
+		{
+			"@type":"ImageObject",
+			"@id":"https://whymark.net/assets/images/me.jpg",
+			"url":"https://whymark.net/assets/images/me.jpg",
+			"contentUrl":"https://whymark.net/assets/images/me.jpg",
+			"license":"https://creativecommons.org/licenses/by-nc/4.0/",
+			"acquireLicensePage":"https://whymark.net/#contact"
+		},
+		{
+			"@context":"https://schema.org",
+			"@type":"Article",
+			"headline":"Daniel Whymark",
+			"image":"https://whymark.net/assets/images/me.jpg",
+			"author":{
+				"@id":"#author"
 			}
 		}
 	]

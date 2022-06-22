@@ -48,7 +48,6 @@
 		{
 			"@context":"http://www.schema.org",
 			"@type":"Person",
-			"@id":"#author",
 			"name":"Daniel Whymark",
 			"alternateName":"Dan Whymark",
 			"nationality":"United Kingdom",
@@ -109,14 +108,15 @@
 			"description":"Daniel Whymark is an IT Infrastructure Engineer, general technophile, lifelong gamer, and reader of many things.",
 			"inLanguage":"en-GB",
 			"image":"https://whymark.net/assets/images/me.jpg",
-			"author":{
-				"@id":"#author"
+			"author": {
+				"@type": "Person",
+				"name": "Daniel Whymark",
+				"url": "https://whymark.net"
 			}
 		},
 		{
 			"@context":"http://schema.org",
 			"@type":"WebPage",
-			"@id":"#webpage",
 			"url":"https://whymark.net/",
 			"name":"Daniel Whymark",
 			"primaryImageOfPage":"https://whymark.net/assets/images/me.jpg",
@@ -131,21 +131,15 @@
 			"logo":"https://whymark.net/assets/images/me.jpg"
 		},
 		{
+			"@context":"https://schema.org",
 			"@type":"ImageObject",
-			"@id":"https://whymark.net/assets/images/me.jpg",
 			"url":"https://whymark.net/assets/images/me.jpg",
 			"contentUrl":"https://whymark.net/assets/images/me.jpg",
 			"license":"https://creativecommons.org/licenses/by-nc/4.0/",
-			"acquireLicensePage":"https://whymark.net/#contact"
-		},
-		{
-			"@context":"https://schema.org",
-			"@type":"NewsArticle",
-			"headline":"Daniel Whymark",
-			"image":"https://whymark.net/assets/images/me.jpg",
-			"author":{
-				"@id":"#author"
-			}
+			"acquireLicensePage":"https://whymark.net/#contact",
+			"width": 984,
+			"height": 984,
+			"caption": "Daniel Whymark"
 		}
 	]
 	</script>

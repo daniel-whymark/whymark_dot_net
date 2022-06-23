@@ -102,7 +102,7 @@
 		{
 			"@context":"https://schema.org",
 			"@type":"WebSite",
-			"@id":"#website",
+			"@id":"https://whymark.net/#website",
 			"url":"https://whymark.net/",
 			"name":"Daniel Whymark",
 			"description":"Daniel Whymark is an IT Infrastructure Engineer, general technophile, lifelong gamer, and reader of many things.",
@@ -111,7 +111,7 @@
 			"author": {
 				"@type": "Person",
 				"name": "Daniel Whymark",
-				"url": "https://whymark.net"
+				"url": "https://whymark.net/"
 			}
 		},
 		{
@@ -121,7 +121,10 @@
 			"name":"Daniel Whymark",
 			"primaryImageOfPage":"https://whymark.net/assets/images/me.jpg",
 			"isPartOf":{
-				"@id":"#website"
+				"@id":"https://whymark.net/#website"
+			},
+			"breadcrumb": {
+				"@id": "https://whymark.net/#breadcrumb"
 			}
 		},
 		{
@@ -144,6 +147,7 @@
 		{
 			"@context": "http://schema.org",
 			"@type": "BreadcrumbList",
+			"@id": "https://whymark.net/#breadcrumb",
 			"itemListElement": [
 				{
 					"@type": "ListItem",
@@ -154,15 +158,7 @@
 					}
 				}
 			]
-		},
-		{
-			"@context": "https://schema.org",
-			"@type": "VideoObject",
-			"name": "Daniel Whymark",
-			"description": "Daniel Whymark",
-			"thumbnailUrl": "https://whymark.net/assets/images/me.jpg",
-			"uploadDate": "2015-04-05T08:00:00+02:00"
-		  }
+		}
 	]
 	</script>
 

@@ -11,4 +11,6 @@
 	m.parentNode.insertBefore(o, m)
 })(document, window, '//fathom.whymark-cdn.net/tracker.js', 'fathom');
 fathom('set', 'siteId', 'OPQXX');
+fathom('trackPageview', '/#about');
+fathom('trackPageview', '/#contact');
 fathom('trackPageview');

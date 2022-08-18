@@ -3,13 +3,15 @@
 
 <head>
 
+	<!-- Favicons -->
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" crossorigin="anonymous" />
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" crossorigin="anonymous" />
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" crossorigin="anonymous" />
 	<link rel="icon" type="image/x-icon" href="/favicon.ico" crossorigin="anonymous" />
 
+	<!-- Basic metadata -->
 	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
 	<meta name="robots" content="follow,index" />
@@ -17,24 +19,11 @@
 	<title>Daniel Whymark | Daniel Whymark</title>
 	<meta name="description" content="Daniel Whymark is an IT Infrastructure Engineer, general technophile, lifelong gamer, and reader of many things." />
 	<meta name="author" content="Daniel Whymark" />
-	<meta name="keywords" content="daniel, whymark, dan">
-
-	<meta itemprop="description" content="Daniel Whymark is an IT Infrastructure Engineer, general technophile, lifelong gamer, and reader of many things." />
-	<meta itemprop="image" content="https://whymark.net/assets/images/me.jpg" />
-	<meta itemprop="name" content="Daniel Whymark" />
-	<meta itemprop="url" content="https://whymark.net/" />
+	<meta name="keywords" content="daniel, whymark, dan" />
 	<link rel="image_src" href="https://whymark.net/assets/images/me.jpg" />
-    <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-        <link itemprop="url" href="https://whymark.net/" />
-        <link itemprop="name" content="Daniel Whymark" />
-    </span>
-    <link itemprop="thumbnailUrl" href="https://whymark.net/assets/images/me.jpg" />
-    <span itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject">
-        <link itemprop="url" href="https://whymark.net/assets/images/me.jpg" />
-        <meta itemprop="width" content="900" />
-        <meta itemprop="height" content="900" />
-    </span>
 
+
+	<!-- OpenGraph metadata -->
 	<meta property="og:description" content="Daniel Whymark is an IT Infrastructure Engineer, general technophile, lifelong gamer, and reader of many things." />
 	<meta property="og:image" content="https://whymark.net/assets/images/me.jpg" />
 	<meta property="og:image:height" content="900">
@@ -45,6 +34,8 @@
 	<meta property="og:type" content="profile" />
 	<meta property="og:url" content="https://whymark.net/" />	
 
+
+	<!-- Twitter card metadata -->
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:creator" content="@Da9lDubya" />
 	<meta name="twitter:description" content="Daniel Whymark is an IT Infrastructure Engineer, general technophile, lifelong gamer, and reader of many things." />
@@ -53,6 +44,7 @@
 	<meta name="twitter:site" content="@Da9lDubya" />
 	<meta name="twitter:title" content="Daniel Whymark" />
 	<meta name="twitter:url" content="https://whymark.net/" />
+
 
 	<link rel="canonical" href="https://whymark.net/" />
 	<link rel="alternate" href="https://whymark-cdn.net/" />
@@ -64,28 +56,65 @@
 	<link rel="alternate" href="https://whymark.email/" />
 	<link rel="alternate" href="https://whymark.xyz/" />
 
+
+	<!-- JSON-LD Metadata -->
 	<script type="application/ld+json">
-	[
-		{
-			"@context": "http://schema.org",
-			"@type": "BreadcrumbList",
-			"itemListElement": [{
-				"@type": "ListItem",
-				"position": 1,
-				"item": {
-					"@id": "https://whymark.net/",
-					"name": "Daniel Whymark"
+		[
+			{
+				"@context":"http://www.schema.org",
+				"@type":"Person",
+				"name":"Daniel Whymark",
+				"alternateName":"Dan Whymark",
+				"nationality":"United Kingdom",
+				"gender":"Male",
+				"image":"https://whymark.net/assets/images/me.jpg",
+				"address":{
+					"@type":"PostalAddress",
+					"addressLocality":"Leeds",
+					"addressRegion":"England",
+					"addressCountry":"United Kingdom"
+				},
+				"url":"https://whymark.net/",
+				"sameAs":[
+					"https://www.linkedin.com/in/danielwhymark",
+					"https://github.com/daniel-whymark",
+					"https://twitter.com/Daniel_Whymark",
+					"https://www.youtube.com/DanielWhymarkUK"
+				]
+			},
+			{
+				"@context":"https://schema.org",
+				"@type":"ImageObject",
+				"url":"https://whymark.net/assets/images/me.jpg",
+				"contentUrl":"https://whymark.net/assets/images/me.jpg",
+				"license":"https://creativecommons.org/licenses/by-nc/4.0/",
+				"acquireLicensePage":"https://whymark.net/#contact",
+				"width": 900,
+				"height": 900,
+				"caption": "Daniel Whymark"
+			},
+			{
+				"@context":"http://schema.org",
+				"@type":"WebPage",
+				"url":"https://whymark.net/",
+				"name":"Daniel Whymark",
+				"primaryImageOfPage":"https://whymark.net/assets/images/me.jpg",
+				"author": {
+					"@type": "Person",
+					"name": "Daniel Whymark",
+					"url": "https://whymark.net/"
 				}
-			}]
-		}
-	]
+			},
+		]
 	</script>
+
 
 	<link rel="stylesheet" href="/assets/css/main.css" crossorigin="anonymous" />
 	<link rel="stylesheet" href="/assets/css/fontawesome-all.min.css" crossorigin="anonymous" />
 	<noscript>
 		<link rel="stylesheet" href="/assets/css/noscript.css" crossorigin="anonymous" />
 	</noscript>
+
 
 	<script defer src="/assets/js/jquery.min.js" crossorigin="anonymous"></script>
 	<script defer src="/assets/js/browser.min.js" crossorigin="anonymous"></script>
@@ -132,6 +161,7 @@
 				</header>
 				<br />
 				<section>
+					<h3>&nbsp;</h3><!-- To silence the validator false-positive -->
 					<div class="row">
 						<div class="col-4 col-6-medium col-12-small">
 							<a href="https://www.linkedin.com/in/danielwhymark" rel="noopener" class="icon brands fa-linkedin" title="My LinkedIn Profile" target="_blank">&nbsp; LinkedIn</a>

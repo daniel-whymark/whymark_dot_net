@@ -59,124 +59,120 @@
 
 	<!-- JSON-LD Metadata -->
 	<script type="application/ld+json">
-	[
-		{
-			"@context" : "https://schema.org",
-			"@graph" : [
-				{
-					"@type" : "WebSite",
-					"@id" : "https://whymark.net/#website",
-					"url" : "https://whymark.net/",
-					"name" : "Daniel Whymark",
-					"description" : "Daniel Whymark is an IT Infrastructure Engineer, general technophile, lifelong gamer, and reader of many things.",
-					"publisher" : {
-						"@id" : "https://whymark.net/#person"
-					},
-					"inLanguage" : "en-GB",
-                    "sameAs" : [
+    
+        [
+        {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "WebSite",
+                    "@id": "https://whymark.net/#website",
+                    "url": "https://whymark.net/",
+                    "name": "Daniel Whymark",
+                    "description": "Daniel Whymark is an IT Infrastructure Engineer, general technophile, lifelong gamer, and reader of many things.",
+                    "publisher": {
+                        "@id": "https://whymark.net/#person"
+                    },
+                    "inLanguage": "en-GB",
+                    "sameAs": [
                         "https://uk.linkedin.com/in/danielwhymark",
                         "https://github.com/daniel-whymark",
                         "https://twitter.com/Da9lDubya",
                         "https://www.youtube.com/channel/UCkymel3sgDwBF9JwvSScrOA"
                     ],
-                    "image" : {
-						"@id" : "https://whymark.net/#logo"
-					},
-                    "potentialAction" : [
-						{
-							"@type" : "ReadAction",
-							"target" : "https://whymark.net/"
-						}
-					]
-				},
-				{
-					"@type" : "ImageObject",
-					"@id" : "https://whymark.net/#logo",
-					"url" : "https://whymark.net/assets/images/me.jpg",
-					"contentUrl" : "https://whymark.net/assets/images/me.jpg",
-					"license" : "https://creativecommons.org/licenses/by-nc/4.0/",
-					"acquireLicensePage" : "https://whymark.net/#contact",
-					"width" : 900,
-					"height" : 900,
-					"caption" : "Daniel Whymark"
-				},
-				{
-					"@type" : "WebPage",
-					"@id" : "https://whymark.net/#webpage",
-					"url" : "https://whymark.net/",
-					"name" : "Daniel Whymark",
-					"isPartOf" : {
-						"@id" : "https://whymark.net/#website"
-					},
-					"primaryImageOfPage" : {
-						"@id" : "https://whymark.net/#logo"
-					},
-					"image" : {
-						"@id" : "https://whymark.net/#logo"
-					},
-					"thumbnailUrl" : "https://whymark.net/assets/images/me.jpg",
-					"breadcrumb" : {
-						"@id" : "https://whymark.net/#breadcrumb"
-					},
-					"inLanguage" : "en-GB",
-					"author" : {
-						"@id" : "https://whymark.net/#person"
-					},
-                    "sameAs" : [
+                    "image": {
+                        "@id": "https://whymark.net/#logo"
+                    }
+                },
+                {
+                    "@type": "ImageObject",
+                    "@id": "https://whymark.net/#logo",
+                    "url": "https://whymark.net/assets/images/me.jpg",
+                    "contentUrl": "https://whymark.net/assets/images/me.jpg",
+                    "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+                    "acquireLicensePage": "https://whymark.net/#contact",
+                    "width": 900,
+                    "height": 900,
+                    "caption": "Daniel Whymark"
+                },
+                {
+                    "@type": "WebPage",
+                    "@id": "https://whymark.net/#webpage",
+                    "url": "https://whymark.net/",
+                    "name": "Daniel Whymark",
+                    "isPartOf": {
+                        "@id": "https://whymark.net/#website"
+                    },
+                    "primaryImageOfPage": {
+                        "@id": "https://whymark.net/#logo"
+                    },
+                    "image": {
+                        "@id": "https://whymark.net/#logo"
+                    },
+                    "thumbnailUrl": "https://whymark.net/assets/images/me.jpg",
+                    "breadcrumb": {
+                        "@id": "https://whymark.net/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "author": {
+                        "@id": "https://whymark.net/#person"
+                    },
+                    "sameAs": [
                         "https://uk.linkedin.com/in/danielwhymark",
                         "https://github.com/daniel-whymark",
                         "https://twitter.com/Da9lDubya",
                         "https://www.youtube.com/channel/UCkymel3sgDwBF9JwvSScrOA"
                     ],
-                    "potentialAction" : [
+                    "potentialAction": [
                         {
-                            "@type" : "ReadAction",
-                            "target" : "https://whymark.net/"
+                            "@type": "ReadAction",
+                            "target": [
+                                "https://whymark.net/"
+                            ]
                         }
                     ]
-				},
-				{
-					"@type" : "BreadcrumbList",
-					"@id" : "https://whymark.net/#breadcrumb",
-					"name" : "Daniel Whymark",
-					"itemListElement" : [
-						{
-							"@type" : "ListItem",
-							"position" : 1,
-							"item" :
-							{
-								"@id" : "https://whymark.net/",
-								"name" : "Daniel Whymark"
-							}
-						}
-					]
-				},
-				{
-					"@context" : "http://www.schema.org",
-					"@type" : "Person",
-					"@id" : "https://whymark.net/#person",
-					"name" : "Daniel Whymark",
-					"alternateName" : "Dan Whymark",
-					"nationality" : "United Kingdom",
-					"gender" : "Male",
-					"image" : "https://whymark.net/assets/images/me.jpg",
-					"address" : {
-						"@type" : "PostalAddress",
-						"addressLocality" : "Leeds",
-						"addressRegion" : "England",
-						"addressCountry" : "United Kingdom"
-					},
-					"url" : "https://whymark.net/",
-					"sameAs" : [
-						"https://uk.linkedin.com/in/danielwhymark",
-						"https://github.com/daniel-whymark",
-						"https://twitter.com/Da9lDubya",
-						"https://www.youtube.com/channel/UCkymel3sgDwBF9JwvSScrOA"
-					]
-				}
-			]
-		}
-	]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https://whymark.net/#breadcrumb",
+                    "name": "Daniel Whymark",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "item": {
+                                "@id": "https://whymark.net/",
+                                "name": "Daniel Whymark"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@context": "http://www.schema.org",
+                    "@type": "Person",
+                    "@id": "https://whymark.net/#person",
+                    "name": "Daniel Whymark",
+                    "alternateName": "Dan Whymark",
+                    "nationality": "United Kingdom",
+                    "gender": "Male",
+                    "image": "https://whymark.net/assets/images/me.jpg",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Leeds",
+                        "addressRegion": "England",
+                        "addressCountry": "United Kingdom"
+                    },
+                    "url": "https://whymark.net/",
+                    "sameAs": [
+                        "https://uk.linkedin.com/in/danielwhymark",
+                        "https://github.com/daniel-whymark",
+                        "https://twitter.com/Da9lDubya",
+                        "https://www.youtube.com/channel/UCkymel3sgDwBF9JwvSScrOA"
+                    ]
+                }
+            ]
+        }
+    ]
 	</script>
 
 

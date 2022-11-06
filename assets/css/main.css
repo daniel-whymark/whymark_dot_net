@@ -1412,7 +1412,7 @@ body,
 input,
 textarea,
 select {
-	font-family: system-ui, sans-serif;
+	font-family: system-ui, 'Open Sans', sans-serif;
 	font-weight: 300;
 	color: #777777;
 	font-size: 20pt;

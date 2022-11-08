@@ -28,7 +28,7 @@ Background Images:
 
 Fonts:
 - Source Sans Pro font is from [Adobe Systems](https://www.adobe.com/) under [SIL Open Font License](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL).
-- [Font Awesome](fontawesome.github.com/Font-Awesome)
+- [Font Awesome](https://github.com/FortAwesome/Font-Awesome)
 
 Other:  
 - [jQuery](jquery.com)

@@ -6,7 +6,7 @@ Flat, minimalistic design, a fully animated interface (with noscript fallbacks),
 ## Config
 ### Third-Party Customisation
 In addition to the template, the following is present:
-- Error pages are present for use with AWS Cloudfront, to retain the styled theme in case of backend issues. If you don't need these for your use case then you can safely remove the whole directory.
+- Error pages are present at the top level for use with Cloudflare, to retain the styled theme in case of backend issues. If you don't need these for your use case then you can safely remove the whole directory.
 - Cloudflare images are present for use in Cloudflare Access / Zero Trust and can also be safely deleted if you have no need for them.
 - The _redirects file is used for Cloudflare Pages redirects.
 

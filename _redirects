@@ -3,3 +3,5 @@
 /.well-known/nodeinfo* https://mastodon.whymark.net/.well-known/nodeinfo:splat 301
 /@* https://mastodon.whymark.net/@:splat 302
 /about.html https://whymark.net/ 301
+/request https://request.whymark.net/ 301
+/requests https://request.whymark.net/ 301

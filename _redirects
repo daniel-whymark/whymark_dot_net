@@ -1,5 +1,8 @@
 /.well-known/host-meta* https://mastodon.whymark.net/.well-known/host-meta:splat 301
 /.well-known/webfinger* https://mastodon.whymark.net/.well-known/webfinger:splat 301
 /.well-known/nodeinfo* https://mastodon.whymark.net/.well-known/nodeinfo:splat 301
-/@* https://mastodon.whymark.net/@:splay 302
+/@* https://mastodon.whymark.net/@:splat 302
 /about.html https://whymark.net/ 301
+www.whymark.* https://whymark.net/ 301
+daniel.whymark.* https://whymark.net/ 301
+mail.whymark.* https://mail.google.com/a/whymark.net/ 302

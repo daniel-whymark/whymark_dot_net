@@ -1,5 +1,5 @@
-http://mail.whymark.net/*
-  X-Robots-Tag: noindex
-
 https://mail.whymark.net/*
   X-Robots-Tag: noindex
+
+https://mastodon.whymark.net/*
+  X-Robots-Tag: nofollow

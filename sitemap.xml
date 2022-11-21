@@ -8,12 +8,4 @@
 			<image:loc>https://whymark.net/assets/images/me.png</image:loc>
 	    </image:image>
 	</url>
-	<url>
-		<loc>https://mastodon.whymark.net/</loc>
-		<priority>1.0</priority>
-		<changefreq>daily</changefreq>
-		<image:image>
-			<image:loc>https://whymark.net/assets/images/server_thumbnail.png</image:loc>
-	    </image:image>
-	</url>
 </urlset>

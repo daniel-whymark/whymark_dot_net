@@ -1,9 +1,9 @@
-/.well-known/host-meta* https://mastodon.whymark.net/.well-known/host-meta:splat 301
-/.well-known/webfinger* https://mastodon.whymark.net/.well-known/webfinger:splat 301
-/.well-known/nodeinfo* https://mastodon.whymark.net/.well-known/nodeinfo:splat 301
-/@* https://mastodon.whymark.net/@:splat 302
 /about.html https://whymark.net/ 301
 /request https://request.whymark.net/ 301
 /requests https://request.whymark.net/ 301
 request.whymark-cdn.net https://request.whymark.net/ 301
 requests.whymark-cdn.net https://request.whymark.net/ 301
+/.well-known/host-meta* https://mastodon.whymark.net/.well-known/host-meta:splat 301
+/.well-known/webfinger* https://mastodon.whymark.net/.well-known/webfinger:splat 301
+/.well-known/nodeinfo* https://mastodon.whymark.net/.well-known/nodeinfo:splat 301
+/@* https://mastodon.whymark.net/@:splat 302

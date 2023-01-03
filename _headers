@@ -1,8 +1,2 @@
-https://files.whymark.net/*
-  X-Robots-Tag: noindex
-
-https://mastodon.whymark.net/*
-  X-Robots-Tag: nofollow
-
 https://mail.whymark.net/*
   X-Robots-Tag: noindex

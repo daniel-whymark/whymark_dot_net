@@ -99,3 +99,9 @@ https://ymark.net/*
   Access-Control-Max-Age: 600
   Access-Control-Allow-Methods: GET,POST
 
+https://whymark-cdn.net/*
+  Access-Control-Allow-Origin: https://ymark.net
+  Access-Control-Allow-Credentials: false
+  Access-Control-Max-Age: 600
+  Access-Control-Allow-Methods: GET,POST
+

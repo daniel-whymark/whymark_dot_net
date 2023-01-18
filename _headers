@@ -1,2 +1,100 @@
 https://mail.whymark.net/*
   X-Robots-Tag: noindex
+
+https://mail.whymark.co/*
+  X-Robots-Tag: noindex
+
+https://mail.whymark.email/*
+  X-Robots-Tag: noindex
+
+https://mail.whymark.io/*
+  X-Robots-Tag: noindex
+
+https://mail.whymark.me/*
+  X-Robots-Tag: noindex
+
+https://mail.whymark.org/*
+  X-Robots-Tag: noindex
+
+https://mail.whymark.org.uk/*
+  X-Robots-Tag: noindex
+
+https://mail.whymark.social/*
+  X-Robots-Tag: noindex
+
+https://mail.whymark.xyz/*
+  X-Robots-Tag: noindex
+
+https://mail.ymark.net/*
+  X-Robots-Tag: noindex
+
+https://dash.whymark.net/*
+  X-Robots-Tag: noindex
+
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer
+  Permissions-Policy: document-domain=()
+  Content-Security-Policy: script-src 'self'; frame-ancestors 'none';
+
+https://whymark.net/*
+  Access-Control-Allow-Origin: https://whymark.net
+  Access-Control-Allow-Credentials: false
+  Access-Control-Max-Age: 600
+  Access-Control-Allow-Methods: GET,POST
+
+https://whymark.co/*
+  Access-Control-Allow-Origin: https://whymark.co
+  Access-Control-Allow-Credentials: false
+  Access-Control-Max-Age: 600
+  Access-Control-Allow-Methods: GET,POST
+
+https://whymark.email/*
+  Access-Control-Allow-Origin: https://whymark.email
+  Access-Control-Allow-Credentials: false
+  Access-Control-Max-Age: 600
+  Access-Control-Allow-Methods: GET,POST
+
+https://whymark.io/*
+  Access-Control-Allow-Origin: https://whymark.io
+  Access-Control-Allow-Credentials: false
+  Access-Control-Max-Age: 600
+  Access-Control-Allow-Methods: GET,POST
+
+https://whymark.me/*
+  Access-Control-Allow-Origin: https://whymark.me
+  Access-Control-Allow-Credentials: false
+  Access-Control-Max-Age: 600
+  Access-Control-Allow-Methods: GET,POST
+
+https://whymark.org/*
+  Access-Control-Allow-Origin: https://whymark.org
+  Access-Control-Allow-Credentials: false
+  Access-Control-Max-Age: 600
+  Access-Control-Allow-Methods: GET,POST
+
+https://whymark.org.uk/*
+  Access-Control-Allow-Origin: https://whymark.org.uk
+  Access-Control-Allow-Credentials: false
+  Access-Control-Max-Age: 600
+  Access-Control-Allow-Methods: GET,POST
+
+https://whymark.social/*
+  Access-Control-Allow-Origin: https://whymark.social
+  Access-Control-Allow-Credentials: false
+  Access-Control-Max-Age: 600
+  Access-Control-Allow-Methods: GET,POST
+
+https://whymark.xyz/*
+  Access-Control-Allow-Origin: https://whymark.xyz
+  Access-Control-Allow-Credentials: false
+  Access-Control-Max-Age: 600
+  Access-Control-Allow-Methods: GET,POST
+
+https://ymark.net/*
+  Access-Control-Allow-Origin: https://ymark.net
+  Access-Control-Allow-Credentials: false
+  Access-Control-Max-Age: 600
+  Access-Control-Allow-Methods: GET,POST
+

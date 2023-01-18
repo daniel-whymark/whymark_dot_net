@@ -31,6 +31,9 @@ https://mail.ymark.net/*
 https://dash.whymark.net/*
   X-Robots-Tag: noindex
 
+/cdn-cgi/*
+  X-Robots-Tag: noindex
+
 /*
   X-Frame-Options: DENY
   X-Content-Type-Options: nosniff

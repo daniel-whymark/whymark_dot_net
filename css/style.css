@@ -237,7 +237,8 @@ svg {
 --------------------------------------------------------------*/
 
 input,
-button {
+button,
+textarea {
   color: inherit;
   font-family: inherit;
   font-size: var(--ui-typography-p);
@@ -318,11 +319,11 @@ button {
 --------------------------------------------------------------*/
 
 .ui-section-header {
-  padding-bottom: 1.25rem;
   padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
-.ui-section-header__layout { justify-content: space-between; }
+.ui-section-header__layout { justify-content: flex-end; }
 
 /*--------------------------------------------------------------
 |

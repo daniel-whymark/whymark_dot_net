@@ -31,6 +31,9 @@ https://mail.ymark.net/*
 https://dash.whymark.net/*
   X-Robots-Tag: noindex
 
+https://cdn.whymark.net/*
+  X-Robots-Tag: noindex
+
 https://cdn.whymark.social/*
   X-Robots-Tag: noindex
 

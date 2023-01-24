@@ -1,5 +1,4 @@
 User-agent: *
-Disallow: /cloudflare/
 Disallow: /cdn-cgi/
 Host: whymark.net
 Sitemap: https://whymark.net/sitemap.xml

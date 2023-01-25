@@ -188,12 +188,16 @@ small { font-size: var(--ui-typography-s); }
 4.0 IMAGE
 --------------------------------------------------------------*/
 
-img,
-svg {
+img {
   display: block;
   height: auto;
   margin: 0 auto;
   max-width: 100%;
+}
+
+svg {
+  display: block;
+  margin: 0 auto;
 }
 
 /*--------------------------------------------------------------

@@ -454,7 +454,7 @@ button {
 
   .ui-layout-grid-3 div:last-of-type {
     left: calc(50% + (var(--ui-layout-gutter) / 2));
-    position: relative;
+    position: center;
   }
 
   .ui-layout-column-4 {

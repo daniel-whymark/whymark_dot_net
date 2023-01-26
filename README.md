@@ -1,9 +1,8 @@
 # Whymark_dot_net :globe_with_meridians:
 Source code for the [whymark.net](https://whymark.net/) websites (and mirrors) with links to various related services or resources.
 
-Flat, minimalistic responsive design. There's no JS, only plain HTML and CSS. No frameworks of third-party requirements.
+Flat, minimalistic responsive design. The goals were maximum speed, minimum filesize and enhanced code-readability. There's no JS, only plain HTML and CSS. No frameworks of third-party requirements.
 
-The goals were speed and code-readability.
 
 ## Config
 ### Third-Party Customisation

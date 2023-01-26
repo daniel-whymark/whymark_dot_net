@@ -23,8 +23,8 @@ I would strongly recommened that you review the following files and linked docum
 Distributed under [MIT License](https://opensource.org/licenses/MIT). Feel free to copy onwards but it's always good manners to give credit to the original authors!
 
 ## Credits
-Original Template:  
-- [Uisual](https://github.com/uisual/freebies).
+Original base template:  
+- [Uisual](https://github.com/uisual/freebies)
 
 SVG Icons:
 - [Bootstrap](https://icons.getbootstrap.com)

@@ -38,7 +38,6 @@ TABLE OF CONTENT
 
   /* COLOR PALETTE */
 
-  @media (prefers-color-scheme: light) {
     --ui-color-brand: #353535;
     --ui-color-n-000: white;
     --ui-color-n-100: #ebebeb;
@@ -46,17 +45,6 @@ TABLE OF CONTENT
     --ui-color-n-500: #353535;
     --ui-color-n-700: black;
     --ui-color-n-900: #1a1a1a;
-  }
-
-  @media (prefers-color-scheme: dark) {
-    --ui-color-brand: #353535;
-    --ui-color-n-000: #ff9000;
-    --ui-color-n-100: #ebebeb;
-    --ui-color-n-300: #282828;
-    --ui-color-n-500: #353535;
-    --ui-color-n-700: white;
-    --ui-color-n-900: #1a1a1a;
-  }
   
   /* BACKGROUND COLOR */
   

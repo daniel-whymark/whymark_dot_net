@@ -1,7 +1,9 @@
 # Whymark_dot_net :globe_with_meridians:
 Source code for the [whymark.net](https://whymark.net/) websites (and mirrors) with links to various related services or resources.
 
-Flat, minimalistic design, a fully animated interface (with noscript fallbacks), and styling for all basic page elements (including blockquotes, tables and lists).
+Flat, minimalistic responsive design. There's no JS, only plain HTML and CSS. No frameworks of third-party requirements.
+
+The goals were speed and code-readability.
 
 ## Config
 ### Third-Party Customisation
@@ -19,21 +21,15 @@ I would strongly recommened that you review the following files and linked docum
 - ads.txt for restricting [Authorized Digital Sellers](https://iabtechlab.com/ads-txt/)
 
 ## License
-Distributed under [Creative Commons Attribution 3.0 License](https://creativecommons.org/licenses/by/3.0/). Feel free to copy onwards, just give credit to the original authors!
+Distributed under [MIT License](https://opensource.org/licenses/MIT). Feel free to copy onwards but it's always good manners to give credit to the original authors!
 
 ## Credits
-Original Theme:  
-- [HTML UP](https://html5up.net/astral).
+Original Template:  
+- [Uisual](https://github.com/uisual/freebies).
 
 Background Images:  
 - [Unsplash](https://unsplash.com/photos/gPnHi8AmO5k) credited to [@sincerelymedia](https://unsplash.com/@sincerelymedia).
 
-Fonts:
-- Source Sans Pro font is from [Adobe Systems](https://www.adobe.com/) under [SIL Open Font License](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL).
-- [Font Awesome](https://github.com/FortAwesome/Font-Awesome)
+SVG Icons:
+- [Bootstrap](https://icons.getbootstrap.com)
 
-Other:  
-- [jQuery](jquery.com)
-- html5shiv.js (@afarkas @jdalton @jon_neal @remv)
-- [background-size polyfill](https://github.com/louisremi/background-size-polyfill)
-- [Repond.js](https://github.com/scottjehl/Respond)

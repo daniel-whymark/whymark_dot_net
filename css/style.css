@@ -38,28 +38,26 @@ TABLE OF CONTENT
 
   /* COLOR PALETTE */
 
-  /* White & Black Scheme */
-  /*
-  --ui-color-brand: #353535;
+  @media (prefers-color-scheme: light) {
+    --ui-color-brand: #353535;
+    --ui-color-n-000: white;
+    --ui-color-n-100: #ebebeb;
+    --ui-color-n-300: #aeaeae;
+    --ui-color-n-500: #353535;
+    --ui-color-n-700: black;
+    --ui-color-n-900: #1a1a1a;
+  }
 
-  --ui-color-n-000: #fff;
-  --ui-color-n-100: #ebebeb;
-  --ui-color-n-300: #aeaeae;
-  --ui-color-n-500: #353535;
-  --ui-color-n-700: #282828;
-  --ui-color-n-900: #1a1a1a;
-  */
-
-  /* Orange & White Scheme */
-  --ui-color-brand: #353535;
-
-  --ui-color-n-000: #ff9000;
-  --ui-color-n-100: #ebebeb;
-  --ui-color-n-300: #282828;
-  --ui-color-n-500: #353535;
-  --ui-color-n-700: #fff;
-  --ui-color-n-900: #1a1a1a;
-
+  @media (prefers-color-scheme: dark) {
+    --ui-color-brand: #353535;
+    --ui-color-n-000: #ff9000;
+    --ui-color-n-100: #ebebeb;
+    --ui-color-n-300: #282828;
+    --ui-color-n-500: #353535;
+    --ui-color-n-700: white;
+    --ui-color-n-900: #1a1a1a;
+  }
+  
   /* BACKGROUND COLOR */
   
   --ui-color-background-primary: var(--ui-color-n-000);
@@ -470,7 +468,7 @@ button {
 
   .ui-layout-grid-3 div:last-of-type {
     left: calc(50% + (var(--ui-layout-gutter) / 2));
-    position: center;
+    position: relative;
   }
 
   .ui-layout-column-4 {

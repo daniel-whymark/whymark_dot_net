@@ -27,9 +27,6 @@ Distributed under [MIT License](https://opensource.org/licenses/MIT). Feel free 
 Original Template:  
 - [Uisual](https://github.com/uisual/freebies).
 
-Background Images:  
-- [Unsplash](https://unsplash.com/photos/gPnHi8AmO5k) credited to [@sincerelymedia](https://unsplash.com/@sincerelymedia).
-
 SVG Icons:
 - [Bootstrap](https://icons.getbootstrap.com)
 

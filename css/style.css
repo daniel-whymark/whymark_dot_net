@@ -38,6 +38,7 @@ TABLE OF CONTENT
 
   /* COLOR PALETTE */
 
+  /* Light Scheme */
   --ui-color-brand: #353535;
   --ui-color-n-000: white;
   --ui-color-n-100: #ebebeb;
@@ -46,6 +47,7 @@ TABLE OF CONTENT
   --ui-color-n-700: black;
   --ui-color-n-900: #1a1a1a;
 
+  /* Dark Scheme */
   @media (prefers-color-scheme: dark) {
     :root { 
       --ui-color-brand: #353535;

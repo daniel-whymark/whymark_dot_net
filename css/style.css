@@ -695,13 +695,13 @@ button {
   |
   ------------------------------------------------------------*/
 
-      --ui-color-brand: #353535;
-      --ui-color-n-000: #ff9000;
+      --ui-color-brand: #969ba1;
+      --ui-color-n-000: #121212;
       --ui-color-n-100: #ebebeb;
-      --ui-color-n-300: #282828;
-      --ui-color-n-500: #353535;
-      --ui-color-n-700: white;
-      --ui-color-n-900: #1a1a1a;
+      --ui-color-n-300: #969ba1;
+      --ui-color-n-500: #e8eaed;
+      --ui-color-n-700: #FFFFFF;
+      --ui-color-n-900: #bcc0c3;
 
     }
 

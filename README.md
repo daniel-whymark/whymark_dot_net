@@ -1,7 +1,13 @@
 # Whymark_dot_net :globe_with_meridians:
 Source code for the [whymark.net](https://whymark.net/) websites (and mirrors) with links to various related services or resources.
 
+
+## Features
 Flat, minimalistic responsive design. The goals were maximum speed, minimum filesize and enhanced code-readability. There's no JS, only plain HTML and CSS. No frameworks of third-party requirements.
+
+- Around 100Kb in size (depending on your choice of profile thumbnail images)
+- Responsive layout (320px, 768px, 1024px, and 1200px).
+- Light & Dark mode colour schemes
 
 
 ## Config
@@ -19,8 +25,10 @@ I would strongly recommened that you review the following files and linked docum
 - .well-known/mta-sts.txt for [Mail Transfer Agent Strict Transport Security](https://www.ncsc.gov.uk/collection/email-security-and-anti-spoofing/using-mta-sts-to-protect-the-privacy-of-your-emails)
 - ads.txt for restricting [Authorized Digital Sellers](https://iabtechlab.com/ads-txt/)
 
+
 ## License
 Distributed under [MIT License](https://opensource.org/licenses/MIT). Feel free to copy onwards but it's always good manners to give credit to the original authors!
+
 
 ## Credits
 Original base template:  

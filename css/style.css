@@ -36,15 +36,29 @@ TABLE OF CONTENT
   |
   ------------------------------------------------------------*/
 
-  --ui-color-brand: #353535;
-
   /* COLOR PALETTE */
+
+  /* White & Black Scheme */
+  /*
+
+  --ui-color-brand: #353535;
 
   --ui-color-n-000: #fff;
   --ui-color-n-100: #ebebeb;
   --ui-color-n-300: #aeaeae;
   --ui-color-n-500: #353535;
   --ui-color-n-700: #282828;
+  --ui-color-n-900: #1a1a1a;
+  */
+
+  /* Orange & White Scheme */
+  --ui-color-brand: #353535;
+
+  --ui-color-n-000: #ff9000;
+  --ui-color-n-100: #ebebeb;
+  --ui-color-n-300: #282828;
+  --ui-color-n-500: #353535;
+  --ui-color-n-700: #fff;
   --ui-color-n-900: #1a1a1a;
 
   /* BACKGROUND COLOR */
@@ -61,6 +75,7 @@ TABLE OF CONTENT
   --ui-color-typography-body   : var(--ui-color-n-900);
   --ui-color-typography-note   : var(--ui-color-n-300);
   --ui-color-typography-button : var(--ui-color-n-000);
+  --ui-color-typography-hover  : var(--ui-color-n-700);
 
   /*------------------------------------------------------------
   |
@@ -125,6 +140,7 @@ html { box-sizing: border-box; }
 body {
   background-color: var(--ui-color-background-primary);
   color: var(--ui-color-typography-body);
+  fill: var(--ui-color-typography-body);
   font-family: var(--ui-typography-typeface);
   font-feature-settings: "liga", "kern";
   font-size: var(--ui-typography-p);
@@ -540,8 +556,8 @@ button {
   a { transition: all 250ms ease; }
 
   a:not(.ui-component-button):hover {
-    color: var(--ui-color-typography-body);
-  }
+    color: var(--ui-color-typography-hover);
+  }  
 
   /*------------------------------------------------------------
   LAYOUT

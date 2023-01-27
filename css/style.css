@@ -178,7 +178,10 @@ h2 {
 }
 
 p,
-ul { margin-bottom: var(--ui-typography-margin-body); }
+ul {
+  margin-bottom: var(--ui-typography-margin-body);
+  max-width: 600px;
+}
 
 p:last-child,
 ul:last-child { margin-bottom: 0; }

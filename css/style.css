@@ -566,8 +566,8 @@ form { width: 100%; }
 
 p,
 ul {
-  width: 60%;
-  margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
   /*------------------------------------------------------------

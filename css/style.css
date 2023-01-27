@@ -180,7 +180,7 @@ h2 {
 p,
 ul {
   margin-bottom: var(--ui-typography-margin-body);
-  max-width: 600px;
+  width: 60%;
 }
 
 p:last-child,

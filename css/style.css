@@ -120,6 +120,7 @@ TABLE OF CONTENT
   
   --ui-radius-avatar: 5rem;
   --ui-radius-button: 5rem;
+  --ui-radius-input : 20px;
 
 }
 
@@ -245,6 +246,21 @@ svg {
 |
 --------------------------------------------------------------*/
 
+input,
+button,
+textarea {
+  color: var(--ui-color-form-input);
+  font-family: inherit;
+  font-size: var(--ui-typography-p);
+  line-height: 1;
+  margin: 0;
+  outline: none;
+  text-rendering: inherit;
+  text-transform: none;
+}
+
+/* BUTTON */
+
 .ui-component-button {
   border: .0625rem solid var(--ui-color-brand);
   border-radius: var(--ui-radius-button);
@@ -269,21 +285,6 @@ svg {
   padding: .5rem .75rem .5625rem;
 }
 
-
-
-input,
-button,
-textarea {
-  color: var(--ui-color-form-input);
-  font-family: inherit;
-  font-size: var(--ui-typography-p);
-  line-height: 1;
-  margin: 0;
-  outline: none;
-  text-rendering: inherit;
-  text-transform: none;
-}
-
 /* FORM */
 
 form { width: 100%; }
@@ -306,7 +307,6 @@ form { width: 100%; }
 }
 
 .ui-component-input-medium {
-  height: 2.5rem;
   padding: .625rem 1rem .75rem;
 }
 
@@ -894,7 +894,8 @@ form { width: 100%; }
       --ui-color-n-300: #979BA0;
       --ui-color-n-500: #FFFFFF;
       --ui-color-n-900: #BEC1C5;
-      --ui-color-n-950: #93B3F3;
+      --ui-color-n-950: #FFFFFF;
+      /*--ui-color-n-950: #93B3F3;*/
     
       /* BACKGROUND COLOR */
   

@@ -188,7 +188,7 @@
 		<link rel="me" href="https://www.goodreads.com/danielwhymark">
 
 		<!-- CSS -->
-		<link rel="stylesheet" href="css/style.css" crossorigin="anonymous">
+		<link rel="stylesheet" href="/css/style.css" crossorigin="anonymous">
 
 		<!-- TITLE -->
 		<title>Daniel Whymark | Daniel Whymark</title>
@@ -219,12 +219,12 @@
 					<!-- IMAGE -->
 					<div class="ui-section-hero--image">
 						<picture>
-							<source type="image/webp" srcset="images/profile-thumb.webp">
-							<source type="image/png" srcset="images/profile-thumb.png">
-							<img src="images/profile-thumb.png" width="400" height="400" alt="Picture of Daniel Whymark" title="Daniel Whymark" usemap="#avatarmap">
+							<source type="image/webp" srcset="/images/profile-thumb.webp">
+							<source type="image/png" srcset="/images/profile-thumb.png">
+							<img src="/images/profile-thumb.png" width="400" height="400" alt="Picture of Daniel Whymark" title="Daniel Whymark" usemap="#avatarmap">
 						</picture>
 						<map name="avatarmap">
-							<area shape="circle" coords="200,200,200" href="images/profile.png" title="Click for a full-size picture" alt="Link to full-size picture of Daniel Whymark" aria-label="Link to full-size picture of Daniel Whymark">
+							<area shape="circle" coords="200,200,200" href="/images/profile.png" title="Click for a full-size picture" alt="Link to full-size picture of Daniel Whymark" aria-label="Link to full-size picture of Daniel Whymark">
 						</map>
 					</div>
 
@@ -381,19 +381,17 @@
 						<h2>Send Me an Email</h2>
 						<p class="ui-text-intro">Complete the form to send me a message.</p>
 					</div>
-
+					<br>
 					<!-- FORMSPREE -->
 					<div class="ui-layout-column-6 ui-layout-column-center">
 						<div class="ui-component-cta ui-layout-flex">
 							<form class="ui-component-form ui-layout-grid ui-layout-column-6">
 								<input type="text" name="name" placeholder="Your Name" aria-label="Your Name" form="formspree" class="ui-component-input ui-component-input-medium" required>
-							</form>
-							<form class="ui-component-form ui-layout-grid ui-layout-column-6">
 								<input type="email" name="email" placeholder="Your Email Address" aria-label="Your Email Address" form="formspree" class="ui-component-input ui-component-input-medium" required>
 							</form>
 							<form action="https://formspree.io/f/mlezvyrv" id="formspree" method="post" class="ui-component-form ui-layout-grid ui-layout-column-6">
-								<input type="text" name="message" placeholder="What should we talk about?" aria-label="What should we talk about?" class="ui-component-input ui-component-input-medium" required>
-								<button id="contact" type="submit" title="Send message" aria-label="Send message" class="ui-component-button ui-component-button-normal ui-component-button-primary">Send</button>
+								<textarea rows="3" type="text" name="message" placeholder="&#10;What should we talk about?" aria-label="What should we talk about?" class="ui-component-input ui-component-input-medium" required></textarea>
+								<button id="contact" type="submit" title="Send message" aria-label="Send message" class="ui-component-button ui-component-button-normal ui-component-button-primary ui-component-button-small">Send</button>
 								<input type="text" name="_gotcha" placeholder="" aria-hidden="true" style="display:none">
 							</form>
 							<p class="ui-text-note"><small>Please complete all of the fields.</small></p>

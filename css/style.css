@@ -257,6 +257,7 @@ textarea {
   outline: none;
   text-rendering: inherit;
   text-transform: none;
+  resize: none;
 }
 
 /* BUTTON */

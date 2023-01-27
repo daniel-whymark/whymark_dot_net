@@ -178,10 +178,7 @@ h2 {
 }
 
 p,
-ul {
-  margin-bottom: var(--ui-typography-margin-body);
-  width: 60%;
-}
+ul { margin-bottom: var(--ui-typography-margin-body); }
 
 p:last-child,
 ul:last-child { margin-bottom: 0; }
@@ -566,6 +563,12 @@ form { width: 100%; }
     width: calc((var(--ui-layout-grid) * 6) +
            (var(--ui-layout-gutter) * 5));
   }
+
+p,
+ul {
+  width: 60%;
+  margin: 0 auto;
+}
 
   /*------------------------------------------------------------
   COMPONENT

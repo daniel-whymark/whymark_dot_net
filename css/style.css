@@ -25,7 +25,7 @@ TABLE OF CONTENT
 |  8.1 768PX
 |  8.2 1024PX
 |  8.3 1200PX
-|  8.4 Dark Mode
+|  8.4 DARK MODE
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
@@ -120,7 +120,7 @@ TABLE OF CONTENT
   
   --ui-radius-avatar: 5rem;
   --ui-radius-button: 5rem;
-  --ui-radius-input : 20px;
+  --ui-radius-input : 20px ;
 
 }
 

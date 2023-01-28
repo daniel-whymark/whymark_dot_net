@@ -78,7 +78,7 @@ TABLE OF CONTENT
   |
   ------------------------------------------------------------*/
 
-  --ui-typography-typeface: system-ui, 'Open Sans', sans-serif;
+  --ui-typography-typeface: -apple-system, BlinkMacSystemFont, system-ui, 'Open Sans', sans-serif;
 
   /* FONT SIZE */
 

@@ -40,17 +40,17 @@ TABLE OF CONTENT
   |
   ------------------------------------------------------------*/
 
-  --ui-color-brand: #223548; /* Links (both text and SVG) and buttons text */
+  --ui-color-brand: #000000FF; /* Links (both text and SVG) and buttons text */
 
   /* COLOR PALETTE */
 
-  --ui-color-n-000: #FFFFFF; /* Primary panel background colour */
-  --ui-color-n-025: #F5F6F7; /* Secondary panel background colour */
-  --ui-color-n-050: #FFFFFF; /* Tertiary panel background colour */
-  --ui-color-n-300: #475E75; /* Note class & form placeholder text */
-  --ui-color-n-500: #223548; /* Headings text and svg */
-  --ui-color-n-900: #475E75; /* Body text */
-  --ui-color-n-950: #0040B0; /* Hover colour */
+  --ui-color-n-000: #FFFFFFFF; /* Primary panel background colour */
+  --ui-color-n-025: #F2F2F7FF; /* Secondary panel background colour */
+  --ui-color-n-050: #FFFFFFFF; /* Tertiary panel background colour */
+  --ui-color-n-300: #3C3C434D; /* Note class & form placeholder text */
+  --ui-color-n-500: #000000FF; /* Headings text and svg */
+  --ui-color-n-900: #3C3C4399; /* Body text */
+  --ui-color-n-950: #AF52DEFF; /* Hover colour */
 
   /* BACKGROUND COLOR */
   
@@ -885,17 +885,17 @@ form { width: 100%; }
   |
   ------------------------------------------------------------*/
 
-      --ui-color-brand: #FFFFFF; /* Links (both text and SVG) and buttons text */
+      --ui-color-brand: #FFFFFFFF; /* Links (both text and SVG) and buttons text */
 
       /* COLOR PALETTE */
 
-      --ui-color-n-000: #000000; /* Primary panel background colour */
-      --ui-color-n-025: #0F1216; /* Secondary panel background colour */
-      --ui-color-n-050: #161C21; /* Tertiary panel background colour */
-      --ui-color-n-300: #A9B4BE; /* Note class & form placeholder text */
-      --ui-color-n-500: #F5F6F7; /* Headings text and svg */
-      --ui-color-n-900: #D5DADD; /* Body text */
-      --ui-color-n-950: #1B90FF; /* Hover colour */
+      --ui-color-n-000: #000000FF; /* Primary panel background colour */
+      --ui-color-n-025: #1C1C1EFF; /* Secondary panel background colour */
+      --ui-color-n-050: #2C2C2EFF; /* Tertiary panel background colour */
+      --ui-color-n-300: #EBEBF54D; /* Note class & form placeholder text */
+      --ui-color-n-500: #FFFFFFFF; /* Headings text and svg */
+      --ui-color-n-900: #EBEBF599; /* Body text */
+      --ui-color-n-950: #BF5AF2FF; /* Hover colour */
     
       /* BACKGROUND COLOR */
   

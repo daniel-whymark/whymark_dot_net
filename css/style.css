@@ -47,7 +47,8 @@ TABLE OF CONTENT
   --ui-color-n-000: #FFFFFFFF; /* Primary panel background colour */
   --ui-color-n-025: #F2F2F7FF; /* Secondary panel background colour */
   --ui-color-n-050: #FFFFFFFF; /* Tertiary panel background colour */
-  --ui-color-n-300: #3C3C434D; /* Note class & form placeholder text */
+  --ui-color-n-300: #3C3C432E; /* Note class */
+  --ui-color-n-400: #3C3C434D; /* Form placeholder text */
   --ui-color-n-500: #000000FF; /* Headings text and svg */
   --ui-color-n-900: #3C3C4399; /* Body text */
   --ui-color-n-950: #AF52DEFF; /* Hover colour */
@@ -61,7 +62,7 @@ TABLE OF CONTENT
   /* FORM COLOR */
 
   --ui-color-form-input: var(--ui-color-n-500);
-  --ui-color-form-placeholder: var(--ui-color-n-300);
+  --ui-color-form-placeholder: var(--ui-color-n-400);
 
   /* TYPOGRAPHY COLOR */
 
@@ -892,7 +893,8 @@ form { width: 100%; }
       --ui-color-n-000: #000000FF; /* Primary panel background colour */
       --ui-color-n-025: #1C1C1EFF; /* Secondary panel background colour */
       --ui-color-n-050: #2C2C2EFF; /* Tertiary panel background colour */
-      --ui-color-n-300: #EBEBF54D; /* Note class & form placeholder text */
+      --ui-color-n-300: #EBEBF52E; /* Note class */
+      --ui-color-n-400: #EBEBF54D; /* Form placeholder text */
       --ui-color-n-500: #FFFFFFFF; /* Headings text and svg */
       --ui-color-n-900: #EBEBF599; /* Body text */
       --ui-color-n-950: #BF5AF2FF; /* Hover colour */
@@ -906,7 +908,7 @@ form { width: 100%; }
       /* FORM COLOR */
 
       --ui-color-form-input: var(--ui-color-n-500);
-      --ui-color-form-placeholder: var(--ui-color-n-300);
+      --ui-color-form-placeholder: var(--ui-color-n-400);
     
       /* TYPOGRAPHY COLOR */
 

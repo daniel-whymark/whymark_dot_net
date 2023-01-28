@@ -194,9 +194,9 @@ small { font-size: var(--ui-typography-s); }
   line-height: 1;
 }
 
-.ui-text-intro {
+/*.ui-text-intro {
   width: 60vw;
-}
+}*/
 
 /*--------------------------------------------------------------
 4.0 IMAGE

@@ -40,7 +40,7 @@ TABLE OF CONTENT
   |
   ------------------------------------------------------------*/
 
-  --ui-color-brand: #0070F2; /* Links (both text and SVG) and buttons text */
+  --ui-color-brand: #223548; /* Links (both text and SVG) and buttons text */
 
   /* COLOR PALETTE */
 
@@ -885,7 +885,7 @@ form { width: 100%; }
   |
   ------------------------------------------------------------*/
 
-      --ui-color-brand: #4DB1FF; /* Links (both text and SVG) and buttons text */
+      --ui-color-brand: #FFFFFF; /* Links (both text and SVG) and buttons text */
 
       /* COLOR PALETTE */
 

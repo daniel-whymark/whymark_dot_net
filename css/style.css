@@ -40,28 +40,29 @@ TABLE OF CONTENT
   |
   ------------------------------------------------------------*/
 
-  --ui-color-brand: #353535;
+  --ui-color-brand: #000000FF; /* Links (both text and SVG) and buttons text */
 
   /* COLOR PALETTE */
 
-  --ui-color-n-000: #FFFFFF;
-  --ui-color-n-025: #fafafa;
-  --ui-color-n-050: #f5f5f5;
-  --ui-color-n-300: #606368;
-  --ui-color-n-500: #202124;
-  --ui-color-n-900: #4E5155;
-  --ui-color-n-950: #000000;
+  --ui-color-n-000: #FFFFFFFF; /* Primary panel background colour */
+  --ui-color-n-025: #F2F2F7FF; /* Secondary panel background colour */
+  --ui-color-n-050: #FFFFFFFF; /* Tertiary panel background colour */
+  --ui-color-n-300: #86868BFF; /* Note class */
+  --ui-color-n-400: #3C3C434D; /* Form placeholder text */
+  --ui-color-n-500: #000000FF; /* Headings text and svg */
+  --ui-color-n-900: #3C3C4399; /* Body text */
+  --ui-color-n-950: #8E8E93FF; /* Hover colour */
 
   /* BACKGROUND COLOR */
   
   --ui-color-background-primary  : var(--ui-color-n-000);
-  --ui-color-background-secondary: var(--ui-color-n-050);
-  --ui-color-background-tertiary : var(--ui-color-n-025);
+  --ui-color-background-secondary: var(--ui-color-n-025);
+  --ui-color-background-tertiary : var(--ui-color-n-050);
 
   /* FORM COLOR */
 
   --ui-color-form-input: var(--ui-color-n-500);
-  --ui-color-form-placeholder: var(--ui-color-n-300);
+  --ui-color-form-placeholder: var(--ui-color-n-400);
 
   /* TYPOGRAPHY COLOR */
 
@@ -78,7 +79,7 @@ TABLE OF CONTENT
   |
   ------------------------------------------------------------*/
 
-  --ui-typography-typeface: "Inter", sans-serif;
+  --ui-typography-typeface: system-ui, sans-serif;
 
   /* FONT SIZE */
 
@@ -678,7 +679,7 @@ form { width: 100%; }
   a:not(.ui-component-button):hover {
     color: var(--ui-color-typography-hover);
     fill: var(--ui-color-typography-hover);
-    text-shadow: 0 0.005em #101010,0 -0.005em #101010,0.005em 0 #101010,-0.005em 0 #101010;
+    text-shadow: 0 0.01em var(--ui-color-typography-hover),0 -0.01em var(--ui-color-typography-hover),0.01em 0 var(--ui-color-typography-hover),-0.01em 0 var(--ui-color-typography-hover);
   }
 
   /*------------------------------------------------------------
@@ -885,29 +886,29 @@ form { width: 100%; }
   |
   ------------------------------------------------------------*/
 
-      --ui-color-brand: #D0D2D4;
+      --ui-color-brand: #FFFFFFFF; /* Links (both text and SVG) and buttons text */
 
       /* COLOR PALETTE */
 
-      --ui-color-n-000: #202124;
-      --ui-color-n-025: #171717;
-      --ui-color-n-050: #303134;
-      --ui-color-n-300: #979BA0;
-      --ui-color-n-500: #FFFFFF;
-      --ui-color-n-900: #BEC1C5;
-      --ui-color-n-950: #FFFFFF;
-      /*--ui-color-n-950: #93B3F3;*/
+      --ui-color-n-000: #000000FF; /* Primary panel background colour */
+      --ui-color-n-025: #1C1C1EFF; /* Secondary panel background colour */
+      --ui-color-n-050: #2C2C2EFF; /* Tertiary panel background colour */
+      --ui-color-n-300: #6E6E73FF; /* Note class */
+      --ui-color-n-400: #EBEBF54D; /* Form placeholder text */
+      --ui-color-n-500: #FFFFFFFF; /* Headings text and svg */
+      --ui-color-n-900: #EBEBF599; /* Body text */
+      --ui-color-n-950: #8E8E93FF; /* Hover colour */
     
       /* BACKGROUND COLOR */
   
       --ui-color-background-primary  : var(--ui-color-n-000);
-      --ui-color-background-secondary: var(--ui-color-n-050);
-      --ui-color-background-tertiary : var(--ui-color-n-025);
+      --ui-color-background-secondary: var(--ui-color-n-025);
+      --ui-color-background-tertiary : var(--ui-color-n-050);
 
       /* FORM COLOR */
 
       --ui-color-form-input: var(--ui-color-n-500);
-      --ui-color-form-placeholder: var(--ui-color-n-300);
+      --ui-color-form-placeholder: var(--ui-color-n-400);
     
       /* TYPOGRAPHY COLOR */
 

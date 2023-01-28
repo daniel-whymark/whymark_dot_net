@@ -50,7 +50,7 @@ TABLE OF CONTENT
   --ui-color-n-300: #606368;
   --ui-color-n-500: #202124;
   --ui-color-n-900: #4E5155;
-  --ui-color-n-950: #000000;
+  --ui-color-n-950: #180EA4;
 
   /* BACKGROUND COLOR */
   
@@ -895,8 +895,7 @@ form { width: 100%; }
       --ui-color-n-300: #979BA0;
       --ui-color-n-500: #FFFFFF;
       --ui-color-n-900: #BEC1C5;
-      --ui-color-n-950: #FFFFFF;
-      /*--ui-color-n-950: #93B3F3;*/
+      --ui-color-n-950: #93B3F3;
     
       /* BACKGROUND COLOR */
   

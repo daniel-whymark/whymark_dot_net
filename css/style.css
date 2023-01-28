@@ -44,10 +44,10 @@ TABLE OF CONTENT
 
   /* COLOR PALETTE */
 
-  --ui-color-n-000: #FFFFFF; /* Main background colour */
-  --ui-color-n-025: #fafafa; /* Secondary background panel colour */
-  --ui-color-n-050: #f5f5f5; /* Tertiary background panel colour */
-  --ui-color-n-300: #C4C4C6; /* Note class & form placeholder text */
+  --ui-color-n-000: #F5F6F7; /* Main background colour */
+  --ui-color-n-025: #FFFFFF; /* Secondary background panel colour */
+  --ui-color-n-050: #F5F6F7; /* Tertiary background panel colour */
+  --ui-color-n-300: #DCDCDD; /* Note class & form placeholder text */
   --ui-color-n-500: #000000; /* Headings text and svg */
   --ui-color-n-900: #8A8A8D; /* Body text */
   --ui-color-n-950: #DCDCDD; /* Hover colour */
@@ -55,8 +55,8 @@ TABLE OF CONTENT
   /* BACKGROUND COLOR */
   
   --ui-color-background-primary  : var(--ui-color-n-000);
-  --ui-color-background-secondary: var(--ui-color-n-050);
-  --ui-color-background-tertiary : var(--ui-color-n-025);
+  --ui-color-background-secondary: var(--ui-color-n-025);
+  --ui-color-background-tertiary : var(--ui-color-n-050);
 
   /* FORM COLOR */
 
@@ -890,8 +890,8 @@ form { width: 100%; }
       /* COLOR PALETTE */
 
       --ui-color-n-000: #000000; /* Main background colour */
-      --ui-color-n-025: #171717; /* Secondary background panel colour */
-      --ui-color-n-050: #303134; /* Tertiary background panel colour */
+      --ui-color-n-025: #161C21; /* Secondary background panel colour */
+      --ui-color-n-050: #0F1216; /* Tertiary background panel colour */
       --ui-color-n-300: #47474A; /* Note class & form placeholder text */
       --ui-color-n-500: #FFFFFF; /* Headings text and svg */
       --ui-color-n-900: #8D8D92; /* Body text */
@@ -900,8 +900,8 @@ form { width: 100%; }
       /* BACKGROUND COLOR */
   
       --ui-color-background-primary  : var(--ui-color-n-000);
-      --ui-color-background-secondary: var(--ui-color-n-050);
-      --ui-color-background-tertiary : var(--ui-color-n-025);
+      --ui-color-background-secondary: var(--ui-color-n-025);
+      --ui-color-background-tertiary : var(--ui-color-n-050);
 
       /* FORM COLOR */
 

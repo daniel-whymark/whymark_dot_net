@@ -44,9 +44,9 @@ TABLE OF CONTENT
 
   /* COLOR PALETTE */
 
-  --ui-color-n-000: #F5F6F7; /* Main background colour */
-  --ui-color-n-025: #FFFFFF; /* Secondary background panel colour */
-  --ui-color-n-050: #F5F6F7; /* Tertiary background panel colour */
+  --ui-color-n-000: #FFFFFF; /* Primary panel background colour */
+  --ui-color-n-025: #F5F6F7; /* Secondary panel background colour */
+  --ui-color-n-050: #FFFFFF; /* Tertiary panel background colour */
   --ui-color-n-300: #DCDCDD; /* Note class & form placeholder text */
   --ui-color-n-500: #000000; /* Headings text and svg */
   --ui-color-n-900: #8A8A8D; /* Body text */
@@ -889,9 +889,9 @@ form { width: 100%; }
 
       /* COLOR PALETTE */
 
-      --ui-color-n-000: #000000; /* Main background colour */
-      --ui-color-n-025: #161C21; /* Secondary background panel colour */
-      --ui-color-n-050: #0F1216; /* Tertiary background panel colour */
+      --ui-color-n-000: #000000; /* Primary panel background colour */
+      --ui-color-n-025: #0F1216; /* Secondary panel background colour */
+      --ui-color-n-050: #161C21; /* Tertiary panel background colour */
       --ui-color-n-300: #47474A; /* Note class & form placeholder text */
       --ui-color-n-500: #FFFFFF; /* Headings text and svg */
       --ui-color-n-900: #8D8D92; /* Body text */

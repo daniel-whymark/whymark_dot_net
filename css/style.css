@@ -160,7 +160,10 @@ a {
 h1,
 h2,
 p,
-ul { margin-top: 0; }
+ul {
+  margin-top: 0;
+  max-width: 60vw;
+}
 
 h1,
 h2 {

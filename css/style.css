@@ -160,10 +160,7 @@ a {
 h1,
 h2,
 p,
-ul {
-  margin-top: 0;
-  max-width: 60vw;
-}
+ul { margin-top: 0; }
 
 h1,
 h2 {
@@ -748,7 +745,10 @@ form { width: 100%; }
   TYPOGRAPHY
   ------------------------------------------------------------*/
 
-  .ui-text-intro { font-size: var(--ui-typography-h4); }
+  .ui-text-intro {
+    font-size: var(--ui-typography-h4);
+    max-width: 60%;
+  }
 
   /*------------------------------------------------------------
   LAYOUT

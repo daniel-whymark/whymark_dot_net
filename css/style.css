@@ -195,6 +195,8 @@ small { font-size: var(--ui-typography-s); }
   line-height: 1;
 }
 
+.ui-text-intro { max-width: 25em; }
+
 /*--------------------------------------------------------------
 4.0 IMAGE
 --------------------------------------------------------------*/
@@ -311,10 +313,6 @@ form { width: 100%; }
 .ui-component-input-medium {
   padding: .625rem 1rem .75rem;
 }
-
-
-
-
 
 /*--------------------------------------------------------------
 |
@@ -745,10 +743,7 @@ form { width: 100%; }
   TYPOGRAPHY
   ------------------------------------------------------------*/
 
-  .ui-text-intro {
-    font-size: var(--ui-typography-h4);
-    max-width: 25em;
-  }
+  .ui-text-intro { font-size: var(--ui-typography-h4); }
 
   /*------------------------------------------------------------
   LAYOUT

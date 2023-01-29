@@ -425,8 +425,9 @@ form { width: 100%; }
 }
 
 .ui-section-testimonial--avatar {
-  height: 64px;
-  width: 64px;
+  /*border-radius: var(--ui-radius-avatar);*/
+  height: 80px;
+  width: 80px;
 }
 
 .ui-section-testimonial--quote {

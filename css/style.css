@@ -425,7 +425,6 @@ form { width: 100%; }
 }
 
 .ui-section-testimonial--avatar {
-  border-radius: var(--ui-radius-avatar);
   height: 64px;
   width: 64px;
 }

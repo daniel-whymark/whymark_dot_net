@@ -745,10 +745,7 @@ form { width: 100%; }
   TYPOGRAPHY
   ------------------------------------------------------------*/
 
-  .ui-text-intro {
-    font-size: var(--ui-typography-h4);
-    max-width: 60vw;
-  }
+  .ui-text-intro { font-size: var(--ui-typography-h4); }
 
   /*------------------------------------------------------------
   LAYOUT

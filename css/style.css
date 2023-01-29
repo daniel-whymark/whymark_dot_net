@@ -747,7 +747,7 @@ form { width: 100%; }
 
   .ui-text-intro {
     font-size: var(--ui-typography-h4);
-    max-width: 60%;
+    max-width: 60vw;
   }
 
   /*------------------------------------------------------------

@@ -119,7 +119,7 @@ TABLE OF CONTENT
 
   /* BORDER RADIUS */
   
-  --ui-radius-avatar: 5rem;
+  --ui-radius-avatar: 50px;
   --ui-radius-button: 5rem;
   --ui-radius-input : 20px;
 
@@ -426,8 +426,8 @@ form { width: 100%; }
 
 .ui-section-testimonial--avatar {
   border-radius: var(--ui-radius-avatar);
-  height: 5rem;
-  width: 5rem;
+  height: 64px;
+  width: 64px;
 }
 
 .ui-section-testimonial--quote {

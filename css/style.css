@@ -481,8 +481,9 @@ form { width: 100%; }
 | 8.1 768PX
 |
 --------------------------------------------------------------*/
+/* 768px targeted but 700px specified to set effective usage for modern phones in portrait */
 
-@media screen and (min-width: 48rem) {
+@media only screen and (min-width: 700px) {
 
   /*------------------------------------------------------------
   VARIABLE
@@ -650,7 +651,7 @@ form { width: 100%; }
 |
 --------------------------------------------------------------*/
 
-@media screen and (min-width: 64rem) {
+@media only screen and (min-width: 1024px) {
 
   /*------------------------------------------------------------
   VARIABLE
@@ -696,7 +697,7 @@ form { width: 100%; }
 |
 --------------------------------------------------------------*/
 
-@media screen and (min-width: 75rem) {
+@media only screen and (min-width: 1200px) {
 
   /*------------------------------------------------------------
   VARIABLE

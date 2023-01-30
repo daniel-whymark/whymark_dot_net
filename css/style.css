@@ -129,7 +129,7 @@ TABLE OF CONTENT
 2.0 FOUNDATION
 --------------------------------------------------------------*/
 
-html { box-sizing: border-box; }
+html { box-sizing: content-box; }
 
 *,
 *:before,
@@ -146,10 +146,6 @@ body {
   margin: 0 auto;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  position: absolute;
-  /*left: 50%;
-  right: 50%;
-  transform: translate(-50%, -50%);*/
 }
 
 /*--------------------------------------------------------------

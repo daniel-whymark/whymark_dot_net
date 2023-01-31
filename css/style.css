@@ -49,10 +49,10 @@ TABLE OF CONTENT
   --ui-color-n-000: #FFFFFFFF;  /* Primary panel background colour */
   --ui-color-n-025: #F2F2F7FF;  /* Secondary panel background colour */
   --ui-color-n-050: #FFFFFFFF;  /* Tertiary panel background colour */
-  --ui-color-n-300: #58585B;    /* Note class */
+  --ui-color-n-300: #58585BFF;    /* Note class */
   --ui-color-n-400: #3C3C434D;  /* Form placeholder text */
   --ui-color-n-500: #000000FF;  /* Headings text and svg */
-  --ui-color-n-900: #3C3C4399;  /* Body text */
+  --ui-color-n-900: #3C3C43FF;  /* Body text */
   --ui-color-n-950: #840032FF;  /* Hover colour */
 
   /* BACKGROUND COLOR */

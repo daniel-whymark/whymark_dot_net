@@ -276,7 +276,7 @@ textarea {
   text-align: center;
 }
 
-.ui-component-button:hover {
+.ui-component-button-primary:hover {
   color: var(--ui-color-typography-note);
   background-color: var(--ui-color-background-body);
 }

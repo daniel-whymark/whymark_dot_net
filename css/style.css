@@ -276,6 +276,10 @@ textarea {
   text-align: center;
 }
 
+.ui-component-button:hover {
+  color: var(--ui-color-typography-hover);
+}
+
 .ui-component-button-primary {
   background-color: var(--ui-color-brand);
   color: var(--ui-color-typography-button);

@@ -219,10 +219,8 @@
 					<!-- IMAGE -->
 					<div class="ui-section-hero--image">
 						<picture>
-							<source type="image/webp" srcset="/images/profile-thumb.webp" media="(min-width: 400px)" height="400" width="400">
-							<source type="image/webp" srcset="/images/profile-thumb-mobile.webp" height="200" width="200">
-							<source type="image/png" srcset="/images/profile-thumb.png" media="(min-width: 400px)" height="400" width="400">
-							<source type="image/png" srcset="/images/profile-thumb-mobile.png" height="200" width="200">
+							<source type="image/webp" srcset="/images/profile-thumb-mobile.webp 200w, /images/profile-thumb.webp 400w" sizes="(min-width: 400px) 400px, 200px">
+							<source type="image/png" srcset="/images/profile-thumb-mobile.png 200w, /images/profile-thumb.png 400w" sizes="(min-width: 400px) 400px, px">
 							<img src="/images/profile-thumb.png" alt="Picture of Daniel Whymark" title="Daniel Whymark" usemap="#avatarmap" crossorigin="anonymous" loading="lazy">
 						</picture>
 						<map name="avatarmap">

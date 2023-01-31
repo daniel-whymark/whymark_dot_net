@@ -20,7 +20,7 @@
 		<link rel="icon" type="image/x-icon" href="/favicon.ico" crossorigin="anonymous" />
 
 		<!-- CSS -->
-		<link rel="stylesheet" href="css/style.css" crossorigin="anonymous" />
+		<link rel="stylesheet" href="/css/style.css" crossorigin="anonymous" />
 
 		<!-- TITLE -->
 		<title>Error 404 (Not Found)</title>
@@ -32,7 +32,7 @@
 
 		<main role="main">
 
-			<section class="ui-section-content">
+			<section class="ui-section-hero">
 				<div class="ui-layout-container">
 
 					<!-- PERSONAL INTRO -->
@@ -41,20 +41,29 @@
 						<p class="ui-text-intro">The requested resource could not be found but may be available again in the future.</p>
 						<p class="ui-text-note"><script>document.write(document.URL);</script></p>
 						<br />
-						<p class="ui-text-intro">Click <a href="https://github.com/daniel-whymark/whymark_dot_net/issues/new" title="Log an Issue on Github">here</a> to me know about a problem.</p>
-						<p class="ui-text-intro">Otherwise, click <a href="" onclick="history.go(-1);" title="Go Back">here</a> to go back to where you came from.</p>
+						<p class="ui-text-intro">Click <a href="https://github.com/daniel-whymark/whymark_dot_net/issues/new" title="Log an Issue on Github" aria-label="Click to log an issue on Github">here</a> to me know about a problem.</p>
+						<p class="ui-text-intro">Otherwise, click <a href="" onclick="history.go(-1);" title="Go Back" aria-label="Click to go back a page">>here</a> to go back to where you came from.</p>
 				</div>
 			</section>
 
 
 		<!-- FOOTER -->
-		<footer role="contentinfo" class="ui-section-footer">
+		<!-- FOOTER -->
+		<footer class="ui-section-footer">
 			<div class="ui-layout-container">
 				<div class="ui-section-footer__layout ui-layout-flex">
 					<!-- COPYRIGHT -->
-					<p class="ui-section-footer--copyright ui-text-note"><small>&copy; Daniel Whymark</small></p>
-					<!-- SOURCE -->
-					<small><a href="https://github.com/daniel-whymark/whymark_dot_net/" role="link" aria-label="Link to the site source code and credits" class="ui-text-note" rel="noopener" title="Link to the site source code and credits" target="_blank">&pi;</a></small>
+					<p class="ui-section-footer--copyright ui-text-note">
+						<small>
+							<a href="https://github.com/daniel-whymark/whymark_dot_net/" class="ui-text-note" aria-label="Link to the site source code and credits" title="Click to view the site source code and credits" rel="noopener" target="_blank">&copy; Daniel Whymark</a>
+						</small>
+					</p>
+					<!-- DEBUG -->
+					<nav class="ui-section-footer--nav ui-section-footer--social ui-layout-flex" aria-hidden="true">
+						<small>
+							<a href="/cdn-cgi/trace" tabindex="-1" class="ui-text-note" aria-label="&pi;" title="&pi;" rel="noopener" target="_blank">&pi;</a>
+						</small>
+					</nav>
 				</div>
 			</div>
 		</footer>

@@ -7,8 +7,8 @@ Flat, minimalistic responsive design. The goals were maximum speed, minimum file
 
 - Less than 15Kb total size for both html+css.
 - Image fallback options to allow for smallest filesizes, using webp where supported.
-- Responsive layout (adjustments at 768px, 1024px, and 1200px).
-- Light & Dark mode colour schemes
+- Responsive layout with adjustments triggered at 768px, 1024px, and 1200px.
+- Automatic light & dark mode colour schemes.
 
 
 ## Config

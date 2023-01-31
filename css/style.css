@@ -282,8 +282,8 @@ textarea {
 }
 
 .ui-component-button-primary:hover {
-  background-color: var(--ui-color-typography-button) !important;
-  color: var(--ui-color-brand) !important;
+  background-color: var(--ui-color-typography-placeholder);
+  color: var(--ui-color-brand);
 }
 
 .ui-component-button-normal {

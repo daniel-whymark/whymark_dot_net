@@ -362,9 +362,9 @@ form { width: 100%; }
   text-align: center;
 }
 
-.ui-section-hero--image { margin-top: var(--ui-gap-hero); }
-
-.ui-section-hero--image img { 
+.ui-section-hero--image {
+  margin-top: var(--ui-gap-hero);
+  aspect-ratio: 1/1;
   height: 200; 
   width: 200; 
 }

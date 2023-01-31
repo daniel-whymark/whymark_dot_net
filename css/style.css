@@ -921,3 +921,19 @@ form { width: 100%; }
     }
 
 }
+
+@media (max-width: 399px) {
+    .ui-section-hero--image img {
+      width: 200px;
+      height: 200px;
+    }
+}
+
+
+@media (min-width: 400px) {
+    .ui-section-hero--image img {
+      width: 400px;
+      height: 400px;
+    }
+}
+

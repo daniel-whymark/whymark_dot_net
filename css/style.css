@@ -276,14 +276,14 @@ textarea {
   text-align: center;
 }
 
-.ui-component-button-primary:hover {
-  background-color: var(--ui-color-typography-button);
-  color: var(--ui-color-brand);
-}
-
 .ui-component-button-primary {
   background-color: var(--ui-color-brand);
   color: var(--ui-color-typography-button);
+}
+
+.ui-component-button-primary:hover {
+  background-color: var(--ui-color-typography-button) !important;
+  color: var(--ui-color-brand) !important;
 }
 
 .ui-component-button-normal {

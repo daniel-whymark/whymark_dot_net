@@ -283,8 +283,13 @@ textarea {
 
 .ui-component-button-primary:hover {
   background-color: var(--ui-color-typography-note);
-  transition: all 250ms ease;
   color: var(--ui-color-brand);
+  transition: all 250ms ease;
+}
+
+.ui-component-button-primary:active {
+  color: var(--ui-color-typography-button);
+  transition: all 250ms ease;
 }
 
 .ui-component-button-normal {

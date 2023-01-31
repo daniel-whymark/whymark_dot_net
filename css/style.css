@@ -899,7 +899,7 @@ form { width: 100%; }
       --ui-color-n-000: #000000FF; /* Primary panel background colour */
       --ui-color-n-025: #1C1C1EFF; /* Secondary panel background colour */
       --ui-color-n-050: #2C2C2EFF; /* Tertiary panel background colour */
-      --ui-color-n-300: #6E6E73FF; /* Note class */
+      --ui-color-n-300: #969696FF; /* Note class */
       --ui-color-n-400: #EBEBF54D; /* Form placeholder text */
       --ui-color-n-500: #FFFFFFFF; /* Headings text and svg */
       --ui-color-n-900: #EBEBF599; /* Body text */

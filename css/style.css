@@ -699,6 +699,16 @@ form { width: 100%; }
     text-shadow: 0 0.01em var(--ui-color-typography-hover),0 -0.01em var(--ui-color-typography-hover),0.01em 0 var(--ui-color-typography-hover),-0.01em 0 var(--ui-color-typography-hover);
   }
 
+  a:not(.ui-text-note):hover {
+    color: var(--ui-color-typography-hover);
+    fill: var(--ui-color-typography-hover);
+    text-shadow: 0 0.01em var(--ui-color-typography-hover),0 -0.01em var(--ui-color-typography-hover),0.01em 0 var(--ui-color-typography-hover),-0.01em 0 var(--ui-color-typography-hover);
+  }
+
+  a:ui-text-note:hover {
+    text-shadow: 0 0 2 currentColor;
+  }
+
   /*------------------------------------------------------------
   LAYOUT
   ------------------------------------------------------------*/

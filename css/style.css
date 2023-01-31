@@ -26,6 +26,8 @@ TABLE OF CONTENT
 |  8.2 1024PX
 |  8.3 1200PX
 |  8.4 DARK MODE
+|  8.5 RESPONSIVE IMAGES
+
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
@@ -47,7 +49,7 @@ TABLE OF CONTENT
   --ui-color-n-000: #FFFFFFFF; /* Primary panel background colour */
   --ui-color-n-025: #F2F2F7FF; /* Secondary panel background colour */
   --ui-color-n-050: #FFFFFFFF; /* Tertiary panel background colour */
-  --ui-color-n-300: #86868BFF; /* Note class */
+  --ui-color-n-300: #58585B; /* Note class */
   --ui-color-n-400: #3C3C434D; /* Form placeholder text */
   --ui-color-n-500: #000000FF; /* Headings text and svg */
   --ui-color-n-900: #3C3C4399; /* Body text */
@@ -364,6 +366,11 @@ form { width: 100%; }
 
 .ui-section-hero--image { margin-top: var(--ui-gap-hero); }
 
+.ui-section-hero--image img {
+  width: 200px;
+  height: 200px;
+}
+
 /*--------------------------------------------------------------
 |
 | 7.3 CUSTOMER
@@ -481,8 +488,8 @@ form { width: 100%; }
 | 8.1 768PX
 |
 --------------------------------------------------------------*/
-/* 768px targeted but 700px specified to set effective usage for modern phones in portrait */
 
+/* 768px targeted but 700px specified to set effective usage for modern phones in portrait */
 @media only screen and (min-width: 700px) {
 
   /*------------------------------------------------------------
@@ -867,11 +874,11 @@ form { width: 100%; }
 
 /*--------------------------------------------------------------
 |
-| 8.4 Dark Mode
+| 8.4 DARK MODE
 |
 --------------------------------------------------------------*/
 
-@media (prefers-color-scheme: dark) {
+@media only screen and (prefers-color-scheme: dark) {
   
   /*------------------------------------------------------------
   VARIABLE
@@ -881,7 +888,7 @@ form { width: 100%; }
 
   /*------------------------------------------------------------
   |
-  | 1.1 COLOR
+  | COLOR
   |
   ------------------------------------------------------------*/
 
@@ -892,7 +899,7 @@ form { width: 100%; }
       --ui-color-n-000: #000000FF; /* Primary panel background colour */
       --ui-color-n-025: #1C1C1EFF; /* Secondary panel background colour */
       --ui-color-n-050: #2C2C2EFF; /* Tertiary panel background colour */
-      --ui-color-n-300: #6E6E73FF; /* Note class */
+      --ui-color-n-300: #969696FF; /* Note class */
       --ui-color-n-400: #EBEBF54D; /* Form placeholder text */
       --ui-color-n-500: #FFFFFFFF; /* Headings text and svg */
       --ui-color-n-900: #EBEBF599; /* Body text */
@@ -918,6 +925,27 @@ form { width: 100%; }
 
       --ui-color-typography-hover  : var(--ui-color-n-950);
 
+    }
+
+}
+
+/*--------------------------------------------------------------
+|
+| 8.5 RESPONSIVE IMAGES
+|
+--------------------------------------------------------------*/
+
+@media only screen and (min-width: 400px) {
+    
+  /*------------------------------------------------------------
+  |
+  | HERO
+  |
+  ------------------------------------------------------------*/
+
+    .ui-section-hero--image img {
+      width: 400px !important;
+      height: 400px !important;
     }
 
 }

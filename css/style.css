@@ -42,7 +42,7 @@ TABLE OF CONTENT
   |
   ------------------------------------------------------------*/
 
-  --ui-color-brand: #000000FF; /* Links (both text and SVG) and buttons text */
+  --ui-color-brand: #000000FF; /* Links (both text and SVG) and button background */
 
   /* COLOR PALETTE */
 
@@ -276,10 +276,9 @@ textarea {
   text-align: center;
 }
 
-.ui-component-button-primary:hover {
-  color: var(--ui-color-typography-note);
-  background-color: var(--ui-color-background-body);
-}
+.ui-component-button:hover {
+  background-color: var(--ui-color-typography-button);
+  color: var(--ui-color-brand);}
 
 .ui-component-button-primary {
   background-color: var(--ui-color-brand);
@@ -897,7 +896,7 @@ form { width: 100%; }
   |
   ------------------------------------------------------------*/
 
-      --ui-color-brand: #FFFFFFFF; /* Links (both text and SVG) and buttons text */
+      --ui-color-brand: #FFFFFFFF; /* Links (both text and SVG) and button background */
 
       /* COLOR PALETTE */
 

@@ -219,14 +219,17 @@
 					<!-- IMAGE -->
 					<div class="ui-section-hero--image">
 						<picture>
-							<source type="image/webp" srcset="/images/profile-thumb.webp" media="(min-width: 400px)">
-							<source type="image/webp" srcset="/images/profile-thumb-mobile.webp">
-							<source type="image/png" srcset="/images/profile-thumb.png" media="(min-width: 400px)">
-							<source type="image/png" srcset="/images/profile-thumb-mobile.png">
-							<img src="/images/profile-thumb.png" width="400" height="400" alt="Picture of Daniel Whymark" title="Daniel Whymark" usemap="#avatarmap">
+							<source type="image/webp" srcset="/images/profile-thumb.webp" media="(min-width: 400px)" width="400" height="400" usemap="#avatarmap400">
+							<source type="image/webp" srcset="/images/profile-thumb-mobile.webp" width="200" height="200" usemap="#avatarmap200">
+							<source type="image/png" srcset="/images/profile-thumb.png" media="(min-width: 400px)" width="400" height="400" usemap="#avatarmap400">
+							<source type="image/png" srcset="/images/profile-thumb-mobile.png" width="200" height="200" usemap="#avatarmap200">
+							<img src="/images/profile-thumb.png" width="400" height="400" alt="Picture of Daniel Whymark" title="Daniel Whymark" usemap="#avatarmap400" crossorigin="anonymous" loading="lazy">
 						</picture>
-						<map name="avatarmap">
+						<map name="avatarmap400">
 							<area shape="circle" coords="200,200,200" href="/images/profile.png" title="Click for a full-size picture" alt="Link to full-size picture of Daniel Whymark" aria-label="Link to full-size picture of Daniel Whymark" rel="noopener" target="_blank">
+						</map>
+						<map name="avatarmap200">
+							<area shape="circle" coords="100,100,100" href="/images/profile.png" title="Click for a full-size picture" alt="Link to full-size picture of Daniel Whymark" aria-label="Link to full-size picture of Daniel Whymark" rel="noopener" target="_blank">
 						</map>
 					</div>
 

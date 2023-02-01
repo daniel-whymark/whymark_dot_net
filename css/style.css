@@ -276,15 +276,15 @@ textarea {
   text-align: center;
 }
 
-.ui-component-button-primary {
-  background-color: var(--ui-color-brand);
-  color: var(--ui-color-typography-button);
-}
-
-.ui-component-button-primary:hover {
+.ui-component-button:hover {
   background-color: var(--ui-color-typography-note);
   color: var(--ui-color-brand);
   transition: all 250ms ease;
+}
+
+.ui-component-button-primary {
+  background-color: var(--ui-color-brand);
+  color: var(--ui-color-typography-button);
 }
 
 .ui-component-button-primary:active {

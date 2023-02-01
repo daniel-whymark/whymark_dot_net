@@ -690,7 +690,10 @@ form { width: 100%; }
   TYPOGRAPHY
   ------------------------------------------------------------*/
 
-  a { transition: all 250ms ease; }
+  a {
+    text-decoration: bold;
+    transition: all 250ms ease;
+  }
 
   a:not(.ui-component-button):hover {
     color: var(--ui-color-typography-hover);

@@ -697,14 +697,14 @@ form { width: 100%; }
     color: var(--ui-color-typography-hover);
     fill: var(--ui-color-typography-hover);
     text-shadow: 0px 0px 2px var(--ui-color-typography-hover);
+
+    .ui-text-note {
+      color: var(--ui-color-typography-hover);
+      fill: var(--ui-color-typography-hover);
+      text-shadow: 0px 0px 2px var(--ui-color-typography-hover);  
+    }
   }
 
-/*  a *:hover {
-    color: var(--ui-color-typography-hover);
-    fill: var(--ui-color-typography-hover);
-    text-shadow: 0px 0px 2px var(--ui-color-typography-hover);
-  }
-*/
   /*------------------------------------------------------------
   LAYOUT
   ------------------------------------------------------------*/

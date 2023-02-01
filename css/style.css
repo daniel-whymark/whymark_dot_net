@@ -699,12 +699,12 @@ form { width: 100%; }
     text-shadow: 0px 0px 2px var(--ui-color-typography-hover);
   }
 
-  a *:hover {
+/*  a *:hover {
     color: var(--ui-color-typography-hover);
     fill: var(--ui-color-typography-hover);
     text-shadow: 0px 0px 2px var(--ui-color-typography-hover);
   }
-
+*/
   /*------------------------------------------------------------
   LAYOUT
   ------------------------------------------------------------*/

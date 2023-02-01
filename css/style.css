@@ -49,7 +49,7 @@ TABLE OF CONTENT
   --ui-color-n-000: #FFFFFFFF;  /* Primary panel background colour */
   --ui-color-n-025: #F2F2F7FF;  /* Secondary panel background colour */
   --ui-color-n-050: #FFFFFFFF;  /* Tertiary panel background colour */
-  --ui-color-n-300: #58585BFF;  /* Note class */
+  --ui-color-n-300: #58585BFF;  /* Small class */
   --ui-color-n-400: #3C3C434D;  /* Form placeholder text */
   --ui-color-n-500: #000000FF;  /* Headings text and svg */
   --ui-color-n-900: #3C3C43FF;  /* Body text */
@@ -70,7 +70,7 @@ TABLE OF CONTENT
 
   --ui-color-typography-heading: var(--ui-color-n-500);
   --ui-color-typography-body   : var(--ui-color-n-900);
-  --ui-color-typography-note   : var(--ui-color-n-300);
+  --ui-color-typography-small   : var(--ui-color-n-300);
   --ui-color-typography-button : var(--ui-color-n-000);
 
   --ui-color-typography-hover  : var(--ui-color-n-950);
@@ -192,7 +192,7 @@ strong { font-weight: 700; }
 
 small {
   font-size: var(--ui-typography-s);
-  color: var(--ui-color-typography-note);
+  color: var(--ui-color-typography-small);
   line-height: 1;
 }
 
@@ -276,7 +276,7 @@ textarea {
 }
 
 .ui-component-button:hover {
-  background-color: var(--ui-color-typography-note);
+  background-color: var(--ui-color-typography-small);
   color: var(--ui-color-brand);
   transition: all 250ms ease;
 }
@@ -699,7 +699,7 @@ form { width: 100%; }
   }
 
   a.small:hover {
-    text-shadow: 0px 0px 2px var(--ui-color-typography-note);
+    text-shadow: 0px 0px 2px var(--ui-color-typography-small);
   }
 
   /*------------------------------------------------------------
@@ -913,7 +913,7 @@ form { width: 100%; }
       --ui-color-n-000: #000000FF; /* Primary panel background colour */
       --ui-color-n-025: #1C1C1EFF; /* Secondary panel background colour */
       --ui-color-n-050: #2C2C2EFF; /* Tertiary panel background colour */
-      --ui-color-n-300: #969696FF; /* Note class */
+      --ui-color-n-300: #969696FF; /* Small class */
       --ui-color-n-400: #EBEBF54D; /* Form placeholder text */
       --ui-color-n-500: #FFFFFFFF; /* Headings text and svg */
       --ui-color-n-900: #EBEBF599; /* Body text */
@@ -934,7 +934,7 @@ form { width: 100%; }
 
       --ui-color-typography-heading: var(--ui-color-n-500);
       --ui-color-typography-body   : var(--ui-color-n-900);
-      --ui-color-typography-note   : var(--ui-color-n-300);
+      --ui-color-typography-small   : var(--ui-color-n-300);
       --ui-color-typography-button : var(--ui-color-n-000);
 
       --ui-color-typography-hover  : var(--ui-color-n-950);

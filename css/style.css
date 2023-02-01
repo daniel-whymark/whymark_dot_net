@@ -699,7 +699,7 @@ form { width: 100%; }
     text-shadow: 0px 0px 2px var(--ui-color-typography-hover);
   }
 
-  small.ui-text-note {
+  small.ui-text-note:hover {
     color: currentColor;
   }
 

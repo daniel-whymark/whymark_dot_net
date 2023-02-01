@@ -691,7 +691,7 @@ form { width: 100%; }
   ------------------------------------------------------------*/
 
   a {
-    text-decoration: bold;
+    font-weight: bold;
     transition: all 250ms ease;
   }
 

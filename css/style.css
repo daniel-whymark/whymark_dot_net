@@ -699,9 +699,9 @@ form { width: 100%; }
   }
 
   .group-hover:hover {
-    color: var(--ui-color-typography-hover);
-    fill: var(--ui-color-typography-hover);
-    text-shadow: 0px 0px 2px var(--ui-color-typography-hover);
+    color: var(--ui-color-typography-hover) !important;
+    fill: var(--ui-color-typography-hover) !important;
+    text-shadow: 0px 0px 2px var(--ui-color-typography-hover) !important;
   }
 
   /*------------------------------------------------------------

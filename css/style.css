@@ -696,7 +696,7 @@ form { width: 100%; }
   a:not(.ui-component-button):hover {
     color: var(--ui-color-typography-hover);
     fill: var(--ui-color-typography-hover);
-    text-shadow: 2px 2px 0 var(--ui-color-typography-hover);
+    text-shadow: 0px 2px 0 var(--ui-color-typography-hover), 0px -2px 0 var(--ui-color-typography-hover), 2px 0px 0 var(--ui-color-typography-hover), -2px 0px 0 var(--ui-color-typography-hover);
   }
 
   /*------------------------------------------------------------

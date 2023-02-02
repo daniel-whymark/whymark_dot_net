@@ -37,6 +37,9 @@ https://cdn.whymark.net/*
 https://cdn.whymark.social/*
   X-Robots-Tag: noindex
 
+https://whymark.social/explore/*
+  X-Robots-Tag: noindex
+
 /cdn-cgi/*
   X-Robots-Tag: noindex
 

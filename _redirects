@@ -1,6 +1,7 @@
 /about.html https://whymark.net/ 301
 /request https://request.whymark.net/ 301
 /requests https://request.whymark.net/ 301
+/public https://whymark.social/public 301
 /.well-known/host-meta* https://whymark.social/.well-known/host-meta:splat 301
 /.well-known/webfinger* https://whymark.social/.well-known/webfinger:splat 301
 /.well-known/nodeinfo* https://whymark.social/.well-known/nodeinfo:splat 301

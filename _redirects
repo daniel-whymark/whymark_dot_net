@@ -1,6 +1,4 @@
 /about.html https://whymark.net/ 301
 /request https://request.whymark.net/ 301
 /requests https://request.whymark.net/ 301
-/public https://whymark.social/public 301
-/.well-known/webfinger* https://mastodon.social/.well-known/webfinger:splat 301
 

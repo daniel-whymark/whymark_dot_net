@@ -160,7 +160,7 @@ a {
   text-decoration: none;
 }
 
-p.a {
+.ui-text-intro.a {
   color: var(--ui-color-brand-inline);
   text-decoration: none;
 }

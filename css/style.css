@@ -52,10 +52,7 @@ TABLE OF CONTENT
   --ui-color-n-500: #000000FF;  /* Headings text and svg */
   --ui-color-n-900: #3C3C43FF;  /* Body text */
   --ui-color-n-950: #007AFFFF;  /* Hover colour */
-
   --ui-color-brand:  #000000FF; /* Links (both text and SVG) and button background */
-  --ui-color-inline: #5856D6FF; /* Override for inline text links */
-
 
   /* BACKGROUND COLOR */
   
@@ -74,7 +71,6 @@ TABLE OF CONTENT
   --ui-color-typography-body   : var(--ui-color-n-900);
   --ui-color-typography-small   : var(--ui-color-n-300);
   --ui-color-typography-button : var(--ui-color-n-000);
-
   --ui-color-typography-hover  : var(--ui-color-n-950);
   
 
@@ -163,7 +159,7 @@ a {
 }
 
 .ui-text-intro a {
-  color: var(--ui-color-inline);
+  color: var(--ui-color-brand);
   text-decoration: none;
 }
 
@@ -921,9 +917,7 @@ form { width: 100%; }
       --ui-color-n-500: #FFFFFFFF; /* Headings text and svg */
       --ui-color-n-900: #EBEBF599; /* Body text */
       --ui-color-n-950: #0A84FFFF; /* Hover colour */
-    
       --ui-color-brand:  #FFFFFFFF; /* Links (both text and SVG) and button background */
-      --ui-color-inline: #5856D6FF; /* Override for inline text links */
     
       /* BACKGROUND COLOR */
   
@@ -942,7 +936,6 @@ form { width: 100%; }
       --ui-color-typography-body   : var(--ui-color-n-900);
       --ui-color-typography-small   : var(--ui-color-n-300);
       --ui-color-typography-button : var(--ui-color-n-000);
-
       --ui-color-typography-hover  : var(--ui-color-n-950);
 
     }

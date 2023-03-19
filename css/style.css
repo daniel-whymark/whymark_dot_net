@@ -42,7 +42,8 @@ TABLE OF CONTENT
   |
   ------------------------------------------------------------*/
 
-  --ui-color-brand: #000000FF; /* Links (both text and SVG) and button background */
+  --ui-color-brand:           #000000FF; /* Links (both text and SVG) and button background */
+  --ui-color-brand-inline:    #c3423f; /* Override for inline text links */
 
   /* COLOR PALETTE */
 
@@ -156,6 +157,11 @@ body {
 
 a {
   color: var(--ui-color-brand);
+  text-decoration: none;
+}
+
+p.a {
+  color: var(--ui-color-brand-inline);
   text-decoration: none;
 }
 

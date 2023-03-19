@@ -53,7 +53,7 @@ TABLE OF CONTENT
   --ui-color-n-400: #3C3C434D;  /* Form placeholder text */
   --ui-color-n-500: #000000FF;  /* Headings text and svg */
   --ui-color-n-900: #3C3C43FF;  /* Body text */
-  --ui-color-n-950: #648DE5FF;  /* Hover colour */
+  --ui-color-n-950: #007AFFFF;  /* Hover colour */
 
   /* BACKGROUND COLOR */
   
@@ -918,7 +918,7 @@ form { width: 100%; }
       --ui-color-n-400: #EBEBF54D; /* Form placeholder text */
       --ui-color-n-500: #FFFFFFFF; /* Headings text and svg */
       --ui-color-n-900: #EBEBF599; /* Body text */
-      --ui-color-n-950: #304C89FF; /* Hover colour */
+      --ui-color-n-950: #0A84FFFF; /* Hover colour */
     
       /* BACKGROUND COLOR */
   

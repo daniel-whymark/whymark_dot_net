@@ -159,7 +159,7 @@ a {
 }
 
 .ui-text-intro a {
-  color: var(--ui-color-hover);
+  color: var(--ui-color-typography-hover);
   text-decoration: none;
 }
 

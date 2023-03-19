@@ -51,9 +51,9 @@ TABLE OF CONTENT
   --ui-color-n-400: #3C3C434D;  /* Form placeholder text */
   --ui-color-n-500: #000000FF;  /* Headings text and svg */
   --ui-color-n-900: #3C3C43FF;  /* Body text */
-  --ui-color-n-950: #5856D6FF;  /* Hover colour */
+  --ui-color-n-950: #007AFFFF;  /* Hover colour */
   --ui-color-brand: #000000FF;  /* Links (both text and SVG) and button background */
-  --ui-color-intro: #5856D6FF;  /* Links inside the intro class */
+  --ui-color-intro: #007AFFCC;  /* Links inside the intro class */
 
   /* BACKGROUND COLOR */
   

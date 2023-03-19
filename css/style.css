@@ -58,8 +58,8 @@ TABLE OF CONTENT
   /* BACKGROUND COLOR */
   
   --ui-color-background-primary  : var(--ui-color-n-000);
-  --ui-color-background-secondary: var(--ui-color-n-025);
-  --ui-color-background-tertiary : var(--ui-color-n-050);
+  --ui-color-background-secondary: var(--ui-color-n-050);
+  --ui-color-background-tertiary : var(--ui-color-n-025);
 
   /* FORM COLOR */
 
@@ -699,10 +699,6 @@ form { width: 100%; }
     text-shadow: 0 0 1px currentColor;
   }
 
-  /*a:not(.ui-section-testimonial__layout *):hover {
-    text-decoration: underline;
-  }*/
-
   /*------------------------------------------------------------
   LAYOUT
   ------------------------------------------------------------*/
@@ -923,8 +919,8 @@ form { width: 100%; }
       /* BACKGROUND COLOR */
   
       --ui-color-background-primary  : var(--ui-color-n-000);
-      --ui-color-background-secondary: var(--ui-color-n-025);
-      --ui-color-background-tertiary : var(--ui-color-n-050);
+      --ui-color-background-secondary: var(--ui-color-n-050);
+      --ui-color-background-tertiary : var(--ui-color-n-025);
 
       /* FORM COLOR */
 

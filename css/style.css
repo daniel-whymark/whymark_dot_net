@@ -58,8 +58,8 @@ TABLE OF CONTENT
   /* BACKGROUND COLOR */
   
   --ui-color-background-primary  : var(--ui-color-n-000);
-  --ui-color-background-secondary: var(--ui-color-n-050);
-  --ui-color-background-tertiary : var(--ui-color-n-025);
+  --ui-color-background-secondary: var(--ui-color-n-025);
+  --ui-color-background-tertiary : var(--ui-color-n-050);
 
   /* FORM COLOR */
 
@@ -919,8 +919,8 @@ form { width: 100%; }
       /* BACKGROUND COLOR */
   
       --ui-color-background-primary  : var(--ui-color-n-000);
-      --ui-color-background-secondary: var(--ui-color-n-050);
-      --ui-color-background-tertiary : var(--ui-color-n-025);
+      --ui-color-background-secondary: var(--ui-color-n-025);
+      --ui-color-background-tertiary : var(--ui-color-n-050);
 
       /* FORM COLOR */
 

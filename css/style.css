@@ -699,9 +699,9 @@ form { width: 100%; }
     text-shadow: 0 0 1px currentColor;
   }
 
-  a:not(.ui-section-testimonial__layout *):hover {
+  /*a:not(.ui-section-testimonial__layout *):hover {
     text-decoration: underline;
-  }
+  }*/
 
   /*------------------------------------------------------------
   LAYOUT

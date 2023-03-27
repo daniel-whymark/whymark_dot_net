@@ -1,4 +1,48 @@
 /about.html https://whymark.net/ 301
+
 /request https://request.whymark.net/ 301
 /requests https://request.whymark.net/ 301
+requests.whymark.net/* https://request.whymark.net/:splat 301
+www.whymark.net/* https://whymark.net/:splat 301
+daniel.whymark.net/* https://whymark.net/:splat 301
+mail.whymark.net/* https://mail.google.com/a/whymark.net/ 302
 
+www.whymark-cdn.net/* https://whymark-cdn.net/:splat 301
+daniel.whymark-cdn.net/* https://whymark-cdn.net/:splat 301
+mail.whymark-cdn.net/* https://mail.google.com/a/whymark.net/ 302
+
+www.whymark.co/* https://whymark.co/:splat 301
+daniel.whymark.co/* https://whymark.co/:splat 301
+mail.whymark.co/* https://mail.google.com/a/whymark.net/ 302
+
+www.whymark.email/* https://whymark.email/:splat 301
+daniel.whymark.email/* https://whymark.email/:splat 301
+mail.whymark.email/* https://mail.google.com/a/whymark.net/ 302
+
+www.whymark.io/* https://whymark.io/:splat 301
+daniel.whymark.io/* https://whymark.io/:splat 301
+mail.whymark.io/* https://mail.google.com/a/whymark.net/ 302
+
+www.whymark.me/* https://whymark.me/:splat 301
+daniel.whymark.me/* https://whymark.me/:splat 301
+mail.whymark.me/* https://mail.google.com/a/whymark.net/ 302
+
+www.whymark.org/* https://whymark.org/:splat 301
+daniel.whymark.org/* https://whymark.org/:splat 301
+mail.whymark.org/* https://mail.google.com/a/whymark.net/ 302
+
+www.whymark.org.uk/* https://whymark.org.uk/:splat 301
+daniel.whymark.org.uk/* https://whymark.org.uk/:splat 301
+mail.whymark.org.uk/* https://mail.google.com/a/whymark.net/ 302
+
+www.whymark.social/* https://whymark.social/:splat 301
+daniel.whymark.social/* https://whymark.social/:splat 301
+mail.whymark.social/* https://mail.google.com/a/whymark.net/ 302
+
+www.whymark.xyz/* https://whymark.xyz/:splat 301
+daniel.whymark.xyz/* https://whymark.xyz/:splat 301
+mail.whymark.xyz/* https://mail.google.com/a/whymark.net/ 302
+
+www.ymark.net/* https://ymark.net/:splat 301
+daniel.ymark.net/* https://ymark.net/:splat 301
+mail.ymark.net/* https://mail.google.com/a/whymark.net/ 302

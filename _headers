@@ -28,7 +28,13 @@ https://mail.whymark.xyz/*
 https://mail.ymark.net/*
   X-Robots-Tag: noindex
 
+https://mail.whymark-cdn.net/*
+  X-Robots-Tag: noindex
+
 https://dash.whymark.net/*
+  X-Robots-Tag: noindex
+
+https://drive.whymark.net/*
   X-Robots-Tag: noindex
 
 /cdn-cgi/*

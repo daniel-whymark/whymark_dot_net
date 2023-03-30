@@ -23,7 +23,7 @@ In addition to the template, the following is present:
 I would strongly recommened that you review the following files and linked documentation to ensure that the level of security is suitable for your site:
 - robots.txt to control [Web Crawlers & Robots](https://en.wikipedia.org/wiki/Robots_exclusion_standard)
 - crossdomain.xml & clientaccespolicy.xml to limit [Flash & Silverlight](https://en.wikipedia.org/wiki/Cross-site_request_forgery)
-- .well-known/mta-sts.txt for [Mail Transfer Agent Strict Transport Security](https://www.ncsc.gov.uk/collection/email-security-and-anti-spoofing/using-mta-sts-to-protect-the-privacy-of-your-emails)
+- .well-known/mta-sts.txt for [Mail Transfer Agent Strict Transport Security](https://www.ncsc.gov.uk/collection/email-security-and-anti-spoofing/using-mta-sts-to-protect-the-privacy-of-your-emails), the current version we implement is [here](https://github.com/daniel-whymark/whymark_dot_net_mta-sts).
 - ads.txt for restricting [Authorized Digital Sellers](https://iabtechlab.com/ads-txt/)
 
 

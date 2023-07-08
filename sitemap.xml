@@ -8,4 +8,12 @@
 			<image:loc>https://whymark.net/images/profile.png</image:loc>
 	    </image:image>
 	</url>
+	<url>
+		<loc>https://whymark.net/index.html</loc>
+		<priority>0.5</priority>
+		<changefreq>daily</changefreq>
+		<image:image>
+			<image:loc>https://whymark.net/images/profile.png</image:loc>
+	    </image:image>
+	</url>
 </urlset>

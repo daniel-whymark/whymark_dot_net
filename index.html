@@ -199,13 +199,30 @@
 		<header class="ui-section-header" aria-hidden="true">
 			<div class="ui-layout-container">
 				<div class="ui-section-header__layout ui-layout-flex">
-					<a href="#contact" tabindex="-1">
-						<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16" height="16" width="16" role="img">
-              				<title>Contact Me</title>
+					<a href="#personal" role="link" tabindex="-1">
+						<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 18" height="18" width="18" role="img">
+              				<title>Who I Am</title>
+							  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
+							  <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"></path>
+						</svg>
+					</a>
+					&nbsp;
+					<a href="#sm_links" role="link" tabindex="-1">
+						<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 18" height="18" width="18" role="img">
+              				<title>Follow Me</title>
+							<path d="M5 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"></path>
+							<path d="m2.165 15.803.02-.004c1.83-.363 2.948-.842 3.468-1.105A9.06 9.06 0 0 0 8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6a10.437 10.437 0 0 1-.524 2.318l-.003.011a10.722 10.722 0 0 1-.244.637c-.079.186.074.394.273.362a21.673 21.673 0 0 0 .693-.125zm.8-3.108a1 1 0 0 0-.287-.801C1.618 10.83 1 9.468 1 8c0-3.192 3.004-6 7-6s7 2.808 7 6c0 3.193-3.004 6-7 6a8.06 8.06 0 0 1-2.088-.272 1 1 0 0 0-.711.074c-.387.196-1.24.57-2.634.893a10.97 10.97 0 0 0 .398-2z"></path>
+						</svg>
+					</a>
+					&nbsp;
+					<a href="#contact_form" role="link" tabindex="-1">
+						<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 18" height="18" width="18" role="img">
+              				<title>Email Me</title>
 							<path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2H2Zm3.708 6.208L1 11.105V5.383l4.708 2.825ZM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2-7-4.2Z"></path>
 							<path d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648Zm-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z"></path>
 						</svg>
 					</a>
+
 				</div>
 			</div>
 		</header>
@@ -216,7 +233,7 @@
 				<div class="ui-layout-container">
 
 					<!-- IMAGE -->
-					<div class="ui-section-hero--image">
+					<div id="personal" class="ui-section-hero--image">
 						<picture>
 							<source type="image/webp" srcset="/images/profile-thumb-mobile.webp 200w, /images/profile-thumb.webp 400w" sizes="(min-width: 400px) 400px, 200px">
 							<source type="image/png" srcset="/images/profile-thumb-mobile.png 200w, /images/profile-thumb.png 400w" sizes="(min-width: 400px) 400px, 200px">
@@ -232,7 +249,7 @@
 						<br>
 						<h1>Daniel Whymark</h1>
 						<p>
-								<a href="https://www.google.com/maps/place/Leeds/" aria-label="Link to a map of Leeds" title="Click for a map of Leeds" rel="noopener" target="_blank">Leeds, United Kingdom</a>
+							<a href="https://www.google.com/maps/place/Leeds/" aria-label="Link to a map of Leeds" title="Click for a map of Leeds" rel="noopener" target="_blank">Leeds, United Kingdom</a>
 						</p>
 						<div class="ui-component-cta ui-layout-flex">
 							<p class="ui-text-intro">I am a Cloud Engineer based in <a href="https://www.google.com/maps/place/Leeds/" aria-label="Link to a map of Leeds" rel="noopener" title="Click for a map of Leeds" target="_blank">Leeds</a> and working at <a href="https://www.bjss.com/" rel="noopener" title="Click to see information about BJSS" target="_blank">BJSS</a> to help create awesome stuff.</p>
@@ -247,10 +264,10 @@
 				<div class="ui-layout-container">
 
 					<!-- SOCIAL DESC -->
-					<div class="ui-layout-column-6 ui-layout-column-center">
-						<h2>Contact Me</h2>
+					<div id="sm_links" class="ui-layout-column-6 ui-layout-column-center">
+						<h2>Follow Me</h2>
 						<div class="ui-component-cta ui-layout-flex">
-							<p class="ui-text-intro">The best way to get in touch is via email, which you can do with the form located at the <a href="#contact" aria-label="Email Me" title="Click to jump to the email form">bottom of this page</a>.</p>
+							<p class="ui-text-intro">The best way to get in touch is via email, which you can do with the form located at the <a href="#contact_form" aria-label="Email Me" title="Click to jump to the email form">bottom of this page</a>.</p>
 							<p class="ui-text-intro">You can also connect with me via any of the below social networking methods.</p>
 						</div>
 					</div>
@@ -434,7 +451,7 @@
 				<div class="ui-layout-container">
 
 					<!-- CONTACT DESC -->
-					<div class="ui-layout-column-6 ui-layout-column-center">
+					<div id="contact_form" class="ui-layout-column-6 ui-layout-column-center">
 						<h2>Send Me an Email</h2>
 						<div class="ui-component-cta ui-layout-flex">
 							<p class="ui-text-intro">Fill in the form to send me a message.</p>
@@ -450,7 +467,7 @@
 							</form>
 							<form action="https://formspree.io/f/mlezvyrv" id="formspree" method="post" class="ui-component-form ui-layout-grid ui-layout-column-6">
 								<textarea rows="3" name="message" placeholder="&#10;What should we discuss?" aria-label="What should we talk about?" class="ui-component-input ui-component-input-medium" required></textarea>
-								<button id="contact" type="submit" title="Send message" aria-label="Send message" class="ui-component-button ui-component-button-normal ui-component-button-primary ui-component-button-small">Send</button>
+								<button type="submit" title="Send message" aria-label="Send message" class="ui-component-button ui-component-button-normal ui-component-button-primary ui-component-button-small">Send</button>
 								<input type="text" name="_gotcha" placeholder="" aria-hidden="true" style="display:none">
 							</form>
 							<p>

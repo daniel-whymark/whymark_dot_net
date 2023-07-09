@@ -33,7 +33,7 @@ Distributed under [MIT License](https://opensource.org/licenses/MIT). Feel free 
 
 ## Credits
 CSS template:  
-- [Uisual](https://github.com/uisual/freebies)
+- [Grid](https://github.com/uisual/freebies/tree/master/grid) by [Uisual](https://github.com/uisual/)
 
 SVG Icons:
 - [Bootstrap](https://icons.getbootstrap.com)

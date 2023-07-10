@@ -10,7 +10,7 @@ https://:whymark.pages.dev/*
   X-Permitted-Cross-Domain-Policies: none
   Referrer-Policy: no-referrer
   Permissions-Policy: document-domain=()
-  Content-Security-Policy: script-src 'self' 'unsafe-inline' ajax.cloudflare.com challenges.cloudflare.com; connect-src 'self'; frame-ancestors 'none';
+  Content-Security-Policy: script-src 'self' 'unsafe-inline' ajax.cloudflare.com challenges.cloudflare.com; connect-src 'self'; frame-ancestors 'none'; object-src 'none';
 
 https://whymark.net/*
   Access-Control-Allow-Origin: https://whymark.net

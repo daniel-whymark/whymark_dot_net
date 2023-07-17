@@ -44,8 +44,8 @@ TABLE OF CONTENT
 
   /* COLOR PALETTE */
 
-  --ui-color-n-000: #F2F2F7FF;  /* Primary panel background colour */
-  --ui-color-n-025: #EEEEEEFF;  /* Secondary panel background colour */
+  --ui-color-n-000: #EEEEEEFF;  /* Primary panel background colour */
+  --ui-color-n-025: #F2F2F7FF;  /* Secondary panel background colour */
   --ui-color-n-050: #FEFEFEFF;  /* Tertiary panel background colour */
   --ui-color-n-300: #58585BFF;  /* Small class */
   --ui-color-n-400: #3C3C434D;  /* Form placeholder text */
@@ -65,6 +65,7 @@ TABLE OF CONTENT
 
   --ui-color-form-input      : var(--ui-color-n-500);
   --ui-color-form-placeholder: var(--ui-color-n-400);
+  --ui-color-form-background : var(--ui-color-n-000);
 
   /* TYPOGRAPHY COLOR */
 
@@ -312,7 +313,7 @@ textarea {
 form { width: 100%; }
 
 .ui-component-form {
-  background-color: var(--ui-color-background-primary);
+  background-color: var(--ui-color-form-background);
   border-radius: var(--ui-radius-input);
   grid-template-columns: minmax(0, 1fr) auto;
   padding: .25rem;
@@ -931,6 +932,7 @@ form { width: 100%; }
 
       --ui-color-form-input      : var(--ui-color-n-500);
       --ui-color-form-placeholder: var(--ui-color-n-400);
+      --ui-color-form-background : var(--ui-color-n-000);
     
       /* TYPOGRAPHY COLOR */
 

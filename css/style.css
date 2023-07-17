@@ -324,8 +324,8 @@ form { width: 100%; }
 ::placeholder { color: var(--ui-color-form-placeholder); }
 
 .ui-component-input {
-  background-color: var(--ui-color-background-primary);
-  border: .0625rem solid var(--ui-color-background-primary);
+  background-color: var(--ui-color-form-background);
+  border: .0625rem solid var(--ui-color-form-background);
   border-radius: var(--ui-radius-input);
 }
 

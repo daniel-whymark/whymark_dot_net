@@ -328,7 +328,6 @@ form { width: 100%; }
   background-color: var(--ui-color-form-background);
   border: .0625rem solid var(--ui-color-form-background);
   border-radius: var(--ui-radius-input);
-  display: block;
 }
 
 .ui-component-input-medium {

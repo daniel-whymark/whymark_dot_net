@@ -385,6 +385,7 @@ form { width: 100%; }
 .ui-section-hero--image { margin-top: var(--ui-gap-hero); }
 
 .ui-section-hero--image img {
+  object-fit: scale-down;
   width: 200px;
   height: 200px;
 }

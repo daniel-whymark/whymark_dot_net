@@ -54,6 +54,7 @@ TABLE OF CONTENT
   --ui-color-n-950: #C93000FF;  /* Hover colour */
   --ui-color-brand: #000000FF;  /* Links (both text and SVG) and button background */
   --ui-color-intro: #A40000FF;  /* Links inside the intro class */
+  --ui-color-hero-border: #0000000F;  /* Framing border around the hero image */
   
   /* BACKGROUND COLOR */
   
@@ -216,6 +217,11 @@ svg {
   height: auto;
   margin: 0 auto;
   max-width: 100%;
+}
+
+img {
+  border: 1px solid var(--ui-color-hero-border);
+  border-radius: 50%;
 }
 
 /*--------------------------------------------------------------
@@ -924,6 +930,7 @@ form { width: 100%; }
       --ui-color-n-950: #FE5F2DFF; /* Hover colour */
       --ui-color-brand: #FFFFFFFF; /* Links (both text and SVG) and button background */
       --ui-color-intro: #FFA169FF; /* Links inside the intro class */
+      --ui-color-hero-border: #EEEEEE37;  /* Framing border around the hero image */
     
       /* BACKGROUND COLOR */
   

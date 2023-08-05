@@ -168,13 +168,14 @@
 					]
 				},
 				{
-					"@context": "http://www.schema.org",
 					"@type": "Person",
 					"@id": "https://whymark.net/#person",
 					"name": "Daniel Whymark",
 					"nationality": "United Kingdom",
 					"gender": "Male",
-					"image": "https://whymark.net/images/profile.png",
+					"image": {
+						"@id": "https://whymark.net/#logo"
+					},
 					"address": {
 						"@type": "PostalAddress",
 						"addressLocality": "Leeds",
@@ -190,6 +191,26 @@
 						"https://www.threads.net/@danielwhymark",
 						"https://www.instagram.com/danielwhymark/"
 					]
+				},
+				{
+					"@type": "Organization",
+					"@id": "https://whymark.net/#organisation",
+					"url": "https://whymark.net/",
+					"logo": {
+						"@id": "https://whymark.net/#logo"
+					}
+				},
+				{
+					"@type": "Article",
+					"headline": "Daniel Whymark",
+					"image": {
+						"@id": "https://whymark.net/#logo"
+					},
+					"author": {
+						"@id": "https://whymark.net/#person"
+					},
+					"url": "https://whymark.net/",
+					"keywords": "whymark, daniel"
 				}
 			]
 		}

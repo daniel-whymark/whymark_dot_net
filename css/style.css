@@ -366,7 +366,7 @@ form { width: 100%; }
 .ui-section-header {
   padding-bottom: 1.25rem;
   padding-top: 1.25rem;
-  visibility: hidden;
+  display: none;
 }
 
 .ui-section-header__layout { justify-content: flex-end; }
@@ -974,7 +974,7 @@ form { width: 100%; }
 
 /*--------------------------------------------------------------
 |
-| 8.6 MOBILE HEADER HIDING
+| 8.6 MOBILE ACCESSIBLE
 |
 --------------------------------------------------------------*/
 
@@ -987,7 +987,7 @@ form { width: 100%; }
   ------------------------------------------------------------*/
 
     .ui-section-header {
-      visibility: visible;
+      display: flex;
     }
 
 }

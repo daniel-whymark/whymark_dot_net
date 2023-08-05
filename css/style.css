@@ -366,6 +366,7 @@ form { width: 100%; }
 .ui-section-header {
   padding-bottom: 1.25rem;
   padding-top: 1.25rem;
+  visibility: hidden;
 }
 
 .ui-section-header__layout { justify-content: flex-end; }
@@ -617,7 +618,9 @@ form { width: 100%; }
   ------------------------------------------------------------*/
 
   .ui-section-header {
-    visibility: hidden;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    visibility: visible;
   }
 
   /*------------------------------------------------------------
@@ -811,6 +814,7 @@ form { width: 100%; }
   .ui-section-header {
     padding-bottom: 3rem;
     padding-top: 3rem;
+    visibility: visible;
   }
 
   /*------------------------------------------------------------

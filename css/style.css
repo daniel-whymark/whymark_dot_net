@@ -219,11 +219,6 @@ svg {
   max-width: 100%;
 }
 
-img {
-  border: 1px solid var(--ui-color-hero-border);
-  border-radius: 50%;
-}
-
 /*--------------------------------------------------------------
 5.0 LAYOUT
 --------------------------------------------------------------*/
@@ -394,6 +389,8 @@ form { width: 100%; }
   object-fit: scale-down;
   width: 200px;
   height: 200px;
+  border: 0.75px solid var(--ui-color-hero-border);
+  border-radius: 50%;
 }
 
 /*--------------------------------------------------------------
@@ -930,7 +927,7 @@ form { width: 100%; }
       --ui-color-n-950: #FE5F2DFF; /* Hover colour */
       --ui-color-brand: #FFFFFFFF; /* Links (both text and SVG) and button background */
       --ui-color-intro: #FFA169FF; /* Links inside the intro class */
-      --ui-color-hero-border: #EEEEEE37;  /* Framing border around the hero image */
+      --ui-color-hero-border: #EEEEEE47;  /* Framing border around the hero image */
     
       /* BACKGROUND COLOR */
   

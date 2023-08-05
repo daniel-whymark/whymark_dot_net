@@ -927,7 +927,7 @@ form { width: 100%; }
       --ui-color-n-950: #FE5F2DFF; /* Hover colour */
       --ui-color-brand: #FFFFFFFF; /* Links (both text and SVG) and button background */
       --ui-color-intro: #FFA169FF; /* Links inside the intro class */
-      --ui-color-hero-border: #EEEEEE37;  /* Framing border around the hero image */
+      --ui-color-hero-border: #EEEEEE3F;  /* Framing border around the hero image */
     
       /* BACKGROUND COLOR */
   

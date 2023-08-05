@@ -219,11 +219,6 @@ svg {
   max-width: 100%;
 }
 
-img {
-  border: 1px solid var(--ui-color-hero-border);
-  border-radius: 50%;
-}
-
 /*--------------------------------------------------------------
 5.0 LAYOUT
 --------------------------------------------------------------*/
@@ -394,6 +389,8 @@ form { width: 100%; }
   object-fit: scale-down;
   width: 200px;
   height: 200px;
+  border: 0.5px solid var(--ui-color-hero-border);
+  border-radius: 50%;
 }
 
 /*--------------------------------------------------------------

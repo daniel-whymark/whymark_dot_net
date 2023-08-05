@@ -620,7 +620,6 @@ form { width: 100%; }
   .ui-section-header {
     padding-bottom: 2rem;
     padding-top: 2rem;
-    visibility: visible;
   }
 
   /*------------------------------------------------------------
@@ -814,7 +813,6 @@ form { width: 100%; }
   .ui-section-header {
     padding-bottom: 3rem;
     padding-top: 3rem;
-    visibility: visible;
   }
 
   /*------------------------------------------------------------
@@ -970,6 +968,26 @@ form { width: 100%; }
     .ui-section-hero--image img {
       width: 400px !important;
       height: 400px !important;
+    }
+
+}
+
+/*--------------------------------------------------------------
+|
+| 8.6 MOBILE HEADER HIDING
+|
+--------------------------------------------------------------*/
+
+@media only screen and (min-width: 412px) {
+    
+  /*------------------------------------------------------------
+  |
+  | HEADER
+  |
+  ------------------------------------------------------------*/
+
+    .ui-section-header {
+      visibility: visible;
     }
 
 }

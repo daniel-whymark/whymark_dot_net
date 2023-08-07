@@ -11,80 +11,50 @@ https://:whymark.pages.dev/*
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: document-domain=()
   Content-Security-Policy: script-src 'self' 'unsafe-inline' ajax.cloudflare.com static.cloudflareinsights.com challenges.cloudflare.com; connect-src 'self' cloudflareinsights.com; frame-ancestors 'none'; object-src 'none';
+  Access-Control-Allow-Credentials: false
+  Access-Control-Max-Age: 600
+  Access-Control-Allow-Methods: GET,POST
 
 https://whymark.net/*
   Access-Control-Allow-Origin: https://whymark.net
-  Access-Control-Allow-Credentials: false
-  Access-Control-Max-Age: 600
-  Access-Control-Allow-Methods: GET,POST
 
 https://whymark.co/*
   Access-Control-Allow-Origin: https://whymark.co
-  Access-Control-Allow-Credentials: false
-  Access-Control-Max-Age: 600
-  Access-Control-Allow-Methods: GET,POST
   Link: <https://whymark.net/>; rel="canonical"
 
 https://whymark.email/*
   Access-Control-Allow-Origin: https://whymark.email
-  Access-Control-Allow-Credentials: false
-  Access-Control-Max-Age: 600
-  Access-Control-Allow-Methods: GET,POST
   Link: <https://whymark.net/>; rel="canonical"
 
 https://whymark.io/*
   Access-Control-Allow-Origin: https://whymark.io
-  Access-Control-Allow-Credentials: false
-  Access-Control-Max-Age: 600
-  Access-Control-Allow-Methods: GET,POST
   Link: <https://whymark.net/>; rel="canonical"
 
 https://whymark.me/*
   Access-Control-Allow-Origin: https://whymark.me
-  Access-Control-Allow-Credentials: false
-  Access-Control-Max-Age: 600
-  Access-Control-Allow-Methods: GET,POST
   Link: <https://whymark.net/>; rel="canonical"
 
 https://whymark.org/*
   Access-Control-Allow-Origin: https://whymark.org
-  Access-Control-Allow-Credentials: false
-  Access-Control-Max-Age: 600
-  Access-Control-Allow-Methods: GET,POST
   Link: <https://whymark.net/>; rel="canonical"
 
 https://whymark.org.uk/*
   Access-Control-Allow-Origin: https://whymark.org.uk
-  Access-Control-Allow-Credentials: false
-  Access-Control-Max-Age: 600
-  Access-Control-Allow-Methods: GET,POST
   Link: <https://whymark.net/>; rel="canonical"
 
 https://whymark.social/*
   Access-Control-Allow-Origin: https://whymark.social
-  Access-Control-Allow-Credentials: false
-  Access-Control-Max-Age: 600
-  Access-Control-Allow-Methods: GET,POST
   Link: <https://whymark.net/>; rel="canonical"
 
 https://whymark.xyz/*
   Access-Control-Allow-Origin: https://whymark.xyz
-  Access-Control-Allow-Credentials: false
-  Access-Control-Max-Age: 600
-  Access-Control-Allow-Methods: GET,POST
   Link: <https://whymark.net/>; rel="canonical"
 
 https://ymark.net/*
   Access-Control-Allow-Origin: https://ymark.net
-  Access-Control-Allow-Credentials: false
-  Access-Control-Max-Age: 600
-  Access-Control-Allow-Methods: GET,POST
   Link: <https://whymark.net/>; rel="canonical"
 
 https://whymark-cdn.net/*
   Access-Control-Allow-Origin: https://ymark.net
-  Access-Control-Allow-Credentials: false
-  Access-Control-Max-Age: 600
-  Access-Control-Allow-Methods: GET,POST
   Link: <https://whymark.net/>; rel="canonical"
 

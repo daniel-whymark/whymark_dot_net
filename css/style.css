@@ -101,7 +101,7 @@ TABLE OF CONTENT
 
   /* MARGIN */
 
-  --ui-typography-margin-heading: .75rem;
+  --ui-typography-margin-heading: 1rem;
   --ui-typography-margin-body   : 1.125rem;
 
   /*------------------------------------------------------------
@@ -749,7 +749,7 @@ form { width: 100%; }
 
     /* MARGIN */
 
-    --ui-typography-margin-heading: 1rem;
+    --ui-typography-margin-heading: 1.25rem;
     --ui-typography-margin-body   : 1.75rem;
 
     /*----------------------------------------------------------

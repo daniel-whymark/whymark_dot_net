@@ -664,7 +664,7 @@ form { width: 100%; }
   }
   
   .ui-section-footer__layout {
-    justify-content: space-around;
+    justify-content: space-between;
   }
   
   .ui-section-footer--menu {

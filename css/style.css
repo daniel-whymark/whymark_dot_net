@@ -711,6 +711,7 @@ form { width: 100%; }
     color: var(--ui-color-typography-hover);
     fill: var(--ui-color-typography-hover);
     text-shadow: 0 0 1px currentColor;
+    text-decoration: underline;
   }
 
   /*------------------------------------------------------------

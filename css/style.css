@@ -662,7 +662,11 @@ form { width: 100%; }
     padding-bottom: 2rem;
     padding-top: 2rem;
   }
-
+  
+  .ui-section-footer__layout {
+    justify-content: space-around;
+  }
+  
   .ui-section-footer--menu {
     left: 50%;
     position: absolute;

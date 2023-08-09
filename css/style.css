@@ -160,11 +160,20 @@ body {
 a {
   color: var(--ui-color-brand);
   text-decoration: none;
+  transition: all 250ms ease;
 }
 
 .ui-text-intro a {
   color: var(--ui-color-intro);
-  text-decoration: underline;
+  text-decoration: none;
+}
+
+a:not(.ui-component-button):hover,
+a:not(.ui-component-button):active,
+a:not(.ui-component-button):focus {
+  color: var(--ui-color-typography-hover);
+  fill: var(--ui-color-typography-hover);
+  text-shadow: 0 0 1px currentColor;
 }
 
 h1,
@@ -697,20 +706,6 @@ form { width: 100%; }
 
     --ui-layout-container: 0;
   
-  }
-
-  /*------------------------------------------------------------
-  TYPOGRAPHY
-  ------------------------------------------------------------*/
-
-  a { transition: all 250ms ease; }
-
-  a:not(.ui-component-button):hover,
-  a:not(.ui-component-button):active,
-  a:not(.ui-component-button):focus {
-    color: var(--ui-color-typography-hover);
-    fill: var(--ui-color-typography-hover);
-    text-shadow: 0 0 1px currentColor;
   }
 
   /*------------------------------------------------------------

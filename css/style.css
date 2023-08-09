@@ -705,7 +705,9 @@ form { width: 100%; }
 
   a { transition: all 250ms ease; }
 
-  a:not(.ui-component-button):hover {
+  a:not(.ui-component-button):hover,
+  a:not(.ui-component-button):active,
+  a:not(.ui-component-button):focus {
     color: var(--ui-color-typography-hover);
     fill: var(--ui-color-typography-hover);
     text-shadow: 0 0 1px currentColor;

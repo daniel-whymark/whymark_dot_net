@@ -168,13 +168,18 @@ a {
   text-decoration: none;
 }
 
+.ui-text-intro a:not(.ui-component-button):hover,
+.ui-text-intro a:not(.ui-component-button):active,
+.ui-text-intro a:not(.ui-component-button):focus {
+  text-decoration: underline;
+}
+
 a:not(.ui-component-button):hover,
 a:not(.ui-component-button):active,
 a:not(.ui-component-button):focus {
   color: var(--ui-color-typography-hover);
   fill: var(--ui-color-typography-hover);
   text-shadow: 0 0 1px currentColor;
-  text-decoration: underline;
 }
 
 h1,

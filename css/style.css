@@ -494,7 +494,7 @@ form { width: 100%; }
 .ui-section-footer__layout {
   row-gap: var(--ui-layout-gutter);
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   position: relative;
 }
 

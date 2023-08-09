@@ -917,16 +917,16 @@ form { width: 100%; }
 
       /* COLOR PALETTE */
       
-      --ui-color-n-000: #000000FF; /* Middle panel background colour */
+      --ui-color-n-000: #000000FF; /* Top panel background colour */
       --ui-color-n-025: #1C1C1EFF; /* Bottom panel background colour */
-      --ui-color-n-050: #2C2C2EFF; /* Top panel background colour */
+      --ui-color-n-050: #2C2C2EFF; /* Middle panel background colour */
       --ui-color-n-300: #969696FF; /* Small class */
       --ui-color-n-400: #EBEBF54D; /* Form placeholder text */
       --ui-color-n-500: #FFFFFFFF; /* Headings text and svg */
       --ui-color-n-900: #EBEBF599; /* Body text */
       --ui-color-n-950: #FE5F2DFF; /* Hover colour */
       --ui-color-brand: #FFFFFFFF; /* Links (both text and SVG) and button background */
-      --ui-color-intro: #FFA169FF; /* Links inside the intro class */
+      --ui-color-intro: #FFB58AFF; /* Links inside the intro class */
       --ui-color-hero-border: #EEEEEE47;  /* Framing border around the hero image */
     
       /* BACKGROUND COLOR */

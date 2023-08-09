@@ -492,8 +492,10 @@ form { width: 100%; }
 }
 
 .ui-section-footer__layout {
-  flex-direction: column-reverse;
   row-gap: var(--ui-layout-gutter);
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
 }
 
 .ui-section-footer--copyright { margin-bottom: 0; }
@@ -662,11 +664,9 @@ form { width: 100%; }
   }
   
   .ui-section-footer__layout {
-    flex-direction: row;
     justify-content: space-between;
-    position: relative;
   }
-
+  
   .ui-section-footer--menu {
     left: 50%;
     position: absolute;

@@ -164,7 +164,7 @@ a {
 
 .ui-text-intro a {
   color: var(--ui-color-intro);
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 h1,
@@ -711,7 +711,6 @@ form { width: 100%; }
     color: var(--ui-color-typography-hover);
     fill: var(--ui-color-typography-hover);
     text-shadow: 0 0 1px currentColor;
-    text-decoration: underline;
   }
 
   /*------------------------------------------------------------

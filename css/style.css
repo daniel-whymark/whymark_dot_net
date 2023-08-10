@@ -167,6 +167,12 @@ a {
   color: var(--ui-color-intro);
 }
 
+.ui-text-intro a:not(.ui-component-button):hover,
+.ui-text-intro a:not(.ui-component-button):active,
+.ui-text-intro a:not(.ui-component-button):focus {
+  text-decoration: underline;
+}
+
 a:not(.ui-component-button):hover,
 a:not(.ui-component-button):active,
 a:not(.ui-component-button):focus {

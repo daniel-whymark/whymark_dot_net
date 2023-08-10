@@ -53,7 +53,7 @@ TABLE OF CONTENT
   --ui-color-n-900: #3C3C43FF;  /* Body text */
   --ui-color-n-950: #C93000FF;  /* Hover colour */
   --ui-color-brand: #000000FF;  /* Links (both text and SVG) and button background */
-  --ui-color-intro: #b50010FF;  /* Links inside the intro class */
+  --ui-color-intro: #B35000FF;  /* Links inside the intro class */
   --ui-color-hero-border: #0000000F;  /* Framing border around the hero image */
   
   /* BACKGROUND COLOR */
@@ -930,7 +930,7 @@ form { width: 100%; }
       --ui-color-n-900: #EBEBF599; /* Body text */
       --ui-color-n-950: #FE5F2DFF; /* Hover colour */
       --ui-color-brand: #FFFFFFFF; /* Links (both text and SVG) and button background */
-      --ui-color-intro: #EF8B3BFF; /* Links inside the intro class */
+      --ui-color-intro: #FBA056FF; /* Links inside the intro class */
       --ui-color-hero-border: #EEEEEE47;  /* Framing border around the hero image */
     
       /* BACKGROUND COLOR */

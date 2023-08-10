@@ -159,7 +159,7 @@ body {
 
 a {
   color: var(--ui-color-brand);
-  text-decoration: none;
+  text-decoration: underline;
   transition: all 250ms ease;
 }
 

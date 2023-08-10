@@ -51,9 +51,9 @@ TABLE OF CONTENT
   --ui-color-n-400: #3C3C434D;  /* Form placeholder text */
   --ui-color-n-500: #000000FF;  /* Headings text and svg */
   --ui-color-n-900: #3C3C43FF;  /* Body text */
-  --ui-color-n-950: #C93000FF;  /* Hover colour */
+  --ui-color-n-950: #D91E18FF;  /* Hover colour */
   --ui-color-brand: #000000FF;  /* Links (both text and SVG) and button background */
-  --ui-color-intro: #A40000FF;  /* Links inside the intro class */
+  --ui-color-intro: #D50000FF;  /* Links inside the intro class */
   --ui-color-hero-border: #0000000F;  /* Framing border around the hero image */
   
   /* BACKGROUND COLOR */
@@ -160,11 +160,25 @@ body {
 a {
   color: var(--ui-color-brand);
   text-decoration: none;
+  transition: all 250ms ease;
 }
 
 .ui-text-intro a {
   color: var(--ui-color-intro);
-  text-decoration: none;
+}
+
+.ui-text-intro a:hover,
+.ui-text-intro a:active,
+.ui-text-intro a:focus {
+  text-decoration: underline;
+}
+
+a:not(.ui-component-button):hover,
+a:not(.ui-component-button):active,
+a:not(.ui-component-button):focus {
+  color: var(--ui-color-typography-hover);
+  fill: var(--ui-color-typography-hover);
+  text-shadow: 0 0 1px currentColor;
 }
 
 h1,
@@ -700,18 +714,6 @@ form { width: 100%; }
   }
 
   /*------------------------------------------------------------
-  TYPOGRAPHY
-  ------------------------------------------------------------*/
-
-  a { transition: all 250ms ease; }
-
-  a:not(.ui-component-button):hover {
-    color: var(--ui-color-typography-hover);
-    fill: var(--ui-color-typography-hover);
-    text-shadow: 0 0 1px currentColor;
-  }
-
-  /*------------------------------------------------------------
   LAYOUT
   ------------------------------------------------------------*/
   
@@ -917,16 +919,16 @@ form { width: 100%; }
 
       /* COLOR PALETTE */
       
-      --ui-color-n-000: #000000FF; /* Middle panel background colour */
+      --ui-color-n-000: #000000FF; /* Top panel background colour */
       --ui-color-n-025: #1C1C1EFF; /* Bottom panel background colour */
-      --ui-color-n-050: #2C2C2EFF; /* Top panel background colour */
+      --ui-color-n-050: #2C2C2EFF; /* Middle panel background colour */
       --ui-color-n-300: #969696FF; /* Small class */
       --ui-color-n-400: #EBEBF54D; /* Form placeholder text */
       --ui-color-n-500: #FFFFFFFF; /* Headings text and svg */
       --ui-color-n-900: #EBEBF599; /* Body text */
-      --ui-color-n-950: #FE5F2DFF; /* Hover colour */
+      --ui-color-n-950: #E7903CFF; /* Hover colour */
       --ui-color-brand: #FFFFFFFF; /* Links (both text and SVG) and button background */
-      --ui-color-intro: #FFA169FF; /* Links inside the intro class */
+      --ui-color-intro: #FF6347FF; /* Links inside the intro class */
       --ui-color-hero-border: #EEEEEE47;  /* Framing border around the hero image */
     
       /* BACKGROUND COLOR */

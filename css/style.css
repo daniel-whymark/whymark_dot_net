@@ -165,13 +165,6 @@ a {
 
 .ui-text-intro a {
   color: var(--ui-color-intro);
-  text-decoration: underline;
-}
-
-.ui-text-intro a:not(.ui-component-button):hover,
-.ui-text-intro a:not(.ui-component-button):active,
-.ui-text-intro a:not(.ui-component-button):focus {
-  text-decoration: underline;
 }
 
 a:not(.ui-component-button):hover,

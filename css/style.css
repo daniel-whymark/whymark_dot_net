@@ -159,13 +159,13 @@ body {
 
 a {
   color: var(--ui-color-brand);
-  text-decoration: underline;
+  text-decoration: none;
   transition: all 250ms ease;
 }
 
 .ui-text-intro a {
   color: var(--ui-color-intro);
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .ui-text-intro a:not(.ui-component-button):hover,

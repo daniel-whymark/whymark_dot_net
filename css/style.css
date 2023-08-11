@@ -242,7 +242,7 @@ svg {
 .ui-layout-container {
   padding-left: var(--ui-layout-container);
   padding-right: var(--ui-layout-container);
-  word-break: break-all;
+  word-break: keep-all;
 }
 
 .ui-layout-flex,

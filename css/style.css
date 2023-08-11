@@ -71,12 +71,14 @@ TABLE OF CONTENT
 
   /* TYPOGRAPHY COLOR */
 
-  --ui-color-typography-heading: var(--ui-color-n-500);
-  --ui-color-typography-body   : var(--ui-color-n-900);
-  --ui-color-typography-small  : var(--ui-color-n-300);
-  --ui-color-typography-button : var(--ui-color-n-000);
-  --ui-color-typography-hover  : var(--ui-color-n-950);
-  
+  --ui-color-typography-heading     : var(--ui-color-n-500);
+  --ui-color-typography-body        : var(--ui-color-n-900);
+  --ui-color-typography-small       : var(--ui-color-n-300);
+  --ui-color-typography-button      : var(--ui-color-n-000);
+  --ui-color-typography-hover       : var(--ui-color-n-950);
+  --ui-color-typography-selection   : var(--ui-color-n-000);
+  --ui-color-typography-selection-bg: var(--ui-color-intro);
+
 
   /*------------------------------------------------------------
   |
@@ -150,7 +152,6 @@ body {
   line-height: var(--ui-typography-p-leading);
   margin: 0 auto;
   text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
 }
 
 /*--------------------------------------------------------------
@@ -182,6 +183,12 @@ a:not(.ui-component-button):focus {
   text-shadow: 0 0 1px currentColor;
 }
 
+::selection {
+  color: var(--ui-color-typography-selection);
+  background-color: var(--ui-color-typography-selection-bg);
+}
+
+
 h1,
 h2,
 p,
@@ -197,6 +204,7 @@ h2 {
 h1 {
   font-size: var(--ui-typography-h1);
   line-height: var(--ui-typography-h1-leading);
+  margin-top: var(--ui-typography-margin-heading);
 }
 
 h2 {
@@ -241,7 +249,7 @@ svg {
 .ui-layout-container {
   padding-left: var(--ui-layout-container);
   padding-right: var(--ui-layout-container);
-  word-break: break-word;
+  word-break: keep-all;
 }
 
 .ui-layout-flex,
@@ -951,12 +959,14 @@ form { width: 100%; }
     
       /* TYPOGRAPHY COLOR */
 
-      --ui-color-typography-heading: var(--ui-color-n-500);
-      --ui-color-typography-body   : var(--ui-color-n-900);
-      --ui-color-typography-small  : var(--ui-color-n-300);
-      --ui-color-typography-button : var(--ui-color-n-000);
-      --ui-color-typography-hover  : var(--ui-color-n-950);
-
+      --ui-color-typography-heading     : var(--ui-color-n-500);
+      --ui-color-typography-body        : var(--ui-color-n-900);
+      --ui-color-typography-small       : var(--ui-color-n-300);
+      --ui-color-typography-button      : var(--ui-color-n-000);
+      --ui-color-typography-hover       : var(--ui-color-n-950);
+      --ui-color-typography-selection   : var(--ui-color-n-000);
+      --ui-color-typography-selection-bg: var(--ui-color-intro);
+    
     }
 
 }

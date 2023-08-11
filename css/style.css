@@ -461,7 +461,7 @@ form { width: 100%; }
   background-color: var(--ui-color-background-tertiary);
   padding-bottom: 5rem;
   padding-top: 5rem;
-  text-align: center;
+  text-align: start;
 }
 
 .ui-section-testimonial__layout {
@@ -480,7 +480,10 @@ form { width: 100%; }
   margin-top: 1rem;
 }
 
-.ui-section-testimonial--author { line-height: 1.25; }
+.ui-section-testimonial--author {
+  line-height: 1.25;
+  text-align: centre;
+}
 
 /*--------------------------------------------------------------
 |

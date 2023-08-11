@@ -171,7 +171,7 @@ a {
 .ui-text-intro a:hover,
 .ui-text-intro a:active,
 .ui-text-intro a:focus {
-  text-decoration-thickness: 4px;
+  text-decoration-thickness: 150%;
 }
 
 a:not(.ui-component-button):hover,

@@ -76,7 +76,7 @@ TABLE OF CONTENT
   --ui-color-typography-small       : var(--ui-color-n-300);
   --ui-color-typography-button      : var(--ui-color-n-000);
   --ui-color-typography-hover       : var(--ui-color-n-950);
-  --ui-color-typography-selection   : var(--ui-color-n-500);
+  --ui-color-typography-selection   : var(--ui-color-n-000);
   --ui-color-typography-selection-bg: var(--ui-color-intro);
 
 
@@ -965,7 +965,7 @@ form { width: 100%; }
       --ui-color-typography-small       : var(--ui-color-n-300);
       --ui-color-typography-button      : var(--ui-color-n-000);
       --ui-color-typography-hover       : var(--ui-color-n-950);
-      --ui-color-typography-selection   : var(--ui-color-n-500);
+      --ui-color-typography-selection   : var(--ui-color-n-000);
       --ui-color-typography-selection-bg: var(--ui-color-intro);
     
     }

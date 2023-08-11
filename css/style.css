@@ -183,7 +183,7 @@ a:not(.ui-component-button):focus {
 }
 
 ::selection {
-  color: var(--ui-color-intro);
+  background-color: var(--ui-color-intro);
 }
 
 

@@ -152,8 +152,6 @@ body {
   line-height: var(--ui-typography-p-leading);
   margin: 0 auto;
   text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 /*--------------------------------------------------------------

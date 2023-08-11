@@ -182,7 +182,7 @@ a:not(.ui-component-button):focus {
   text-shadow: 0 0 1px currentColor;
 }
 
-:selection {
+::selection {
   color: var(--ui-color-intro);
 }
 

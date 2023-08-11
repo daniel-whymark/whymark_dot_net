@@ -395,7 +395,7 @@ form { width: 100%; }
 .ui-section-hero {
   padding-bottom: 5rem;
   padding-top: 5rem;
-  text-align: center;
+  text-align: start;
 }
 
 .ui-section-hero--image { margin-top: var(--ui-gap-hero); }

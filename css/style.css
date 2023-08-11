@@ -71,12 +71,14 @@ TABLE OF CONTENT
 
   /* TYPOGRAPHY COLOR */
 
-  --ui-color-typography-heading: var(--ui-color-n-500);
-  --ui-color-typography-body   : var(--ui-color-n-900);
-  --ui-color-typography-small  : var(--ui-color-n-300);
-  --ui-color-typography-button : var(--ui-color-n-000);
-  --ui-color-typography-hover  : var(--ui-color-n-950);
-  
+  --ui-color-typography-heading     : var(--ui-color-n-500);
+  --ui-color-typography-body        : var(--ui-color-n-900);
+  --ui-color-typography-small       : var(--ui-color-n-300);
+  --ui-color-typography-button      : var(--ui-color-n-000);
+  --ui-color-typography-hover       : var(--ui-color-n-950);
+  --ui-color-typography-selection   : var(--ui-color-intro);
+  --ui-color-typography-selection-bg: var(--ui-color-n-500);
+
 
   /*------------------------------------------------------------
   |
@@ -183,7 +185,8 @@ a:not(.ui-component-button):focus {
 }
 
 ::selection {
-  background-color: var(--ui-color-intro);
+  color: var(--ui-color-typography-selection);
+  background-color: var(--ui-color-typography-selection-bg);
 }
 
 
@@ -957,11 +960,13 @@ form { width: 100%; }
     
       /* TYPOGRAPHY COLOR */
 
-      --ui-color-typography-heading: var(--ui-color-n-500);
-      --ui-color-typography-body   : var(--ui-color-n-900);
-      --ui-color-typography-small  : var(--ui-color-n-300);
-      --ui-color-typography-button : var(--ui-color-n-000);
-      --ui-color-typography-hover  : var(--ui-color-n-950);
+      --ui-color-typography-heading     : var(--ui-color-n-500);
+      --ui-color-typography-body        : var(--ui-color-n-900);
+      --ui-color-typography-small       : var(--ui-color-n-300);
+      --ui-color-typography-button      : var(--ui-color-n-000);
+      --ui-color-typography-hover       : var(--ui-color-n-950);
+      --ui-color-typography-selection   : var(--ui-color-intro);
+      --ui-color-typography-selection-bg: var(--ui-color-n-500);
 
     }
 

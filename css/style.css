@@ -171,7 +171,7 @@ a {
 .ui-text-intro a:hover,
 .ui-text-intro a:active,
 .ui-text-intro a:focus {
-  text-decoration-thickness: 200%;
+  text-decoration: none;
 }
 
 a:not(.ui-component-button):hover,
@@ -179,7 +179,7 @@ a:not(.ui-component-button):active,
 a:not(.ui-component-button):focus {
   color: var(--ui-color-typography-hover);
   fill: var(--ui-color-typography-hover);
-  text-shadow: 0 0 1px currentColor;
+  text-shadow: 0 0 2px currentColor;
 }
 
 h1,

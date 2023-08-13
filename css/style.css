@@ -16,11 +16,10 @@ TABLE OF CONTENT
 7.0 SECTION
 |  7.1 HEADER
 |  7.2 HERO
-|  7.3 CUSTOMER
-|  7.4 FEATURE
-|  7.5 TESTIMONIAL
-|  7.6 CLOSE
-|  7.7 FOOTER
+|  7.3 FEATURE
+|  7.4 TESTIMONIAL
+|  7.5 CLOSE
+|  7.6 FOOTER
 8.0 MEDIA
 |  8.1 768PX
 |  8.2 1024PX
@@ -120,7 +119,6 @@ TABLE OF CONTENT
   
   --ui-gap-cta        : .75rem;
   --ui-gap-hero       : 2rem;
-  --ui-gap-customer   : 2rem;
   --ui-gap-feature    : 2rem;
   --ui-gap-testimonial: 2rem;
 
@@ -393,7 +391,13 @@ form { width: 100%; }
   padding-top: 1.25rem;
 }
 
-.ui-section-header__layout { justify-content: flex-end; }
+.ui-section-header__layout {
+  flex-direction: row;
+  justify-content: flex-end;
+  right: 1.25rem;
+  position: fixed;
+  column-gap: 0.5rem;
+}
 
 /*--------------------------------------------------------------
 |
@@ -419,27 +423,7 @@ form { width: 100%; }
 
 /*--------------------------------------------------------------
 |
-| 7.3 CUSTOMER
-|
---------------------------------------------------------------*/
-
-.ui-section-customer__layout {
-  flex-direction: column;
-  row-gap: var(--ui-gap-customer);
-}
-
-.ui-section-customer--logo {
-  height: 1.5rem;
-  width: auto;
-}
-
-.ui-section-customer--logo-str { height: 1.75rem; }
-  
-.ui-section-customer--logo-bhn { height: 1.375rem; }
-
-/*--------------------------------------------------------------
-|
-| 7.4 FEATURE
+| 7.3 FEATURE
 |
 --------------------------------------------------------------*/
 
@@ -461,7 +445,7 @@ form { width: 100%; }
 
 /*--------------------------------------------------------------
 |
-| 7.5 TESTIMONIAL
+| 7.4 TESTIMONIAL
 |
 --------------------------------------------------------------*/
 
@@ -495,7 +479,7 @@ form { width: 100%; }
 
 /*--------------------------------------------------------------
 |
-| 7.6 CLOSE
+| 7.5 CLOSE
 |
 --------------------------------------------------------------*/
 
@@ -508,7 +492,7 @@ form { width: 100%; }
 
 /*--------------------------------------------------------------
 |
-| 7.7 FOOTER
+| 7.6 FOOTER
 |
 --------------------------------------------------------------*/
 
@@ -653,20 +637,9 @@ form { width: 100%; }
     padding-top: 2rem;
   }
 
-  /*------------------------------------------------------------
-  |
-  | CUSTOMER
-  |
-  ------------------------------------------------------------*/
-
-  .ui-section-customer__layout {
-    column-gap: var(--ui-gap-customer);
-    flex-direction: row;
-  }
-  
-  .ui-section-customer--logo {
-    margin-left: 0;
-    margin-right: 0;
+  .ui-section-header__layout {
+    right: 1rem;
+    column-gap: 0.25rem;
   }
 
   /*------------------------------------------------------------
@@ -779,7 +752,6 @@ form { width: 100%; }
     /* GAP */
 
     --ui-gap-hero       : 4rem;
-    --ui-gap-customer   : 4rem;
     --ui-gap-feature    : 4rem;
     --ui-gap-testimonial: 4rem;
     
@@ -832,6 +804,10 @@ form { width: 100%; }
     padding-top: 3rem;
   }
 
+  .ui-section-header__layout {
+    right: 3rem;
+    column-gap: 0.5rem;
+  }
   /*------------------------------------------------------------
   |
   | HERO
@@ -842,18 +818,6 @@ form { width: 100%; }
     padding-bottom: 7.5rem;
     padding-top: 7.5rem;
   }
-
-  /*------------------------------------------------------------
-  |
-  | CUSTOMER
-  |
-  ------------------------------------------------------------*/
-
-  .ui-section-customer--logo { height: 2rem; }
-  
-  .ui-section-customer--logo-str { height: 2.25rem; }
-  
-  .ui-section-customer--logo-bhn { height: 1.75rem; }
 
   /*------------------------------------------------------------
   |

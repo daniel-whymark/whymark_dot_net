@@ -5,10 +5,15 @@ Source code for the [whymark.net](https://whymark.net/) website (and mirrors) wi
 ## Features
 Flat, minimalistic responsive design. The goals were maximum speed, minimum filesize and enhanced code-readability. There's no JS, only plain HTML and CSS. No frameworks of third-party requirements.
 
-- Less than 15Kb total size for both html+css.
-- Image fallback options to allow for smallest filesizes, using webp where supported.
+- Full HTML5+CSS3 validated compliance.
+- Less than 15Kb total size for both HTML+CSS.
+- Image fallback options to allow for the smallest filesizes possible, using webp where supported.
 - Responsive layout with adjustments triggered at 768px, 1024px, and 1200px.
+- Mobile browsing responsive.
 - Automatic light & dark mode colour schemes.
+- WCAG AA compliant contrasts for low vision accessibility.
+- Screenreader labelling for maximum compatability.
+- Keyboard browsing friendly.
 
 
 ## Config

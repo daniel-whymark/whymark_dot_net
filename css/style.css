@@ -397,9 +397,6 @@ form { width: 100%; }
   flex-direction: row;
   justify-content: flex-end;
   position: fixed;
-}
-
-.ui-section-header--nav {
   column-gap: var(--ui-layout-gutter);
 }
 

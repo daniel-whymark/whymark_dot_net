@@ -400,6 +400,7 @@ form { width: 100%; }
 .ui-section-header--nav {
   column-gap: var(--ui-layout-gutter);
   padding-left: var(--ui-layout-gutter);
+  padding-right: var(--ui-layout-gutter);
 }
 
 /*--------------------------------------------------------------

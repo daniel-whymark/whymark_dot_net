@@ -397,7 +397,7 @@ form { width: 100%; }
   flex-direction: row;
   justify-content: flex-end;
   position: fixed;
-  column-gap: 18px;
+  column-gap: 1rem;
 }
 
 /*--------------------------------------------------------------

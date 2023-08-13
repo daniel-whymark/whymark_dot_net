@@ -660,7 +660,8 @@ form { width: 100%; }
   }
 
   .ui-section-header__layout {
-    right: 2rem;
+    right: 1rem;
+    column-gap: 0.25rem;
   }
 
   /*------------------------------------------------------------
@@ -844,6 +845,7 @@ form { width: 100%; }
 
   .ui-section-header__layout {
     right: 3rem;
+    column-gap: 0.5rem;
   }
   /*------------------------------------------------------------
   |

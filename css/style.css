@@ -399,6 +399,7 @@ form { width: 100%; }
 
 .ui-section-header--nav {
   column-gap: var(--ui-layout-gutter);
+  padding-left: 1.25rem;
 }
 
 /*--------------------------------------------------------------

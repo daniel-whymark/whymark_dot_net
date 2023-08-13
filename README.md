@@ -33,8 +33,7 @@ Distributed under [MIT License](https://opensource.org/licenses/MIT). Feel free 
 
 ## Credits
 CSS template:  
-- [Grid](https://github.com/uisual/freebies/tree/master/grid) by [Uisual](https://github.com/uisual/)
+- [elnino](https://github.com/elnino) for creating [Uisual/Grid](https://github.com/uisual/freebies/tree/master/grid) which was the initial base template
 
 SVG Icons:
 - [Bootstrap](https://icons.getbootstrap.com)
-

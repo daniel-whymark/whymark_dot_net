@@ -393,7 +393,13 @@ form { width: 100%; }
   padding-top: 1.25rem;
 }
 
-.ui-section-header__layout { justify-content: flex-end; }
+.ui-section-header__layout {
+  justify-content: flex-end;
+}
+
+.ui-section-header--nav {
+  column-gap: var(--ui-layout-gutter);
+}
 
 /*--------------------------------------------------------------
 |

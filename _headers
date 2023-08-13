@@ -14,6 +14,7 @@ https://:whymark.pages.dev/*
   Access-Control-Allow-Credentials: false
   Access-Control-Max-Age: 600
   Access-Control-Allow-Methods: GET,POST
+  x-xss-protection: 1; mode=block
 
 https://whymark.net/*
   Access-Control-Allow-Origin: https://whymark.net

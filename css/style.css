@@ -394,7 +394,10 @@ form { width: 100%; }
 }
 
 .ui-section-header__layout {
-  justify-content: flex-end;
+  row-gap: var(--ui-layout-gutter);
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
 }
 
 .ui-section-header--nav {

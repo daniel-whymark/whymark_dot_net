@@ -659,6 +659,10 @@ form { width: 100%; }
     padding-top: 2rem;
   }
 
+  .ui-section-header__layout {
+    right: 2rem;
+  }
+
   /*------------------------------------------------------------
   |
   | CUSTOMER
@@ -838,6 +842,9 @@ form { width: 100%; }
     padding-top: 3rem;
   }
 
+  .ui-section-header__layout {
+    right: 3rem;
+  }
   /*------------------------------------------------------------
   |
   | HERO

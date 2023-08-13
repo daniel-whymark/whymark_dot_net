@@ -394,14 +394,15 @@ form { width: 100%; }
 }
 
 .ui-section-header__layout {
-  row-gap: var(--ui-layout-gutter);
+  column-gap: var(--ui-layout-gutter);
   flex-direction: row;
   justify-content: flex-end;
   position: relative;
 }
 
 .ui-section-header--nav {
-  margin: var(--ui-layout-gutter);
+  padding-left: var(--ui-layout-gutter);
+  padding-right: var(--ui-layout-gutter);
 }
 
 /*--------------------------------------------------------------

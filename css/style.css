@@ -421,6 +421,12 @@ form { width: 100%; }
   border-radius: 50%;
 }
 
+.ui-section-hero--image img:hover,
+.ui-section-hero--image img:active,
+.ui-section-hero--image img:focus {
+  filter: drop-shadow(0 0 0.75rem var(--ui-color-hero-border));
+}
+
 /*--------------------------------------------------------------
 |
 | 7.3 FEATURE

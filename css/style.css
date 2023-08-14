@@ -418,13 +418,8 @@ form { width: 100%; }
   width: 200px;
   height: 200px;
   border: 0.75px solid var(--ui-color-hero-border);
+  filter: drop-shadow(0 0 0.5rem var(--ui-color-hero-border));
   border-radius: 50%;
-}
-
-.ui-section-hero--image img:hover,
-.ui-section-hero--image img:active,
-.ui-section-hero--image img:focus {
-  filter: drop-shadow(0 0 0.75rem var(--ui-color-hero-border));
 }
 
 /*--------------------------------------------------------------

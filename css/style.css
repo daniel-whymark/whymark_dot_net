@@ -79,7 +79,7 @@ TABLE OF CONTENT
   --ui-color-typography-selection-bg: var(--ui-color-intro);
 
   /* SVG COLOR */
-  --ui-color-svg-shadow: rgb(0 0 0 / 0.25);
+  --ui-color-svg-shadow: var(--ui-color-hero-border);
 
 
   /*------------------------------------------------------------

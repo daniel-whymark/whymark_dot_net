@@ -245,7 +245,7 @@ svg {
 
 .ui-section-header svg,
 .ui-section-social svg {
-  filter: drop-shadow(2px 2px 0.25rem var(--ui-color-svg-shadow));
+  filter: drop-shadow(1px 1px 0.25rem var(--ui-color-svg-shadow));
 }
 
 /*--------------------------------------------------------------

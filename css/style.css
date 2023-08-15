@@ -240,6 +240,10 @@ svg {
   max-width: 100%;
 }
 
+.ui-section-header svg {
+  filter: drop-shadow(1rem 1rem 0.25rem var(--ui-color-hero-border));
+}
+
 /*--------------------------------------------------------------
 5.0 LAYOUT
 --------------------------------------------------------------*/

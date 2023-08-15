@@ -79,7 +79,7 @@ TABLE OF CONTENT
 
   /* SHADOW COLOR */
   --ui-color-hero-border: #00000033;
-  --ui-color-svg-shadow: var(--ui-color-hero-border);
+  --ui-color-svg-shadow: #00000033;
 
 
   /*------------------------------------------------------------
@@ -425,7 +425,6 @@ form { width: 100%; }
   width: 200px;
   height: 200px;
   border: 0.75px solid var(--ui-color-hero-border);
-  filter: drop-shadow(0rem 0rem 0.25rem var(--ui-color-hero-border));
   border-radius: 50%;
 }
 

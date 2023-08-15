@@ -17,7 +17,7 @@ TABLE OF CONTENT
 |  7.1 HEADER
 |  7.2 HERO
 |  7.3 FEATURE
-|  7.4 TESTIMONIAL
+|  7.4 SOCIAL
 |  7.5 CLOSE
 |  7.6 FOOTER
 8.0 MEDIA
@@ -123,7 +123,7 @@ TABLE OF CONTENT
   --ui-gap-cta        : .75rem;
   --ui-gap-hero       : 2rem;
   --ui-gap-feature    : 2rem;
-  --ui-gap-testimonial: 2rem;
+  --ui-gap-social: 2rem;
 
   /* BORDER RADIUS */
   
@@ -243,7 +243,8 @@ svg {
   max-width: 100%;
 }
 
-.ui-section-header svg {
+.ui-section-header svg,
+.ui-section-social svg {
   filter: drop-shadow(2px 2px 0.25rem var(--ui-color-svg-shadow));
 }
 
@@ -452,34 +453,34 @@ form { width: 100%; }
 
 /*--------------------------------------------------------------
 |
-| 7.4 TESTIMONIAL
+| 7.4 SOCIAL
 |
 --------------------------------------------------------------*/
 
-.ui-section-testimonial {
+.ui-section-social {
   background-color: var(--ui-color-background-tertiary);
   padding-bottom: 5rem;
   padding-top: 5rem;
   text-align: start;
 }
 
-.ui-section-testimonial__layout {
-  margin-top: var(--ui-gap-testimonial);
-  row-gap: var(--ui-gap-testimonial);
+.ui-section-social__layout {
+  margin-top: var(--ui-gap-social);
+  row-gap: var(--ui-gap-social);
 }
 
-.ui-section-testimonial--avatar {
+.ui-section-social--avatar {
   /*border-radius: var(--ui-radius-avatar);*/
   height: 80px;
   width: 80px;
 }
 
-.ui-section-testimonial--quote {
+.ui-section-social--quote {
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
 
-.ui-section-testimonial--author {
+.ui-section-social--author {
   line-height: 1.25;
   text-align: center;
 }
@@ -571,7 +572,7 @@ form { width: 100%; }
 
     --ui-gap-hero       : 3rem;
     --ui-gap-feature    : 3rem;
-    --ui-gap-testimonial: 3rem;
+    --ui-gap-social: 3rem;
 
   }
 
@@ -760,7 +761,7 @@ form { width: 100%; }
 
     --ui-gap-hero       : 4rem;
     --ui-gap-feature    : 4rem;
-    --ui-gap-testimonial: 4rem;
+    --ui-gap-social: 4rem;
     
   }
 
@@ -851,11 +852,11 @@ form { width: 100%; }
 
   /*------------------------------------------------------------
   |
-  | TESTIMONIAL
+  | social
   |
   ------------------------------------------------------------*/
 
-  .ui-section-testimonial {
+  .ui-section-social {
     padding-bottom: 7.5rem;
     padding-top: 7.5rem;
   }

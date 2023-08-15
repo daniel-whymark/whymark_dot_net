@@ -914,7 +914,6 @@ form { width: 100%; }
       --ui-color-n-950: #FF6D00FF; /* Hover colour */
       --ui-color-brand: #FFFFFFFF; /* Links (both text and SVG) and button background */
       --ui-color-intro: #FF9800FF; /* Links inside the intro class */
-      --ui-color-hero-border: #EEEEEE47;  /* Framing border around the hero image */
     
       /* BACKGROUND COLOR */
   
@@ -939,6 +938,9 @@ form { width: 100%; }
       --ui-color-typography-selection   : var(--ui-color-n-000);
       --ui-color-typography-selection-bg: var(--ui-color-intro);
     
+      /* SHADOW COLOR */
+      --ui-color-hero-border: #EEEEEE47;
+      --ui-color-svg-shadow: #FFFFFF33;
     }
 
 }

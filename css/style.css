@@ -241,7 +241,7 @@ svg {
 }
 
 .ui-section-header svg {
-  filter: drop-shadow(1rem 1rem 0.25rem var(--ui-color-hero-border));
+  filter: drop-shadow(2px 2px 0.25rem var(--ui-color-hero-border));
 }
 
 /*--------------------------------------------------------------

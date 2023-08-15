@@ -243,6 +243,10 @@ svg {
   max-width: 100%;
 }
 
+svg {
+  -webkit-transform: translate3d(0,0,0)
+}
+
 .ui-section-header svg,
 .ui-section-social svg {
   filter: drop-shadow(1px 1px 1px var(--ui-color-svg-shadow));

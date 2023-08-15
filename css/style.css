@@ -78,6 +78,9 @@ TABLE OF CONTENT
   --ui-color-typography-selection   : var(--ui-color-n-000);
   --ui-color-typography-selection-bg: var(--ui-color-intro);
 
+  /* SVG COLOR */
+  --ui-color-svg-shadow: var(--ui-color-n-300);
+
 
   /*------------------------------------------------------------
   |
@@ -241,7 +244,7 @@ svg {
 }
 
 .ui-section-header svg {
-  filter: drop-shadow(2px 2px 0.25rem var(--ui-color-hero-border));
+  filter: drop-shadow(2px 2px 0.25rem var(--ui-color-svg-shadow));
 }
 
 /*--------------------------------------------------------------

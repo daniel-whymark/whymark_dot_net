@@ -17,7 +17,7 @@ TABLE OF CONTENT
 |  7.1 HEADER
 |  7.2 HERO
 |  7.3 FEATURE
-|  7.4 TESTIMONIAL
+|  7.4 SOCIAL
 |  7.5 CLOSE
 |  7.6 FOOTER
 8.0 MEDIA
@@ -53,7 +53,6 @@ TABLE OF CONTENT
   --ui-color-n-950: #D50000FF;  /* Hover colour */
   --ui-color-brand: #000000FF;  /* Links (both text and SVG) and button background */
   --ui-color-intro: #B71C1CFF;  /* Links inside the intro class */
-  --ui-color-hero-border: #0000000F;  /* Framing border around the hero image */
   
   /* BACKGROUND COLOR */
   
@@ -77,6 +76,10 @@ TABLE OF CONTENT
   --ui-color-typography-hover       : var(--ui-color-n-950);
   --ui-color-typography-selection   : var(--ui-color-n-000);
   --ui-color-typography-selection-bg: var(--ui-color-intro);
+
+  /* SHADOW COLOR */
+  --ui-color-hero-border: #0000000F;
+  --ui-color-svg-shadow: #00000066;
 
 
   /*------------------------------------------------------------
@@ -120,7 +123,7 @@ TABLE OF CONTENT
   --ui-gap-cta        : .75rem;
   --ui-gap-hero       : 2rem;
   --ui-gap-feature    : 2rem;
-  --ui-gap-testimonial: 2rem;
+  --ui-gap-social: 2rem;
 
   /* BORDER RADIUS */
   
@@ -238,6 +241,11 @@ svg {
   height: auto;
   margin: 0 auto;
   max-width: 100%;
+}
+
+.ui-section-header svg,
+.ui-section-social svg {
+  filter: drop-shadow(1px 1px 1px var(--ui-color-svg-shadow));
 }
 
 /*--------------------------------------------------------------
@@ -418,7 +426,7 @@ form { width: 100%; }
   width: 200px;
   height: 200px;
   border: 0.75px solid var(--ui-color-hero-border);
-  filter: drop-shadow(0rem 0rem 0.25rem var(--ui-color-hero-border));
+  filter: drop-shadow(0 0 2px var(--ui-color-hero-border));
   border-radius: 50%;
 }
 
@@ -446,34 +454,34 @@ form { width: 100%; }
 
 /*--------------------------------------------------------------
 |
-| 7.4 TESTIMONIAL
+| 7.4 SOCIAL
 |
 --------------------------------------------------------------*/
 
-.ui-section-testimonial {
+.ui-section-social {
   background-color: var(--ui-color-background-tertiary);
   padding-bottom: 5rem;
   padding-top: 5rem;
   text-align: start;
 }
 
-.ui-section-testimonial__layout {
-  margin-top: var(--ui-gap-testimonial);
-  row-gap: var(--ui-gap-testimonial);
+.ui-section-social__layout {
+  margin-top: var(--ui-gap-social);
+  row-gap: var(--ui-gap-social);
 }
 
-.ui-section-testimonial--avatar {
+.ui-section-social--avatar {
   /*border-radius: var(--ui-radius-avatar);*/
   height: 80px;
   width: 80px;
 }
 
-.ui-section-testimonial--quote {
+.ui-section-social--quote {
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
 
-.ui-section-testimonial--author {
+.ui-section-social--author {
   line-height: 1.25;
   text-align: center;
 }
@@ -565,7 +573,7 @@ form { width: 100%; }
 
     --ui-gap-hero       : 3rem;
     --ui-gap-feature    : 3rem;
-    --ui-gap-testimonial: 3rem;
+    --ui-gap-social: 3rem;
 
   }
 
@@ -754,7 +762,7 @@ form { width: 100%; }
 
     --ui-gap-hero       : 4rem;
     --ui-gap-feature    : 4rem;
-    --ui-gap-testimonial: 4rem;
+    --ui-gap-social: 4rem;
     
   }
 
@@ -845,11 +853,11 @@ form { width: 100%; }
 
   /*------------------------------------------------------------
   |
-  | TESTIMONIAL
+  | social
   |
   ------------------------------------------------------------*/
 
-  .ui-section-testimonial {
+  .ui-section-social {
     padding-bottom: 7.5rem;
     padding-top: 7.5rem;
   }
@@ -907,7 +915,6 @@ form { width: 100%; }
       --ui-color-n-950: #FF6D00FF; /* Hover colour */
       --ui-color-brand: #FFFFFFFF; /* Links (both text and SVG) and button background */
       --ui-color-intro: #FF9800FF; /* Links inside the intro class */
-      --ui-color-hero-border: #EEEEEE47;  /* Framing border around the hero image */
     
       /* BACKGROUND COLOR */
   
@@ -932,6 +939,9 @@ form { width: 100%; }
       --ui-color-typography-selection   : var(--ui-color-n-000);
       --ui-color-typography-selection-bg: var(--ui-color-intro);
     
+      /* SHADOW COLOR */
+      --ui-color-hero-border: #EEEEEE47;
+      --ui-color-svg-shadow: #FFFFFF33;
     }
 
 }

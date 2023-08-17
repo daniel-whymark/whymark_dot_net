@@ -419,7 +419,7 @@ form { width: 100%; }
 --------------------------------------------------------------*/
 
 .ui-section-social {
-  background-color: var(--ui-color-background-tertiary);
+  background-color: var(--ui-color-background-secondary);
   padding-bottom: 5rem;
   padding-top: 5rem;
   text-align: start;
@@ -453,7 +453,7 @@ form { width: 100%; }
 --------------------------------------------------------------*/
 
 .ui-section-close {
-  background-color: var(--ui-color-background-secondary);
+  background-color: var(--ui-color-background-tertiary);
   padding-top: 5rem;
   padding-bottom: 5rem;
   text-align: start;

@@ -404,7 +404,14 @@ form { width: 100%; }
   padding-top: 1.25rem;
 }
 
-.ui-section-header__layout {
+.ui-section-header-left__layout {
+  flex-direction: row;
+  justify-content: flex-start;
+  left: 1.25rem;
+  column-gap: 0.5rem;
+}
+
+.ui-section-header-right__layout {
   flex-direction: row;
   justify-content: flex-end;
   right: 1.25rem;

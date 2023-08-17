@@ -10,7 +10,7 @@ TABLE OF CONTENT
 4.0 IMAGE
 5.0 LAYOUT
 6.0 COMPONENT
-|  6.1 CTA
+|  6.1 TEXT
 |  6.2 FORM
 |  6.3 LIST
 7.0 SECTION
@@ -118,7 +118,7 @@ TABLE OF CONTENT
 
   /* GAP */
   
-  --ui-gap-cta        : .75rem;
+  --ui-gap-text        : .75rem;
   --ui-gap-hero       : 2rem;
   --ui-gap-feature    : 2rem;
   --ui-gap-social: 2rem;
@@ -276,13 +276,13 @@ svg {
 
 /*--------------------------------------------------------------
 |
-| 6.1 CTA
+| 6.1 TEXT
 |
 --------------------------------------------------------------*/
 
-.ui-component-cta {
+.ui-component-text {
   flex-direction: column;
-  row-gap: var(--ui-gap-cta);
+  row-gap: var(--ui-gap-text);
 }
 
 /*--------------------------------------------------------------

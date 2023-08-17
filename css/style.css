@@ -403,16 +403,17 @@ form { width: 100%; }
   padding-top: 1.25rem;
 }
 
+nav h1 {
+  padding-top: 1.25rem;
+  padding-left: 1.25rem;
+}
+
 .ui-section-header__layout {
   flex-direction: row;
   justify-content: flex-end;
   right: 1.25rem;
   column-gap: 0.5rem;
   position: fixed;
-}
-
-nav h1 {
-  left: 1.25rem;
 }
 
 /*--------------------------------------------------------------
@@ -632,6 +633,11 @@ nav h1 {
     padding-top: 2rem;
   }
 
+  nav h1 {
+    padding-top: 2rem;
+    padding-left: 2rem;
+  }
+
   .ui-section-header__layout {
     right: 1rem;
     column-gap: 0.25rem;
@@ -797,6 +803,11 @@ nav h1 {
   .ui-section-header {
     padding-bottom: 3rem;
     padding-top: 3rem;
+  }
+
+  nav h1 {
+    padding-top: 3rem;
+    padding-left: 3rem;
   }
 
   .ui-section-header__layout {

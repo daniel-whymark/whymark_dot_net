@@ -978,7 +978,7 @@ nav h1 {
   |
   ------------------------------------------------------------*/
 
-    .ui-section-header-right {
+    .ui-section-header__layout {
       display: none;
     }
 

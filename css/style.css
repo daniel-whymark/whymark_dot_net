@@ -404,8 +404,7 @@ form { width: 100%; }
 }
 
 nav h1 {
-  padding-top: 1.25rem;
-  padding-left: 1.25rem;
+  left: 1.25rem;
   position: absolute;
 }
 
@@ -635,8 +634,7 @@ nav h1 {
   }
 
   nav h1 {
-    padding-top: 2rem;
-    padding-left: 2rem;
+    left: 2rem;
   }
 
   .ui-section-header__layout {
@@ -807,8 +805,7 @@ nav h1 {
   }
 
   nav h1 {
-    padding-top: 3rem;
-    padding-left: 3rem;
+    left: 3rem;
   }
 
   .ui-section-header__layout {

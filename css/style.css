@@ -409,14 +409,14 @@ form { width: 100%; }
   justify-content: space-between;
 }
 
-.ui-section-header-left__layout {
+.ui-section-header-left {
   flex-direction: row;
   justify-content: flex-start;
   left: 1.25rem;
   column-gap: 0.5rem;
 }
 
-.ui-section-header-right__layout {
+.ui-section-header-right {
   flex-direction: row;
   justify-content: flex-end;
   right: 1.25rem;
@@ -998,7 +998,7 @@ form { width: 100%; }
   |
   ------------------------------------------------------------*/
 
-    .ui-section-header {
+    .ui-section-header-right {
       display: none;
     }
 

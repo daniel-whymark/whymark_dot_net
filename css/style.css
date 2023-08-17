@@ -407,17 +407,20 @@ form { width: 100%; }
 .ui-section-header__layout {
   flex-direction: row;
   justify-content: space-between;
+}
+
+.ui-section-header-left__layout {
+  flex-direction: row;
+  justify-content: flex-start;
   left: 1.25rem;
   column-gap: 0.5rem;
 }
 
-.ui-section-header-left__layout {
-  justify-content: flex-start;
-}
-
 .ui-section-header-right__layout {
+  flex-direction: row;
   justify-content: flex-end;
   right: 1.25rem;
+  column-gap: 0.5rem;
   position: fixed;
 }
 

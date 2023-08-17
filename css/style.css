@@ -42,8 +42,8 @@ TABLE OF CONTENT
   /* COLOR PALETTE */
 
   --ui-color-n-000: #EEEEEEFF;  /* Top panel background colour */
-  --ui-color-n-025: #F2F2F7FF;  /* Bottom panel background colour */
-  --ui-color-n-050: #FEFEFEFF;  /* Middle panel background colour */
+  --ui-color-n-025: #FEFEFEFF;  /* Middle panel background colour */
+  --ui-color-n-050: #F2F2F7FF;  /* Bottom panel & footer background colour */
   --ui-color-n-300: #58585BFF;  /* Small class */
   --ui-color-n-400: #3C3C434D;  /* Form placeholder text */
   --ui-color-n-500: #000000FF;  /* Headings text and svg */
@@ -57,13 +57,13 @@ TABLE OF CONTENT
   --ui-color-background-primary  : var(--ui-color-n-000);
   --ui-color-background-secondary: var(--ui-color-n-025);
   --ui-color-background-tertiary : var(--ui-color-n-050);
-  --ui-color-background-footer   : var(--ui-color-n-025);
+  --ui-color-background-footer   : var(--ui-color-n-050);
 
   /* FORM COLOR */
 
   --ui-color-form-input      : var(--ui-color-n-500);
   --ui-color-form-placeholder: var(--ui-color-n-400);
-  --ui-color-form-background : var(--ui-color-n-050);
+  --ui-color-form-background : var(--ui-color-n-025);
 
   /* TYPOGRAPHY COLOR */
 
@@ -800,8 +800,8 @@ form { width: 100%; }
       /* COLOR PALETTE */
       
       --ui-color-n-000: #000000FF; /* Top panel background colour */
-      --ui-color-n-025: #1C1C1EFF; /* Bottom panel background colour */
-      --ui-color-n-050: #2C2C2EFF; /* Middle panel background colour */
+      --ui-color-n-025: #2C2C2EFF; /* Middle panel background colour */
+      --ui-color-n-050: #1C1C1EFF; /* Bottom panel background colour */
       --ui-color-n-300: #969696FF; /* Small class */
       --ui-color-n-400: #EBEBF54D; /* Form placeholder text */
       --ui-color-n-500: #FFFFFFFF; /* Headings text and svg */
@@ -815,13 +815,13 @@ form { width: 100%; }
       --ui-color-background-primary  : var(--ui-color-n-000);
       --ui-color-background-secondary: var(--ui-color-n-025);
       --ui-color-background-tertiary : var(--ui-color-n-050);
-      --ui-color-background-footer   : var(--ui-color-n-025);
+      --ui-color-background-footer   : var(--ui-color-n-050);
 
       /* FORM COLOR */
 
       --ui-color-form-input      : var(--ui-color-n-500);
       --ui-color-form-placeholder: var(--ui-color-n-400);
-      --ui-color-form-background : var(--ui-color-n-050);
+      --ui-color-form-background : var(--ui-color-n-025);
     
       /* TYPOGRAPHY COLOR */
 

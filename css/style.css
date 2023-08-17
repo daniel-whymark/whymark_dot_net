@@ -404,7 +404,10 @@ form { width: 100%; }
 }
 
 nav h1 {
+  margin-bottom: 0;
+  margin-top: 0;
   font-weight: normal;
+  display: inline;
 }
 
 .ui-section-header__layout {
@@ -418,7 +421,6 @@ nav h1 {
 .ui-section-header-icons__layout {
   flex-direction: row;
   justify-content: flex-end;
-  right: 1.25rem;
   column-gap: 0.5rem;
 }
 

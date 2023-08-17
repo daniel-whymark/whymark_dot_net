@@ -406,6 +406,7 @@ form { width: 100%; }
 nav h1 {
   padding-top: 1.25rem;
   padding-left: 1.25rem;
+  position: absolute;
 }
 
 .ui-section-header__layout {

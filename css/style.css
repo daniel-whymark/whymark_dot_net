@@ -43,7 +43,7 @@ TABLE OF CONTENT
   /* COLOR PALETTE */
 
   --ui-color-n-000: #EEEEEEFF;  /* Top panel background colour */
-  --ui-color-n-025: #F2F2F7FF;  /* Bottom panel background colour */
+  --ui-color-n-025: #F2F2F7FF;  /* Bottom panel & header background colour */
   --ui-color-n-050: #FEFEFEFF;  /* Middle panel background colour */
   --ui-color-n-300: #58585BFF;  /* Small class */
   --ui-color-n-400: #3C3C434D;  /* Form placeholder text */
@@ -58,6 +58,7 @@ TABLE OF CONTENT
   --ui-color-background-primary  : var(--ui-color-n-000);
   --ui-color-background-secondary: var(--ui-color-n-025);
   --ui-color-background-tertiary : var(--ui-color-n-050);
+  --ui-color-background-header   : var(--ui-color-n-025);
   --ui-color-background-footer   : var(--ui-color-n-025);
 
   /* FORM COLOR */
@@ -401,7 +402,7 @@ form { width: 100%; }
 .ui-section-header {
   padding-bottom: 1.25rem;
   padding-top: 1.25rem;
-  background-color: var(--ui-color-background-secondary);
+  background-color: var(--ui-color-background-header);
 }
 
 nav h1 {

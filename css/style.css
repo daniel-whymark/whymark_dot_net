@@ -408,7 +408,8 @@ form { width: 100%; }
   justify-content: flex-end;
   right: 1.25rem;
   column-gap: 0.5rem;
-  position: fixed;
+  position: sticky;
+  top: 1.25rem;
 }
 
 nav h1 {

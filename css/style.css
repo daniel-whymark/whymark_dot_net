@@ -120,7 +120,6 @@ TABLE OF CONTENT
   
   --ui-gap-text        : .75rem;
   --ui-gap-hero       : 2rem;
-  --ui-gap-feature    : 2rem;
   --ui-gap-social: 2rem;
 
   /* BORDER RADIUS */
@@ -532,9 +531,8 @@ form { width: 100%; }
 
     /* GAP */
 
-    --ui-gap-hero       : 3rem;
-    --ui-gap-feature    : 3rem;
-    --ui-gap-social: 3rem;
+    --ui-gap-hero   : 3rem;
+    --ui-gap-social : 3rem;
 
   }
 
@@ -595,16 +593,6 @@ form { width: 100%; }
   /*------------------------------------------------------------
   SECTION
   ------------------------------------------------------------*/
-
-  /*------------------------------------------------------------
-  |
-  | FEATURE
-  |
-  ------------------------------------------------------------*/
-
-  .ui-section-feature__layout:nth-of-type(odd) div {
-    grid-row-start: initial;
-  }
 
   /*------------------------------------------------------------
   |
@@ -706,7 +694,6 @@ form { width: 100%; }
     /* GAP */
 
     --ui-gap-hero       : 4rem;
-    --ui-gap-feature    : 4rem;
     --ui-gap-social: 4rem;
     
   }
@@ -756,29 +743,6 @@ form { width: 100%; }
   .ui-section-hero {
     padding-bottom: 7.5rem;
     padding-top: 7.5rem;
-  }
-
-  /*------------------------------------------------------------
-  |
-  | FEATURE
-  |
-  ------------------------------------------------------------*/
-
-  .ui-section-feature {
-    padding-bottom: 7.5rem;
-    padding-top: 7.5rem;
-  }
-
-  .ui-section-feature__layout:nth-of-type(even) {
-    margin-bottom: 7.5rem;
-    margin-top: 7.5rem;
-  }
-
-  /* LIST */
-
-  .ui-component-list-feature {
-    column-gap: var(--ui-layout-gutter);
-    grid-template-columns: repeat(2, 1fr);
   }
 
   /*------------------------------------------------------------

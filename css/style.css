@@ -416,7 +416,7 @@ nav h1 {
   justify-content: flex-end;
   right: 1.25rem;
   column-gap: 0.5rem;
-  position: fixed;
+  position: absolute;
 }
 
 /*--------------------------------------------------------------

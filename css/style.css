@@ -14,11 +14,10 @@ TABLE OF CONTENT
 |  6.2 FORM
 |  6.3 LIST
 7.0 SECTION
-|  7.1 HEADER
-|  7.2 HERO
-|  7.3 SOCIAL
-|  7.4 CLOSE
-|  7.5 FOOTER
+|  7.1 HERO
+|  7.2 SOCIAL
+|  7.3 CLOSE
+|  7.4 FOOTER
 8.0 MEDIA
 |  8.1 768PX
 |  8.2 1024PX
@@ -43,7 +42,7 @@ TABLE OF CONTENT
   /* COLOR PALETTE */
 
   --ui-color-n-000: #EEEEEEFF;  /* Top panel background colour */
-  --ui-color-n-025: #F2F2F7FF;  /* Bottom panel & header background colour */
+  --ui-color-n-025: #F2F2F7FF;  /* Bottom panel background colour */
   --ui-color-n-050: #FEFEFEFF;  /* Middle panel background colour */
   --ui-color-n-300: #58585BFF;  /* Small class */
   --ui-color-n-400: #3C3C434D;  /* Form placeholder text */
@@ -58,7 +57,6 @@ TABLE OF CONTENT
   --ui-color-background-primary  : var(--ui-color-n-000);
   --ui-color-background-secondary: var(--ui-color-n-025);
   --ui-color-background-tertiary : var(--ui-color-n-050);
-  --ui-color-background-header   : var(--ui-color-n-025);
   --ui-color-background-footer   : var(--ui-color-n-025);
 
   /* FORM COLOR */
@@ -248,7 +246,6 @@ svg {
   -webkit-transform: translate3d(0,0,0);
 }
 
-.ui-section-header svg,
 .ui-section-social svg {
   filter: drop-shadow(1px 1px 1px var(--ui-color-svg-shadow));
 }
@@ -395,40 +392,7 @@ form { width: 100%; }
 
 /*--------------------------------------------------------------
 |
-| 7.1 HEADER
-|
---------------------------------------------------------------*/
-
-.ui-section-header {
-  padding-bottom: 1.25rem;
-  padding-top: 1.25rem;
-  background-color: var(--ui-color-background-header);
-}
-
-nav h1 {
-  margin-bottom: 0;
-  margin-top: 0;
-  font-weight: normal;
-  display: inline;
-}
-
-.ui-section-header__layout {
-  flex-direction: row;
-  justify-content: space-between;
-  left: 1.25rem;
-  right: 1.25rem;
-  column-gap: 0.5rem;
-}
-
-.ui-section-header-icons__layout {
-  flex-direction: row;
-  justify-content: flex-end;
-  column-gap: 0.5rem;
-}
-
-/*--------------------------------------------------------------
-|
-| 7.2 HERO
+| 7.1 HERO
 |
 --------------------------------------------------------------*/
 
@@ -451,7 +415,7 @@ nav h1 {
 
 /*--------------------------------------------------------------
 |
-| 7.3 SOCIAL
+| 7.2 SOCIAL
 |
 --------------------------------------------------------------*/
 
@@ -485,7 +449,7 @@ nav h1 {
 
 /*--------------------------------------------------------------
 |
-| 7.4 CLOSE
+| 7.3 CLOSE
 |
 --------------------------------------------------------------*/
 
@@ -498,7 +462,7 @@ nav h1 {
 
 /*--------------------------------------------------------------
 |
-| 7.5 FOOTER
+| 7.4 FOOTER
 |
 --------------------------------------------------------------*/
 
@@ -631,22 +595,6 @@ nav h1 {
   /*------------------------------------------------------------
   SECTION
   ------------------------------------------------------------*/
-
-  /*------------------------------------------------------------
-  |
-  | HEADER
-  |
-  ------------------------------------------------------------*/
-
-  .ui-section-header {
-    padding-bottom: 2rem;
-    padding-top: 2rem;
-  }
-
-  .ui-section-header__layout {
-    right: 1rem;
-    column-gap: 0.25rem;
-  }
 
   /*------------------------------------------------------------
   |
@@ -801,21 +749,6 @@ nav h1 {
 
   /*------------------------------------------------------------
   |
-  | HEADER
-  |
-  ------------------------------------------------------------*/
-
-  .ui-section-header {
-    padding-bottom: 3rem;
-    padding-top: 3rem;
-  }
-
-  .ui-section-header__layout {
-    right: 3rem;
-    column-gap: 0.5rem;
-  }
-  /*------------------------------------------------------------
-  |
   | HERO
   |
   ------------------------------------------------------------*/
@@ -960,26 +893,6 @@ nav h1 {
     .ui-section-hero--image img {
       width: 400px !important;
       height: 400px !important;
-    }
-
-}
-
-/*--------------------------------------------------------------
-|
-| 8.6 MOBILE ACCESSIBILITY
-|
---------------------------------------------------------------*/
-
-@media only screen and (max-width: 480px) {
-    
-  /*------------------------------------------------------------
-  |
-  | HEADER
-  |
-  ------------------------------------------------------------*/
-
-    .ui-section-header {
-      display: none;
     }
 
 }

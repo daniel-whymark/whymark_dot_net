@@ -641,10 +641,6 @@ nav h1 {
     padding-top: 2rem;
   }
 
-  nav h1 {
-    left: 2rem;
-  }
-
   .ui-section-header__layout {
     right: 1rem;
     column-gap: 0.25rem;
@@ -810,10 +806,6 @@ nav h1 {
   .ui-section-header {
     padding-bottom: 3rem;
     padding-top: 3rem;
-  }
-
-  nav h1 {
-    left: 3rem;
   }
 
   .ui-section-header__layout {

@@ -401,6 +401,7 @@ form { width: 100%; }
 .ui-section-header {
   padding-bottom: 1.25rem;
   padding-top: 1.25rem;
+  background-color: var(--ui-color-background-secondary);
 }
 
 nav h1 {

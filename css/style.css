@@ -403,9 +403,11 @@ form { width: 100%; }
   padding-top: 1.25rem;
 }
 
-nav p {
+nav h1 {
   left: 1.25rem;
   position: absolute;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .ui-section-header__layout {
@@ -633,7 +635,7 @@ nav p {
     padding-top: 2rem;
   }
 
-  nav p {
+  nav h1 {
     left: 2rem;
   }
 
@@ -804,7 +806,7 @@ nav p {
     padding-top: 3rem;
   }
 
-  nav p {
+  nav h1 {
     left: 3rem;
   }
 

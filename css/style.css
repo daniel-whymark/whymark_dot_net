@@ -119,7 +119,7 @@ TABLE OF CONTENT
   /* GAP */
   
   --ui-gap-text  : 0.75rem;
-  --ui-gap-hero  : 1rem;
+  --ui-gap-hero  : 2rem;
   --ui-gap-social: 2rem;
 
   /* BORDER RADIUS */
@@ -268,6 +268,11 @@ svg {
 .ui-layout-flex { display: flex; }
 
 .ui-layout-grid { display: grid; }
+
+.ui-layout-hidden {
+  display: none;
+  visibility: hidden;
+}
 
 /*--------------------------------------------------------------
 6.0 COMPONENT
@@ -531,7 +536,7 @@ form { width: 100%; }
 
     /* GAP */
 
-    --ui-gap-hero  : 2rem;
+    --ui-gap-hero  : 3rem;
     --ui-gap-social: 3rem;
 
   }
@@ -693,7 +698,7 @@ form { width: 100%; }
 
     /* GAP */
 
-    --ui-gap-hero  : 3rem;
+    --ui-gap-hero  : 4rem;
     --ui-gap-social: 4rem;
     
   }

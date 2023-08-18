@@ -16,7 +16,6 @@
 
 https://:whymark.pages.dev/*
   X-Robots-Tag: noindex
-  Access-Control-Allow-Origin: https://:project.pages.dev/
 
 https://whymark.net/*
   Access-Control-Allow-Origin: https://whymark.net

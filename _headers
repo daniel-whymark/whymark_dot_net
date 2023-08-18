@@ -10,7 +10,7 @@ https://:whymark.pages.dev/*
   X-Permitted-Cross-Domain-Policies: none
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: document-domain=()
-  Content-Security-Policy: upgrade-insecure-requests; default-src 'none'; frame-ancestors 'none'; base-uri 'none'; style-src 'self'; img-src 'self'; trusted-types 'none'; require-trusted-types-for 'script'; sandbox allow-popups allow-forms allow-scripts; form-action https://formspree.io/f/mlezvyrv;
+  Content-Security-Policy: upgrade-insecure-requests; default-src 'none'; frame-ancestors 'none'; base-uri 'none'; style-src 'self'; img-src 'self'; trusted-types 'none'; require-trusted-types-for 'script'; sandbox allow-popups allow-forms; form-action https://formspree.io/f/mlezvyrv;
   Access-Control-Allow-Credentials: false
   Access-Control-Max-Age: 600
   Access-Control-Allow-Methods: GET,POST

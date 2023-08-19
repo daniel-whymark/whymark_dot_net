@@ -6,8 +6,5 @@
 		<image:image>
 			<image:loc>https://whymark.net/images/profile.png</image:loc>
 	    </image:image>
-		<image:image>
-			<image:loc>https://whymark.net/images/profile-old.png</image:loc>
-	    </image:image>
 	</url>
 </urlset>

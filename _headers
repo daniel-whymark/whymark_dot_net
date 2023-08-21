@@ -9,54 +9,46 @@
   Access-Control-Allow-Credentials: false
   Access-Control-Max-Age: 600
   Access-Control-Allow-Methods: GET, POST, OPTIONS, HEAD
+  Link: <https://whymark.net/>; rel="canonical"
 
 /cdn-cgi/*
   X-Robots-Tag: noindex
 
 https://:whymark.pages.dev/*
   X-Robots-Tag: noindex
+  ! Link
 
 https://whymark.net/*
   Access-Control-Allow-Origin: https://whymark.net
-  Link: <https://whymark.net/>; rel="canonical"
+  ! Link
 
 https://whymark.co/*
   Access-Control-Allow-Origin: https://whymark.co
-  Link: <https://whymark.net/>; rel="canonical"
 
 https://whymark.email/*
   Access-Control-Allow-Origin: https://whymark.email
-  Link: <https://whymark.net/>; rel="canonical"
 
 https://whymark.io/*
   Access-Control-Allow-Origin: https://whymark.io
-  Link: <https://whymark.net/>; rel="canonical"
 
 https://whymark.me/*
   Access-Control-Allow-Origin: https://whymark.me
-  Link: <https://whymark.net/>; rel="canonical"
 
 https://whymark.org/*
   Access-Control-Allow-Origin: https://whymark.org
-  Link: <https://whymark.net/>; rel="canonical"
 
 https://whymark.org.uk/*
   Access-Control-Allow-Origin: https://whymark.org.uk
-  Link: <https://whymark.net/>; rel="canonical"
 
 https://whymark.social/*
   Access-Control-Allow-Origin: https://whymark.social
-  Link: <https://whymark.net/>; rel="canonical"
 
 https://whymark.xyz/*
   Access-Control-Allow-Origin: https://whymark.xyz
-  Link: <https://whymark.net/>; rel="canonical"
 
 https://ymark.net/*
   Access-Control-Allow-Origin: https://ymark.net
-  Link: <https://whymark.net/>; rel="canonical"
 
 https://whymark-cdn.net/*
   Access-Control-Allow-Origin: https://ymark.net
-  Link: <https://whymark.net/>; rel="canonical"
 

@@ -410,7 +410,7 @@ form { width: 100%; }
 
 .ui-section-hero--image {
   margin: var(--ui-gap-hero);
-  position: relative;
+  overflow: visible !important
 }
 
 .ui-section-hero--image img {

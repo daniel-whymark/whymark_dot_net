@@ -76,8 +76,9 @@ TABLE OF CONTENT
   --ui-color-typography-selection-bg: var(--ui-color-intro);
 
   /* SHADOW COLOR */
-  --ui-color-hero-border: #0000000F;
-  --ui-color-svg-shadow: #00000033;
+  --ui-color-hero-border  : #0000000F;
+  --ui-color-svg-shadow   : #00000033;
+  --ui-color-header-shadow: #0000001A;
 
 
   /*------------------------------------------------------------
@@ -197,7 +198,7 @@ h1,
 h2 {
   color: var(--ui-color-typography-heading);
   margin-bottom: var(--ui-typography-margin-heading);
-  text-shadow: 1px 1px 0 var(--ui-color-background-secondary);
+  text-shadow: 1px 1px 1px var(--ui-color-header-shadow);
 }
 
 h1 {
@@ -839,8 +840,9 @@ form { width: 100%; }
       --ui-color-typography-selection-bg: var(--ui-color-intro);
     
       /* SHADOW COLOR */
-      --ui-color-hero-border: #EEEEEE47;
-      --ui-color-svg-shadow: #FFFFFF33;
+      --ui-color-hero-border  : #EEEEEE47;
+      --ui-color-svg-shadow   : #FFFFFF33;
+      --ui-color-header-shadow: #FFFFFF1A;
     }
 
 }

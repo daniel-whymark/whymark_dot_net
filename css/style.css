@@ -410,7 +410,6 @@ form { width: 100%; }
 
 .ui-section-hero--image {
   margin: var(--ui-gap-hero);
-  overflow: visible !important
   filter: drop-shadow(8px 8px 16px var(--ui-color-hero-shadow));
 }
 

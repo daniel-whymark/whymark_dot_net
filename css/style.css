@@ -412,8 +412,6 @@ form { width: 100%; }
   margin-top: var(--ui-gap-hero);
   margin-bottom: var(--ui-gap-hero);
   object-fit: scale-down;
-  min-height: 416px;
-  min-width: 416px;  
 }
 
 .ui-section-hero--image img {

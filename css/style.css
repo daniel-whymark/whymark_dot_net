@@ -409,7 +409,7 @@ form { width: 100%; }
 }
 
 .ui-section-hero--image {
-  margin-top: var(--ui-gap-hero);
+  margin: var(--ui-gap-hero);
 }
 
 .ui-section-hero--image img {

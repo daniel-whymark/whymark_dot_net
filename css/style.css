@@ -75,8 +75,9 @@ TABLE OF CONTENT
   --ui-color-typography-selection   : var(--ui-color-n-000);
   --ui-color-typography-selection-bg: var(--ui-color-intro);
 
-  /* SHADOW COLOR */
+  /* SHADOWING COLOR */
   --ui-color-hero-border  : #0000000F;
+  --ui-color-hero-shadow  : #00000080;
   --ui-color-svg-shadow   : #00000033;
   --ui-color-header-shadow: #0000001A;
 
@@ -407,15 +408,19 @@ form { width: 100%; }
   text-align: start;
 }
 
-.ui-section-hero--image { margin-top: var(--ui-gap-hero); }
+.ui-section-hero--image {
+  margin-top: var(--ui-gap-hero);
+  margin-bottom: var(--ui-gap-hero);
+  object-fit: scale-down;
+}
 
 .ui-section-hero--image img {
-  object-fit: scale-down;
   width: 400px;
   height: 400px;
-  border: 0.75px solid var(--ui-color-hero-border);
-  filter: drop-shadow(0 0 2px var(--ui-color-hero-border));
   border-radius: 50%;
+  border: 0.75px solid var(--ui-color-hero-border);
+  filter: drop-shadow(8px 8px 16px var(--ui-color-hero-shadow));
+  -webkit-transform: translate3d(0,0,0);
 }
 
 /*--------------------------------------------------------------
@@ -841,6 +846,7 @@ form { width: 100%; }
     
       /* SHADOW COLOR */
       --ui-color-hero-border  : #EEEEEE47;
+      --ui-color-hero-shadow  : #EEEEEE33;
       --ui-color-svg-shadow   : #FFFFFF33;
       --ui-color-header-shadow: #FFFFFF1A;
     }

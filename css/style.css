@@ -409,8 +409,8 @@ form { width: 100%; }
 }
 
 .ui-section-hero--image {
-  margin: var(--ui-gap-hero);
-  filter: drop-shadow(8px 8px 16px var(--ui-color-hero-shadow));
+  margin-top: var(--ui-gap-hero);
+  margin-bottom: var(--ui-gap-hero);
 }
 
 .ui-section-hero--image img {
@@ -418,6 +418,7 @@ form { width: 100%; }
   width: 400px;
   height: 400px;
   border: 0.75px solid var(--ui-color-hero-border);
+  filter: drop-shadow(8px 8px 16px var(--ui-color-hero-shadow));
   border-radius: 50%;
 }
 

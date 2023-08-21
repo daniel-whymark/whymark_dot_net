@@ -411,16 +411,15 @@ form { width: 100%; }
 .ui-section-hero--image {
   margin-top: var(--ui-gap-hero);
   margin-bottom: var(--ui-gap-hero);
+  object-fit: scale-down;
 }
 
 .ui-section-hero--image img {
-  object-fit: scale-down;
   width: 400px;
   height: 400px;
+  border-radius: 50%;
   border: 0.75px solid var(--ui-color-hero-border);
   filter: drop-shadow(8px 8px 16px var(--ui-color-hero-shadow));
-  padding: 16px;
-  border-radius: 50%;
 }
 
 /*--------------------------------------------------------------

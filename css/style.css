@@ -408,7 +408,9 @@ form { width: 100%; }
   text-align: start;
 }
 
-.ui-section-hero--image { margin-top: var(--ui-gap-hero); }
+.ui-section-hero--image {
+  margin-top: var(--ui-gap-hero);
+}
 
 .ui-section-hero--image img {
   object-fit: scale-down;
@@ -842,7 +844,7 @@ form { width: 100%; }
     
       /* SHADOW COLOR */
       --ui-color-hero-border  : #EEEEEE47;
-      --ui-color-hero-shadow  : #EEEEEE80;
+      --ui-color-hero-shadow  : #EEEEEE33;
       --ui-color-svg-shadow   : #FFFFFF33;
       --ui-color-header-shadow: #FFFFFF1A;
     }

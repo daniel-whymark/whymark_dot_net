@@ -846,7 +846,7 @@ form { width: 100%; }
     
       /* SHADOW COLOR */
       --ui-color-hero-border  : #FFFFFF26;
-      --ui-color-hero-shadow  : #00000080;
+      --ui-color-hero-shadow  : #000000FF;
       --ui-color-svg-shadow   : #FFFFFF33;
       --ui-color-header-shadow: #FFFFFF1A;
     }

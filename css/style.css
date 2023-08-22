@@ -75,7 +75,7 @@ TABLE OF CONTENT
   --ui-color-typography-selection   : var(--ui-color-n-000);
   --ui-color-typography-selection-bg: var(--ui-color-intro);
 
-  /* SHADOWING COLOR */
+  /* ELEMENT EFFECTS COLOR */
   --ui-color-hero-border  : #0000000F;
   --ui-color-hero-shadow  : #00000080;
   --ui-color-svg-shadow   : #00000033;
@@ -808,48 +808,56 @@ form { width: 100%; }
   |
   ------------------------------------------------------------*/
 
-      /* COLOR PALETTE */
-      
-      --ui-color-n-000: #000000FF; /* Top panel background colour */
-      --ui-color-n-025: #2C2C2EFF; /* Middle panel background colour */
-      --ui-color-n-050: #1C1C1EFF; /* Bottom panel background colour */
-      --ui-color-n-300: #969696FF; /* Small class */
-      --ui-color-n-400: #EBEBF54D; /* Form placeholder text */
-      --ui-color-n-500: #FFFFFFFF; /* Headings text and svg */
-      --ui-color-n-900: #EBEBF599; /* Body text */
-      --ui-color-n-950: #FF6D00FF; /* Hover colour */
-      --ui-color-brand: #FFFFFFFF; /* Links (both text and SVG) and button background */
-      --ui-color-intro: #FF9800FF; /* Links inside the intro class */
+    /* COLOR PALETTE */
     
-      /* BACKGROUND COLOR */
+    --ui-color-n-000: #121212FF; /* Top panel background colour */
+    --ui-color-n-025: #2C2C2EFF; /* Middle panel background colour */
+    --ui-color-n-050: #1C1C1EFF; /* Bottom panel background colour */
+    --ui-color-n-300: #969696FF; /* Small class */
+    --ui-color-n-400: #EBEBF54D; /* Form placeholder text */
+    --ui-color-n-500: #FFFFFFFF; /* Headings text and svg */
+    --ui-color-n-900: #EBEBF599; /* Body text */
+    --ui-color-n-950: #FF6D00FF; /* Hover colour */
+    --ui-color-brand: #FFFFFFFF; /* Links (both text and SVG) and button background */
+    --ui-color-intro: #FF9800FF; /* Links inside the intro class */
   
-      --ui-color-background-primary  : var(--ui-color-n-000);
-      --ui-color-background-secondary: var(--ui-color-n-025);
-      --ui-color-background-tertiary : var(--ui-color-n-050);
-      --ui-color-background-footer   : var(--ui-color-n-050);
+    /* BACKGROUND COLOR */
 
-      /* FORM COLOR */
+    --ui-color-background-primary  : var(--ui-color-n-000);
+    --ui-color-background-secondary: var(--ui-color-n-025);
+    --ui-color-background-tertiary : var(--ui-color-n-050);
+    --ui-color-background-footer   : var(--ui-color-n-050);
 
-      --ui-color-form-input      : var(--ui-color-n-500);
-      --ui-color-form-placeholder: var(--ui-color-n-400);
-      --ui-color-form-background : var(--ui-color-n-025);
-    
-      /* TYPOGRAPHY COLOR */
+    /* FORM COLOR */
 
-      --ui-color-typography-heading     : var(--ui-color-n-500);
-      --ui-color-typography-body        : var(--ui-color-n-900);
-      --ui-color-typography-small       : var(--ui-color-n-300);
-      --ui-color-typography-button      : var(--ui-color-n-000);
-      --ui-color-typography-hover       : var(--ui-color-n-950);
-      --ui-color-typography-selection   : var(--ui-color-n-000);
-      --ui-color-typography-selection-bg: var(--ui-color-intro);
-    
-      /* SHADOW COLOR */
-      --ui-color-hero-border  : #FFFFFF26;
-      --ui-color-hero-shadow  : #FFFFFF2E;
-      --ui-color-svg-shadow   : #FFFFFF33;
-      --ui-color-header-shadow: #FFFFFF1A;
-    }
+    --ui-color-form-input      : var(--ui-color-n-500);
+    --ui-color-form-placeholder: var(--ui-color-n-400);
+    --ui-color-form-background : var(--ui-color-n-025);
+  
+    /* TYPOGRAPHY COLOR */
+
+    --ui-color-typography-heading     : var(--ui-color-n-500);
+    --ui-color-typography-body        : var(--ui-color-n-900);
+    --ui-color-typography-small       : var(--ui-color-n-300);
+    --ui-color-typography-button      : var(--ui-color-n-000);
+    --ui-color-typography-hover       : var(--ui-color-n-950);
+    --ui-color-typography-selection   : var(--ui-color-n-000);
+    --ui-color-typography-selection-bg: var(--ui-color-intro);
+  
+    /* ELEMENT EFFECTS COLOR */
+    --ui-color-hero-border  : #FFFFFF26;
+    --ui-color-hero-shadow  : #000000FF;
+    --ui-color-svg-shadow   : #000000CC;
+    --ui-color-header-shadow: #000000B3;
+  }
+
+  /*--------------------------------------------------------------
+  TYPOGRAPHY
+  --------------------------------------------------------------*/
+
+  body {
+    font-weight: 350;
+  }
 
 }
 

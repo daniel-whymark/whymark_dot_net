@@ -75,7 +75,7 @@ TABLE OF CONTENT
   --ui-color-typography-selection   : var(--ui-color-n-000);
   --ui-color-typography-selection-bg: var(--ui-color-intro);
 
-  /* SHADOWING COLOR */
+  /* ELEMENT EFFECTS COLOR */
   --ui-color-hero-border  : #0000000F;
   --ui-color-hero-shadow  : #00000080;
   --ui-color-svg-shadow   : #00000033;
@@ -844,7 +844,7 @@ form { width: 100%; }
     --ui-color-typography-selection   : var(--ui-color-n-000);
     --ui-color-typography-selection-bg: var(--ui-color-intro);
   
-    /* SHADOW COLOR */
+    /* ELEMENT EFFECTS COLOR */
     --ui-color-hero-border  : #FFFFFF26;
     --ui-color-hero-shadow  : #000000FF;
     --ui-color-svg-shadow   : #00000033;

@@ -810,7 +810,7 @@ form { width: 100%; }
 
       /* COLOR PALETTE */
       
-      --ui-color-n-000: #000000FF; /* Top panel background colour */
+      --ui-color-n-000: #121212FF; /* Top panel background colour */
       --ui-color-n-025: #2C2C2EFF; /* Middle panel background colour */
       --ui-color-n-050: #1C1C1EFF; /* Bottom panel background colour */
       --ui-color-n-300: #969696FF; /* Small class */

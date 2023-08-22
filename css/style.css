@@ -846,9 +846,9 @@ form { width: 100%; }
   
     /* ELEMENT EFFECTS COLOR */
     --ui-color-hero-border  : #FFFFFF26;
-    --ui-color-hero-shadow  : #000000FF;
-    --ui-color-svg-shadow   : #000000FF;
-    --ui-color-header-shadow: #000000FF;
+    --ui-color-hero-shadow  : #000000E6;
+    --ui-color-svg-shadow   : #000000E6;
+    --ui-color-header-shadow: #000000E6;
   }
 
   /*--------------------------------------------------------------

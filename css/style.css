@@ -411,7 +411,6 @@ form { width: 100%; }
 .ui-section-hero--image {
   margin-top: var(--ui-gap-hero);
   margin-bottom: var(--ui-gap-hero);
-  object-fit: scale-down;
 }
 
 .ui-section-hero--image img {
@@ -421,6 +420,7 @@ form { width: 100%; }
   border: 0.75px solid var(--ui-color-hero-border);
   filter: drop-shadow(8px 8px 16px var(--ui-color-hero-shadow));
   -webkit-transform: translate3d(0,0,0);
+  object-fit: scale-down;
 }
 
 /*--------------------------------------------------------------

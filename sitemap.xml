@@ -4,6 +4,9 @@
 	<url>
 		<loc>https://whymark.net/</loc>
 		<image:image>
+			<image:loc>https://whymark.net/images/profile.jpeg</image:loc>
+	    </image:image>
+		<image:image>
 			<image:loc>https://whymark.net/images/profile.png</image:loc>
 	    </image:image>
 	</url>

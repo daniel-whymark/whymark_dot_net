@@ -9,47 +9,15 @@
   Access-Control-Allow-Credentials: false
   Access-Control-Max-Age: 600
   Access-Control-Allow-Methods: GET, POST, OPTIONS, HEAD
+  Access-Control-Allow-Origin: https://whymark.net
   Link: <https://whymark.net/:splat>; rel="canonical"
 
 /cdn-cgi/*
   X-Robots-Tag: noindex
   ! Link
+  ! Access-Control-Allow-Origin
 
 https://:whymark.pages.dev/*
   X-Robots-Tag: noindex
   ! Link
-
-https://whymark.net/*
-  Access-Control-Allow-Origin: https://whymark.net
-  ! Link
-
-https://whymark.co/*
-  Access-Control-Allow-Origin: https://whymark.co
-
-https://whymark.email/*
-  Access-Control-Allow-Origin: https://whymark.email
-
-https://whymark.io/*
-  Access-Control-Allow-Origin: https://whymark.io
-
-https://whymark.me/*
-  Access-Control-Allow-Origin: https://whymark.me
-
-https://whymark.org/*
-  Access-Control-Allow-Origin: https://whymark.org
-
-https://whymark.org.uk/*
-  Access-Control-Allow-Origin: https://whymark.org.uk
-
-https://whymark.social/*
-  Access-Control-Allow-Origin: https://whymark.social
-
-https://whymark.xyz/*
-  Access-Control-Allow-Origin: https://whymark.xyz
-
-https://ymark.net/*
-  Access-Control-Allow-Origin: https://ymark.net
-
-https://whymark-cdn.net/*
-  Access-Control-Allow-Origin: https://ymark.net
-
+  ! Access-Control-Allow-Origin

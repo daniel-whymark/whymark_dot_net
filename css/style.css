@@ -416,7 +416,7 @@ form { width: 100%; }
 .ui-section-hero--image img {
   width: 400px;
   height: 400px;
-  border-radius: 50%;
+  border-radius: 70%;
   border: 0.75px solid var(--ui-color-hero-border);
   filter: drop-shadow(8px 8px 16px var(--ui-color-hero-shadow));
   -webkit-transform: translate3d(0,0,0);

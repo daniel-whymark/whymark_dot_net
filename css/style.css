@@ -403,6 +403,8 @@ form { width: 100%; }
 --------------------------------------------------------------*/
 
 .ui-section-hero {
+  padding-bottom: 5rem;
+  padding-top: 5rem;
   text-align: start;
 }
 

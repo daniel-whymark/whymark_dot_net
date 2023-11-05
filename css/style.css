@@ -10,17 +10,14 @@ TABLE OF CONTENT
 4.0 IMAGE
 5.0 LAYOUT
 6.0 COMPONENT
-|  6.1 CTA
+|  6.1 TEXT
 |  6.2 FORM
 |  6.3 LIST
 7.0 SECTION
-|  7.1 HEADER
-|  7.2 HERO
-|  7.3 CUSTOMER
-|  7.4 FEATURE
-|  7.5 TESTIMONIAL
-|  7.6 CLOSE
-|  7.7 FOOTER
+|  7.1 HERO
+|  7.2 SOCIAL
+|  7.3 CLOSE
+|  7.4 FOOTER
 8.0 MEDIA
 |  8.1 768PX
 |  8.2 1024PX
@@ -44,38 +41,46 @@ TABLE OF CONTENT
 
   /* COLOR PALETTE */
 
-  --ui-color-n-000: #EEEEEEFF;  /* Primary panel background colour */
-  --ui-color-n-025: #F2F2F7FF;  /* Secondary panel background colour */
-  --ui-color-n-050: #FEFEFEFF;  /* Tertiary panel background colour */
+  --ui-color-n-000: #EEEEEEFF;  /* Top panel background colour */
+  --ui-color-n-025: #FEFEFEFF;  /* Middle panel background colour */
+  --ui-color-n-050: #F2F2F7FF;  /* Bottom panel & footer background colour */
   --ui-color-n-300: #58585BFF;  /* Small class */
   --ui-color-n-400: #3C3C434D;  /* Form placeholder text */
   --ui-color-n-500: #000000FF;  /* Headings text and svg */
-  --ui-color-n-900: #3C3C43FF;  /* Body text */
-  --ui-color-n-950: #FF9500FF;  /* Hover colour */
+  --ui-color-n-900: #070711FF;  /* Body text */
+  --ui-color-n-950: #D50000FF;  /* Hover colour */
   --ui-color-brand: #000000FF;  /* Links (both text and SVG) and button background */
-  --ui-color-intro: #FF9500CC;  /* Links inside the intro class */
-
+  --ui-color-intro: #B71C1CFF;  /* Links inside the intro class */
+  
   /* BACKGROUND COLOR */
   
   --ui-color-background-primary  : var(--ui-color-n-000);
   --ui-color-background-secondary: var(--ui-color-n-025);
   --ui-color-background-tertiary : var(--ui-color-n-050);
-  --ui-color-background-footer   : var(--ui-color-n-025);
+  --ui-color-background-footer   : var(--ui-color-n-050);
 
   /* FORM COLOR */
 
   --ui-color-form-input      : var(--ui-color-n-500);
   --ui-color-form-placeholder: var(--ui-color-n-400);
-  --ui-color-form-background : var(--ui-color-n-050);
+  --ui-color-form-background : var(--ui-color-n-025);
 
   /* TYPOGRAPHY COLOR */
 
-  --ui-color-typography-heading: var(--ui-color-n-500);
-  --ui-color-typography-body   : var(--ui-color-n-900);
-  --ui-color-typography-small  : var(--ui-color-n-300);
-  --ui-color-typography-button : var(--ui-color-n-000);
-  --ui-color-typography-hover  : var(--ui-color-n-950);
-  
+  --ui-color-typography-heading     : var(--ui-color-n-500);
+  --ui-color-typography-body        : var(--ui-color-n-900);
+  --ui-color-typography-small       : var(--ui-color-n-300);
+  --ui-color-typography-button      : var(--ui-color-n-000);
+  --ui-color-typography-hover       : var(--ui-color-n-950);
+  --ui-color-typography-selection   : var(--ui-color-n-000);
+  --ui-color-typography-selection-bg: var(--ui-color-intro);
+
+  /* ELEMENT EFFECTS COLOR */
+  --ui-color-hero-border  : #0000000F;
+  --ui-color-hero-shadow  : #00000080;
+  --ui-color-svg-shadow   : #00000033;
+  --ui-color-header-shadow: #0000001A;
+
 
   /*------------------------------------------------------------
   |
@@ -100,7 +105,7 @@ TABLE OF CONTENT
 
   /* MARGIN */
 
-  --ui-typography-margin-heading: .75rem;
+  --ui-typography-margin-heading: 1rem;
   --ui-typography-margin-body   : 1.125rem;
 
   /*------------------------------------------------------------
@@ -109,17 +114,15 @@ TABLE OF CONTENT
   |
   ------------------------------------------------------------*/
   
-  --ui-layout-container: 1.25rem;
+  --ui-layout-container: 2rem;
   --ui-layout-grid     : 3.625rem;
   --ui-layout-gutter   : 1rem;
 
   /* GAP */
   
-  --ui-gap-cta        : .75rem;
-  --ui-gap-hero       : 2rem;
-  --ui-gap-customer   : 2rem;
-  --ui-gap-feature    : 2rem;
-  --ui-gap-testimonial: 2rem;
+  --ui-gap-text  : 0.75rem;
+  --ui-gap-hero  : 2rem;
+  --ui-gap-social: 2rem;
 
   /* BORDER RADIUS */
   
@@ -159,12 +162,33 @@ body {
 a {
   color: var(--ui-color-brand);
   text-decoration: none;
+  transition: all 250ms ease;
 }
 
 .ui-text-intro a {
   color: var(--ui-color-intro);
+  text-decoration: underline;
+}
+
+.ui-text-intro a:hover,
+.ui-text-intro a:active,
+.ui-text-intro a:focus {
   text-decoration: none;
 }
+
+a:not(.ui-component-button):hover,
+a:not(.ui-component-button):active,
+a:not(.ui-component-button):focus {
+  color: var(--ui-color-typography-hover);
+  fill: var(--ui-color-typography-hover);
+  text-shadow: 0 0 1px currentColor;
+}
+
+::selection {
+  color: var(--ui-color-typography-selection);
+  background-color: var(--ui-color-typography-selection-bg);
+}
+
 
 h1,
 h2,
@@ -175,12 +199,13 @@ h1,
 h2 {
   color: var(--ui-color-typography-heading);
   margin-bottom: var(--ui-typography-margin-heading);
-  text-shadow: 1px 1px 0 var(--ui-color-background-secondary);
+  text-shadow: 1px 1px 2px var(--ui-color-header-shadow);
 }
 
 h1 {
   font-size: var(--ui-typography-h1);
   line-height: var(--ui-typography-h1-leading);
+  margin-top: var(--ui-typography-margin-heading);
 }
 
 h2 {
@@ -218,6 +243,14 @@ svg {
   max-width: 100%;
 }
 
+svg {
+  -webkit-transform: translate3d(0,0,0);
+}
+
+.ui-section-social svg {
+  filter: drop-shadow(1px 1px 1px var(--ui-color-svg-shadow));
+}
+
 /*--------------------------------------------------------------
 5.0 LAYOUT
 --------------------------------------------------------------*/
@@ -225,6 +258,7 @@ svg {
 .ui-layout-container {
   padding-left: var(--ui-layout-container);
   padding-right: var(--ui-layout-container);
+  word-break: keep-all;
 }
 
 .ui-layout-flex,
@@ -237,19 +271,24 @@ svg {
 
 .ui-layout-grid { display: grid; }
 
+.ui-layout-hidden {
+  display: none;
+  visibility: hidden;
+}
+
 /*--------------------------------------------------------------
 6.0 COMPONENT
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
 |
-| 6.1 CTA
+| 6.1 TEXT
 |
 --------------------------------------------------------------*/
 
-.ui-component-cta {
+.ui-component-text {
   flex-direction: column;
-  row-gap: var(--ui-gap-cta);
+  row-gap: var(--ui-gap-text);
 }
 
 /*--------------------------------------------------------------
@@ -359,125 +398,81 @@ form { width: 100%; }
 
 /*--------------------------------------------------------------
 |
-| 7.1 HEADER
-|
---------------------------------------------------------------*/
-
-.ui-section-header {
-  padding-bottom: 1.25rem;
-  padding-top: 1.25rem;
-}
-
-.ui-section-header__layout { justify-content: flex-end; }
-
-/*--------------------------------------------------------------
-|
-| 7.2 HERO
+| 7.1 HERO
 |
 --------------------------------------------------------------*/
 
 .ui-section-hero {
   padding-bottom: 5rem;
   padding-top: 5rem;
-  text-align: center;
+  text-align: start;
 }
 
-.ui-section-hero--image { margin-top: var(--ui-gap-hero); }
+.ui-section-hero--image {
+  margin-top: var(--ui-gap-hero);
+  margin-bottom: var(--ui-gap-hero);
+}
 
 .ui-section-hero--image img {
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  border: 0.75px solid var(--ui-color-hero-border);
+  filter: drop-shadow(8px 8px 16px var(--ui-color-hero-shadow));
+  -webkit-transform: translate3d(0,0,0);
+  object-fit: scale-down;
 }
 
 /*--------------------------------------------------------------
 |
-| 7.3 CUSTOMER
+| 7.2 SOCIAL
 |
 --------------------------------------------------------------*/
 
-.ui-section-customer__layout {
-  flex-direction: column;
-  row-gap: var(--ui-gap-customer);
-}
-
-.ui-section-customer--logo {
-  height: 1.5rem;
-  width: auto;
-}
-
-.ui-section-customer--logo-str { height: 1.75rem; }
-  
-.ui-section-customer--logo-bhn { height: 1.375rem; }
-
-/*--------------------------------------------------------------
-|
-| 7.4 FEATURE
-|
---------------------------------------------------------------*/
-
-.ui-section-feature {
+.ui-section-social {
+  background-color: var(--ui-color-background-secondary);
   padding-bottom: 5rem;
   padding-top: 5rem;
+  text-align: start;
 }
 
-.ui-section-feature__layout { row-gap: var(--ui-gap-feature); }
-
-.ui-section-feature__layout:nth-of-type(odd) div {
-  grid-row-start: 1;
+.ui-section-social__layout {
+  margin-top: var(--ui-gap-social);
+  row-gap: var(--ui-gap-social);
 }
 
-.ui-section-feature__layout:nth-of-type(even) {
-  margin-bottom: 5rem;
-  margin-top: 5rem;
-}
-
-/*--------------------------------------------------------------
-|
-| 7.5 TESTIMONIAL
-|
---------------------------------------------------------------*/
-
-.ui-section-testimonial {
-  background-color: var(--ui-color-background-tertiary);
-  padding-bottom: 5rem;
-  padding-top: 5rem;
-  text-align: center;
-}
-
-.ui-section-testimonial__layout {
-  margin-top: var(--ui-gap-testimonial);
-  row-gap: var(--ui-gap-testimonial);
-}
-
-.ui-section-testimonial--avatar {
+.ui-section-social--avatar {
   /*border-radius: var(--ui-radius-avatar);*/
   height: 80px;
   width: 80px;
 }
 
-.ui-section-testimonial--quote {
+.ui-section-social--quote {
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
 
-.ui-section-testimonial--author { line-height: 1.25; }
-
-/*--------------------------------------------------------------
-|
-| 7.6 CLOSE
-|
---------------------------------------------------------------*/
-
-.ui-section-close {
-  background-color: var(--ui-color-background-secondary);
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+.ui-section-social--author {
+  line-height: 1.25;
   text-align: center;
 }
 
 /*--------------------------------------------------------------
 |
-| 7.7 FOOTER
+| 7.3 CLOSE
+|
+--------------------------------------------------------------*/
+
+.ui-section-close {
+  background-color: var(--ui-color-background-tertiary);
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-align: start;
+}
+
+/*--------------------------------------------------------------
+|
+| 7.4 FOOTER
 |
 --------------------------------------------------------------*/
 
@@ -488,8 +483,10 @@ form { width: 100%; }
 }
 
 .ui-section-footer__layout {
-  flex-direction: column-reverse;
   row-gap: var(--ui-layout-gutter);
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
 }
 
 .ui-section-footer--copyright { margin-bottom: 0; }
@@ -545,9 +542,8 @@ form { width: 100%; }
 
     /* GAP */
 
-    --ui-gap-hero       : 3rem;
-    --ui-gap-feature    : 3rem;
-    --ui-gap-testimonial: 3rem;
+    --ui-gap-hero  : 3rem;
+    --ui-gap-social: 3rem;
 
   }
 
@@ -611,43 +607,6 @@ form { width: 100%; }
 
   /*------------------------------------------------------------
   |
-  | HEADER
-  |
-  ------------------------------------------------------------*/
-
-  .ui-section-header {
-    padding-bottom: 2rem;
-    padding-top: 2rem;
-  }
-
-  /*------------------------------------------------------------
-  |
-  | CUSTOMER
-  |
-  ------------------------------------------------------------*/
-
-  .ui-section-customer__layout {
-    column-gap: var(--ui-gap-customer);
-    flex-direction: row;
-  }
-  
-  .ui-section-customer--logo {
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  /*------------------------------------------------------------
-  |
-  | FEATURE
-  |
-  ------------------------------------------------------------*/
-
-  .ui-section-feature__layout:nth-of-type(odd) div {
-    grid-row-start: initial;
-  }
-
-  /*------------------------------------------------------------
-  |
   | FOOTER
   |
   ------------------------------------------------------------*/
@@ -658,11 +617,9 @@ form { width: 100%; }
   }
   
   .ui-section-footer__layout {
-    flex-direction: row;
     justify-content: space-between;
-    position: relative;
   }
-
+  
   .ui-section-footer--menu {
     left: 50%;
     position: absolute;
@@ -693,18 +650,6 @@ form { width: 100%; }
 
     --ui-layout-container: 0;
   
-  }
-
-  /*------------------------------------------------------------
-  TYPOGRAPHY
-  ------------------------------------------------------------*/
-
-  a { transition: all 250ms ease; }
-
-  a:not(.ui-component-button):hover {
-    color: var(--ui-color-typography-hover);
-    fill: var(--ui-color-typography-hover);
-    text-shadow: 0 0 1px currentColor;
   }
 
   /*------------------------------------------------------------
@@ -745,7 +690,7 @@ form { width: 100%; }
 
     /* MARGIN */
 
-    --ui-typography-margin-heading: 1rem;
+    --ui-typography-margin-heading: 1.25rem;
     --ui-typography-margin-body   : 1.75rem;
 
     /*----------------------------------------------------------
@@ -759,10 +704,8 @@ form { width: 100%; }
 
     /* GAP */
 
-    --ui-gap-hero       : 4rem;
-    --ui-gap-customer   : 4rem;
-    --ui-gap-feature    : 4rem;
-    --ui-gap-testimonial: 4rem;
+    --ui-gap-hero  : 4rem;
+    --ui-gap-social: 4rem;
     
   }
 
@@ -804,17 +747,6 @@ form { width: 100%; }
 
   /*------------------------------------------------------------
   |
-  | HEADER
-  |
-  ------------------------------------------------------------*/
-
-  .ui-section-header {
-    padding-bottom: 3rem;
-    padding-top: 3rem;
-  }
-
-  /*------------------------------------------------------------
-  |
   | HERO
   |
   ------------------------------------------------------------*/
@@ -826,46 +758,11 @@ form { width: 100%; }
 
   /*------------------------------------------------------------
   |
-  | CUSTOMER
+  | SOCIAL
   |
   ------------------------------------------------------------*/
 
-  .ui-section-customer--logo { height: 2rem; }
-  
-  .ui-section-customer--logo-str { height: 2.25rem; }
-  
-  .ui-section-customer--logo-bhn { height: 1.75rem; }
-
-  /*------------------------------------------------------------
-  |
-  | FEATURE
-  |
-  ------------------------------------------------------------*/
-
-  .ui-section-feature {
-    padding-bottom: 7.5rem;
-    padding-top: 7.5rem;
-  }
-
-  .ui-section-feature__layout:nth-of-type(even) {
-    margin-bottom: 7.5rem;
-    margin-top: 7.5rem;
-  }
-
-  /* LIST */
-
-  .ui-component-list-feature {
-    column-gap: var(--ui-layout-gutter);
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  /*------------------------------------------------------------
-  |
-  | TESTIMONIAL
-  |
-  ------------------------------------------------------------*/
-
-  .ui-section-testimonial {
+  .ui-section-social {
     padding-bottom: 7.5rem;
     padding-top: 7.5rem;
   }
@@ -911,41 +808,56 @@ form { width: 100%; }
   |
   ------------------------------------------------------------*/
 
-      /* COLOR PALETTE */
-
-      --ui-color-n-000: #000000FF; /* Primary panel background colour */
-      --ui-color-n-025: #1C1C1EFF; /* Secondary panel background colour */
-      --ui-color-n-050: #2C2C2EFF; /* Tertiary panel background colour */
-      --ui-color-n-300: #969696FF; /* Small class */
-      --ui-color-n-400: #EBEBF54D; /* Form placeholder text */
-      --ui-color-n-500: #FFFFFFFF; /* Headings text and svg */
-      --ui-color-n-900: #EBEBF599; /* Body text */
-      --ui-color-n-950: #FF9F0AFF; /* Hover colour */
-      --ui-color-brand: #FFFFFFFF; /* Links (both text and SVG) and button background */
-      --ui-color-intro: #FF9F0ACC; /* Links inside the intro class */
+    /* COLOR PALETTE */
     
-      /* BACKGROUND COLOR */
+    --ui-color-n-000: #121212FF; /* Top panel background colour */
+    --ui-color-n-025: #2C2C2EFF; /* Middle panel background colour */
+    --ui-color-n-050: #1C1C1EFF; /* Bottom panel background colour */
+    --ui-color-n-300: #969696FF; /* Small class */
+    --ui-color-n-400: #EBEBF54D; /* Form placeholder text */
+    --ui-color-n-500: #FFFFFFFF; /* Headings text and svg */
+    --ui-color-n-900: #EBEBF599; /* Body text */
+    --ui-color-n-950: #FF6D00FF; /* Hover colour */
+    --ui-color-brand: #FFFFFFFF; /* Links (both text and SVG) and button background */
+    --ui-color-intro: #FF9800FF; /* Links inside the intro class */
   
-      --ui-color-background-primary  : var(--ui-color-n-000);
-      --ui-color-background-secondary: var(--ui-color-n-025);
-      --ui-color-background-tertiary : var(--ui-color-n-050);
-      --ui-color-background-footer   : var(--ui-color-n-025);
+    /* BACKGROUND COLOR */
 
-      /* FORM COLOR */
+    --ui-color-background-primary  : var(--ui-color-n-000);
+    --ui-color-background-secondary: var(--ui-color-n-025);
+    --ui-color-background-tertiary : var(--ui-color-n-050);
+    --ui-color-background-footer   : var(--ui-color-n-050);
 
-      --ui-color-form-input      : var(--ui-color-n-500);
-      --ui-color-form-placeholder: var(--ui-color-n-400);
-      --ui-color-form-background : var(--ui-color-n-050);
-    
-      /* TYPOGRAPHY COLOR */
+    /* FORM COLOR */
 
-      --ui-color-typography-heading: var(--ui-color-n-500);
-      --ui-color-typography-body   : var(--ui-color-n-900);
-      --ui-color-typography-small  : var(--ui-color-n-300);
-      --ui-color-typography-button : var(--ui-color-n-000);
-      --ui-color-typography-hover  : var(--ui-color-n-950);
+    --ui-color-form-input      : var(--ui-color-n-500);
+    --ui-color-form-placeholder: var(--ui-color-n-400);
+    --ui-color-form-background : var(--ui-color-n-025);
+  
+    /* TYPOGRAPHY COLOR */
 
-    }
+    --ui-color-typography-heading     : var(--ui-color-n-500);
+    --ui-color-typography-body        : var(--ui-color-n-900);
+    --ui-color-typography-small       : var(--ui-color-n-300);
+    --ui-color-typography-button      : var(--ui-color-n-000);
+    --ui-color-typography-hover       : var(--ui-color-n-950);
+    --ui-color-typography-selection   : var(--ui-color-n-000);
+    --ui-color-typography-selection-bg: var(--ui-color-intro);
+  
+    /* ELEMENT EFFECTS COLOR */
+    --ui-color-hero-border  : #FFFFFF26;
+    --ui-color-hero-shadow  : #000000FF;
+    --ui-color-svg-shadow   : #000000CC;
+    --ui-color-header-shadow: #000000B3;
+  }
+
+  /*--------------------------------------------------------------
+  TYPOGRAPHY
+  --------------------------------------------------------------*/
+
+  body {
+    font-weight: 350;
+  }
 
 }
 
@@ -955,7 +867,11 @@ form { width: 100%; }
 |
 --------------------------------------------------------------*/
 
-@media only screen and (min-width: 400px) {
+/*------------------------------------------------------------
+LESS THAN 500PX WIDTH
+------------------------------------------------------------*/
+
+@media only screen and (max-width: 600px) {
     
   /*------------------------------------------------------------
   |
@@ -964,8 +880,27 @@ form { width: 100%; }
   ------------------------------------------------------------*/
 
     .ui-section-hero--image img {
-      width: 400px !important;
-      height: 400px !important;
+      width: 300px !important;
+      height: 300px !important;
+    }
+
+}
+
+/*------------------------------------------------------------
+LESS THAN 400PX WIDTH
+------------------------------------------------------------*/
+
+@media only screen and (max-width: 400px) {
+    
+  /*------------------------------------------------------------
+  |
+  | HERO
+  |
+  ------------------------------------------------------------*/
+
+    .ui-section-hero--image img {
+      width: 200px !important;
+      height: 200px !important;
     }
 
 }

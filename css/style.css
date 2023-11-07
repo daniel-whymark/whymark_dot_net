@@ -157,7 +157,7 @@ html {
 }
 
 body {
-    background: linear-gradient(var(--ui-color-background-primary), var(--ui-color-background-secondary));
+    background-color: var(--ui-color-background-primary);
     color: var(--ui-color-typography-body);
     font-family: var(--ui-typography-typeface);
     font-feature-settings: "liga", "kern";
@@ -437,6 +437,7 @@ form {
 --------------------------------------------------------------*/
 
 .ui-section-hero {
+    background: linear-gradient(var(--ui-color-background-primary), var(--ui-color-background-secondary));
     padding-bottom: 5rem;
     padding-top: 5rem;
     text-align: start;
@@ -464,7 +465,7 @@ form {
 --------------------------------------------------------------*/
 
 .ui-section-social {
-    background-color: var(--ui-color-background-secondary);
+    background: linear-gradient(var(--ui-color-background-secondary), var(--ui-color-background-tertiary));
     padding-bottom: 5rem;
     padding-top: 5rem;
     text-align: start;
@@ -498,7 +499,7 @@ form {
 --------------------------------------------------------------*/
 
 .ui-section-close {
-    background-color: var(--ui-color-background-tertiary);
+    background: linear-gradient(var(--ui-color-background-tertiary), var(--ui-color-background-footer));
     padding-top: 5rem;
     padding-bottom: 5rem;
     text-align: start;

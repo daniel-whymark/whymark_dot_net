@@ -437,7 +437,7 @@ form {
 --------------------------------------------------------------*/
 
 .ui-section-hero {
-    background: linear-gradient(var(--ui-color-background-primary), var(--ui-color-background-secondary));
+    background: linear-gradient(var(--ui-color-background-secondary), var(--ui-color-background-primary));
     padding-bottom: 5rem;
     padding-top: 5rem;
     text-align: start;
@@ -465,7 +465,7 @@ form {
 --------------------------------------------------------------*/
 
 .ui-section-social {
-    background: linear-gradient(var(--ui-color-background-secondary), var(--ui-color-background-tertiary));
+    background: linear-gradient(var(--ui-color-background-tertiary), var(--ui-color-background-secondary));
     padding-bottom: 5rem;
     padding-top: 5rem;
     text-align: start;
@@ -499,7 +499,7 @@ form {
 --------------------------------------------------------------*/
 
 .ui-section-close {
-    background: linear-gradient(var(--ui-color-background-tertiary), var(--ui-color-background-footer));
+    background: linear-gradient(var(--ui-color-background-footer), var(--ui-color-background-tertiary));
     padding-top: 5rem;
     padding-bottom: 5rem;
     text-align: start;
@@ -512,7 +512,7 @@ form {
 --------------------------------------------------------------*/
 
 .ui-section-footer {
-    background-color: var(--ui-color-background-footer);
+    background: linear-gradient(var(--ui-color-background-footer), var(--ui-color-background-footer));
     padding-bottom: 3rem;
     padding-top: 3rem;
 }

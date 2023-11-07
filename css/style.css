@@ -512,7 +512,7 @@ form {
 --------------------------------------------------------------*/
 
 .ui-section-footer {
-    background: linear-gradient(var(--ui-color-background-footer), var(--ui-color-background-secondary));
+    background: linear-gradient(var(--ui-color-background-footer), var(--ui-color-background-primary));
     padding-bottom: 3rem;
     padding-top: 3rem;
 }

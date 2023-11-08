@@ -525,7 +525,7 @@ form {
 --------------------------------------------------------------*/
 
 .ui-section-footer {
-    background: linear-gradient(var(--ui-color-background-tertiary), 75%, var(--ui-color-background-base));
+    background: linear-gradient(var(--ui-color-background-tertiary), 90%, var(--ui-color-background-base));
     padding-bottom: 1.5rem;
     padding-top: 1.5rem;
 }

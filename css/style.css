@@ -526,8 +526,8 @@ form {
 
 .ui-section-footer {
     background: linear-gradient(var(--ui-color-background-tertiary), var(--ui-color-background-base));
-    padding-bottom: 1.75rem;
-    padding-top: 1.75rem;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
 }
 
 .ui-section-footer__layout {
@@ -671,8 +671,8 @@ form {
   ------------------------------------------------------------*/
 
     .ui-section-footer {
-        padding-bottom: 1.5rem;
-        padding-top: 1.5rem;
+        padding-bottom: 1.25rem;
+        padding-top: 1.25rem;
     }
 
     .ui-section-footer__layout {
@@ -862,8 +862,8 @@ form {
   ------------------------------------------------------------*/
 
     .ui-section-footer {
-        padding-bottom: 2rem;
-        padding-top: 2rem;
+        padding-bottom: 1.75rem;
+        padding-top: 1.75rem;
     }
 
 }

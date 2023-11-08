@@ -14,11 +14,10 @@ TABLE OF CONTENT
 |  6.2 FORM
 |  6.3 LIST
 7.0 SECTION
-|  7.1 HEADER
-|  7.2 HERO
-|  7.3 SOCIAL
-|  7.4 CLOSE
-|  7.5 FOOTER
+|  7.1 HERO
+|  7.2 SOCIAL
+|  7.3 CLOSE
+|  7.4 FOOTER
 8.0 MEDIA
 |  8.1 768PX
 |  8.2 1024PX
@@ -68,7 +67,6 @@ TABLE OF CONTENT
     --ui-color-background-primary: var(--ui-color-n-000);
     --ui-color-background-secondary: var(--ui-color-n-025);
     --ui-color-background-tertiary: var(--ui-color-n-050);
-    --ui-color-background-base: #FFFFFF1A;
 
     /* FORM COLOR */
 
@@ -433,19 +431,7 @@ form {
 
 /*--------------------------------------------------------------
 |
-| 7.1 HEADER
-|
---------------------------------------------------------------*/
-
-.ui-section-header {
-    background: linear-gradient(var(--ui-color-background-base), var(--ui-color-background-primary));
-    padding-bottom: 0.75rem;
-    padding-top: 0.75rem;
-}
-
-/*--------------------------------------------------------------
-|
-| 7.2 HERO
+| 7.1 HERO
 |
 --------------------------------------------------------------*/
 
@@ -473,7 +459,7 @@ form {
 
 /*--------------------------------------------------------------
 |
-| 7.3 SOCIAL
+| 7.2 SOCIAL
 |
 --------------------------------------------------------------*/
 
@@ -507,7 +493,7 @@ form {
 
 /*--------------------------------------------------------------
 |
-| 7.4 CLOSE
+| 7.3 CLOSE
 |
 --------------------------------------------------------------*/
 
@@ -520,12 +506,12 @@ form {
 
 /*--------------------------------------------------------------
 |
-| 7.5 FOOTER
+| 7.4 FOOTER
 |
 --------------------------------------------------------------*/
 
 .ui-section-footer {
-    background: linear-gradient(var(--ui-color-background-tertiary), 90%, var(--ui-color-background-base));
+    background-color: var(--ui-color-background-tertiary);
     padding-bottom: 1.5rem;
     padding-top: 1.5rem;
 }
@@ -652,17 +638,6 @@ form {
     /*------------------------------------------------------------
   SECTION
   ------------------------------------------------------------*/
-
-    /*------------------------------------------------------------
-  |
-  | HEADER
-  |
-  ------------------------------------------------------------*/
-
-    .ui-section-header {
-        padding-bottom: 1rem;
-        padding-top: 1rem;
-    }
 
     /*------------------------------------------------------------
   |
@@ -818,17 +793,6 @@ form {
   |
   ------------------------------------------------------------*/
 
-    .ui-section-header {
-        padding-bottom: 1.25rem;
-        padding-top: 1.25rem;
-    }
-
-    /*------------------------------------------------------------
-  |
-  | HERO
-  |
-  ------------------------------------------------------------*/
-
     .ui-section-hero {
         padding-bottom: 7.5rem;
         padding-top: 7.5rem;
@@ -916,7 +880,6 @@ form {
         --ui-color-background-primary: var(--ui-color-n-000);
         --ui-color-background-secondary: var(--ui-color-n-025);
         --ui-color-background-tertiary: var(--ui-color-n-050);
-        --ui-color-background-base: #0000001A;
 
         /* FORM COLOR */
 

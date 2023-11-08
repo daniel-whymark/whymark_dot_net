@@ -660,8 +660,8 @@ form {
   ------------------------------------------------------------*/
 
     .ui-section-header {
-        padding-bottom: 2rem;
-        padding-top: 2rem;
+        padding-bottom: 1.5rem;
+        padding-top: 1.5rem;
     }
 
     /*------------------------------------------------------------
@@ -819,8 +819,8 @@ form {
   ------------------------------------------------------------*/
 
     .ui-section-header {
-        padding-bottom: 3rem;
-        padding-top: 3rem;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
     }
 
     /*------------------------------------------------------------

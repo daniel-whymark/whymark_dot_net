@@ -439,8 +439,8 @@ form {
 
 .ui-section-header {
     background: linear-gradient(var(--ui-color-background-footer), var(--ui-color-background-primary));
-    padding-bottom: 1rem;
-    padding-top: 1rem;
+    padding-bottom: 0.75rem;
+    padding-top: 0.75rem;
 }
 
 /*--------------------------------------------------------------
@@ -660,8 +660,8 @@ form {
   ------------------------------------------------------------*/
 
     .ui-section-header {
-        padding-bottom: 1.25rem;
-        padding-top: 1.25rem;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
     }
 
     /*------------------------------------------------------------
@@ -819,8 +819,8 @@ form {
   ------------------------------------------------------------*/
 
     .ui-section-header {
-        padding-bottom: 1.5rem;
-        padding-top: 1.5rem;
+        padding-bottom: 1.25rem;
+        padding-top: 1.25rem;
     }
 
     /*------------------------------------------------------------

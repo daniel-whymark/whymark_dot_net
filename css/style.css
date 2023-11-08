@@ -671,8 +671,8 @@ form {
   ------------------------------------------------------------*/
 
     .ui-section-footer {
-        padding-bottom: 1.25rem;
-        padding-top: 1.25rem;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
     }
 
     .ui-section-footer__layout {
@@ -862,8 +862,8 @@ form {
   ------------------------------------------------------------*/
 
     .ui-section-footer {
-        padding-bottom: 1.75rem;
-        padding-top: 1.75rem;
+        padding-bottom: 2.5rem;
+        padding-top: 2.5rem;
     }
 
 }

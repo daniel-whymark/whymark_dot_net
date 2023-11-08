@@ -14,10 +14,11 @@ TABLE OF CONTENT
 |  6.2 FORM
 |  6.3 LIST
 7.0 SECTION
-|  7.1 HERO
-|  7.2 SOCIAL
-|  7.3 CLOSE
-|  7.4 FOOTER
+|  7.1 HEADER
+|  7.2 HERO
+|  7.3 SOCIAL
+|  7.4 CLOSE
+|  7.5 FOOTER
 8.0 MEDIA
 |  8.1 768PX
 |  8.2 1024PX
@@ -432,7 +433,19 @@ form {
 
 /*--------------------------------------------------------------
 |
-| 7.1 HERO
+| 7.1 HEADER
+|
+--------------------------------------------------------------*/
+
+.ui-section-header {
+    background: linear-gradient(var(--ui-color-background-footer), var(--ui-color-background-primary));
+    padding-bottom: 0.75rem;
+    padding-top: 0.75rem;
+}
+
+/*--------------------------------------------------------------
+|
+| 7.2 HERO
 |
 --------------------------------------------------------------*/
 
@@ -460,7 +473,7 @@ form {
 
 /*--------------------------------------------------------------
 |
-| 7.2 SOCIAL
+| 7.3 SOCIAL
 |
 --------------------------------------------------------------*/
 
@@ -494,7 +507,7 @@ form {
 
 /*--------------------------------------------------------------
 |
-| 7.3 CLOSE
+| 7.4 CLOSE
 |
 --------------------------------------------------------------*/
 
@@ -507,14 +520,14 @@ form {
 
 /*--------------------------------------------------------------
 |
-| 7.4 FOOTER
+| 7.5 FOOTER
 |
 --------------------------------------------------------------*/
 
 .ui-section-footer {
     background: linear-gradient(var(--ui-color-background-footer), var(--ui-color-background-primary));
-    padding-bottom: 3rem;
-    padding-top: 3rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
 }
 
 .ui-section-footer__layout {
@@ -642,13 +655,24 @@ form {
 
     /*------------------------------------------------------------
   |
+  | HEADER
+  |
+  ------------------------------------------------------------*/
+
+    .ui-section-header {
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+    }
+
+    /*------------------------------------------------------------
+  |
   | FOOTER
   |
   ------------------------------------------------------------*/
 
     .ui-section-footer {
-        padding-bottom: 2rem;
-        padding-top: 2rem;
+        padding-bottom: 1.5rem;
+        padding-top: 1.5rem;
     }
 
     .ui-section-footer__layout {
@@ -794,6 +818,17 @@ form {
   |
   ------------------------------------------------------------*/
 
+    .ui-section-header {
+        padding-bottom: 1.25rem;
+        padding-top: 1.25rem;
+    }
+
+    /*------------------------------------------------------------
+  |
+  | HERO
+  |
+  ------------------------------------------------------------*/
+
     .ui-section-hero {
         padding-bottom: 7.5rem;
         padding-top: 7.5rem;
@@ -827,8 +862,8 @@ form {
   ------------------------------------------------------------*/
 
     .ui-section-footer {
-        padding-bottom: 3rem;
-        padding-top: 3rem;
+        padding-bottom: 2.5rem;
+        padding-top: 2.5rem;
     }
 
 }

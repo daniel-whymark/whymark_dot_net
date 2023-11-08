@@ -68,7 +68,7 @@ TABLE OF CONTENT
     --ui-color-background-primary: var(--ui-color-n-000);
     --ui-color-background-secondary: var(--ui-color-n-025);
     --ui-color-background-tertiary: var(--ui-color-n-050);
-    --ui-color-background-footer: var(--ui-color-n-050);
+    --ui-color-background-base: #FFFFFF54;
 
     /* FORM COLOR */
 
@@ -438,7 +438,7 @@ form {
 --------------------------------------------------------------*/
 
 .ui-section-header {
-    background: linear-gradient(var(--ui-color-background-footer), var(--ui-color-background-primary));
+    background: linear-gradient(var(--ui-color-background-base), var(--ui-color-background-primary));
     padding-bottom: 0.75rem;
     padding-top: 0.75rem;
 }
@@ -525,9 +525,9 @@ form {
 --------------------------------------------------------------*/
 
 .ui-section-footer {
-    background: linear-gradient(var(--ui-color-background-footer), var(--ui-color-background-primary));
-    padding-bottom: 2rem;
-    padding-top: 2rem;
+    background: linear-gradient(var(--ui-color-background-tertiary), var(--ui-color-background-base));
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
 }
 
 .ui-section-footer__layout {
@@ -671,8 +671,8 @@ form {
   ------------------------------------------------------------*/
 
     .ui-section-footer {
-        padding-bottom: 1.5rem;
-        padding-top: 1.5rem;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
     }
 
     .ui-section-footer__layout {
@@ -916,7 +916,7 @@ form {
         --ui-color-background-primary: var(--ui-color-n-000);
         --ui-color-background-secondary: var(--ui-color-n-025);
         --ui-color-background-tertiary: var(--ui-color-n-050);
-        --ui-color-background-footer: var(--ui-color-n-050);
+        --ui-color-background-base: #00000054;
 
         /* FORM COLOR */
 

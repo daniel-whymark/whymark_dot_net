@@ -68,7 +68,7 @@ TABLE OF CONTENT
     --ui-color-background-primary: var(--ui-color-n-000);
     --ui-color-background-secondary: var(--ui-color-n-025);
     --ui-color-background-tertiary: var(--ui-color-n-050);
-    --ui-color-background-base: #FFFFFF54;
+    --ui-color-background-base: #FFFFFF33;
 
     /* FORM COLOR */
 
@@ -916,7 +916,7 @@ form {
         --ui-color-background-primary: var(--ui-color-n-000);
         --ui-color-background-secondary: var(--ui-color-n-025);
         --ui-color-background-tertiary: var(--ui-color-n-050);
-        --ui-color-background-base: #00000054;
+        --ui-color-background-base: #00000033;
 
         /* FORM COLOR */
 

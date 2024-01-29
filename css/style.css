@@ -208,6 +208,7 @@ h2,
 p,
 ul {
     margin-top: 0;
+    text-wrap: pretty;
 }
 
 h1,

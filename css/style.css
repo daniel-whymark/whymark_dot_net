@@ -208,6 +208,7 @@ h2,
 p,
 ul {
     margin-top: 0;
+    text-wrap: pretty;
 }
 
 h1,
@@ -601,8 +602,7 @@ form {
 
     .ui-layout-container,
     .ui-layout-column-center {
-        margin-left: auto;
-        margin-right: auto;
+        margin-inline: auto;
     }
 
     .ui-layout-grid-2,

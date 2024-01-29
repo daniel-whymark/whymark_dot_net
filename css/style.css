@@ -601,8 +601,7 @@ form {
 
     .ui-layout-container,
     .ui-layout-column-center {
-        margin-left: auto;
-        margin-right: auto;
+        margin-inline: auto;
     }
 
     .ui-layout-grid-2,

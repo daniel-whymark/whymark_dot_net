@@ -269,10 +269,6 @@ svg {
     max-width: 100%;
 }
 
-svg {
-    -webkit-transform: translate3d(0, 0, 0);
-}
-
 .ui-section-social svg {
     filter: drop-shadow(1px 1px 1px var(--ui-color-svg-shadow));
 }
@@ -469,6 +465,7 @@ form {
     padding-bottom: 5rem;
     padding-top: 5rem;
     text-align: start;
+    transform: translateZ(0);
 }
 
 .ui-section-social__layout {

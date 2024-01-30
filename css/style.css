@@ -454,7 +454,7 @@ form {
     border-radius: 50%;
     border: 0.75px solid var(--ui-color-hero-border);
     filter: drop-shadow(8px 8px 8px var(--ui-color-hero-shadow));
-    -webkit-transform: translate3d(0, 0, 0);
+    transform: translateZ(0);
     object-fit: scale-down;
 }
 

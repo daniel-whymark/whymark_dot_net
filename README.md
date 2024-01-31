@@ -1,5 +1,5 @@
 # Whymark_dot_net :globe_with_meridians:
-Source code for the [whymark.net](https://whymark.net/) website with links to various related services or resources.
+Source code for the [whymark.net](https://whymark.net/) site with links to various related services or resources.
 
 
 ## Features

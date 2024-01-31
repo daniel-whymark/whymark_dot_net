@@ -181,7 +181,7 @@ body {
     font-weight: 400;
     line-height: var(--ui-typography-p-leading);
     margin: 0 auto;
-    text-rendering: optimizeLegibility;
+    text-rendering: optimizelegibility;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -213,7 +213,7 @@ a:not(.ui-component-button):active,
 a:not(.ui-component-button):focus {
     color: var(--ui-color-typography-hover);
     fill: var(--ui-color-typography-hover);
-    text-shadow: 0 0 1px currentColor;
+    text-shadow: 0 0 1px currentcolor;
 }
 
 ::selection {

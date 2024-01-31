@@ -415,7 +415,7 @@ form {
     row-gap: .75rem;
 }
 
-.ui-component-list--item {
+.ui-component-list-item {
     background-position: left center;
     background-repeat: no-repeat;
     background-size: 1.125rem;
@@ -441,12 +441,12 @@ form {
     transform: translateZ(0);
 }
 
-.ui-section-hero--image {
+.ui-section-hero-image {
     margin-top: var(--ui-gap-hero);
     margin-bottom: var(--ui-gap-hero);
 }
 
-.ui-section-hero--image img {
+.ui-section-hero-image img {
     width: 400px;
     height: 400px;
     border-radius: 50%;
@@ -474,18 +474,18 @@ form {
     row-gap: var(--ui-gap-social);
 }
 
-.ui-section-social--avatar {
+.ui-section-social-avatar {
     /*border-radius: var(--ui-radius-avatar);*/
     height: 80px;
     width: 80px;
 }
 
-.ui-section-social--quote {
+.ui-section-social-quote {
     margin-bottom: 1rem;
     margin-top: 1rem;
 }
 
-.ui-section-social--author {
+.ui-section-social-author {
     line-height: 1.25;
     text-align: center;
 }
@@ -522,11 +522,11 @@ form {
     position: relative;
 }
 
-.ui-section-footer--copyright {
+.ui-section-footer-copyright {
     margin-bottom: 0;
 }
 
-.ui-section-footer--nav {
+.ui-section-footer-nav {
     column-gap: var(--ui-layout-gutter);
 }
 
@@ -628,7 +628,7 @@ form {
   |
   ------------------------------------------------------------*/
 
-    .ui-component-list--item {
+    .ui-component-list-item {
         background-size: 1.25rem;
         padding-left: 2rem;
     }
@@ -652,7 +652,7 @@ form {
         justify-content: space-between;
     }
 
-    .ui-section-footer--menu {
+    .ui-section-footer-menu {
         left: 50%;
         position: absolute;
         transform: translateX(-50%);
@@ -930,7 +930,7 @@ LESS THAN 500PX WIDTH
   |
   ------------------------------------------------------------*/
 
-    .ui-section-hero--image img {
+    .ui-section-hero-image img {
         width: 300px !important;
         height: 300px !important;
     }
@@ -949,7 +949,7 @@ LESS THAN 400PX WIDTH
   |
   ------------------------------------------------------------*/
 
-    .ui-section-hero--image img {
+    .ui-section-hero-image img {
         width: 200px !important;
         height: 200px !important;
     }

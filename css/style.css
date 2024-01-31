@@ -46,7 +46,7 @@ TABLE OF CONTENT
 
     /* COLOR PALETTE */
 
-    --ui-color-n-000: #EEEEEEFF;
+    --ui-color-n-000: #EEEF;
     /* Top panel background colour */
     --ui-color-n-025: #FEFEFEFF;
     /* Middle panel background colour */
@@ -56,7 +56,7 @@ TABLE OF CONTENT
     /* Small class */
     --ui-color-n-400: #3C3C434D;
     /* Form placeholder text */
-    --ui-color-n-500: #000000FF;
+    --ui-color-n-500: #000F;
     /* Headings text and svg */
     --ui-color-n-900: #070711FF;
     /* Body text */
@@ -92,7 +92,7 @@ TABLE OF CONTENT
     /* ELEMENT EFFECTS COLOR */
     --ui-color-hero-border: #0000000F;
     --ui-color-hero-shadow: #00000080;
-    --ui-color-svg-shadow: #00000033;
+    --ui-color-svg-shadow: #0003;
     --ui-color-header-shadow: #0000001A;
 
 
@@ -950,7 +950,7 @@ form {
         /* Small class */
         --ui-color-n-400: #EBEBF54D;
         /* Form placeholder text */
-        --ui-color-n-500: #FFFFFFFF;
+        --ui-color-n-500: #FFFF;
         /* Headings text and svg */
         --ui-color-n-900: #EBEBF599;
         /* Body text */
@@ -985,8 +985,8 @@ form {
 
         /* ELEMENT EFFECTS COLOR */
         --ui-color-hero-border: #FFFFFF26;
-        --ui-color-hero-shadow: #000000FF;
-        --ui-color-svg-shadow: #000000CC;
+        --ui-color-hero-shadow: #000F;
+        --ui-color-svg-shadow: #000C;
         --ui-color-header-shadow: #000000B3;
     }
 

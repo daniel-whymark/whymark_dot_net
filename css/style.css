@@ -585,7 +585,7 @@ form {
 */
 
 /* 768px targeted but 700px specified to set effective usage for modern phones in portrait */
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width >=700px) {
     /*
     ------------------------------------------------------------
     VARIABLE
@@ -728,7 +728,7 @@ form {
 --------------------------------------------------------------
 */
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width >=1024px) {
     /*
     ------------------------------------------------------------
     VARIABLE
@@ -772,7 +772,7 @@ form {
 --------------------------------------------------------------
 */
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width >=1200px) {
     /*
     ------------------------------------------------------------
     VARIABLE
@@ -1028,7 +1028,7 @@ LESS THAN 500PX WIDTH
 ------------------------------------------------------------
 */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width >=600px) {
     /*
     ------------------------------------------------------------
     |
@@ -1050,7 +1050,7 @@ LESS THAN 400PX WIDTH
 ------------------------------------------------------------
 */
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width >=400px) {
     /*
     ------------------------------------------------------------
     |

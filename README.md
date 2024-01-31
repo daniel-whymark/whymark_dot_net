@@ -1,7 +1,7 @@
 # Whymark_dot_net :globe_with_meridians:
 Source code for the [whymark.net](https://whymark.net/) site with links to various related services or resources.
 
-![Super Linter workflow status](https://github.com/daniel-whymark/whymark_dot_net/actions/workflows/super_linter/badge.svg)
+![Super Linter workflow status](https://github.com/daniel-whymark/whymark_dot_net/actions/workflows/super_linter/badge.svg?branch=preview)
 
 ## Features
 Flat, minimalistic responsive design. The goals were maximum speed, minimum filesize and enhanced code-readability. There's no JS, only plain HTML and CSS. No frameworks of third-party requirements.

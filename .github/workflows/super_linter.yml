@@ -21,4 +21,3 @@
             env:
               DEFAULT_BRANCH: main
               GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-              CSS_FILE_NAME: .stylelintrc.json

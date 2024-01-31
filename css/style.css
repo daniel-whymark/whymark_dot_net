@@ -71,7 +71,7 @@ TABLE OF CONTENT
     --ui-color-n-950: #D50000FF;
 
     /* Links (both text and SVG) and button background */
-    --ui-color-brand: #000000FF;
+    --ui-color-brand: #000F;
 
     /* Links inside the intro class */
     --ui-color-intro: #B71C1CFF;
@@ -962,7 +962,7 @@ form {
         /* Body text */
         --ui-color-n-950: #FF6D00FF;
         /* Hover colour */
-        --ui-color-brand: #FFFFFFFF;
+        --ui-color-brand: #FFFF;
         /* Links (both text and SVG) and button background */
         --ui-color-intro: #FF9800FF;
         /* Links inside the intro class */

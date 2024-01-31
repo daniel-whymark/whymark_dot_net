@@ -946,41 +946,47 @@ form {
 
         /* COLOR PALETTE */
 
-        --ui-color-n-000: #121212FF;
         /* Top panel background colour */
-        --ui-color-n-025: #2C2C2EFF;
+        --ui-color-n-000: #121212FF;
+
         /* Middle panel background colour */
-        --ui-color-n-050: #1C1C1EFF;
+        --ui-color-n-025: #2C2C2EFF;
+
         /* Bottom panel background colour */
-        --ui-color-n-300: #969696FF;
+        --ui-color-n-050: #1C1C1EFF;
+
         /* Small class */
-        --ui-color-n-400: #EBEBF54D;
+        --ui-color-n-300: #969696FF;
+
         /* Form placeholder text */
-        --ui-color-n-500: #FFFF;
+        --ui-color-n-400: #EBEBF54D;
+
         /* Headings text and svg */
-        --ui-color-n-900: #EBEBF599;
+        --ui-color-n-500: #FFFF;
+
         /* Body text */
-        --ui-color-n-950: #FF6D00FF;
+        --ui-color-n-900: #EBEBF599;
+
         /* Hover colour */
-        --ui-color-brand: #FFFF;
+        --ui-color-n-950: #FF6D00FF;
+
         /* Links (both text and SVG) and button background */
-        --ui-color-intro: #FF9800FF;
+        --ui-color-brand: #FFFF;
+
         /* Links inside the intro class */
+        --ui-color-intro: #FF9800FF;
 
         /* BACKGROUND COLOR */
-
         --ui-color-background-primary: var(--ui-color-n-000);
         --ui-color-background-secondary: var(--ui-color-n-025);
         --ui-color-background-tertiary: var(--ui-color-n-050);
 
         /* FORM COLOR */
-
         --ui-color-form-input: var(--ui-color-n-500);
         --ui-color-form-placeholder: var(--ui-color-n-400);
         --ui-color-form-background: var(--ui-color-n-025);
 
         /* TYPOGRAPHY COLOR */
-
         --ui-color-typography-heading: var(--ui-color-n-500);
         --ui-color-typography-body: var(--ui-color-n-900);
         --ui-color-typography-small: var(--ui-color-n-300);

@@ -585,7 +585,7 @@ form {
 */
 
 /* 768px targeted but 700px specified to set effective usage for modern phones in portrait */
-@media only screen and (min-width: 700px) {
+@media only screen and (width >=700px) {
     /*
     ------------------------------------------------------------
     VARIABLE

@@ -469,7 +469,7 @@ form {
     transform: translateZ(0);
 }
 
-.ui-section-social__layout {
+.ui-section-social-layout {
     margin-top: var(--ui-gap-social);
     row-gap: var(--ui-gap-social);
 }
@@ -515,7 +515,7 @@ form {
     padding-top: 1.5rem;
 }
 
-.ui-section-footer__layout {
+.ui-section-footer-layout {
     row-gap: var(--ui-layout-gutter);
     flex-direction: row;
     justify-content: space-around;
@@ -648,7 +648,7 @@ form {
         padding-top: 2rem;
     }
 
-    .ui-section-footer__layout {
+    .ui-section-footer-layout {
         justify-content: space-between;
     }
 

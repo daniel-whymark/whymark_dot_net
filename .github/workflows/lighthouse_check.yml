@@ -13,9 +13,8 @@
             uses: foo-software/lighthouse-check-action@master
             id: lighthouseCheck
             with:
-              urls: https://preview.whymark.pages.dev
+              urls: 'https://preview.whymark.pages.dev/'
               device: all
-              prCommentEnabled: true
               gitHubAccessToken: ${{ secrets.GITHUB_TOKEN }}
           - name: Verify Lighthouse Check results
             uses: foo-software/lighthouse-check-status-action@master

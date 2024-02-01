@@ -3,9 +3,11 @@
     on: pull_request
     permissions: read-all
     jobs:
-      build:
-        name: Lint
+      linting:
         runs-on: ubuntu-latest
+        concurrency:
+          group: ${{ github.workflow }}-${{ github.ref }}
+          cancel-in-progress: true
         permissions:
           contents: read
           packages: read
@@ -15,7 +17,7 @@
             uses: actions/checkout@v4
             with:
               fetch-depth: 0
-          - name: Super-linter
+          - name: Reviewing code
             uses: super-linter/super-linter/slim@v6.0.0
             env:
               DEFAULT_BRANCH: main

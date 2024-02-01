@@ -1,7 +1,7 @@
 # Whymark_dot_net :globe_with_meridians:
 Source code for the [whymark.net](https://whymark.net/) site with links to various related services or resources.
 
-## Build Status
+## Code Status
 | Main  | Preview |
 | ------------- | ------------- |
 | ![Super Linter workflow status, main branch](https://github.com/daniel-whymark/whymark_dot_net/actions/workflows/super_linter.yml/badge.svg?branch=main)  | ![Super Linter workflow status, preview branch](https://github.com/daniel-whymark/whymark_dot_net/actions/workflows/super_linter.yml/badge.svg?branch=preview)  |

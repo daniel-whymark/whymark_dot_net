@@ -2,21 +2,28 @@
     name: Lighthouse
     permissions: read-all
     on:
+      pull_request:
+        branches:
+          - "main"
       push:
         branches:
           - "main"
     jobs:
       lighthouse-check:
         runs-on: ubuntu-latest
+        concurrency:
+          group: ${{ github.workflow }}-${{ github.ref }}
+          cancel-in-progress: true
         permissions:
           pull-requests: write
         steps:
-          - uses: actions/checkout@master
-          - name: Lighthouse
+          - name: Checkout code
+            uses: actions/checkout@master
+          - name: Lighthouse Checks
             uses: foo-software/lighthouse-check-action@master
             id: lighthouseCheck
             with:
-              urls: 'https://whymark.net/'
+              urls: 'https://preview.whymark.pages.dev/'
               device: all
               prCommentEnabled: false
               prCommentSaveOld: false

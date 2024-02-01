@@ -5,12 +5,15 @@
       contents: read
       pull-requests: write
     jobs:
-      dependency-review:
+      dependency-checks:
         runs-on: ubuntu-latest
+        concurrency:
+          group: ${{ github.workflow }}-${{ github.ref }}
+          cancel-in-progress: true
         steps:
           - name: Checkout Repository
             uses: actions/checkout@v4
-          - name: Dependency Review
+          - name: Reviewing Dependencies
             uses: actions/dependency-review-action@v4
             with:
               comment-summary-in-pr: on-failure

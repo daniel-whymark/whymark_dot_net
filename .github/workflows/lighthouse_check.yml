@@ -15,6 +15,8 @@
             with:
               urls: 'https://preview.whymark.pages.dev/'
               device: all
+              prCommentEnabled: false
+              prCommentSaveOld: false
               gitHubAccessToken: ${{ secrets.GITHUB_TOKEN }}
           - name: Verify Lighthouse Check results
             uses: foo-software/lighthouse-check-status-action@master

@@ -5,7 +5,7 @@ Source code for the [whymark.net](https://whymark.net/) site with links to vario
 | ------------- | ------------- |
 | ![Super Linter workflow status, main branch](https://github.com/daniel-whymark/whymark_dot_net/actions/workflows/super_linter.yml/badge.svg?branch=main)  | ![Super Linter workflow status, preview branch](https://github.com/daniel-whymark/whymark_dot_net/actions/workflows/super_linter.yml/badge.svg?branch=preview)  |
 | ![Dependency Review workflow status, main branch](https://github.com/daniel-whymark/whymark_dot_net/actions/workflows/dependency_review.yml/badge.svg?branch=main)  | ![Dependency Review workflow status, preview branch](https://github.com/daniel-whymark/whymark_dot_net/actions/workflows/dependency_review.yml/badge.svg?branch=preview)  |
-
+| ![Lighthouse workflow status, main branch](https://github.com/daniel-whymark/whymark_dot_net/actions/workflows/lighthouse_main.yml/badge.svg)  | ![Lighthouse workflow status, preview branch](https://github.com/daniel-whymark/whymark_dot_net/actions/workflows/lighthouse.yml/badge.svg)  |
 
 ## Features
 Flat, minimalistic responsive design. The goals were maximum speed, minimum filesize and enhanced code-readability. There's no JS, only plain HTML and CSS. No frameworks of third-party requirements.

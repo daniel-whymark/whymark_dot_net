@@ -1,5 +1,5 @@
 ---
-    name: Lighthouse
+    name: Lighthouse (Preview)
     permissions: read-all
     on: pull_request
     jobs:

@@ -4,7 +4,10 @@
     on:
       pull_request:
         branches:
-          - "preview"
+          - "main"
+      push:
+        branches:
+          - "main"
     jobs:
       lighthouse-check:
         runs-on: ubuntu-latest

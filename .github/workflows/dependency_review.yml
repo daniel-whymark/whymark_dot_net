@@ -14,5 +14,4 @@
           - name: Dependency Review
             uses: actions/dependency-review-action@v4
             with:
-              comment-summary-in-pr: on-failure
-    
+              comment-summary-in-pr: on-failure    

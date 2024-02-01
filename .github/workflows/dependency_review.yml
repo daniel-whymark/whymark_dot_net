@@ -1,5 +1,5 @@
 ---
-    name: Dependencies
+    name: Dependency
     on: pull_request
     permissions:
       contents: read

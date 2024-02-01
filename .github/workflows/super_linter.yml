@@ -1,7 +1,6 @@
 ---
     name: Lint
-    on:
-      pull_request: null
+    on: pull_request
     permissions: read-all
     jobs:
       build:

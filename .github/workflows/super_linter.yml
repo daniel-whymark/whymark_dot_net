@@ -3,8 +3,7 @@
     on: pull_request
     permissions: read-all
     jobs:
-      build:
-        name: Lint
+      linting:
         runs-on: ubuntu-latest
         concurrency:
           group: ${{ github.workflow }}-${{ github.ref }}

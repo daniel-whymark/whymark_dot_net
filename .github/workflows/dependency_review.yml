@@ -1,7 +1,6 @@
 ---
-    name: Dependency Review
-    on:
-      - pull_request
+    name: Dependencies
+    on: pull_request
     permissions:
       contents: read
       pull-requests: write
@@ -15,4 +14,3 @@
             uses: actions/dependency-review-action@v4
             with:
               comment-summary-in-pr: on-failure
-    

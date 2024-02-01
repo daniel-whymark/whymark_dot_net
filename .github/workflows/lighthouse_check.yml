@@ -1,7 +1,7 @@
 ---
     name: Lighthouse
     permissions: read-all
-    on: [pull_request, push]
+    on: pull_request
     jobs:
       lighthouse-check:
         runs-on: ubuntu-latest

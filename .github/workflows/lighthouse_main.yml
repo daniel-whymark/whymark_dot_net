@@ -1,7 +1,10 @@
 ---
     name: Lighthouse
     permissions: read-all
-    on: pull_request
+    on:
+      push:
+        branches:
+          - "main"
     jobs:
       lighthouse-check:
         runs-on: ubuntu-latest
@@ -13,8 +16,10 @@
             uses: foo-software/lighthouse-check-action@master
             id: lighthouseCheck
             with:
-              urls: 'https://preview.whymark.pages.dev/'
+              urls: 'https://whymark.net/'
               device: all
+              prCommentEnabled: false
+              prCommentSaveOld: false
               gitHubAccessToken: ${{ secrets.GITHUB_TOKEN }}
           - name: Verify Lighthouse Check results
             uses: foo-software/lighthouse-check-status-action@master

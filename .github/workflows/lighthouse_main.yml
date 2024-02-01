@@ -6,6 +6,7 @@
       lighthouse-check:
         runs-on: ubuntu-latest
         permissions:
+          contents: read
           statuses: write
         steps:
           - uses: actions/checkout@master

@@ -9,6 +9,7 @@
           - uses: actions/checkout@master
           - name: Lighthouse
             uses: foo-software/lighthouse-check-action@master
+            id: lighthouseCheck
             with:
               urls: https://whymark.net
               gitHubAccessToken: ${{ secrets.GITHUB_TOKEN }}

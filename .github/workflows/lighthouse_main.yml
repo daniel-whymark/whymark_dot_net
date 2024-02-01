@@ -1,9 +1,9 @@
 name: Lighthouse
 
+permissions: read-all
+
 on:
-  pull_request:
-    branches:
-      - main
+  pull_request: null
 
 jobs:
   lighthouse:

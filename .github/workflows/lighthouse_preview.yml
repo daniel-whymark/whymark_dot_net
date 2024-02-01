@@ -12,3 +12,8 @@
             with:
               urls: https://preview.whymark.pages.dev
               gitHubAccessToken: ${{ secrets.GITHUB_TOKEN }}
+              lighthouseCheckResults: ${{ steps.lighthouseCheck.outputs.lighthouseCheckResults }}
+              minAccessibilityScore: "90"
+              minBestPracticesScore: "90"
+              minPerformanceScore: "90"
+              minSeoScore: "90"

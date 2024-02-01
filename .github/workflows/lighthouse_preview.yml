@@ -10,4 +10,5 @@
           - name: Lighthouse
             uses: foo-software/lighthouse-check-action@master
             with:
-              urls: https://preview.whymark.pages.dev    
+              urls: https://preview.whymark.pages.dev
+              gitHubAccessToken: ${{ secrets.GITHUB_TOKEN }}

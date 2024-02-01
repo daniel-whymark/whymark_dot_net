@@ -10,4 +10,5 @@
           - name: Lighthouse
             uses: foo-software/lighthouse-check-action@master
             with:
-              urls: https://whymark.net    
+              urls: https://whymark.net
+              gitHubAccessToken: ${{ secrets.GITHUB_TOKEN }}

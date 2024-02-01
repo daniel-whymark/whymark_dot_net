@@ -17,8 +17,9 @@
         permissions:
           pull-requests: write
         steps:
-          - uses: actions/checkout@master
-          - name: Lighthouse
+          - name: Checkout code
+            uses: actions/checkout@master
+          - name: Lighthouse Checks
             uses: foo-software/lighthouse-check-action@master
             id: lighthouseCheck
             with:

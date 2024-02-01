@@ -1,5 +1,5 @@
 ---
-    name: Lint
+    name: Lint-a
     on: pull_request
     permissions: read-all
     jobs:

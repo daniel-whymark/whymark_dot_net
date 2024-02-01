@@ -3,7 +3,7 @@
     permissions: read-all
     on: pull_request
     jobs:
-      lighthouse:
+      lighthouse-check:
         runs-on: ubuntu-latest
         steps:
           - uses: actions/checkout@master

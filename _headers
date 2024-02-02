@@ -2,7 +2,7 @@
   X-Frame-Options: DENY
   X-Content-Type-Options: nosniff
   X-Permitted-Cross-Domain-Policies: none
-  X-XSS-Protection: 1; mode=block
+  X-XSS-Protection: 0
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: document-domain=()
   Content-Security-Policy: upgrade-insecure-requests; default-src 'none'; frame-ancestors 'none'; base-uri 'none'; style-src 'self'; img-src 'self'; trusted-types 'none'; require-trusted-types-for 'script'; sandbox allow-popups allow-forms allow-scripts allow-same-origin; form-action https://formspree.io/f/mlezvyrv; script-src static.cloudflareinsights.com; connect-src cloudflareinsights.com 'self';

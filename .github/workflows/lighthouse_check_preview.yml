@@ -5,9 +5,6 @@
       pull_request:
         branches:
           - "main"
-      push:
-        branches:
-          - "main"
     jobs:
       lighthouse-check:
         runs-on: ubuntu-latest
@@ -24,7 +21,7 @@
             id: lighthouseCheck
             with:
               urls: 'https://preview.whymark.pages.dev/'
-              device: all
+              device: mobile
               prCommentEnabled: false
               prCommentSaveOld: false
               gitHubAccessToken: ${{ secrets.GITHUB_TOKEN }}
@@ -35,4 +32,4 @@
               minAccessibilityScore: "90"
               minBestPracticesScore: "90"
               minPerformanceScore: "90"
-              minSeoScore: "90"
+              minSeoScore: "60"

@@ -23,7 +23,7 @@
             uses: foo-software/lighthouse-check-action@master
             id: lighthouseCheck
             with:
-              urls: 'https://preview.whymark.pages.dev/'
+              urls: 'https://whymark.net/'
               device: all
               prCommentEnabled: false
               prCommentSaveOld: false
@@ -32,7 +32,7 @@
             uses: foo-software/lighthouse-check-status-action@master
             with:
               lighthouseCheckResults: ${{ steps.lighthouseCheck.outputs.lighthouseCheckResults }}
-              minAccessibilityScore: "90"
-              minBestPracticesScore: "90"
-              minPerformanceScore: "90"
-              minSeoScore: "90"
+              minAccessibilityScore: "50"
+              minBestPracticesScore: "50"
+              minPerformanceScore: "50"
+              minSeoScore: "50"

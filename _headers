@@ -10,7 +10,7 @@ Access-Control-Allow-Credentials: false
 Access-Control-Max-Age: 600
 Access-Control-Allow-Methods: GET, POST, OPTIONS, HEAD
 Access-Control-Allow-Origin: https://whymark.net
-Link: <https: //whymark.net/:splat>; rel="canonical"
+Link: <https://whymark.net/:splat>; rel="canonical"
 
     /cdn-cgi/*
     X-Robots-Tag: noindex

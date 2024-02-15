@@ -12,5 +12,5 @@ You must have a lot of time on your hands to be browsing random text files on we
 ────────────────────────────────────────────────────────────────────────────────────────
 
 Contacts:
-  https://whymark.net#email     — General inquiries
-  security@whymark.net          — Responsible disclosures
+  https://whymark.net           — Contact form for general inquiries
+  security@whymark.net          — Responsible disclosures only

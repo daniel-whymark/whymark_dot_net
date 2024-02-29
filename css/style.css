@@ -1069,6 +1069,11 @@ LESS THAN 400PX WIDTH
 		padding-top: 1rem !important;
 	}
 
+	.ui-section-hero-image {
+		margin-top: none !important;
+		margin-bottom: none !important;
+	}
+
 	.ui-section-hero-image img {
 		width: 200px !important;
 		height: 200px !important;

@@ -487,7 +487,7 @@ form {
 	border-radius: 50%;
 	border: 0.75px solid var(--ui-color-hero-border);
 	filter: drop-shadow(8px 8px 8px var(--ui-color-hero-shadow));
-	object-fit: cover;
+	object-fit: scale-down;
 }
 
 /*
@@ -1062,6 +1062,7 @@ LESS THAN 400PX WIDTH
 	.ui-section-hero-image img {
 		width: 200px !important;
 		height: 200px !important;
+		object-fit: contain;
 	}
 
 }

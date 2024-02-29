@@ -482,8 +482,8 @@ form {
 }
 
 .ui-section-hero-image img {
-	width: 400px;
-	height: 400px;
+	width: 600px;
+	height: 600px;
 	border-radius: 50%;
 	border: 0.75px solid var(--ui-color-hero-border);
 	filter: drop-shadow(8px 8px 8px var(--ui-color-hero-shadow));
@@ -1028,7 +1028,7 @@ LESS THAN 600PX WIDTH
 ------------------------------------------------------------
 */
 
-@media only screen and (width <=600px) {
+@media only screen and (width <=800px) {
 	/*
     ------------------------------------------------------------
     |
@@ -1038,8 +1038,8 @@ LESS THAN 600PX WIDTH
     */
 
 	.ui-section-hero-image img {
-		width: 300px !important;
-		height: 300px !important;
+		width: 400px !important;
+		height: 400px !important;
 	}
 
 }

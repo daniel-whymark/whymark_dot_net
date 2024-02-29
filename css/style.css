@@ -1062,7 +1062,7 @@ LESS THAN 400PX WIDTH
 	.ui-section-hero-image img {
 		width: 200px !important;
 		height: 200px !important;
-		object-fit: contain;
+		object-fit: contain !important;
 	}
 
 }

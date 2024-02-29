@@ -1037,11 +1037,6 @@ LESS THAN 600PX WIDTH
     ------------------------------------------------------------
     */
 
-	.ui-section-hero {
-		padding-bottom: 3rem !important;
-		padding-top: 3rem !important;
-	}
-
 	.ui-section-hero-image img {
 		width: 300px !important;
 		height: 300px !important;
@@ -1063,16 +1058,6 @@ LESS THAN 400PX WIDTH
     |
     ------------------------------------------------------------
     */
-
-	.ui-section-hero {
-		padding-bottom: 1rem !important;
-		padding-top: 1rem !important;
-	}
-
-	.ui-section-hero-image {
-		margin-top: none !important;
-		margin-bottom: none !important;
-	}
 
 	.ui-section-hero-image img {
 		width: 200px !important;

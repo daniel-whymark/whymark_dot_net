@@ -164,7 +164,7 @@ TABLE OF CONTENT
 
 html {
 	@supports (font: -apple-system-body) {
-		font: -apple-system-body;
+		font: -apple-system-body !important;
 	}
 
 	box-sizing: border-box;

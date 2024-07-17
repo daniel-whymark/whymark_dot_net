@@ -163,11 +163,14 @@ TABLE OF CONTENT
 */
 
 html {
+	box-sizing: border-box;
+
 	@supports (font: -apple-system-body) {
+		/* stylelint-disable */
 		font: -apple-system-body !important;
+		/* stylelint-enable */
 	}
 
-	box-sizing: border-box;
 }
 
 *,

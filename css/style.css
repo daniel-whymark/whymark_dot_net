@@ -110,7 +110,7 @@ TABLE OF CONTENT
     ------------------------------------------------------------
     */
 
-	--ui-typography-typeface: system-ui, sans-serif;
+	--ui-typography-typeface: system-ui, ui-sans-serif, sans-serif;
 
 	/* FONT SIZE */
 

@@ -164,6 +164,7 @@ TABLE OF CONTENT
 
 html {
 	box-sizing: border-box;
+	font: -apple-system-body;
 }
 
 *,

@@ -110,7 +110,7 @@ TABLE OF CONTENT
     ------------------------------------------------------------
     */
 
-	--ui-typography-typeface: system-ui, sans-serif;
+	--ui-typography-typeface: system-ui, ui-sans-serif, sans-serif;
 
 	/* FONT SIZE */
 
@@ -164,6 +164,13 @@ TABLE OF CONTENT
 
 html {
 	box-sizing: border-box;
+
+	@supports (font: -apple-system-body) {
+		/* stylelint-disable */
+		font: -apple-system-body !important;
+		/* stylelint-enable */
+	}
+
 }
 
 *,

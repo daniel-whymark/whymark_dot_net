@@ -1094,9 +1094,8 @@ HOVER EFFECTS
 ------------------------------------------------------------
 */
 
-@media not (prefers-reduced-motion) {
+@media (prefers-reduced-motion: no-preference) {
 	.ui-section-social svg {
-		transition: all 250ms ease-in !important;
 		transform: scale(1.05) !important;
 	}
 }

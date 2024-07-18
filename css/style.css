@@ -502,7 +502,7 @@ form {
 	margin-top: var(--ui-gap-hero);
 	margin-bottom: var(--ui-gap-hero);
 	width: fit-content;
-	align-items: center;
+	text-align: center;
 }
 
 .ui-section-hero-image img {

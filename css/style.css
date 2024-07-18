@@ -482,7 +482,7 @@ form {
 	padding-bottom: 5rem;
 	padding-top: 5rem;
 	text-align: start;
-	-webkit-transform: translate3d(0);
+	transform: translate3d(0);
 }
 
 .ui-section-hero-image {
@@ -512,7 +512,7 @@ form {
 	padding-bottom: 5rem;
 	padding-top: 5rem;
 	text-align: start;
-	-webkit-transform: translate3d(0);
+	transform: translate3d(0);
 }
 
 .ui-section-social-layout {

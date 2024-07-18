@@ -511,7 +511,7 @@ form {
 }
 
 @media not (prefers-reduced-motion) {
-	img.ui-section-hero-image:hover {
+	[usemap~="#avatarmap"]:hover {
 		transition: all 0.25s ease-in;
 		transform: scale(1.05);
 	}

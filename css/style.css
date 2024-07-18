@@ -1096,7 +1096,7 @@ LESS THAN 400PX WIDTH
 	*/
 
 	svg.ui-section-social-avatar:hover {
-		transition: all 250ms ease-in !important;
+		transition: scale 250ms ease-in !important;
 		transform: scale(1.05) !important;
 	}
 

@@ -191,8 +191,14 @@ body {
 	line-height: var(--ui-typography-p-leading);
 	margin: 0 auto;
 	text-rendering: optimizelegibility;
-	-webkit-font-smoothing: antialiased;
 }
+
+@supports (font: -webkit-font-smoothing) {
+	body {
+		-webkit-font-smoothing: antialiased !important;
+	}
+}
+
 
 /*
 --------------------------------------------------------------

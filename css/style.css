@@ -504,7 +504,7 @@ form {
 	object-fit: cover;
 }
 
-.ui-section-hero-image img :hover {
+.ui-section-hero-image img:hover {
 	transform: translateY(-50px) !important;
 	filter: drop-shadow(20px 20px 40px var(--ui-color-hero-shadow)) !important;
 }

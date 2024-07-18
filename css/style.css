@@ -500,14 +500,15 @@ form {
 	height: 400px;
 	border-radius: 50%;
 	border: 0.75px solid var(--ui-color-hero-border);
-	filter: drop-shadow(1px 1px 2px var(--ui-color-hero-shadow));
+	filter: drop-shadow(1px 1px 0px var(--ui-color-hero-shadow),
+			0px 1px 1px var(--ui-color-hero-shadow),
+			0px 1px 2px var(--ui-color-hero-shadow));
 	object-fit: cover;
 }
 
 @media not (prefers-reduced-motion) {
 	.ui-section-hero-image:hover {
 		transform: scale(1.01) !important;
-		filter: drop-shadow(2px 2px 1px var(--ui-color-hero-shadow)) !important;
 	}
 }
 

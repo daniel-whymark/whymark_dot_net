@@ -25,6 +25,7 @@ TABLE OF CONTENT
 |  8.3 1200PX
 |  8.4 DARK MODE
 |  8.5 RESPONSIVE IMAGES
+|  8.6 MOTION
 
 --------------------------------------------------------------
 */
@@ -310,13 +311,6 @@ svg {
 	filter: drop-shadow(1px 1px 1px var(--ui-color-svg-shadow));
 }
 
-@media not (prefers-reduced-motion) {
-	.ui-section-social svg:hover {
-		transition: all 0.25s ease-in;
-		transform: scale(1.05);
-	}
-}
-
 /*
 --------------------------------------------------------------
 5.0 LAYOUT
@@ -508,13 +502,6 @@ form {
 	border: 0.75px solid var(--ui-color-hero-border);
 	filter: drop-shadow(1px 1px 1px var(--ui-color-hero-shadow));
 	object-fit: cover;
-}
-
-@media not (prefers-reduced-motion) {
-	.ui-section-hero-image:hover img {
-		transition: all 0.25s ease-in;
-		transform: scale(1.05);
-	}
 }
 
 /*
@@ -1090,4 +1077,26 @@ LESS THAN 400PX WIDTH
 		height: 200px !important;
 	}
 
+}
+
+
+/*
+--------------------------------------------------------------
+|
+| 8.6 MOTION
+|
+--------------------------------------------------------------
+*/
+
+/*
+------------------------------------------------------------
+HOVER EFFECTS
+------------------------------------------------------------
+*/
+
+@media not (prefers-reduced-motion) {
+	[role="img"] {
+		transition: all 0.25s ease-in;
+		transform: scale(1.05);
+	}
 }

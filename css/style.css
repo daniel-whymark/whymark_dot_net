@@ -508,6 +508,7 @@ form {
 @media not (prefers-reduced-motion) {
 	.ui-section-hero-image:hover {
 		transform: scale() !important;
+		filter: drop-shadow(2px 2px 2px var(--ui-color-hero-shadow)) !important;
 	}
 }
 

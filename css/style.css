@@ -495,13 +495,10 @@ form {
 	padding-bottom: 5rem;
 	padding-top: 5rem;
 	text-align: start;
-	width: fit-content;
-
 }
 
 .ui-section-hero-image {
 	margin: var(--ui-gap-hero) auto var(--ui-gap-hero) auto;
-	text-align: center;
 }
 
 .ui-section-hero-image img {

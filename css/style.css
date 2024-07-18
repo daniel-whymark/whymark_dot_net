@@ -495,7 +495,7 @@ form {
 	margin-bottom: var(--ui-gap-hero);
 }
 
-.ui-section-hero-image img {
+.ui-section-hero-image~img {
 	width: 400px;
 	height: 400px;
 	border-radius: 50%;
@@ -505,9 +505,9 @@ form {
 }
 
 @media not (prefers-reduced-motion) {
-	.ui-section-hero-image img:hover {
+	.ui-section-hero-image~img:hover {
 		transform: scale(0.9) !important;
-		filter: drop-shadow(20px 20px 2px var(--ui-color-hero-shadow)) !important;
+		filter: drop-shadow(2px 2px 2px var(--ui-color-hero-shadow)) !important;
 	}
 }
 

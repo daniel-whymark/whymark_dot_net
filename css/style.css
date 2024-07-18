@@ -311,7 +311,7 @@ svg {
 }
 
 @media not (prefers-reduced-motion) {
-	.ui-section-social:hover svg {
+	.ui-section-social svg:hover {
 		transition: all 0.25s ease-in;
 		transform: scale(1.05);
 	}
@@ -516,7 +516,7 @@ form {
 }
 
 @media not (prefers-reduced-motion) {
-	.ui-section-hero-image:hover img {
+	.ui-section-hero-image img:hover {
 		transition: all 0.25s ease-in;
 		transform: scale(1.05);
 	}

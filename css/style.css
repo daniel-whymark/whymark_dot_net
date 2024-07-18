@@ -1090,7 +1090,7 @@ LESS THAN 400PX WIDTH
 --------------------------------------------------------------
 */
 
-@media (prefers-reduced-motion: no-preference) {
+@media not (prefers-reduced-motion) {
 	/*
 	------------------------------------------------------------
 	HOVER EFFECTS

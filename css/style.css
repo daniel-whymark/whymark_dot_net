@@ -309,6 +309,8 @@ svg {
 
 .ui-section-social svg {
 	filter: drop-shadow(1px 1px 1px var(--ui-color-svg-shadow));
+	transition: all 250ms ease-in !important;
+	transform: scale(1.05) !important;
 }
 
 /*

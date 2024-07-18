@@ -515,7 +515,7 @@ form {
 }
 
 @media not (prefers-reduced-motion) {
-	.ui-section-hero-image:hover img {
+	.ui-section-hero-image:hover map {
 		transition-timing-function: ease-in;
 		transition: 0.25s;
 		transform: scale(1.05);

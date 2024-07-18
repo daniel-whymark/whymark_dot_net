@@ -508,8 +508,8 @@ form {
 @media not (prefers-reduced-motion) {
 	.ui-section-hero-image:hover {
 		transition-timing-function: ease-in;
-		transition: 0.2s;
-		transform: scale(1.1);
+		transition: 0.1s;
+		transform: scale(1.01);
 		filter: drop-shadow(0px 0px 2px var(--ui-color-hero-shadow));
 	}
 }

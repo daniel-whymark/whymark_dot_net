@@ -310,6 +310,14 @@ svg {
 	filter: drop-shadow(1px 1px 1px var(--ui-color-svg-shadow));
 }
 
+@media not (prefers-reduced-motion) {
+	.ui-section-social svg {
+		transition-timing-function: ease-in;
+		transition: 0.25s;
+		transform: scale(105%);
+	}
+}
+
 /*
 --------------------------------------------------------------
 5.0 LAYOUT

@@ -309,8 +309,6 @@ svg {
 
 .ui-section-social svg {
 	filter: drop-shadow(1px 1px 1px var(--ui-color-svg-shadow));
-	transition: all 250ms ease-in !important;
-	transform: scale(1.05) !important;
 }
 
 /*
@@ -1097,13 +1095,13 @@ LESS THAN 400PX WIDTH
 	------------------------------------------------------------
 	*/
 
-	.ui-section-social-avatar:hover svg {
+	.ui-section-social-avatar svg:hover {
 		transition: all 250ms ease-in !important;
 		transform: scale(1.05) !important;
 	}
 
-	.ui-section-hero-image img {
-		transition: all 250ms ease-in;
+	.ui-section-hero-image img:hover {
+		transition: all 250ms ease-in !important;
 		transform: scale(1.05) !important;
 	}
 

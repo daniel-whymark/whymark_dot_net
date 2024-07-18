@@ -314,7 +314,7 @@ svg {
 	.ui-section-social svg:hover {
 		transition-timing-function: ease-in;
 		transition: 0.25s;
-		transform: scale(105%);
+		transform: scale(1.05);
 	}
 }
 
@@ -516,7 +516,7 @@ form {
 	.ui-section-hero-image:hover img {
 		transition-timing-function: ease-in;
 		transition: 0.25s;
-		transform: scale(105%);
+		transform: scale(1.05);
 	}
 }
 

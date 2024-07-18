@@ -25,7 +25,7 @@ TABLE OF CONTENT
 |  8.3 1200PX
 |  8.4 DARK MODE
 |  8.5 RESPONSIVE IMAGES
-|  8.6 MOTION
+|  8.6 REDUCED MOTION
 
 --------------------------------------------------------------
 */
@@ -309,6 +309,7 @@ svg {
 
 .ui-section-social svg {
 	filter: drop-shadow(1px 1px 1px var(--ui-color-svg-shadow));
+	transform: scale(1.05);
 }
 
 /*
@@ -1083,7 +1084,7 @@ LESS THAN 400PX WIDTH
 /*
 --------------------------------------------------------------
 |
-| 8.6 MOTION
+| 8.6 REDUCED MOTION
 |
 --------------------------------------------------------------
 */
@@ -1094,8 +1095,8 @@ HOVER EFFECTS
 ------------------------------------------------------------
 */
 
-@media (prefers-reduced-motion: no-preference) {
+@media (prefers-reduced-motion) {
 	.ui-section-social svg {
-		transform: scale(1.05) !important;
+		transform: scale(1) !important;
 	}
 }

@@ -514,7 +514,7 @@ form {
 }
 
 @media not (prefers-reduced-motion) {
-	.ui-section-hero-image:hover img {
+	#hero-image:hover {
 		transition: all 0.25s ease-in;
 		transform: scale(1.05);
 	}

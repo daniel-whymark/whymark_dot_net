@@ -507,7 +507,7 @@ form {
 
 @media not (prefers-reduced-motion) {
 	.ui-section-hero-image:hover {
-		transform: translateY(-5px) !important;
+		transform: scale(1.01) !important;
 	}
 }
 

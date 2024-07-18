@@ -311,7 +311,7 @@ svg {
 }
 
 @media not (prefers-reduced-motion) {
-	.ui-section-social svg {
+	.ui-section-social svg:hover {
 		transition-timing-function: ease-in;
 		transition: 0.25s;
 		transform: scale(105%);

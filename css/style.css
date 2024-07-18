@@ -1096,15 +1096,11 @@ LESS THAN 400PX WIDTH
 	*/
 
 	svg.ui-section-social-avatar:hover {
-		transition: inherit inherit ease-in !important;
-		transition-delay: 250ms;
-		transform: scale(1.05) !important;
+		transform: scale(1.05);
 	}
 
 	img.ui-section-hero-image-img:hover {
-		transition: inherit inherit ease-in !important;
-		transition-delay: 250ms;
-		transform: scale(1.05) !important;
+		transform: scale(1.05);
 	}
 
 }

@@ -498,12 +498,12 @@ form {
 }
 
 .ui-section-hero-image {
-	margin: var(--ui-gap-hero) auto var(--ui-gap-hero) auto;
+	margin: var(--ui-gap-hero) auto var(--ui-gap-hero) auto !important;
 }
 
 .ui-section-hero-image img {
-	width: 400px;
-	height: 400px;
+	width: 400px !important;
+	height: 400px !important;
 	border-radius: 50%;
 	border: 0.75px solid var(--ui-color-hero-border);
 	filter: drop-shadow(1px 1px 1px var(--ui-color-hero-shadow));
@@ -511,7 +511,7 @@ form {
 }
 
 @media not (prefers-reduced-motion) {
-	#hero-image:hover {
+	.ui-section-hero-image:hover img {
 		transition: all 0.25s ease-in;
 		transform: scale(1.05);
 	}

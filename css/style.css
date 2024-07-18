@@ -1100,7 +1100,7 @@ LESS THAN 400PX WIDTH
 		transform: scale(1.05) !important;
 	}
 
-	img.ui-section-hero-image:hover {
+	img.ui-section-hero-image-img:hover {
 		transition: all 500ms ease-in !important;
 		transform: scale(1.05) !important;
 	}

@@ -312,8 +312,7 @@ svg {
 
 @media not (prefers-reduced-motion) {
 	.ui-section-social:hover svg {
-		transition-timing-function: ease-in;
-		transition: 0.25s;
+		transition: all 0.25s ease-in;
 		transform: scale(1.05);
 	}
 }
@@ -518,8 +517,7 @@ form {
 
 @media not (prefers-reduced-motion) {
 	.ui-section-hero-image:hover img {
-		transition-timing-function: ease-in;
-		transition: 0.25s;
+		transition: all 0.25s ease-in;
 		transform: scale(1.05);
 	}
 }

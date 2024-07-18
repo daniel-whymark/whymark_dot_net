@@ -482,7 +482,7 @@ form {
 	padding-bottom: 5rem;
 	padding-top: 5rem;
 	text-align: start;
-	transform: translateZ(0);
+	-webkit-transform: translate3d(0);
 }
 
 .ui-section-hero-image {
@@ -512,7 +512,7 @@ form {
 	padding-bottom: 5rem;
 	padding-top: 5rem;
 	text-align: start;
-	transform: translateZ(0);
+	-webkit-transform: translate3d(0);
 }
 
 .ui-section-social-layout {
@@ -724,7 +724,7 @@ form {
 	.ui-section-footer-menu {
 		left: 50%;
 		position: absolute;
-		transform: translateX(-50%);
+		transform: translate3d(-50%, 0, 0);
 	}
 
 }

@@ -1095,7 +1095,7 @@ HOVER EFFECTS
 */
 
 @media not (prefers-reduced-motion) {
-	.ui-hover-scale {
+	img, svg {
 		transition: all 0.25s ease-in !important;
 		transform: scale(1.05) !important;
 	}

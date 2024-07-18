@@ -1096,6 +1096,6 @@ HOVER EFFECTS
 
 @media (prefers-reduced-motion: no-preference) {
 	ui-section-social-avatar svg:hover {
-		transform: scale(1) !important;
+		transform: scale(1.05) !important;
 	}
 }

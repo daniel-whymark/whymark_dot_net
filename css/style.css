@@ -504,7 +504,7 @@ form {
 	object-fit: cover;
 }
 
-@media not (prefers-reduced-motion) {
+@media (any-hover:hover) and (prefers-reduced-motion:no-preference) {
 	.ui-section-hero-image img:hover {
 		transform: scale(0.9) !important;
 		filter: drop-shadow(2px 2px 2px var(--ui-color-hero-shadow)) !important;

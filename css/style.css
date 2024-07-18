@@ -509,7 +509,7 @@ form {
 	.ui-section-hero-image:hover {
 		transition-timing-function: ease-in;
 		transition: 0.2s;
-		transform: scale(150%);
+		transform: scale(110%);
 	}
 }
 

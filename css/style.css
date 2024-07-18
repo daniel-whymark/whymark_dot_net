@@ -504,7 +504,6 @@ form {
 	object-fit: cover;
 }
 
-
 @media not (prefers-reduced-motion) {
 	.ui-section-hero-image:hover {
 		transition-timing-function: ease-in;
@@ -512,7 +511,6 @@ form {
 		transform: scale(105%);
 	}
 }
-
 
 /*
 --------------------------------------------------------------

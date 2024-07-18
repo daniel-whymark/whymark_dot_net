@@ -504,11 +504,13 @@ form {
 	object-fit: cover;
 }
 
+/*
 @media not (prefers-reduced-motion) {
 	.ui-section-hero-image:hover {
 		transform: translateY(-5px) !important;
 	}
 }
+*/
 
 /*
 --------------------------------------------------------------

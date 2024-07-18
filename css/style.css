@@ -505,8 +505,8 @@ form {
 }
 
 .ui-section-hero-image:hover img {
-	transform: translateY(-5px) ease 0s !important;
-	filter: drop-shadow(2px 2px 2px var(--ui-color-hero-shadow)) !important;
+	transform: scale(0.9) !important;
+	filter: drop-shadow(2px 2px 1px var(--ui-color-hero-shadow)) !important;
 }
 
 /*

@@ -482,7 +482,6 @@ form {
 	padding-bottom: 5rem;
 	padding-top: 5rem;
 	text-align: start;
-	transform: translate3d(0);
 }
 
 .ui-section-hero-image {
@@ -496,6 +495,7 @@ form {
 	border-radius: 50%;
 	border: 0.75px solid var(--ui-color-hero-border);
 	filter: drop-shadow(8px 8px 8px var(--ui-color-hero-shadow));
+	transform: translate3d(0);
 	object-fit: cover;
 }
 

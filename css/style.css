@@ -504,6 +504,11 @@ form {
 	object-fit: cover;
 }
 
+.ui-section-hero-image img:hover {
+	transform: scale(1.1);
+	filter: drop-shadow(2px 2px 4px var(--ui-color-hero-shadow));
+}
+
 /*
 --------------------------------------------------------------
 |

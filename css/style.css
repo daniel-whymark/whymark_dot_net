@@ -501,6 +501,8 @@ form {
 .ui-section-hero-image {
 	margin-top: var(--ui-gap-hero);
 	margin-bottom: var(--ui-gap-hero);
+	width: 400px;
+	height: 400px;
 }
 
 .ui-section-hero-image img {

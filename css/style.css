@@ -737,7 +737,7 @@ form {
 	.ui-section-footer-menu {
 		left: 50%;
 		position: absolute;
-		transform: translate3d(-50%, 0, 0);
+		transform: translateX(-50%);
 	}
 
 }

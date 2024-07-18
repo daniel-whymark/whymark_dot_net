@@ -1095,15 +1095,14 @@ LESS THAN 400PX WIDTH
 	------------------------------------------------------------
 	*/
 
-	.ui-section-social-avatar svg:hover {
+	svg.ui-section-social-avatar:hover {
 		transition: all 250ms ease-in !important;
 		transform: scale(1.05) !important;
 	}
 
-	.ui-section-hero-image:hover img {
+	img.ui-section-hero-image:hover {
 		transition: all 250ms ease-in !important;
 		transform: scale(1.05) !important;
 	}
-
 
 }

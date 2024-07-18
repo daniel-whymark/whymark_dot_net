@@ -513,7 +513,7 @@ form {
 }
 
 @media not (prefers-reduced-motion) {
-	.ui-section-hero-image img:hover {
+	.ui-section-hero-image picture:hover {
 		transition: all 0.25s ease-in;
 		transform: scale(1.05);
 	}

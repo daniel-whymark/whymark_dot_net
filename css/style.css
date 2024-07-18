@@ -498,10 +498,7 @@ form {
 }
 
 .ui-section-hero-image {
-	margin-top: var(--ui-gap-hero);
-	margin-bottom: var(--ui-gap-hero);
-	margin-left: auto;
-	margin-right: auto;
+	margin: var(--ui-gap-hero) auto var(--ui-gap-hero) auto;
 	width: fit-content;
 	text-align: center;
 }

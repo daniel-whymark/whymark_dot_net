@@ -1100,12 +1100,15 @@ LESS THAN 400PX WIDTH
 		transform: scale(1.05) !important;
 	}
 
-	div.ui-section-hero-image img {
-		transform: scale(0.5);
-		transition-delay: 250ms;
-		transform: scale(1) !important;
+	/*
+	------------------------------------------------------------
+	PAGE LOAD ANIMATION
+	------------------------------------------------------------
+	*/
+	body {
+		opacity: 0;
+		transition: opacity 5s;
 	}
-
 
 }
 

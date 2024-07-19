@@ -1107,7 +1107,9 @@ LESS THAN 400PX WIDTH
 	*/
 	body {
 		opacity: 0;
+		transition-delay: 1s;
 		transition: opacity 5s;
+		opacity: 1;
 	}
 
 }

@@ -26,6 +26,7 @@ TABLE OF CONTENT
 |  8.4 DARK MODE
 |  8.5 RESPONSIVE IMAGES
 |  8.6 MOTION
+|  8.6 MOBILE INPUT
 
 --------------------------------------------------------------
 */
@@ -1084,6 +1085,35 @@ LESS THAN 400PX WIDTH
 --------------------------------------------------------------
 |
 | 8.6 MOTION
+|
+--------------------------------------------------------------
+*/
+
+@media not (prefers-reduced-motion) {
+	/*
+	------------------------------------------------------------
+	IMAGE EFFECTS
+	------------------------------------------------------------
+	*/
+
+	svg.ui-section-social-avatar:hover {
+		transition: transform 250ms ease-in !important;
+		transform: scale(1.05);
+
+	}
+
+	div.ui-section-hero-image:hover img {
+		transition: transform 250ms ease-in !important;
+		transform: scale(1.05);
+	}
+
+}
+
+
+/*
+--------------------------------------------------------------
+|
+| 8.7 MOBILE INPUT
 |
 --------------------------------------------------------------
 */

@@ -496,6 +496,7 @@ form {
 	border: 0.75px solid var(--ui-color-hero-border);
 	filter: drop-shadow(1px 1px 1px var(--ui-color-hero-shadow));
 	object-fit: cover;
+	z-index: -1;
 }
 
 /*
@@ -1095,7 +1096,7 @@ LESS THAN 400PX WIDTH
 
 	}
 
-	div.ui-section-hero-image:hover map {
+	img.ui-section-hero-image:hover {
 		transition: transform 250ms ease-in !important;
 		transform: scale(1.05) !important;
 	}

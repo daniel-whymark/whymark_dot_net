@@ -497,6 +497,7 @@ form {
 	filter: drop-shadow(1px 1px 1px var(--ui-color-hero-shadow));
 	object-fit: cover;
 	z-index: -1;
+	position:relative;
 }
 
 /*

@@ -496,8 +496,6 @@ form {
 	border: 0.75px solid var(--ui-color-hero-border);
 	filter: drop-shadow(1px 1px 1px var(--ui-color-hero-shadow));
 	object-fit: cover;
-	z-index: -1;
-	position:relative;
 }
 
 /*

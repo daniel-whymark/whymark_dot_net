@@ -26,7 +26,7 @@ TABLE OF CONTENT
 |  8.4 DARK MODE
 |  8.5 RESPONSIVE IMAGES
 |  8.6 MOTION
-|  8.6 MOBILE INPUT
+|  8.6 INPUT METHODS
 
 --------------------------------------------------------------
 */
@@ -225,7 +225,6 @@ a {
 	text-decoration: none;
 }
 
-a:not(.ui-component-button):hover,
 a:not(.ui-component-button):active,
 a:not(.ui-component-button):focus {
 	color: var(--ui-color-typography-hover);
@@ -393,12 +392,6 @@ textarea {
 	font-weight: 700;
 	line-height: 1;
 	text-align: center;
-}
-
-.ui-component-button:hover {
-	background-color: var(--ui-color-typography-small);
-	color: var(--ui-color-brand);
-	transition: all 250ms ease;
 }
 
 .ui-component-button-primary {
@@ -1092,7 +1085,7 @@ LESS THAN 400PX WIDTH
 @media not (prefers-reduced-motion) {
 	/*
 	------------------------------------------------------------
-	IMAGE EFFECTS
+	IMAGE SCALING
 	------------------------------------------------------------
 	*/
 
@@ -1113,27 +1106,34 @@ LESS THAN 400PX WIDTH
 /*
 --------------------------------------------------------------
 |
-| 8.7 MOBILE INPUT
+| 8.7 INPUT METHOD
 |
 --------------------------------------------------------------
 */
 
-@media not (prefers-reduced-motion) {
+@media (any-hover: hover) {
 	/*
 	------------------------------------------------------------
-	HOVER EFFECTS
+	TYPOGRAPHY
 	------------------------------------------------------------
 	*/
 
-	svg.ui-section-social-avatar:hover {
-		transition: transform 250ms ease-in !important;
-		transform: scale(1.05);
-
+	a:not(.ui-component-button):hover {
+		color: var(--ui-color-typography-hover);
+		fill: var(--ui-color-typography-hover);
+		text-shadow: 0 0 1px currentcolor;
 	}
 
-	div.ui-section-hero-image:hover img {
-		transition: transform 250ms ease-in !important;
-		transform: scale(1.05);
-	}
+	/*
+	------------------------------------------------------------
+	FORM
+	------------------------------------------------------------
+	*/
 
+	.ui-component-button:hover {
+		background-color: var(--ui-color-typography-small);
+		color: var(--ui-color-brand);
+		transition: all 250ms ease;
+	}
+	
 }

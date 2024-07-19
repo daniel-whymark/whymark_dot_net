@@ -1095,21 +1095,9 @@ LESS THAN 400PX WIDTH
 
 	}
 
-	div.ui-section-hero-image:hover img {
+	img.ui-section-hero-image-img:hover {
 		transition: transform 250ms ease-in !important;
 		transform: scale(1.05) !important;
-	}
-
-	/*
-	------------------------------------------------------------
-	PAGE LOAD ANIMATION
-	------------------------------------------------------------
-	*/
-	body {
-		opacity: 0;
-		transition-delay: 1s;
-		transition: opacity 5s;
-		opacity: 1;
 	}
 
 }

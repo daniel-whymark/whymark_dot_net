@@ -1096,7 +1096,7 @@ LESS THAN 400PX WIDTH
 	}
 
 	div.ui-section-hero-image:hover img {
-		transition: transform 250ms ease-in !important;
+		transition: transform 250ms ease-in-out !important;
 		transform: scale(1.05) !important;
 	}
 
@@ -1135,5 +1135,5 @@ LESS THAN 400PX WIDTH
 		color: var(--ui-color-brand);
 		transition: all 250ms ease;
 	}
-	
+
 }

@@ -1089,13 +1089,12 @@ LESS THAN 400PX WIDTH
 	------------------------------------------------------------
 	*/
 
-	.ui-section-social-avatar {
-		transition: transform 250ms ease-out !important;
-
+	div.ui-section-hero-image img {
+		transition: transform 500ms ease-in-out !important;
 	}
 
-	.ui-section-hero-image {
-		transition: transform 500ms ease-in-out !important;
+	svg.ui-section-social-avatar {
+		transition: transform 250ms ease-out !important;
 	}
 
 	/*
@@ -1104,15 +1103,14 @@ LESS THAN 400PX WIDTH
 	------------------------------------------------------------
 	*/
 
-	svg.ui-section-social-avatar:hover {
-		transform: scale(1.05) !important;
-
-	}
-
 	div.ui-section-hero-image:hover img {
 		transform: scale(1.1) !important;
 	}
 
+	svg.ui-section-social-avatar:hover {
+		transform: scale(1.05) !important;
+
+	}
 }
 
 

@@ -1085,18 +1085,31 @@ LESS THAN 400PX WIDTH
 @media not (prefers-reduced-motion) {
 	/*
 	------------------------------------------------------------
+	ANIMAITON TIMING
+	------------------------------------------------------------
+	*/
+
+	.ui-section-social-avatar {
+		transition: transform 250ms ease-out !important;
+
+	}
+
+	.ui-section-hero-image {
+		transition: transform 500ms ease-in-out !important;
+	}
+
+	/*
+	------------------------------------------------------------
 	IMAGE SCALING
 	------------------------------------------------------------
 	*/
 
 	svg.ui-section-social-avatar:hover {
-		transition: transform 250ms ease-out !important;
 		transform: scale(1.05) !important;
 
 	}
 
 	div.ui-section-hero-image:hover img {
-		transition: transform 500ms ease-out !important;
 		transform: scale(1.1) !important;
 	}
 

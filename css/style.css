@@ -1097,6 +1097,14 @@ LESS THAN 400PX WIDTH
 		transition: transform 250ms ease-out !important;
 	}
 
+	a:not(.ui-component-button):hover {
+		transition: transform 250ms ease-out !important;
+	}
+
+	.ui-component-button:hover {
+		transition: all 250ms ease-out;
+	}
+
 	/*
 	------------------------------------------------------------
 	IMAGE SCALING
@@ -1144,7 +1152,6 @@ LESS THAN 400PX WIDTH
 	.ui-component-button:hover {
 		background-color: var(--ui-color-typography-small);
 		color: var(--ui-color-brand);
-		transition: all 250ms ease;
 	}
 
 }

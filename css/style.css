@@ -1102,7 +1102,7 @@ LESS THAN 400PX WIDTH
 	}
 
 	.ui-component-button:hover {
-		transition: all 250ms ease-out;
+		transition: all 250ms ease-out !important;
 	}
 
 	/*

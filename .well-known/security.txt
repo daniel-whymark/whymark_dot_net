@@ -5,7 +5,7 @@
 #    \/_/   \/_/   \/_/\/_/   \/_____/   \/_/  \/_/   \/_/\/_/   \/_/ /_/   \/_/\/_/ 
 #     
 
-Contact: mailto:security@whymark.net
+Contact: https://whymark.net/#form
 Contact: https://github.com/daniel-whymark/whymark_dot_net/issues/new
 Preferred-Languages: en
 Canonical: https://whymark.net/security.txt

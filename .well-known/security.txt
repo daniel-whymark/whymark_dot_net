@@ -6,6 +6,7 @@
 #     
 
 Contact: https://whymark.net/#form
+Contact: https://domaincontact.cloudflareregistrar.com/whymark.net
 Contact: https://github.com/daniel-whymark/whymark_dot_net/issues/new
 Preferred-Languages: en
 Canonical: https://whymark.net/security.txt

@@ -55,7 +55,7 @@
 					"@id": "https://whymark.net/#website",
 					"url": "https://whymark.net/",
 					"name": "Daniel Whymark",
-					"alternateName" : "Whymark",
+					"alternateName" : ["Whymark", "whymark.net"],
 					"description": "Daniel Whymark is a computer scientist, cloud engineer, a reader of many things, taster of cheese, inhaler of whiskey, hiker, cycler, and a lifelong gamer.",
 					"author": {
 						"@id": "https://whymark.net/#person"
@@ -73,10 +73,17 @@
 					}
 				},
 				{
-					"@type": "WebPage",
-					"@id": "https://whymark.net/#webpage",
+					"@type": "ProfilePage",
+					"@id": "https://whymark.net/#profilepage",
 					"url": "https://whymark.net/",
 					"name": "Daniel Whymark",
+					"inLanguage": [
+						"en-GB",
+						"en"
+					],
+					"mainEntity": {
+						"@id": "https://whymark.net/#person"
+					},
 					"isPartOf": {
 						"@id": "https://whymark.net/#website"
 					},
@@ -101,10 +108,6 @@
 					"breadcrumb": {
 						"@id": "https://whymark.net/#breadcrumb1"
 					},
-					"inLanguage": [
-						"en-GB",
-						"en"
-					],
 					"about": {
 						"@id": "https://whymark.net/#person"
 					},
@@ -114,6 +117,14 @@
 					"publisher": {
 						"@id": "https://whymark.net/#person"
 					},
+					"sameAs": [
+						"https://uk.linkedin.com/in/danielwhymark/",
+						"https://github.com/daniel-whymark",
+						"https://www.goodreads.com/danielwhymark",
+						"https://mastodon.social/@whymark",
+						"https://www.youtube.com/@Da9lDubya",
+						"https://bsky.app/profile/whymark.net"
+					],
 					"keywords": "daniel whymark, dan whymark, danny whymark, whymark, daniel, dan, danny, danielwhymark, da9ldubya, daniel-whymark, @da9ldubya, @whymark",
 					"potentialAction": [
 					{
@@ -214,6 +225,7 @@
 					"sameAs": [
 						"https://uk.linkedin.com/in/danielwhymark/",
 						"https://github.com/daniel-whymark",
+						"https://www.goodreads.com/danielwhymark",
 						"https://mastodon.social/@whymark",
 						"https://www.youtube.com/@Da9lDubya",
 						"https://bsky.app/profile/whymark.net"

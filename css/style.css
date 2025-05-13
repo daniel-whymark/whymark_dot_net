@@ -121,9 +121,8 @@ input, select, textarea {
 			font-style: normal;
 			font-variant: normal;
 			text-rendering: auto;
-			line-height: 1;
+			/* line-height: 1; */
 			text-transform: none !important;
-			font-family: 'Font Awesome 6 Free';
 			font-weight: 400;
 		}
 
@@ -133,10 +132,6 @@ input, select, textarea {
 
 		.icon.solid:before {
 			font-weight: 900;
-		}
-
-		.icon.brands:before {
-			font-family: 'Font Awesome 6 Brands';
 		}
 
 /* Wrapper */

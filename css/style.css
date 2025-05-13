@@ -726,11 +726,11 @@ input, select, textarea {
 	}
 
 	footerLeft {
-		float:left;
+		float:left !important;
 	}
 
 	footerRight {
-		float:right;
+		float:right !important;
 	}
 
 /* Wide */

@@ -3,15 +3,15 @@
 /* COLOURS */
 /* Light Mode */
 :root {
-		--ui-color-background: #348cb2;
-		--ui-color-typography: #FFF;
+		--ui-colour-background: #348cb2;
+		--ui-colour-typography: #FFF;
 }
 
 /* Dark Mode */
 @media only screen and (prefers-color-scheme: dark) {
 	:root {
-		--ui-color-background: #121212FF;
-		--ui-color-typography: #FFF;
+		--ui-colour-background: #121212FF;
+		--ui-colour-typography: #FFF;
 }
 
 html, body, div, span, applet, object,
@@ -90,12 +90,12 @@ input, select, textarea {
 	}
 
 	body {
-		background: var(--ui-color-typography);
+		background: var(--ui-colour-typography);
 		overflow: hidden;
 	}
 
 	body, input, select, textarea {
-		color: var(--ui-color-typography);
+		color: var(--ui-colour-typography);
 		font-family: system-ui, ui-sans-serif, sans-serif;
 		font-size: 15pt;
 		font-weight: 300 !important;
@@ -161,7 +161,7 @@ input, select, textarea {
 
 	#bg {
 		background-attachment: fixed, fixed;
-		background: url("/images/overlay-pattern.png"), url("/images/overlay.svg"), var(--ui-color-background);
+		background: url("/images/overlay-pattern.png"), url("/images/overlay.svg"), var(--ui-colour-background);
 		background-position: top left, center center;
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
@@ -250,7 +250,7 @@ input, select, textarea {
 					-ms-transition: all 0.2s ease-in-out;
 					transition: all 0.2s ease-in-out;
 					border-radius: 100%;
-					border: solid 1px var(--ui-color-typography);
+					border: solid 1px var(--ui-colour-typography);
 					display: block;
 					font-size: 1.75em;
 					height: 2.5em;
@@ -267,7 +267,7 @@ input, select, textarea {
 
 					#header nav a:hover:before {
 						background-color: rgba(255, 255, 255, 0.175);
-						color: var(--ui-color-typography);
+						color: var(--ui-colour-typography);
 					}
 
 				#header nav a:active {
@@ -277,7 +277,7 @@ input, select, textarea {
 
 					#header nav a:active:before {
 						background-color: rgba(255, 255, 255, 0.35);
-						color: var(--ui-color-typography);
+						color: var(--ui-colour-typography);
 					}
 
 				#header nav a span {
@@ -374,4 +374,5 @@ input, select, textarea {
 
 		#header nav {
 			padding: 0 1em;
-		} }
+		}
+	}

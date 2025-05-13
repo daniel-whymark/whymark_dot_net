@@ -98,7 +98,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #000;
+		color: #fff;
 		font-family: system-ui, ui-sans-serif, sans-serif;
 		font-size: 15pt;
 		font-weight: 300 !important;
@@ -723,6 +723,14 @@ input, select, textarea {
 		position: absolute;
 		text-align: center;
 		width: 100%;
+	}
+
+	footerLeft {
+		float:left;
+	}
+
+	footerRight {
+		float:right;
 	}
 
 /* Wide */

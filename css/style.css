@@ -122,6 +122,9 @@ input, select, textarea {
 			font-variant: normal;
 			text-rendering: auto;
 			/* line-height: 1; */
+			width: 2em;
+			height: 2em;
+			vertical-align: -0.125em;		
 			text-transform: none !important;
 			font-weight: 400;
 		}

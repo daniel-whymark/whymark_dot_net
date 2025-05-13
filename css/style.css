@@ -2,7 +2,7 @@
 
 /* Colours */
 :root {
-		--ui-colour-background: #87CEEB;
+		--ui-colour-background: #348CB2;
 		--ui-colour-typography: #FFF;
 }
 
@@ -189,10 +189,6 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		-moz-transform: translate3d(0,0,0);
-		-webkit-transform: translate3d(0,0,0);
-		-ms-transform: translate3d(0,0,0);
-		transform: translate3d(0,0,0);
 		cursor: default;
 		display: inline-block;
 		opacity: 1;
@@ -368,13 +364,21 @@ input, select, textarea {
 
 /* Animations */
 	@media not (prefers-reduced-motion) {
-			#header nav a:before {
-					-moz-transition: all 250ms ease-in-out;
-					-webkit-transition: all 250ms ease-in-out;
-					-ms-transition: all 250ms ease-in-out;
-					transition: all 250ms ease-in-out;
-			}
+		
+		#header {
+			-moz-transform: translate3d(0,0,0);
+			-webkit-transform: translate3d(0,0,0);
+			-ms-transform: translate3d(0,0,0);
+			transform: translate3d(0,0,0);
 		}
+		
+		#header nav a:before {
+			-moz-transition: all 250ms ease-in-out;
+			-webkit-transition: all 250ms ease-in-out;
+			-ms-transition: all 250ms ease-in-out;
+			transition: all 250ms ease-in-out;
+		}
+	}
 
 
 /* Dark Mode */

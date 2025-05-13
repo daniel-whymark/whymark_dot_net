@@ -202,7 +202,7 @@ input, select, textarea {
 		animation: wrapper 3s forwards;
 		height: 100%;
 		left: 0;
-		opacity: 0;
+		opacity: 1;
 		position: fixed;
 		top: 0;
 		width: 100%;
@@ -357,7 +357,7 @@ input, select, textarea {
 		background-size: auto, cover;
 		height: 100%;
 		left: 0;
-		opacity: 0;
+		opacity: 1;
 		position: fixed;
 		top: 0;
 		width: 100%;
@@ -544,7 +544,7 @@ input, select, textarea {
 		transform: translate3d(0,0,0);
 		cursor: default;
 		display: inline-block;
-		opacity: 0;
+		opacity: 1;
 		position: relative;
 		text-align: center;
 		top: -1em;
@@ -585,7 +585,7 @@ input, select, textarea {
 				display: inline-block;
 				height: 5.35em;
 				line-height: 5.885em;
-				opacity: 0;
+				opacity: 1;
 				position: relative;
 				top: 0;
 				width: 5.35em;

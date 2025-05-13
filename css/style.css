@@ -1,19 +1,11 @@
 @import url("fontawesome-all.min.css");
 
-/* COLOURS */
-/* Light Mode */
+/* Colours */
 :root {
 		--ui-colour-background: #348cb2;
 		--ui-colour-typography: #FFF;
 }
 
-/* Dark Mode */
-@media only screen and (prefers-color-scheme: dark) {
-	:root {
-		--ui-colour-background: #121212FF;
-		--ui-colour-typography: #FFF;
-	}
-}
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -246,10 +238,6 @@ input, select, textarea {
 			}
 
 				#header nav a:before {
-					-moz-transition: all 0.2s ease-in-out;
-					-webkit-transition: all 0.2s ease-in-out;
-					-ms-transition: all 0.2s ease-in-out;
-					transition: all 0.2s ease-in-out;
 					border-radius: 100%;
 					border: solid 1px var(--ui-colour-typography);
 					display: block;
@@ -375,5 +363,24 @@ input, select, textarea {
 
 		#header nav {
 			padding: 0 1em;
+		}
+	}
+
+/* Animations */
+	@media not (prefers-reduced-motion) {
+			#header nav a:before {
+					-moz-transition: all 250ms ease-in-out;
+					-webkit-transition: all 250ms ease-in-out;
+					-ms-transition: all 250ms ease-in-out;
+					transition: all 250ms ease-in-out;
+			}
+		}
+
+
+/* Dark Mode */
+	@media only screen and (prefers-color-scheme: dark) {
+		:root {
+			--ui-colour-background: #121212FF;
+			--ui-colour-typography: #FFF;
 		}
 	}

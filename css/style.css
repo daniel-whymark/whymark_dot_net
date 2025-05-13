@@ -536,7 +536,7 @@ input, select, textarea {
 		transform: translate3d(0,0,0);
 		cursor: default;
 		display: inline-block;
-		opacity: 1;
+		opacity: 1 !important;
 		position: relative;
 		text-align: center;
 		top: -1em;
@@ -577,7 +577,7 @@ input, select, textarea {
 				display: inline-block;
 				height: 5.35em;
 				line-height: 5.885em;
-				opacity: 1;
+				opacity: 1 !important;
 				position: relative;
 				top: 0;
 				width: 5.35em;

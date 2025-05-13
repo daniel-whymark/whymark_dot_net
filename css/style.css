@@ -118,9 +118,13 @@ input, select, textarea {
 		-moz-osx-font-smoothing: grayscale;
 		-webkit-font-smoothing: antialiased;
 		display: inline-block;
+		font-style: normal;
+		font-variant: normal;
+		text-rendering: auto;
+		/* line-height: 1; */
 		max-width: 100%;
 		height: auto;
-		margin: 0 auto;
+		vertical-align: -0.125em;		
 		text-transform: none !important;
 		font-weight: 400;
 	}

@@ -220,6 +220,10 @@ input, select, textarea {
 		}
 
 			#header nav li {
+				-moz-animation: nav-icons 0.25s ease-in-out forwards;
+				-webkit-animation: nav-icons 0.25s ease-in-out forwards;
+				-ms-animation: nav-icons 0.25s ease-in-out forwards;
+				animation: nav-icons 0.25s ease-in-out forwards;
 				-moz-transform: translate3d(0,0,0);
 				-webkit-transform: translate3d(0,0,0);
 				-ms-transform: translate3d(0,0,0);

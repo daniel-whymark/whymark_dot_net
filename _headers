@@ -13,12 +13,12 @@ Access-Control-Allow-Methods: GET, POST, OPTIONS, HEAD
 Access-Control-Allow-Origin: https://whymark.net
 Link: <https://whymark.net/:splat>; rel="canonical"
 
-    /cdn-cgi/*
-    X-Robots-Tag: noindex
-    ! Link
-    ! Access-Control-Allow-Origin
+/cdn-cgi/*
+X-Robots-Tag: noindex
+! Link
+! Access-Control-Allow-Origin
 
-    https://:whymark.pages.dev/*
-    X-Robots-Tag: noindex
-    ! Link
-    ! Access-Control-Allow-Origin
+https://:whymark.pages.dev/*
+X-Robots-Tag: noindex
+! Link
+! Access-Control-Allow-Origin

@@ -725,11 +725,11 @@ input, select, textarea {
 		width: 100%;
 	}
 
-	footerLeft {
+	.footerLeft {
 		float:left !important;
 	}
 
-	footerRight {
+	.footerRight {
 		float:right !important;
 	}
 

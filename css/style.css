@@ -149,23 +149,11 @@ input, select, textarea {
 		width: 100%;
 	}
 
-/* BG */
+/* Background */
 
 	#bg {
-		background: #348cb2 bottom left;
-		background-repeat: repeat-x;
-		height: 100%;
-		left: 0;
-		opacity: 1;
-		position: fixed;
-		top: 0;
-	}
-
-/* Overlay */
-
-	#overlay {
 		background-attachment: fixed, fixed;
-		background-image: url("/images/overlay-pattern.png"), url("/images/overlay.svg");
+		background: url("/images/overlay-pattern.png"), url("/images/overlay.svg"), #348cb2;
 		background-position: top left, center center;
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;

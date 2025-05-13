@@ -727,12 +727,12 @@ input, select, textarea {
 
 	.footerLeft {
 		float:left !important;
-		padding-left: 10vw
+		padding-left: 20vw
 	}
 
 	.footerRight {
 		float:right !important;
-		padding-right: 10vw
+		padding-right: 20vw
 	}
 
 /* Wide */

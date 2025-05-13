@@ -22,5 +22,3 @@ https://:whymark.pages.dev/*
 X-Robots-Tag: noindex
 ! Link
 ! Access-Control-Allow-Origin
-! Content-Security-Policy
-Content-Security-Policy-Report-Only: upgrade-insecure-requests; default-src 'none'; frame-ancestors 'none'; base-uri 'none'; manifest-src 'self'; style-src 'self'; img-src 'self'; trusted-types 'none'; require-trusted-types-for 'script'; sandbox allow-popups allow-forms allow-scripts allow-same-origin; 'self';

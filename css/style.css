@@ -220,14 +220,6 @@ input, select, textarea {
 		}
 
 			#header nav li {
-				-moz-animation: nav-icons 0.25s ease-in-out forwards;
-				-webkit-animation: nav-icons 0.25s ease-in-out forwards;
-				-ms-animation: nav-icons 0.25s ease-in-out forwards;
-				animation: nav-icons 0.25s ease-in-out forwards;
-				-moz-transform: translate3d(0,0,0);
-				-webkit-transform: translate3d(0,0,0);
-				-ms-transform: translate3d(0,0,0);
-				transform: translate3d(0,0,0);
 				display: inline-block;
 				height: 5.35em;
 				line-height: 5.885em;
@@ -245,6 +237,10 @@ input, select, textarea {
 			}
 
 				#header nav a:before {
+					-moz-transition: all 0.2s ease-in-out;
+					-webkit-transition: all 0.2s ease-in-out;
+					-ms-transition: all 0.2s ease-in-out;
+					transition: all 0.2s ease-in-out;
 					border-radius: 100%;
 					border: solid 1px #fff;
 					display: block;

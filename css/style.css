@@ -2,7 +2,7 @@
 
 /* Colours */
 :root {
-		--ui-colour-background: #348cb2;
+		--ui-colour-background: #87CEEB;
 		--ui-colour-typography: #FFF;
 }
 
@@ -380,7 +380,7 @@ input, select, textarea {
 /* Dark Mode */
 	@media only screen and (prefers-color-scheme: dark) {
 		:root {
-			--ui-colour-background: #121212FF;
+			--ui-colour-background: #000;
 			--ui-colour-typography: #FFF;
 		}
 	}

@@ -285,12 +285,12 @@ input, select, textarea {
 
 	.footerLeft {
 		float:left !important;
-		padding-left: 25vw
+		padding-left: 33vw
 	}
 
 	.footerRight {
 		float:right !important;
-		padding-right: 25vw
+		padding-right: 33vw
 	}
 
 /* Wide */

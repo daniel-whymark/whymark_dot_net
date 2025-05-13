@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
+@import url("fontawesome-all.min.css");
+
 /*
 	Aerial by HTML5 UP
 	html5up.net | @ajlkn
@@ -96,7 +99,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #000;
+		color: #fff;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 15pt;
 		font-weight: 300 !important;
@@ -145,6 +148,10 @@ input, select, textarea {
 
 		.icon.solid:before {
 			font-weight: 900;
+		}
+
+		.icon.brands:before {
+			font-family: 'Font Awesome 5 Brands';
 		}
 
 /* Wrapper */
@@ -219,7 +226,7 @@ input, select, textarea {
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: #348cb2;
+		background: #348cb2 url("images/bg.jpg") bottom left;
 		background-repeat: repeat-x;
 		height: 100%;
 		left: 0;

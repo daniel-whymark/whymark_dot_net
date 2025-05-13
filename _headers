@@ -22,3 +22,4 @@ https://:whymark.pages.dev/*
 X-Robots-Tag: noindex
 ! Link
 ! Access-Control-Allow-Origin
+! Content-Security-Policy

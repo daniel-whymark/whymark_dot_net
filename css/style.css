@@ -1412,7 +1412,7 @@
 	}
 
 	body {
-		background-color: #000;
+		background-color: #FF9000;
 		background-size: cover;
 		background-position: top center;
 	}
@@ -2606,6 +2606,7 @@
 				border-radius: 100%;
 				display: block;
 				width: 10em;
+				object-fit: cover;
 			}
 
 		@media screen and (max-width: 1280px) {

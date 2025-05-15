@@ -22,8 +22,9 @@ p {
 }
 
 img {
-	max-width: 20vw;
+	max-width: 100px;
 	object-fit: cover;
+	display: inline-block;
 }
 
 p:not(:last-child) {

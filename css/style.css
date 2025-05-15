@@ -1,57 +1,80 @@
-:root {
-  font-size: 125%;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, ui-sans-serif, sans-serif;
 }
 
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
+html, body {
+	width: 100vw;
+    height: 100vh;
+	display: grid;
+	grid-template-columns: 1fr;
+	align-content: center;
+	justify-items: center;
+    background-color: #FF6D00FF;
 }
 
-body {
-  font: 1em/1.618 system-ui, ui-sans-serif, sans-serif;
-  margin: 0;
-  color: #224;
-  background: #FF6D00FF;
+.card-container {
+	background-color: white;
+	width: 25%;
+	display: grid;
+	grid-template-rows: repeat(4,auto);
 }
 
-p {
-  margin: 0;
-}
-
-p:not(:last-child) {
-  margin-bottom: 1.5em;
-}
-
-.site-container {
+.container {
+  width: 25%;
   display: grid;
-  place-items: center;
-  
-  min-height: 100vh;
-  padding: 1.5em;
+  grid-template-rows: repeat(4,auto);
+  border-radius: 1.5%;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  background-color: rgb(238, 238, 238);
 }
 
-
-.card {
-  max-width: 300px;
-  min-height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-
-  max-width: 500px;
-  height: 300px;
-  padding: 35px;
-
-  border: 1px solid rgba(255, 255, 255, .25);
-  border-radius: 20px;
-  background-color: rgba(255, 255, 255, 0.45);
-  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
-
-  backdrop-filter: blur(15px);
+.card-image img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  object-fit: cover;
 }
 
-.card-footer {
-  font-size: 0.65em;
-  color: #446;
+.profile-img img {
+  position: relative;
+  z-index: 1;
+  bottom: 110%;
+  margin-bottom: -20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  border: #fff 10px solid;
+}
+
+.profile-info h2 {
+  position: relative;
+  font-size: 20px;
+  text-align: center;
+  margin-top: -15%;
+}
+
+.profile-info p {
+  text-align: center;
+  padding: 2%;
+}
+
+.social-links {
+  padding: 20px;
+  text-align: center;
+}
+
+.social-links a {
+  padding: 0% 5%;
+  font-size: 2rem;
+  color: #ED1ABE;
+}
+
+.social-links a:hover {
+  color: #31006B;
+  transform: scale(1.5);
 }

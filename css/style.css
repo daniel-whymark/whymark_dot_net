@@ -53,7 +53,7 @@ p:not(:last-child) {
   backdrop-filter: blur(15px);
 }
 
-.card-footer {
+.links {
   font-size: 0.65em;
   color: #446;
 }

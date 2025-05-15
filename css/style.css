@@ -32,8 +32,8 @@ html, body {
 }
 
 .card-image img {
-  width: 100%;
-  height: 100%;
+  width: 25%;
+  height: 25%;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   object-fit: cover;

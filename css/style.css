@@ -56,18 +56,18 @@ html, body {
   padding: 2%;
 }
 
-.social-links {
+.links {
   padding: 20px;
   text-align: center;
 }
 
-.social-links a {
+.links a {
   padding: 0% 5%;
   font-size: 2rem;
   color: #ED1ABE;
 }
 
-.social-links a:hover {
+.links a:hover {
   color: #31006B;
   transform: scale(1.5);
 }

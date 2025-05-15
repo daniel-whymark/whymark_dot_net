@@ -14,7 +14,7 @@ body {
   color: #224;
   background:
     url(https://i.ibb.co/Qjt7TJn/milad-fakurian-E8-Ufcyxz514-unsplash-1.jpg)
-    center / cover no-repeat fixed;
+    center / cover no-repeat fixed, #060606;
 }
 
 p {

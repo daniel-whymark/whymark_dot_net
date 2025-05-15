@@ -126,8 +126,10 @@ a {
 	color: #fff;
 	padding: 0 1.375em;
 }
-.btn--primary:hover, .btn--primary:focus {
+
+.link:hover, .link:focus {
 	background-size: 150%;
+	border-color: #7d8396;
 }
 
 .btn--icon {
@@ -140,10 +142,6 @@ a {
 
 .btn--icon i {
 	font-size: 1.25em;
-}
-
-.btn--icon:hover, .btn--icon:focus {
-	border-color: #7d8396;
 }
 
 .profile-links {

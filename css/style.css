@@ -24,7 +24,11 @@ p {
 img {
 	max-width: 100px;
 	object-fit: cover;
-	display: inline-block;
+	display: inline;
+}
+
+h2 {
+	display: inline;
 }
 
 p:not(:last-child) {

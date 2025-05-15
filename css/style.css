@@ -128,8 +128,8 @@ a {
 }
 
 .link:hover, .link:focus {
-	background-size: 150%;
-	border-color: #7d8396;
+	transform: scale(1.5);
+	color: #7d8396;
 }
 
 .btn--icon {

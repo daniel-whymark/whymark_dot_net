@@ -16,19 +16,12 @@ html, body {
 }
 
 .card-container {
-	background-color: white;
 	width: 25%;
 	display: grid;
 	grid-template-rows: repeat(4,auto);
-}
-
-.container {
-  width: 25%;
-  display: grid;
-  grid-template-rows: repeat(4,auto);
-  border-radius: 1.5%;
-  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
-  background-color: rgb(238, 238, 238);
+	border-radius: 1.5%;
+	box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+	background-color: rgb(238, 238, 238);
 }
 
 .card-image img {
@@ -39,7 +32,7 @@ html, body {
   object-fit: cover;
 }
 
-.profile-img img {
+.profile-image img {
   position: relative;
   z-index: 1;
   bottom: 110%;
@@ -51,14 +44,14 @@ html, body {
   border: #fff 10px solid;
 }
 
-.profile-info h2 {
+.profile-name {
   position: relative;
   font-size: 20px;
   text-align: center;
   margin-top: -15%;
 }
 
-.profile-info p {
+.profile-bio {
   text-align: center;
   padding: 2%;
 }

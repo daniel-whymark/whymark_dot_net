@@ -119,8 +119,7 @@ p {
   animation: scaleIn 0.3s 3.5s ease forwards;
 }
 
-.profile-card header a > img,
-.profile-card header a > picture {
+.profile-card header a picture > img {
   width: 120px;
   max-width: 100%;
   -webkit-border-radius: 50%;
@@ -131,8 +130,7 @@ p {
   box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.06);
 }
 
-.profile-card header a:hover > img,
-.profile-card header a:hover > picture {
+.profile-card header a:hover picture > img {
   -webkit-box-shadow: 0px 0px 0px 12px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 0px 0px 12px rgba(0, 0, 0, 0.1);
 }

@@ -39,8 +39,8 @@ p {
   width: 440px;
   height: 280px;
   position: absolute;
-  left: 50%;
-  top: 50%;
+  left: 100%;
+  top: 100%;
   z-index: 2;
   overflow: hidden;
   transform: translate(-50%, -50%);

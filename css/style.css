@@ -58,7 +58,6 @@ p {
   color: #000000;
   margin-top: 50px;
   text-align: center;
-  animation: moveIn 1s 3.1s ease forwards;
 }
 
 .profile-card header h1 {
@@ -109,7 +108,6 @@ p {
   color: #333333;
   margin-top: 50px;
   text-align: center;
-  animation: moveIn 1s 3.1s ease forwards;
 }
 
 .profile-social-links {
@@ -122,7 +120,6 @@ p {
   margin-top: 50px;
   text-align: center;
   box-sizing: border-box;
-  animation: moveIn 1s 3.1s ease forwards;
 }
 
 .profile-social-links li {

@@ -33,7 +33,7 @@ p {
 }
 
 .profile-card {
-  background: #FFB300;
+  background: #FFFFFF;
   width: 280px;
   height: 440px;
   position: absolute;
@@ -53,7 +53,6 @@ p {
   display: inline-block;
   float: left;
   border-right: 2px dashed #EEEEEE;
-  background: #FFFFFF;
   color: #000000;
   text-align: center;
 }
@@ -102,7 +101,6 @@ p {
   display: inline-block;
   float: right;
   padding: 50px 20px 30px 20px;
-  background: #FFFFFF;
   color: #333333;
   text-align: center;
 }
@@ -113,7 +111,6 @@ p {
   float: right;
   margin: 0px;
   padding: 15px 20px;
-  background: #FFFFFF;
   text-align: center;
   box-sizing: border-box;
 }

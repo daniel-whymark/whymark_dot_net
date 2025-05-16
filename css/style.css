@@ -98,12 +98,11 @@ p {
 
 .profile-card .profile-bio {
   width: 175px;
-  height: 180px;
   display: inline-block;
   float: right;
   color: #333333;
   text-align: center;
-  margin-top: 50px;
+  margin-bottom: 50px;
   padding: 50px 20px 30px 20px;
 }
 
@@ -165,6 +164,7 @@ p {
     height: auto;
     display: block;
     float: none;
+    margin-bottom: 0px;
     padding: 0px;
   }
   .profile-social-links {

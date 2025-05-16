@@ -12,10 +12,8 @@ body {
   width: 100%;
   height: 100%;
   font: normal 14px/1.618em system-ui, ui-sans-serif, sans-serif;
-  left: 50%;
-  top: 100%;
   display: block;
-  transform: translate(-50%, -50%);
+}
 
 h1,
 h2 {

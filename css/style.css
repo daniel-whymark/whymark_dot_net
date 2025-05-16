@@ -5,7 +5,7 @@ html {
 body {
   overflow: hidden;
   background-color: #2c67f2; /* For browsers that do not support gradients */
-  background-image: linear-gradient(65deg, #62cff4, #2c67f2);
+  background-image: linear-gradient(#62cff4, #2c67f2);
   position: fixed;
   padding: 0px;
   margin: 0px;

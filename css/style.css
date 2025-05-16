@@ -104,6 +104,7 @@ p {
   color: #333333;
   text-align: center;
   margin-top: 50px;
+  padding: 50px 20px 30px 20px;
 }
 
 .profile-social-links {
@@ -164,6 +165,7 @@ p {
     height: auto;
     display: block;
     float: none;
+    padding: 15px 20px 30px 20px;
   }
   .profile-social-links {
     width: 100%;

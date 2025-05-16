@@ -69,6 +69,7 @@ p {
 }
 
 .profile-card header a:after {
+  content: "";
   position: absolute;
   bottom: 3px;
   right: 3px;

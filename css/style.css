@@ -6,14 +6,12 @@ body {
   overflow: hidden;
   background-color: #2c67f2; /* For browsers that do not support gradients */
   background-image: linear-gradient(#62cff4, #2c67f2);
-  position: fixed;
-  padding: 0px 100%;
+  position: absolute;
+  padding: 0px;
   margin: 0px;
   width: 100%;
   height: 100%;
   font: normal 14px/1.618em system-ui, ui-sans-serif, sans-serif;
-  left: 50%;
-  top: 50%;
   display: block;
   transform: translate(-50%, -50%);
 }
@@ -38,8 +36,8 @@ p {
 
 .profile-card {
   background: #FFFFFF;
-  width: 280px;
-  height: 440px;
+  width: 440px;
+  height: 280px;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -147,13 +145,11 @@ p {
   width: 24px;
 }
 
-@media screen and (min-aspect-ratio: 4/3) {
-  body:before {
-    width: 0px;
-  }
-}
-
 @media screen and (min-height: 480px) {
+  .profile-card {
+    height: 440px;
+    width: 280px;
+  }
   .profile-card header {
     width: auto;
     height: auto;

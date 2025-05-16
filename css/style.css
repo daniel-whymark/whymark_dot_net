@@ -143,6 +143,12 @@ p {
   width: 24px;
 }
 
+@media screen and (min-aspect-ratio: 4/3) {
+  body:before {
+    width: 0px;
+  }
+}
+
 @media screen and (min-height: 480px) {
   .profile-card header {
     width: auto;

@@ -108,7 +108,7 @@ p {
   display: inline-block;
   float: left;
   border-right: 2px groove var(--colour-card-border);
-  color: rgba(0, 0, 0, 1);
+  color: var(--colour-typography-header);
   text-align: center;
 }
 

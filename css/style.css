@@ -35,7 +35,7 @@ p {
 }
 
 .profile-card {
-  background: #FFFFFF;
+  /*background: rgba(255, 255, 255, 1);*/
   width: 440px;
   height: 280px;
   position: absolute;
@@ -44,9 +44,6 @@ p {
   z-index: 2;
   overflow: hidden;
   transform: translate(-50%, -50%);
-  border-radius: 4px;
-  /*box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);*/
-
   border: 1px solid rgba(255, 255, 255, .25);
   border-radius: 20px;
   background-color: rgba(255, 255, 255, 0.45);
@@ -60,8 +57,8 @@ p {
   padding: 40px 20px 30px 20px;
   display: inline-block;
   float: left;
-  border-right: 2px dashed #EEEEEE;
-  color: #000000;
+  border-right: 2px dashed rgba(238, 238, 238, 1);
+  color: rgba(0, 0, 0, 1);
   text-align: center;
 }
 

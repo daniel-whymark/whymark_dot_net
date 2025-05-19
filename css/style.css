@@ -64,18 +64,17 @@ body {
 
 h1,
 h3 {
-  /*margin: 0px 0px 4px 0px;*/
+  margin: 0px 0px 4px 0px;
   color: var(--colour-typography-header);
 }
 
-/*h1 {
+h1 {
   font-size: 24px;
-  font-weight: 600;
 }
 
 h3 {
   font-size: 16px;
-}*/
+}
 
 p {
   margin: 0px;

@@ -8,7 +8,7 @@ COLOUR SCHEMES
   --colour-background-primary: rgba(44, 103, 242, 1);
   --colour-background-secondary: rgba(98, 207, 244, 1);
   --colour-typography-header: rgba(34, 34, 68, 1);
-  --colour-typography-body: rgba(34, 34, 68, 1);
+  --colour-typography-body: rgba(34, 34, 68, 0.8);
   --colour-typography-footer: rgba(68, 68, 102, 1);
   --colour-card-primary: rgba(255, 255, 255, 0.45);
   --colour-card-border: rgba(255, 255, 255, 0.25);
@@ -16,8 +16,8 @@ COLOUR SCHEMES
   --colour-image-border: rgba(0, 0, 0, 0.06);
   --colour-image-border-hover: rgba(0, 0, 0, 0.1);
   --colour-flag-border: rgba(255, 255, 255, 1);
-  --colour-icons-primary: rgba(255, 109, 0, 1);
-  --colour-icons-hover: rgba(255, 152, 0, 1);
+  --colour-icons-primary: rgba(34, 34, 68, 1);
+  --colour-icons-hover: rgba(213, 0, 0, 1);
 }
 
 @media only screen and (prefers-color-scheme: dark) {

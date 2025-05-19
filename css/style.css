@@ -5,8 +5,9 @@ COLOUR SCHEMES
 */
 
 :root {
-  --colour-background-primary: rgba(44, 103, 242, 1);
-  --colour-background-secondary: rgba(98, 207, 244, 1);
+  --colour-background-primary: rgba(249, 206, 52, 1);
+  --colour-background-secondary: rgba(238, 42, 123, 1);
+  --colour-background-tertiary: rgba(98, 40, 215, 1);
   --colour-typography-header: rgba(34, 34, 68, 1);
   --colour-typography-body: rgba(34, 34, 68, 0.8);
   --colour-typography-footer: rgba(68, 68, 102, 1);
@@ -17,7 +18,7 @@ COLOUR SCHEMES
   --colour-image-border-hover: rgba(0, 0, 0, 0.1);
   --colour-flag-border: rgba(255, 255, 255, 1);
   --colour-icons-primary: rgba(34, 34, 68, 1);
-  --colour-icons-hover: rgba(213, 0, 0, 1);
+  --colour-icons-hover: rgba(238, 42, 123, 1);
 }
 
 @media only screen and (prefers-color-scheme: dark) {
@@ -50,9 +51,8 @@ html {
 
 body {
   overflow: hidden;
-  background: #FFAE00;
-  background: linear-gradient(120deg,rgba(255, 174, 0, 1) 10%, rgba(234, 14, 54, 1) 50%, rgba(98, 0, 255, 1) 90%);  /*background-color: var(--colour-background-primary);
-  background-image: linear-gradient(var(--colour-background-secondary), var(--colour-background-primary));*/
+  background: var(--colour-background-secondary);
+  background: linear-gradient(120deg, var(--colour-background-primary) 0%, var(--colour-background-secondary) 50%, var(--colour-background-tertiary) 100%);
   position: absolute;
   padding: 0px;
   margin: 0px;

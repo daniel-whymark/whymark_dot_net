@@ -25,6 +25,7 @@ COLOUR SCHEMES
   :root {
     --colour-background-primary: rgba(44, 103, 242, 1);
     --colour-background-secondary: rgba(98, 207, 244, 1);
+    --colour-background-tertiary: rgba(98, 207, 244, 1);
     --colour-typography-header: rgba(34, 34, 68, 1);
     --colour-typography-body: rgba(34, 34, 68, 1);
     --colour-typography-footer: rgba(68, 68, 102, 1);

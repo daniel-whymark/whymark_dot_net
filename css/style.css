@@ -1,3 +1,15 @@
+/*
+:root {
+  --background-primary: #1e90ff;
+  --background-secondary: #ffffff;
+  --typography-header
+  --typography-body
+  --card-primary
+  --card-border
+  --card-shadow
+}
+*/
+
 html {
   height: 100%;
 }
@@ -35,7 +47,6 @@ p {
 }
 
 .profile-card {
-  /*background: rgba(255, 255, 255, 1);*/
   width: 440px;
   height: 280px;
   position: absolute;
@@ -57,7 +68,7 @@ p {
   padding: 40px 20px 30px 20px;
   display: inline-block;
   float: left;
-  border-right: 2px dashed rgba(238, 238, 238, 1);
+  border-right: 2px dashed rgba(255, 255, 255, .25);
   color: rgba(0, 0, 0, 1);
   text-align: center;
 }

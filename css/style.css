@@ -197,6 +197,7 @@ p {
 .profile-social-links li a img,
 .profile-social-links li a svg {
   width: 24px;
+  vertical-align: middle;
 }
 
 /* FOOTER TODO */

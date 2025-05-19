@@ -246,7 +246,7 @@ ACCESSIBILITY
 
 @media not (prefers-reduced-motion) {
   .profile-social-links li a:hover {
-    transform: scale(1.5) !important;
+    transform: scale(1.15) !important;
 	}
 
   .profile-card header a:hover picture > img {

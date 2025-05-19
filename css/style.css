@@ -50,8 +50,10 @@ html {
 
 body {
   overflow: hidden;
-  background-color: var(--colour-background-primary); /* For browsers that do not support gradients */
-  background-image: linear-gradient(var(--colour-background-secondary), var(--colour-background-primary));
+  background: #F9CE34;
+  background: linear-gradient(120deg,rgba(249, 206, 52, 1) 0%, rgba(238, 42, 123, 1) 50%, rgba(98, 40, 215, 1) 100%);
+  /*background-color: var(--colour-background-primary);
+  background-image: linear-gradient(var(--colour-background-secondary), var(--colour-background-primary));*/
   position: absolute;
   padding: 0px;
   margin: 0px;

@@ -255,7 +255,7 @@ BROWSER-SPECIFIC
 
 @supports (font: -webkit-font-smoothing) {
 	body {
-		-webkit-font-smoothing: auto !important;
+		-webkit-font-smoothing: antialiased !important;
 	}
 }
 

@@ -56,6 +56,8 @@ h1,
 h2 {
   margin: 0px;
   color: var(--colour-typography-header);
+  text-shadow: 1px 1px 1px var(--colour-card-shadow);
+  text-wrap: balance;
 }
 
 h1 {
@@ -70,6 +72,7 @@ h2 {
 
 p {
   margin: 0px;
+  text-wrap: balance;
 }
 
 .profile-card {
@@ -260,4 +263,10 @@ BROWSER-SPECIFIC
 	html {
 		font: -apple-system-body !important;
 	}
+}
+
+@supports (text-wrap: pretty) {
+  p {
+    text-wrap: pretty !important;
+  }
 }

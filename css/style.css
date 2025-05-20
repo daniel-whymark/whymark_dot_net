@@ -97,6 +97,7 @@ p {
   border-right: 2px groove var(--colour-card-border);
   color: var(--colour-typography-header);
   text-align: center;
+  margin-top: -20px;
 }
 
 .profile-card header a {

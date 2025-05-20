@@ -17,7 +17,7 @@ COLOUR SCHEMES
   --colour-image-border-hover: rgba(0, 0, 0, 0.1);
   --colour-flag-border: rgba(255, 255, 255, 1);
   --colour-icons-primary: var(--colour-typography-header);
-  --colour-icons-hover: var(--colour-background-secondary)
+  --colour-icons-hover: var(--colour-background-primary)
 }
 
 @media only screen and (prefers-color-scheme: dark) {
@@ -34,7 +34,7 @@ COLOUR SCHEMES
     --colour-image-border-hover: rgba(0, 0, 0, 0.1);
     --colour-flag-border: rgba(255, 255, 255, 1);
     --colour-icons-primary: var(--colour-typography-header);
-    --colour-icons-hover: var(--colour-background-secondary)
+    --colour-icons-hover: var(--colour-background-primary)
   }
 }
 

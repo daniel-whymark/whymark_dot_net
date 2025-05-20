@@ -139,7 +139,7 @@ p {
   float: right;
   color: var(--colour-typography-body);
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 55px;
   padding: 50px 20px 30px 20px;
 }
 
@@ -217,7 +217,7 @@ REACTIVE
     height: auto;
     display: block;
     float: none;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
     padding: 0px;
   }
 

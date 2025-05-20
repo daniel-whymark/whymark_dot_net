@@ -5,9 +5,8 @@ COLOUR SCHEMES
 */
 
 :root {
-  --colour-background-primary: rgba(249, 206, 52, 1);
-  --colour-background-secondary: rgba(238, 42, 123, 1);
-  --colour-background-tertiary: rgba(98, 40, 215, 1);
+  --colour-background-primary: rgba(98, 207, 244, 1);
+  --colour-background-secondary: rgba(44, 103, 242, 1);
   --colour-typography-header: rgba(34, 34, 68, 1);
   --colour-typography-body: rgba(34, 34, 68, 0.8);
   --colour-typography-footer: rgba(68, 68, 102, 1);
@@ -25,7 +24,6 @@ COLOUR SCHEMES
   :root {
     --colour-background-primary: rgba(44, 103, 242, 1);
     --colour-background-secondary: rgba(98, 207, 244, 1);
-    --colour-background-tertiary: rgba(98, 207, 244, 1);
     --colour-typography-header: rgba(34, 34, 68, 1);
     --colour-typography-body: rgba(34, 34, 68, 1);
     --colour-typography-footer: rgba(68, 68, 102, 1);
@@ -52,13 +50,8 @@ html {
 
 body {
   overflow: hidden;
-  background: var(--colour-background-secondary);
-  background: linear-gradient(120deg, var(--colour-background-primary) 0%, var(--colour-background-secondary) 60%, var(--colour-background-tertiary) 100%);
-  /*
-  background: #62CFF4;
-  background: radial-gradient(circle,rgba(98, 207, 244, 1) 0%, rgba(44, 103, 242, 1) 100%);
-  */
-
+  background: var(--colour-background-primary);
+  background: radial-gradient(circle, var(--colour-background-primary) 0%, var(--colour-background-secondary) 100%);
   position: absolute;
   padding: 0px;
   margin: 0px;

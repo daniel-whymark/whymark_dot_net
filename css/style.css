@@ -15,8 +15,8 @@ COLOUR SCHEMES
   --colour-card-shadow: rgba(0, 0, 0, 0.25);
   --colour-image-border: rgba(0, 0, 0, 0.06);
   --colour-image-border-hover: rgba(0, 0, 0, 0.1);
-  --colour-flag-border: rgba(255, 255, 255, 1);
-  --colour-icons-primary: rgba(34, 34, 68, 0.9);
+  --colour-flag-border: Canvas;
+  --colour-icons-primary: CanvasText;
   --colour-icons-hover: rgba(213, 0, 0, 1);
 }
 
@@ -24,17 +24,6 @@ COLOUR SCHEMES
   :root {
     --colour-background-primary: rgba(75, 108, 183, 1);
     --colour-background-secondary: rgba(24, 40, 72, 1);
-    --colour-typography-header: rgba(34, 34, 68, 1);
-    --colour-typography-body: rgba(34, 34, 68, 1);
-    --colour-typography-footer: rgba(68, 68, 102, 1);
-    --colour-card-primary: rgba(255, 255, 255, 0.45);
-    --colour-card-border: rgba(255, 255, 255, 0.25);
-    --colour-card-shadow: rgba(0, 0, 0, 0.25);
-    --colour-image-border: rgba(0, 0, 0, 0.06);
-    --colour-image-border-hover: rgba(0, 0, 0, 0.1);
-    --colour-flag-border: rgba(0, 0, 0, 1);
-    --colour-icons-primary: rgba(34, 34, 68, 0.9);
-    --colour-icons-hover: rgba(255, 109, 0, 1);
   }
 }
 

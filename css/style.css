@@ -16,7 +16,7 @@ COLOUR SCHEMES
   --colour-image-border: rgba(0, 0, 0, 0.06);
   --colour-image-border-hover: rgba(0, 0, 0, 0.1);
   --colour-flag-border: rgba(255, 255, 255, 1);
-  --colour-icons-primary: rgba(34, 34, 68, 1);
+  --colour-icons-primary: rgba(34, 34, 68, 0.9);
   --colour-icons-hover: rgba(213, 0, 0, 1);
 }
 
@@ -33,7 +33,7 @@ COLOUR SCHEMES
     --colour-image-border: rgba(0, 0, 0, 0.06);
     --colour-image-border-hover: rgba(0, 0, 0, 0.1);
     --colour-flag-border: rgba(0, 0, 0, 1);
-    --colour-icons-primary: rgba(34, 34, 68, 1);
+    --colour-icons-primary: rgba(34, 34, 68, 0.9);
     --colour-icons-hover: rgba(255, 109, 0, 1);
   }
 }

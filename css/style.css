@@ -22,8 +22,8 @@ COLOUR SCHEMES
 
 @media only screen and (prefers-color-scheme: dark) {
   :root {
-    --colour-background-primary: rgba(44, 103, 242, 1);
-    --colour-background-secondary: rgba(6, 62, 81, 1);
+    --colour-background-primary: rgba(6, 62, 81, 1);
+    --colour-background-secondary: rgba(0, 0, 0, 1);
     --colour-typography-header: rgba(34, 34, 68, 1);
     --colour-typography-body: rgba(34, 34, 68, 1);
     --colour-typography-footer: rgba(68, 68, 102, 1);
@@ -51,7 +51,7 @@ html {
 body {
   overflow: hidden;
   background: var(--colour-background-primary);
-  background: radial-gradient(circle, var(--colour-background-primary) 0%, var(--colour-background-secondary) 100%);
+  background: radial-gradient(circle, var(--colour-background-primary) 10%, var(--colour-background-secondary) 100%);
   position: absolute;
   padding: 0px;
   margin: 0px;

@@ -103,7 +103,7 @@ p {
   border-radius: 20px;
   background-color: var(--colour-card-primary);
   box-shadow: 0 0 10px 1px var(--colour-card-shadow);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(16px);
 }
 
 .profile-card header {

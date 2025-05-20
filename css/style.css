@@ -52,11 +52,12 @@ html {
 
 body {
   overflow: hidden;
-/*  background: var(--colour-background-secondary);
-  background: linear-gradient(120deg, var(--colour-background-primary) 0%, var(--colour-background-secondary) 50%, var(--colour-background-tertiary) 100%);
+  /*
+  background: var(--colour-background-secondary);
+  background: linear-gradient(120deg, var(--colour-background-primary) 0%, var(--colour-background-secondary) 60%, var(--colour-background-tertiary) 100%);
   */
-  background: #FFFFFF;
-background: radial-gradient(circle,rgba(255, 255, 255, 1) 0%, rgba(109, 213, 250, 1) 10%, rgba(41, 128, 185, 1) 100%);
+  background: #62CFF4;
+  background: radial-gradient(circle,rgba(98, 207, 244, 1) 0%, rgba(44, 103, 242, 1) 100%);
   position: absolute;
   padding: 0px;
   margin: 0px;

@@ -16,7 +16,7 @@ COLOUR SCHEMES
   --colour-image-border: rgba(0, 0, 0, 0.06);
   --colour-image-border-hover: rgba(0, 0, 0, 0.1);
   --colour-flag-border: rgba(255, 255, 255, 1);
-  --colour-icons-primary: rgba(34, 34, 68, 0.5);
+  --colour-icons-primary: rgba(34, 34, 68, 1);
   --colour-icons-hover: rgba(213, 0, 0, 1);
 }
 
@@ -32,8 +32,8 @@ COLOUR SCHEMES
     --colour-card-shadow: rgba(0, 0, 0, 0.25);
     --colour-image-border: rgba(0, 0, 0, 0.06);
     --colour-image-border-hover: rgba(0, 0, 0, 0.1);
-    --colour-flag-border: rgba(255, 255, 255, 1);
-    --colour-icons-primary: rgba(34, 34, 68, 0.5);
+    --colour-flag-border: rgba(0, 0, 0, 1);
+    --colour-icons-primary: rgba(34, 34, 68, 1);
     --colour-icons-hover: rgba(255, 109, 0, 1);
   }
 }
@@ -96,7 +96,7 @@ p {
   border-radius: 20px;
   background-color: var(--colour-card-primary);
   box-shadow: 0 0 10px 1px var(--colour-card-shadow);
-  backdrop-filter: blur(16px);
+  backdrop-filter: blur(15px);
 }
 
 .profile-card header {

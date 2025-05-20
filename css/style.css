@@ -16,7 +16,7 @@ COLOUR SCHEMES
   --colour-image-border: rgba(0, 0, 0, 0.06);
   --colour-image-hover: rgba(0, 0, 0, 0.1);
   --colour-flag-border: Canvas;
-  --colour-icons-fill: CanvasText;
+  --colour-icons-fill: var(--colour-typography-header);
   --colour-icons-hover: rgba(213, 0, 0, 1);
 }
 

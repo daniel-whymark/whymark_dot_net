@@ -51,7 +51,7 @@ html {
 body {
   overflow: hidden;
   background: var(--colour-background-primary);
-  background: radial-gradient(circle, var(--colour-background-primary) 10%, var(--colour-background-secondary) 100%);
+  background: radial-gradient(circle, var(--colour-background-primary) 20%, var(--colour-background-secondary) 100%);
   position: absolute;
   padding: 0px;
   margin: 0px;

@@ -214,7 +214,7 @@ REACTIVE
 --------------------------------------------------------------
 */
 
-@media screen and (min-height: 480px) {
+@media screen and (height >= 480px) {
   .profile-card {
     height: 440px;
     width: 280px;

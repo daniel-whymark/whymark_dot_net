@@ -199,11 +199,11 @@ footer a {
   border-radius: 50%;
 }
 
-.profile-social-links li a:hover {
+.profile-social-links li svg:hover {
   color: var(--colour-icons-hover);
 }
 
-.profile-social-links li a svg {
+.profile-social-links li svg {
   width: 24px;
   vertical-align: middle;
 }

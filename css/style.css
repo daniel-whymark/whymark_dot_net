@@ -17,7 +17,7 @@ COLOUR SCHEMES
   --colour-image-hover: rgba(0 0 0 / 10%);
   --colour-flag-border: Canvas;
   --colour-icons-fill: var(--colour-typography-header);
-  --colour-icons-hover: rgba(213 0 0 / 100%);
+  --colour-icons-hover: rgba(213 0 0 / 90%);
 }
 
 @media only screen and (prefers-color-scheme: dark) {
@@ -54,7 +54,7 @@ body {
 }
 
 h1,
-h2 {
+.subheading {
   margin: 0;
   color: var(--colour-typography-header);
   text-wrap: balance;
@@ -66,7 +66,7 @@ h1 {
   text-shadow: 1px 1px 1px var(--colour-card-shadow);
 }
 
-h2 {
+.subheading {
   font-size: 16px;
   font-weight: normal;
 }
@@ -103,7 +103,8 @@ header {
   margin-top: -20px;
 }
 
-header a {
+header a,
+header svg {
   display: inline-block;
   text-align: center;
   position: relative;
@@ -188,24 +189,19 @@ footer a {
   text-align: center;
 }
 
-.profile-social-links li a {
+.profile-social-links li svg {
   display: inline-block;
   color: var(--colour-icons-fill);
   width: 24px;
   height: 24px;
   padding: 6px;
   position: relative;
-  overflow: hidden!important;
-  border-radius: 50%;
-}
-
-.profile-social-links li a:hover {
-  color: var(--colour-icons-hover);
-}
-
-.profile-social-links li a svg {
-  width: 24px;
   vertical-align: middle;
+  overflow: hidden!important;
+}
+
+.profile-social-links li svg:hover {
+  color: var(--colour-icons-hover);
 }
 
 /*
@@ -252,7 +248,7 @@ ACCESSIBILITY
 */
 
 @media not (prefers-reduced-motion) {
-  .profile-social-links li a:hover {
+  .profile-social-links li svg:hover {
     transform: scale(1.15) !important;
 	}
 

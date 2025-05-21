@@ -189,7 +189,6 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  padding: 1em;
   transform: translate(50%, 50%);
 }
 
@@ -200,10 +199,12 @@ footer a {
 
 .leftFloat {
   float: left;
+  padding-left: 1em;
 }
 
 .rightFloat {
   float: right;
+  padding-right: 1em;
 }
 
 /*

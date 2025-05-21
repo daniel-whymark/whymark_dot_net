@@ -199,10 +199,12 @@ footer a {
 
 .leftFloat {
   float: left;
+  padding-left: 1em;
 }
 
 .rightFloat {
   float: right;
+  padding-right: 1em;
 }
 
 /*

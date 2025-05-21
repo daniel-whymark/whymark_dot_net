@@ -196,16 +196,12 @@ footer a {
   height: 24px;
   padding: 6px;
   position: relative;
+  vertical-align: middle;
   overflow: hidden!important;
 }
 
 .profile-social-links li svg:hover {
   color: var(--colour-icons-hover);
-}
-
-.profile-social-links li svg {
-  width: 24px;
-  vertical-align: middle;
 }
 
 /*

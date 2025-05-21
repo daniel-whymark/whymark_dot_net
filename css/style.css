@@ -252,7 +252,7 @@ ACCESSIBILITY
 */
 
 @media not (prefers-reduced-motion) {
-  .profile-social-links li a:hover {
+  .profile-social-links li svg:hover {
     transform: scale(1.15) !important;
 	}
 

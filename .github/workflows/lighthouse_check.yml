@@ -1,38 +1,38 @@
 ---
-    name: Lighthouse
-    permissions: read-all
-    on:
-      pull_request:
-        branches:
-          - "main"
-      push:
-        branches:
-          - "main"
-    jobs:
-      lighthouse-check:
-        runs-on: ubuntu-latest
-        concurrency:
-          group: ${{ github.workflow }}-${{ github.ref }}
-          cancel-in-progress: true
-        permissions:
-          pull-requests: write
-        steps:
-          - name: Checkout code
-            uses: actions/checkout@master
-          - name: Lighthouse Checks
-            uses: foo-software/lighthouse-check-action@master
-            id: lighthouseCheck
-            with:
-              urls: 'https://whymark.net/'
-              device: all
-              prCommentEnabled: false
-              prCommentSaveOld: false
-              gitHubAccessToken: ${{ secrets.GITHUB_TOKEN }}
-          - name: Verify Lighthouse Check results
-            uses: foo-software/lighthouse-check-status-action@master
-            with:
-              lighthouseCheckResults: ${{ steps.lighthouseCheck.outputs.lighthouseCheckResults }}
-              minAccessibilityScore: "50"
-              minBestPracticesScore: "50"
-              minPerformanceScore: "50"
-              minSeoScore: "50"
+name: Lighthouse
+permissions: read-all
+on:
+  pull_request:
+    branches:
+      - "main"
+  push:
+    branches:
+      - "main"
+jobs:
+  lighthouse-check:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+      cancel-in-progress: true
+    permissions:
+      pull-requests: write
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@master
+      - name: Lighthouse Checks
+        uses: foo-software/lighthouse-check-action@master
+        id: lighthouseCheck
+        with:
+          urls: 'https://whymark.net/'
+          device: all
+          prCommentEnabled: false
+          prCommentSaveOld: false
+          gitHubAccessToken: ${{ secrets.GITHUB_TOKEN }}
+      - name: Verify Lighthouse Check results
+        uses: foo-software/lighthouse-check-status-action@master
+        with:
+          lighthouseCheckResults: ${{ steps.lighthouseCheck.outputs.lighthouseCheckResults }}
+          minAccessibilityScore: "50"
+          minBestPracticesScore: "50"
+          minPerformanceScore: "50"
+          minSeoScore: "50"

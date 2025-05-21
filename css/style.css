@@ -186,11 +186,10 @@ p {
 }
 
 footer {
-  color: var(--colour-typography-footer);
   position: absolute;
   bottom: 0;
   width: 100%;
-  padding-bottom: 1em;
+  padding-bottom: 0.5em;
   transform: translate(50vw, 50vh);
 }
 
@@ -201,12 +200,12 @@ footer a {
 
 .leftFloat {
   float: left;
-  padding-left: 1em;
+  padding-left: 0.5em;
 }
 
 .rightFloat {
   float: right;
-  padding-right: 1em;
+  padding-right: 0.5em;
 }
 
 /*

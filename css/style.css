@@ -43,8 +43,8 @@ body {
   background: var(--colour-background-primary);
   background: radial-gradient(circle, var(--colour-background-primary) 25%, var(--colour-background-secondary) 100%);
   position: absolute;
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   width: 100%;
   height: 100%;
   font: normal 1em/1.618 system-ui, ui-sans-serif, sans-serif;
@@ -55,7 +55,7 @@ body {
 
 h1,
 h2 {
-  margin: 0px;
+  margin: 0;
   color: var(--colour-typography-header);
   text-wrap: balance;
 }
@@ -72,7 +72,7 @@ h2 {
 }
 
 p {
-  margin: 0px;
+  margin: 0;
   text-wrap: balance;
 }
 
@@ -121,7 +121,7 @@ header a::after {
   background: url('data:image/svg+xml,<%3Fxml version="1.0" encoding="UTF-8"%3F><svg xmlns="http://www.w3.org/2000/svg" width="300" height="300"><rect width="300" height="300" fill="%2300247d"/><path d="M 0,0 L 300,300 M 300,0 L 0,300" stroke="%23fff" stroke-width="60"/><path d="M 0,0 L 300,300 M 300,0 L 0,300" stroke="%23cf142b" stroke-width="40"/><path d="M 150,150 v -30 L 30,0 H 0 z h 30 L 300,30 V 0 z v 30 L 270,300 H 300 z h -30 L 0,270 V 300 z" fill="%23fff"/><path d="M 150,0 V 300 M 0,150 H 300" stroke="%23fff" stroke-width="100"/><path d="M 150,0 V 300 M 0,150 H 300" stroke="%23cf142b" stroke-width="60"/></svg>') no-repeat center center fixed;
   background-size: cover;
   border-radius: 50%;
-  box-shadow: 0px 1px 3px var(--colour-card-shadow);
+  box-shadow: 0 1px 3px var(--colour-card-shadow);
 }
 
 header a picture > img {
@@ -129,11 +129,11 @@ header a picture > img {
   max-width: 100%;
   border-radius: 50%;
   transition: box-shadow 0.3s ease;
-  box-shadow: 0px 0px 0px 8px var(--colour-image-border);
+  box-shadow: 0 0 0 8px var(--colour-image-border);
 }
 
 header a:hover picture > img {
-  box-shadow: 0px 0px 0px 8px var(--colour-image-hover);
+  box-shadow: 0 0 0 8px var(--colour-image-hover);
 }
 
 footer {
@@ -173,7 +173,7 @@ footer a {
   width: 218px;
   display: inline-block;
   float: right;
-  margin: 0px;
+  margin: 0;
   padding: 15px 20px;
   text-align: center;
   box-sizing: border-box;
@@ -181,8 +181,8 @@ footer a {
 
 .profile-social-links li {
   list-style: none;
-  margin: -5px 0px 0px;
-  padding: 0px;
+  margin: -5px 0 0;
+  padding: 0;
   float: left;
   width: 25%;
   text-align: center;
@@ -235,7 +235,7 @@ REACTIVE
     display: block;
     float: none;
     margin-bottom: 20px;
-    padding: 0px;
+    padding: 0;
   }
 
   .profile-social-links {
@@ -257,7 +257,7 @@ ACCESSIBILITY
 	}
 
   header a:hover picture > img {
-    box-shadow: 0px 0px 0px 12px var(--colour-image-hover) !important;
+    box-shadow: 0 0 0 12px var(--colour-image-hover) !important;
   }
 }
 

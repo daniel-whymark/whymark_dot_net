@@ -5,25 +5,25 @@ COLOUR SCHEMES
 */
 
 :root {
-  --colour-background-primary: rgba(98, 207, 244, 1);
-  --colour-background-secondary: rgba(44, 103, 242, 1);
-  --colour-typography-header: rgba(34, 34, 68, 1);
-  --colour-typography-body: rgba(34, 34, 68, 0.8);
-  --colour-typography-footer: rgba(68, 68, 102, 1);
-  --colour-card-primary: rgba(255, 255, 255, 0.45);
-  --colour-card-border: rgba(255, 255, 255, 0.25);
-  --colour-card-shadow: rgba(0, 0, 0, 0.25);
-  --colour-image-border: rgba(0, 0, 0, 0.06);
-  --colour-image-hover: rgba(0, 0, 0, 0.1);
+  --colour-background-primary: rgba(98 207 244 / 100%);
+  --colour-background-secondary: rgba(44 103 242 / 100%);
+  --colour-typography-header: rgba(34 34 68 / 100%);
+  --colour-typography-body: rgba(34 34 68 / 80%);
+  --colour-typography-footer: rgba(68 68 102 / 100%);
+  --colour-card-primary: rgba(255 255 255 / 45%);
+  --colour-card-border: rgba(255 255 255 / 25%);
+  --colour-card-shadow: rgba(0 0 0 / 25%);
+  --colour-image-border: rgba(0 0 0 / 6%);
+  --colour-image-hover: rgba(0 0 0 / 10%);
   --colour-flag-border: Canvas;
   --colour-icons-fill: var(--colour-typography-header);
-  --colour-icons-hover: rgba(213, 0, 0, 1);
+  --colour-icons-hover: rgba(213 0 0 / 100%);
 }
 
 @media only screen and (prefers-color-scheme: dark) {
   :root {
-    --colour-background-primary: rgba(75, 108, 183, 1);
-    --colour-background-secondary: rgba(24, 40, 72, 1);
+    --colour-background-primary: rgba(75 108 183 / 100%);
+    --colour-background-secondary: rgba(24 40 72 / 100%);
   }
 }
 

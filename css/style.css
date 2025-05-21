@@ -81,7 +81,6 @@ p {
   position: absolute;
   left: 100%;
   top: 100%;
-  z-index: 2;
   overflow: hidden;
   transform: translate(-50%, -50%);
   border: 1px solid var(--colour-card-border);
@@ -177,15 +176,9 @@ p {
 }
 
 .profile-social-links li a:hover {
-    color: var(--colour-icons-hover);
-	}
-
-.profile-social-links li a i {
-  position: relative;
-  z-index: 1;
+  color: var(--colour-icons-hover);
 }
 
-.profile-social-links li a img,
 .profile-social-links li a svg {
   width: 24px;
   vertical-align: middle;
@@ -195,18 +188,15 @@ footer {
   color: var(--colour-typography-footer);
   position: absolute;
   bottom: 0;
-  left: 0;
   width: 100%;
 }
 
 .leftFloat {
   float: left;
-  width: 50%;
 }
 
 .rightFloat {
   float: right;
-  width: 50%;
 }
 
 /*

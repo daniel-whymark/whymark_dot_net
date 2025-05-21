@@ -192,19 +192,17 @@ p {
 }
 
 footer {
-  position: fixed;
+  position: sticky;
   bottom: 0;
   width: 50%;
 }
 
 .leftFloat {
   left: 0;
-
 }
 
 .rightFloat {
   right: 0;
-
 }
 
 /*

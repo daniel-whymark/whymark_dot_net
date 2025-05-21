@@ -110,7 +110,7 @@ p {
   margin: 20px;
 }
 
-.profile-card header a:after {
+.profile-card header a::after {
   content: "";
   position: absolute;
   bottom: 3px;

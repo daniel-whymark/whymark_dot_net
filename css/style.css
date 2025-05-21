@@ -103,7 +103,8 @@ header {
   margin-top: -20px;
 }
 
-header a {
+header a,
+header svg {
   display: inline-block;
   text-align: center;
   position: relative;

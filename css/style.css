@@ -192,6 +192,11 @@ footer {
   transform: translate(-50%, -50%);
 }
 
+footer a {
+  color: var(--colour-typography-footer);
+  text-decoration: none;
+}
+
 .leftFloat {
   float: left;
 }

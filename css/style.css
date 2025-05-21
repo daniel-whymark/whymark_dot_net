@@ -192,6 +192,7 @@ p {
 }
 
 footer {
+  color: var(--colour-typography-footer);
   position: sticky;
   bottom: 0;
   width: 50%;

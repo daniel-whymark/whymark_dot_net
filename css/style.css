@@ -50,6 +50,7 @@ body {
   font: normal 1em/1.618 system-ui, ui-sans-serif, sans-serif;
   display: block;
   transform: translate(-50%, -50%);
+  text-rendering: optimizelegibility;
 }
 
 h1,

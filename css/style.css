@@ -91,7 +91,7 @@ p {
   backdrop-filter: blur(15px);
 }
 
-.profile-card header {
+header {
   width: 179px;
   height: 280px;
   padding: 40px 20px 30px;
@@ -103,14 +103,14 @@ p {
   margin-top: -20px;
 }
 
-.profile-card header a {
+header a {
   display: inline-block;
   text-align: center;
   position: relative;
   margin: 20px;
 }
 
-.profile-card header a::after {
+header a::after {
   content: "";
   position: absolute;
   bottom: 3px;
@@ -124,7 +124,7 @@ p {
   box-shadow: 0px 1px 3px var(--colour-card-shadow);
 }
 
-.profile-card header a picture > img {
+header a picture > img {
   width: 120px;
   max-width: 100%;
   border-radius: 50%;
@@ -132,11 +132,11 @@ p {
   box-shadow: 0px 0px 0px 8px var(--colour-image-border);
 }
 
-.profile-card header a:hover picture > img {
+header a:hover picture > img {
   box-shadow: 0px 0px 0px 8px var(--colour-image-hover);
 }
 
-.profile-card .profile-bio {
+.profile-bio {
   width: 175px;
   display: inline-block;
   float: right;
@@ -220,7 +220,7 @@ REACTIVE
     width: 280px;
   }
 
-  .profile-card header {
+  header {
     width: auto;
     height: auto;
     padding: 30px 20px;
@@ -229,7 +229,7 @@ REACTIVE
     border-right: none;
   }
 
-  .profile-card .profile-bio {
+  .profile-bio {
     width: auto;
     height: auto;
     display: block;
@@ -256,7 +256,7 @@ ACCESSIBILITY
     transform: scale(1.15) !important;
 	}
 
-  .profile-card header a:hover picture > img {
+  header a:hover picture > img {
     box-shadow: 0px 0px 0px 12px var(--colour-image-hover) !important;
   }
 }

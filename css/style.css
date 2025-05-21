@@ -189,7 +189,7 @@ footer a {
   text-align: center;
 }
 
-.profile-social-links li a {
+.profile-social-links li svg {
   display: inline-block;
   color: var(--colour-icons-fill);
   width: 24px;

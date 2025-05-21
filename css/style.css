@@ -17,7 +17,7 @@ COLOUR SCHEMES
   --colour-image-hover: rgba(0 0 0 / 10%);
   --colour-flag-border: Canvas;
   --colour-icons-fill: var(--colour-typography-header);
-  --colour-icons-hover: rgba(213 0 0 / 100%);
+  --colour-icons-hover: rgba(213 0 0 / 90%);
 }
 
 @media only screen and (prefers-color-scheme: dark) {

@@ -196,6 +196,7 @@ footer {
   position: sticky;
   bottom: 0;
   width: 50%;
+  z-index: 3;
 }
 
 .leftFloat {

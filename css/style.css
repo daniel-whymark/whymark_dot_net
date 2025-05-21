@@ -193,10 +193,10 @@ p {
 
 footer {
   color: var(--colour-typography-footer);
-  position: sticky;
+  position: absolute;
   bottom: 0;
-  width: 50%;
-  z-index: 3;
+  left: 0;
+  width: 100%;
 }
 
 .leftFloat {

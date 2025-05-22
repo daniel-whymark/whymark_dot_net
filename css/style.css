@@ -199,12 +199,12 @@ footer a {
   overflow: hidden!important;
 }
 
-.profile-social-links svg:hover {
-  color: var(--colour-icons-hover);
-}
-
 .profile-social-links path {
   color: var(--colour-icons-fill);
+}
+
+.profile-social-links svg:hover path {
+  color: var(--colour-icons-hover);
 }
 
 /*

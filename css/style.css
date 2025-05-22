@@ -259,7 +259,8 @@ ACCESSIBILITY
 	}
 
   header img:hover {
-    box-shadow: 0 0 0 12px var(--colour-image-hover) !important;
+    box-shadow: 0 0 0 8px var(--colour-image-hover) !important;
+    box-shadow: 0 0 0 16px var(--colour-image-hover) !important;
   }
 }
 

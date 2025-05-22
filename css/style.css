@@ -75,6 +75,7 @@ h1 {
 p {
   margin: 0;
   text-wrap: balance;
+  font-size: 13px;
 }
 
 .profile-card {
@@ -169,7 +170,6 @@ footer a {
   margin-bottom: 45px;
   padding: 50px 20px 30px;
   font-variant: small-caps;
-  font-size: 14px;
 }
 
 .profile-social-links {

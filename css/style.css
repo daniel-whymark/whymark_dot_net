@@ -125,7 +125,7 @@ header a::after {
   box-shadow: 0 1px 3px var(--colour-card-shadow);
 }
 
-header a picture > img {
+header img {
   width: 120px;
   max-width: 100%;
   border-radius: 50%;
@@ -133,7 +133,7 @@ header a picture > img {
   box-shadow: 0 0 0 8px var(--colour-image-border);
 }
 
-header a:hover picture > img {
+header a:hover img {
   box-shadow: 0 0 0 8px var(--colour-image-hover);
 }
 
@@ -189,7 +189,7 @@ footer a {
   text-align: center;
 }
 
-.profile-social-links > svg {
+.profile-social-links svg {
   display: inline-block;
   width: 24px;
   height: 24px;
@@ -199,11 +199,11 @@ footer a {
   overflow: hidden!important;
 }
 
-.profile-social-links > svg:hover {
+.profile-social-links svg:hover {
   color: var(--colour-icons-hover);
 }
 
-.profile-social-links > path {
+.profile-social-links path {
   color: var(--colour-icons-fill);
 }
 
@@ -251,11 +251,11 @@ ACCESSIBILITY
 */
 
 @media not (prefers-reduced-motion) {
-  .profile-social-links > svg:hover {
+  .profile-social-links svg:hover {
     transform: scale(1.15) !important;
 	}
 
-  header a:hover picture > img {
+  header img:hover {
     box-shadow: 0 0 0 12px var(--colour-image-hover) !important;
   }
 }

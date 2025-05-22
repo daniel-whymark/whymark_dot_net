@@ -235,7 +235,8 @@ REACTIVE
     height: auto;
     display: block;
     float: none;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
+    margin-top: 5px;
     padding: 0;
   }
 

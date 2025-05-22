@@ -11,7 +11,7 @@ COLOUR SCHEMES
   --colour-typography-body: rgba(34 34 68 / 80%);
   --colour-typography-footer: rgba(68 68 102 / 100%);
   --colour-card-primary: rgba(255 255 255 / 45%);
-  --colour-card-border: rgba(255 255 255 / 25%);
+  --colour-card-border: rgba(255 255 255 / 20%);
   --colour-card-shadow: rgba(0 0 0 / 25%);
   --colour-image-border: rgba(0 0 0 / 6%);
   --colour-image-hover: rgba(0 0 0 / 10%);
@@ -42,6 +42,7 @@ body {
   overflow: hidden;
   background: var(--colour-background-primary);
   background: radial-gradient(circle, var(--colour-background-primary) 25%, var(--colour-background-secondary) 100%);
+  color: var(--colour-typography-body);
   position: absolute;
   padding: 0;
   margin: 0;
@@ -63,17 +64,17 @@ h1,
 h1 {
   font-size: 24px;
   font-weight: 500;
-  text-shadow: 1px 1px 1px var(--colour-card-shadow);
 }
 
 .subheading {
   font-size: 16px;
-  font-weight: normal;
+  font-weight: lighter;
 }
 
 p {
   margin: 0;
   text-wrap: balance;
+  font-size: 13px;
 }
 
 .profile-card {
@@ -87,7 +88,7 @@ p {
   border: 1px solid var(--colour-card-border);
   border-radius: 20px;
   background-color: var(--colour-card-primary);
-  box-shadow: 0 0 10px 1px var(--colour-card-shadow);
+  box-shadow: 0 0 5px 1px var(--colour-card-shadow);
   backdrop-filter: blur(15px);
 }
 
@@ -125,7 +126,7 @@ header a::after {
   box-shadow: 0 1px 3px var(--colour-card-shadow);
 }
 
-header a picture > img {
+header img {
   width: 120px;
   max-width: 100%;
   border-radius: 50%;
@@ -133,7 +134,7 @@ header a picture > img {
   box-shadow: 0 0 0 8px var(--colour-image-border);
 }
 
-header a:hover picture > img {
+header a:hover img {
   box-shadow: 0 0 0 8px var(--colour-image-hover);
 }
 
@@ -164,10 +165,10 @@ footer a {
   width: 175px;
   display: inline-block;
   float: right;
-  color: var(--colour-typography-body);
   text-align: center;
-  margin-bottom: 45px;
+  margin-bottom: 55px;
   padding: 50px 20px 30px;
+  font-variant: small-caps;
 }
 
 .profile-social-links {
@@ -189,9 +190,8 @@ footer a {
   text-align: center;
 }
 
-.profile-social-links li svg {
+.profile-social-links svg {
   display: inline-block;
-  color: var(--colour-icons-fill);
   width: 24px;
   height: 24px;
   padding: 6px;
@@ -200,7 +200,11 @@ footer a {
   overflow: hidden!important;
 }
 
-.profile-social-links li svg:hover {
+.profile-social-links path {
+  color: var(--colour-icons-fill);
+}
+
+.profile-social-links svg:hover path {
   color: var(--colour-icons-hover);
 }
 
@@ -230,7 +234,8 @@ REACTIVE
     height: auto;
     display: block;
     float: none;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
+    margin-top: 10px;
     padding: 0;
   }
 
@@ -248,11 +253,12 @@ ACCESSIBILITY
 */
 
 @media not (prefers-reduced-motion) {
-  .profile-social-links li svg:hover {
-    transform: scale(1.15) !important;
+  .profile-social-links svg:hover {
+    transform: scale(1.25) !important;
+    filter: drop-shadow(1px 1px 1px var(--colour-card-shadow)) !important;
 	}
 
-  header a:hover picture > img {
+  header img:hover {
     box-shadow: 0 0 0 12px var(--colour-image-hover) !important;
   }
 }

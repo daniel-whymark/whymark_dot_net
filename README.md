@@ -9,13 +9,13 @@ Source code for the [whymark.net](https://whymark.net/) site with links to vario
 | ![Lighthouse workflow status, main branch](https://github.com/daniel-whymark/whymark_dot_net/actions/workflows/lighthouse_check.yml/badge.svg?branch=main)  | ![Lighthouse workflow status, preview branch](https://github.com/daniel-whymark/whymark_dot_net/actions/workflows/lighthouse_check.yml/badge.svg?branch=preview)  |
 
 ## Features
-Flat, minimalistic responsive design. The goals were maximum speed, minimum filesize and enhanced code-readability. There's no JS, only plain HTML and CSS. No frameworks of third-party requirements.
+A glass-like card inspried by Glassmorphism UI design. The goals were maximum speed, minimum filesize and enhanced code-readability. There's no JS, only plain HTML and CSS. No frameworks or third-party requirements.
 
 - Full HTML5+CSS3 validated compliance.
 - Clear and formatted coding layout.
-- 50Kb total size for both HTML+CSS combined (less than 15Kb when served with Gzip/Brotli).
+- Below 30Kb total size for both HTML+CSS combined (reduced further to less than 15Kb when served with Gzip/Brotli).
 - Image fallback options to allow for the smallest filesizes possible, using webp where supported.
-- Responsive layout with adjustments triggered at 768px, 1024px, and 1200px.
+- Responsive layout.
 - Mobile browsing responsive.
 - Automatic light & dark mode colour schemes.
 - WCAG AA compliant contrasts for low vision accessibility.
@@ -44,8 +44,9 @@ Distributed under [MIT License](https://opensource.org/licenses/MIT). Feel free 
 
 
 ## Credits
-CSS template:  
-- [elnino](https://github.com/elnino) for creating [Uisual/Grid](https://github.com/uisual/freebies/tree/master/grid) which was the initial base template
+CSS templates and inspiration:
+- [Rahul](https://codepen.io/c99rahul)
+- [Emil Devantie Brockdorff](https://codepen.io/Mestika)
 
 SVG Icons:
 - [Bootstrap](https://icons.getbootstrap.com)

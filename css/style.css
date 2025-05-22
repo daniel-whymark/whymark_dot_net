@@ -253,6 +253,7 @@ ACCESSIBILITY
 @media not (prefers-reduced-motion) {
   .profile-social-links svg:hover {
     transform: scale(1.25) !important;
+    filter: drop-shadow(1px 1px 1px var(--colour-card-shadow));
 	}
 
   header img:hover {

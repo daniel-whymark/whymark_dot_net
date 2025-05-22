@@ -87,7 +87,7 @@ p {
   border: 1px solid var(--colour-card-border);
   border-radius: 20px;
   background-color: var(--colour-card-primary);
-  box-shadow: 0 0 10px 1px var(--colour-card-shadow);
+  box-shadow: 0 0 5px 1px var(--colour-card-shadow);
   backdrop-filter: blur(15px);
 }
 
@@ -252,7 +252,7 @@ ACCESSIBILITY
 
 @media not (prefers-reduced-motion) {
   .profile-social-links svg:hover {
-    transform: scale(1.15) !important;
+    transform: scale(1.25) !important;
 	}
 
   header img:hover {

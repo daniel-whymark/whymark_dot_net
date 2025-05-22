@@ -189,9 +189,8 @@ footer a {
   text-align: center;
 }
 
-.profile-social-links li svg {
+.profile-social-links > svg {
   display: inline-block;
-  color: var(--colour-icons-fill);
   width: 24px;
   height: 24px;
   padding: 6px;
@@ -200,8 +199,12 @@ footer a {
   overflow: hidden!important;
 }
 
-.profile-social-links li svg:hover {
+.profile-social-links > svg:hover {
   color: var(--colour-icons-hover);
+}
+
+.profile-social-links > path {
+  color: var(--colour-icons-fill);
 }
 
 /*
@@ -248,7 +251,7 @@ ACCESSIBILITY
 */
 
 @media not (prefers-reduced-motion) {
-  .profile-social-links li svg:hover {
+  .profile-social-links > svg:hover {
     transform: scale(1.15) !important;
 	}
 

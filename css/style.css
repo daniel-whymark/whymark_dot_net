@@ -210,6 +210,10 @@ footer a {
   color: var(--colour-icons-fill) !important;
 }
 
+.profile-social-links svg:not(:hover) stop {
+  stop-color: var(--colour-icons-fill) !important;
+}
+
 /*
 --------------------------------------------------------------
 REACTIVE

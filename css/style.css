@@ -294,7 +294,7 @@ ACCESSIBILITY
 
   .profile-social-links svg:hover {
     transition: all 0.25s ease;
-    transform: scale(1.25) rotate(-3deg) !important;
+    transform: scale(1.25) rotate(-3deg) rotateY(360deg) !important;
     filter: drop-shadow(1px 1px 1px var(--colour-card-shadow)) !important;
 	}
 }

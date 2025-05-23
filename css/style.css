@@ -206,40 +206,8 @@ footer a {
   overflow: hidden!important;
 }
 
-.profile-social-links path {
-  color: var(--colour-icons-fill);
-}
-
-.profile-social-links #linkedinLogo:not(:hover) path {
-  color: var(--colour-brand-linkedin);
-}
-
-.profile-social-links #githubLogo:hover path {
-  color: var(--colour-brand-github);
-}
-
-.profile-social-links #signalLogo:hover path {
-  color: var(--colour-brand-signal);
-}
-
-.profile-social-links #blueskyLogo:hover path {
-  color: var(--colour-brand-bluesky);
-}
-
-.profile-social-links #goodreadsLogo:hover path {
-  color: var(--colour-brand-goodreads);
-}
-
-.profile-social-links #youtubeLogo:hover path {
-  color: var(--colour-brand-youtube);
-}
-
-.profile-social-links #steamLogo:hover path {
-  color: var(--colour-brand-steam);
-}
-
-.profile-social-links #xboxLogo:hover path {
-  color: var(--colour-brand-xbox);
+.profile-social-links svg:not(:hover) path {
+  color: var(--colour-icons-fill) !important;
 }
 
 /*
@@ -294,7 +262,7 @@ ACCESSIBILITY
 
   .profile-social-links svg:hover {
     transition: all 0.5s ease-out;
-    transform: scale(1.25) rotate(-3deg) rotateY(360deg) !important;
+    transform: scale(1.25) rotate(-3deg) !important;
     filter: drop-shadow(1px 1px 1px var(--colour-card-shadow)) !important;
 	}
 }

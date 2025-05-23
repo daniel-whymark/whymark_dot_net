@@ -253,14 +253,46 @@ ACCESSIBILITY
 */
 
 @media not (prefers-reduced-motion) {
-  .profile-social-links svg:hover {
-    transform: scale(1.25) rotate(-10deg) !important;
-    filter: drop-shadow(1px 1px 1px var(--colour-card-shadow)) !important;
-	}
-
   header img:hover {
     box-shadow: 0 0 0 12px var(--colour-image-hover) !important;
   }
+
+  .profile-social-links svg:hover {
+    transform: scale(1.25) !important;
+    filter: drop-shadow(1px 1px 1px var(--colour-card-shadow)) !important;
+	}
+
+  .profile-social-links svg:nth-child(1):hover {
+    transform: rotate(-10deg) !important;
+	}
+
+  .profile-social-links svg:nth-child(2):hover {
+    transform: rotate(-5deg) !important;
+	}
+
+  .profile-social-links svg:nth-child(3):hover {
+    transform: rotate(5deg) !important;
+	}
+
+  .profile-social-links svg:nth-child(4):hover {
+    transform: rotate(10deg) !important;
+	}
+
+  .profile-social-links svg:nth-child(5):hover {
+    transform: rotate(-10deg) !important;
+	}
+
+  .profile-social-links svg:nth-child(6):hover {
+    transform: rotate(-5deg) !important;
+	}
+
+  .profile-social-links svg:nth-child(7):hover {
+    transform: rotate(5deg) !important;
+	}
+
+  .profile-social-links svg:nth-child(8):hover {
+    transform: rotate(10deg) !important;
+	}
 }
 
 /*

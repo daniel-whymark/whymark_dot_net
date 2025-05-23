@@ -264,7 +264,7 @@ ACCESSIBILITY
 
 @media not (prefers-reduced-motion) {
   header img:hover {
-    transition: box-shadow 1s ease;
+    transition: box-shadow 0.3s ease;
     box-shadow: 0 0 0 12px var(--colour-image-hover) !important;
   }
 

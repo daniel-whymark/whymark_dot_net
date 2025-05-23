@@ -262,35 +262,35 @@ ACCESSIBILITY
     filter: drop-shadow(1px 1px 1px var(--colour-card-shadow)) !important;
 	}
 
-  .profile-social-links svg:nth-child(1):hover {
+  .profile-social-links li:nth-child(1):hover {
     transform: rotate(-10deg) !important;
 	}
 
-  .profile-social-links svg:nth-child(2):hover {
+  .profile-social-links li:nth-child(2):hover {
     transform: rotate(-5deg) !important;
 	}
 
-  .profile-social-links svg:nth-child(3):hover {
+  .profile-social-links li:nth-child(3):hover {
     transform: rotate(5deg) !important;
 	}
 
-  .profile-social-links svg:nth-child(4):hover {
+  .profile-social-links li:nth-child(4):hover {
     transform: rotate(10deg) !important;
 	}
 
-  .profile-social-links svg:nth-child(5):hover {
+  .profile-social-links li:nth-child(5):hover {
     transform: rotate(-10deg) !important;
 	}
 
-  .profile-social-links svg:nth-child(6):hover {
+  .profile-social-links li:nth-child(6):hover {
     transform: rotate(-5deg) !important;
 	}
 
-  .profile-social-links svg:nth-child(7):hover {
+  .profile-social-links li:nth-child(7):hover {
     transform: rotate(5deg) !important;
 	}
 
-  .profile-social-links svg:nth-child(8):hover {
+  .profile-social-links li:nth-child(8):hover {
     transform: rotate(10deg) !important;
 	}
 }

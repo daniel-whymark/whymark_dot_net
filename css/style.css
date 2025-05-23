@@ -254,7 +254,7 @@ ACCESSIBILITY
 
 @media not (prefers-reduced-motion) {
   .profile-social-links svg:hover {
-    transform: scale(1.25) !important;
+    transform: scale(1.25) rotate(-10deg) !important;
     filter: drop-shadow(1px 1px 1px var(--colour-card-shadow)) !important;
 	}
 

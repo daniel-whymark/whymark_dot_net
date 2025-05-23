@@ -8,7 +8,7 @@ COLOUR SCHEMES
   --colour-background-primary: rgba(98 207 244 / 100%);
   --colour-background-secondary: rgba(44 103 242 / 100%);
   --colour-typography-header: rgba(34 34 68 / 100%);
-  --colour-typography-body: rgba(34 34 68 / 80%);
+  --colour-typography-body: rgba(34 34 68 / 90%);
   --colour-typography-footer: rgba(68 68 102 / 100%);
   --colour-card-primary: rgba(255 255 255 / 45%);
   --colour-card-border: rgba(255 255 255 / 20%);
@@ -17,7 +17,14 @@ COLOUR SCHEMES
   --colour-image-hover: rgba(0 0 0 / 10%);
   --colour-flag-border: Canvas;
   --colour-icons-fill: var(--colour-typography-header);
-  --colour-icons-hover: rgba(213 0 0 / 90%);
+  --colour-brand-linkedin: rgba(10 102 194 / 100%);
+  --colour-brand-github: rgba(51 51 51 / 100%);
+  --colour-brand-signal: rgba(58 118 240 / 100%);
+  --colour-brand-bluesky: rgba(17 133 254 / 100%);
+  --colour-brand-goodreads: rgba(85 59 8 / 100%);
+  --colour-brand-youtube: rgba(255 0 0 / 100%);
+  --colour-brand-steam: rgba(0 173 238 / 100%);
+  --colour-brand-xbox: rgba(82 176 67 / 100%);
 }
 
 @media only screen and (prefers-color-scheme: dark) {
@@ -203,8 +210,36 @@ footer a {
   color: var(--colour-icons-fill);
 }
 
-.profile-social-links svg:hover path {
-  color: var(--colour-icons-hover);
+.profile-social-links svg:id(linkedinLogo):hover path {
+  color: var(--colour-brand-linkedin);
+}
+
+.profile-social-links svg:id(githubLogo):hover path {
+  color: var(--colour-brand-github);
+}
+
+.profile-social-links svg:id(signalLogo):hover path {
+  color: var(--colour-brand-signal);
+}
+
+.profile-social-links svg:id(blueskyLogo):hover path {
+  color: var(--colour-brand-bluesky);
+}
+
+.profile-social-links svg:id(goodreadsLogo):hover path {
+  color: var(--colour-brand-goodreads);
+}
+
+.profile-social-links svg:id(youtubeLogo):hover path {
+  color: var(--colour-brand-youtube);
+}
+
+.profile-social-links svg:id(steamLogo):hover path {
+  color: var(--colour-brand-steam);
+}
+
+.profile-social-links svg:id(xboxLogo):hover path {
+  color: var(--colour-brand-xbox);
 }
 
 /*

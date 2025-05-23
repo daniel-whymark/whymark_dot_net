@@ -203,15 +203,12 @@ footer a {
   padding: 6px;
   position: relative;
   vertical-align: middle;
-  overflow: hidden!important;
+  overflow: hidden !important;
+  filter: grayscale(100%);
 }
 
-.profile-social-links svg:not(:hover) path {
-  color: var(--colour-icons-fill) !important;
-}
-
-.profile-social-links svg:not(:hover) stop {
-  stop-color: var(--colour-icons-fill) !important;
+.profile-social-links svg:hover {
+  filter: grayscale(0%) !important;
 }
 
 /*

@@ -266,7 +266,7 @@ ACCESSIBILITY
     filter: drop-shadow(1px 1px 1px var(--colour-card-shadow)) !important;
 	}
 
-  #the-net:hover {
+  footer a:hover {
     transition: rotateY 1s ease-out;
     transform: rotateY(360deg) !important;
 	}

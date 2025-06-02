@@ -152,7 +152,7 @@ footer a {
 }
 
 footer .float-right a:hover {
-  transition: all 0.5s ease-in;
+  transition: color 0.5s ease-in;
   color: transparent !important;
 }
 

@@ -151,11 +151,10 @@ footer a {
   text-decoration: none;
 }
 
-footer a:hover {
-  transition: all 0.5s ease;
+footer .float-right a:hover {
+  transition: all 0.5s ease-in;
   color: transparent !important;
 }
-
 
 .float-left {
   float: left;
@@ -262,12 +261,12 @@ ACCESSIBILITY
 
 @media not (prefers-reduced-motion) {
   header img:hover {
-    transition: box-shadow 0.3s ease;
+    transition: box-shadow 0.3s ease-in;
     box-shadow: 0 0 0 12px var(--colour-image-hover) !important;
   }
 
   .profile-social-links svg:hover {
-    transition: all 0.3s ease;
+    transition: all 0.3s ease-in;
     transform: scale(1.25) rotate(-2deg) !important;
     filter: drop-shadow(1px 1px 1px var(--colour-card-shadow)) !important;
 	}

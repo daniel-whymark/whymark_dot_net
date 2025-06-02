@@ -203,11 +203,11 @@ footer a:hover {
   position: relative;
   vertical-align: middle;
   overflow: hidden !important;
-  filter: grayscale(100%);
+  color: var(--colour-icons-fill);
 }
 
 .profile-social-links svg:hover {
-  filter: grayscale(0%) !important;
+  color: var(--colour-icons-hover);
 }
 
 /*

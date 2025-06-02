@@ -8,9 +8,9 @@ COLOUR SCHEMES
   --colour-background-primary: rgba(98 207 244 / 100%);
   --colour-background-secondary: rgba(44 103 242 / 100%);
   --colour-typography-header: rgba(34 34 68 / 100%);
-  --colour-typography-body: rgba(34 34 68 / 80%);
+  --colour-typography-body: rgba(34 34 68 / 90%);
   --colour-typography-footer: rgba(68 68 102 / 100%);
-  --colour-card-primary: rgba(255 255 255 / 45%);
+  --colour-card-primary: rgba(255 255 255 / 35%);
   --colour-card-border: rgba(255 255 255 / 20%);
   --colour-card-shadow: rgba(0 0 0 / 25%);
   --colour-image-border: rgba(0 0 0 / 6%);
@@ -26,6 +26,7 @@ COLOUR SCHEMES
     --colour-background-secondary: rgba(24 40 72 / 100%);
   }
 }
+
 
 /*
 --------------------------------------------------------------
@@ -130,7 +131,6 @@ header img {
   width: 120px;
   max-width: 100%;
   border-radius: 50%;
-  transition: box-shadow 0.3s ease;
   box-shadow: 0 0 0 8px var(--colour-image-border);
 }
 
@@ -150,6 +150,12 @@ footer a {
   color: var(--colour-typography-footer);
   text-decoration: none;
 }
+
+footer a:hover {
+  transition: all 0.5s ease;
+  color: transparent !important;
+}
+
 
 .float-left {
   float: left;
@@ -197,7 +203,7 @@ footer a {
   padding: 6px;
   position: relative;
   vertical-align: middle;
-  overflow: hidden!important;
+  overflow: hidden !important;
 }
 
 .profile-social-links path {
@@ -207,6 +213,7 @@ footer a {
 .profile-social-links svg:hover path {
   color: var(--colour-icons-hover);
 }
+
 
 /*
 --------------------------------------------------------------
@@ -246,6 +253,7 @@ REACTIVE
   }
 }
 
+
 /*
 --------------------------------------------------------------
 ACCESSIBILITY
@@ -253,15 +261,18 @@ ACCESSIBILITY
 */
 
 @media not (prefers-reduced-motion) {
-  .profile-social-links svg:hover {
-    transform: scale(1.25) !important;
-    filter: drop-shadow(1px 1px 1px var(--colour-card-shadow)) !important;
-	}
-
   header img:hover {
+    transition: box-shadow 0.3s ease;
     box-shadow: 0 0 0 12px var(--colour-image-hover) !important;
   }
+
+  .profile-social-links svg:hover {
+    transition: all 0.3s ease;
+    transform: scale(1.25) rotate(-2deg) !important;
+    filter: drop-shadow(1px 1px 1px var(--colour-card-shadow)) !important;
+	}
 }
+
 
 /*
 --------------------------------------------------------------

@@ -44,7 +44,7 @@ Distributed under [MIT License](https://opensource.org/licenses/MIT). Feel free 
 
 
 ## Credits
-CSS templates and inspiration:
+CSS templates and inspirations:
 - [Rahul](https://codepen.io/c99rahul)
 - [Emil Devantie Brockdorff](https://codepen.io/Mestika)
 

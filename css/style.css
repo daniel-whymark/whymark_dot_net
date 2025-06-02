@@ -203,10 +203,13 @@ footer a:hover {
   position: relative;
   vertical-align: middle;
   overflow: hidden !important;
+}
+
+.profile-social-links path {
   color: var(--colour-icons-fill);
 }
 
-.profile-social-links svg:hover {
+.profile-social-links path:hover {
   color: var(--colour-icons-hover);
 }
 

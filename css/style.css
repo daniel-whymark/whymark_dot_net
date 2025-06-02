@@ -17,15 +17,7 @@ COLOUR SCHEMES
   --colour-image-hover: rgba(0 0 0 / 10%);
   --colour-flag-border: Canvas;
   --colour-icons-fill: var(--colour-typography-header);
-
-  --colour-brand-linkedin: rgba(10 102 194 / 100%);
-  --colour-brand-github: rgba(51 51 51 / 100%);
-  --colour-brand-signal: rgba(58 118 240 / 100%);
-  --colour-brand-bluesky: rgba(17 133 254 / 100%);
-  --colour-brand-goodreads: rgba(85 59 8 / 100%);
-  --colour-brand-youtube: rgba(255 0 0 / 100%);
-  --colour-brand-steam: rgba(0 173 238 / 100%);
-  --colour-brand-xbox: rgba(82 176 67 / 100%);
+  --colour-icons-hover: rgba(213 0 0 / 90%);
 }
 
 @media only screen and (prefers-color-scheme: dark) {

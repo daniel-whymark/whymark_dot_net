@@ -18,6 +18,7 @@ COLOUR SCHEMES
   --colour-flag-border: Canvas;
   --colour-icons-fill: var(--colour-typography-header);
   --colour-icons-hover: rgba(213 0 0 / 90%);
+  --timing-transition: 0.3s;
 }
 
 @media only screen and (prefers-color-scheme: dark) {
@@ -131,6 +132,7 @@ header img {
   width: 120px;
   max-width: 100%;
   border-radius: 50%;
+  transition: box-shadow var(--timing-transition) ease-in;
   box-shadow: 0 0 0 8px var(--colour-image-border);
 }
 
@@ -151,11 +153,10 @@ footer a {
   text-decoration: none;
 }
 
-footer a:hover {
-  transition: all 0.5s ease;
+footer .float-right a:hover {
+  transition: color var(--timing-transition) ease-in;
   color: transparent !important;
 }
-
 
 .float-left {
   float: left;
@@ -204,6 +205,7 @@ footer a:hover {
   position: relative;
   vertical-align: middle;
   overflow: hidden !important;
+  transition: all var(--timing-transition) ease-in;
 }
 
 .profile-social-links path {
@@ -261,13 +263,11 @@ ACCESSIBILITY
 */
 
 @media not (prefers-reduced-motion) {
-  header img:hover {
-    transition: box-shadow 0.3s ease;
+  header a:hover img {
     box-shadow: 0 0 0 12px var(--colour-image-hover) !important;
   }
 
   .profile-social-links svg:hover {
-    transition: all 0.3s ease;
     transform: scale(1.25) rotate(-2deg) !important;
     filter: drop-shadow(1px 1px 1px var(--colour-card-shadow)) !important;
 	}

@@ -209,7 +209,7 @@ footer a:hover {
   color: var(--colour-icons-fill);
 }
 
-.profile-social-links path:hover {
+.profile-social-links svg:hover path {
   color: var(--colour-icons-hover);
 }
 

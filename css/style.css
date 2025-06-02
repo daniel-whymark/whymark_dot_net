@@ -259,8 +259,8 @@ ACCESSIBILITY
 */
 
 @media not (prefers-reduced-motion) {
-  body {
-      transition: all 0.3s ease-in;
+  .profile-card {
+      transition: all 0.3s ease-in !important;
   }
 
   header img:hover {

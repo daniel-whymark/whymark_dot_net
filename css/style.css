@@ -263,7 +263,7 @@ ACCESSIBILITY
 */
 
 @media not (prefers-reduced-motion) {
-  header img:hover {
+  header a:hover img {
     box-shadow: 0 0 0 12px var(--colour-image-hover) !important;
   }
 

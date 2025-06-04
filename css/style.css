@@ -5,11 +5,13 @@ COLOUR SCHEMES
 */
 
 :root {
-  --colour-background-primary: rgba(98 207 244 / 100%);
-  --colour-background-secondary: rgba(44 103 242 / 100%);
+  --colour-background-primary: orange;
+  --colour-background-secondary: red;
+  --colour-background-tertiary: blue;
+  --colour-background-quaternary: green;
   --colour-typography-header: rgba(34 34 68 / 100%);
   --colour-typography-body: rgba(34 34 68 / 90%);
-  --colour-typography-footer: rgba(68 68 102 / 100%);
+  --colour-typography-footer: CanvasText;
   --colour-card-primary: rgba(255 255 255 / 35%);
   --colour-card-border: rgba(255 255 255 / 20%);
   --colour-card-shadow: rgba(0 0 0 / 25%);
@@ -17,14 +19,39 @@ COLOUR SCHEMES
   --colour-image-hover: rgba(0 0 0 / 10%);
   --colour-flag-border: Canvas;
   --colour-icons-fill: var(--colour-typography-header);
-  --colour-icons-hover: rgba(213 0 0 / 90%);
+  --colour-icons-hover: red;
   --timing-transition: 0.3s;
+  --timing-background: 10s;
 }
 
 @media only screen and (prefers-color-scheme: dark) {
   :root {
-    --colour-background-primary: rgba(75 108 183 / 100%);
-    --colour-background-secondary: rgba(24 40 72 / 100%);
+    --colour-background-primary: darkorange;
+    --colour-background-secondary: darkred;
+    --colour-background-tertiary: darkblue;
+    --colour-background-quaternary: darkgreen;
+    --colour-icons-hover: darkred;
+  }
+}
+
+
+/*
+--------------------------------------------------------------
+CSS ANIMATIONS
+--------------------------------------------------------------
+*/
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
   }
 }
 
@@ -42,14 +69,15 @@ html {
 
 body {
   overflow: hidden;
-  background: var(--colour-background-primary);
-  background: radial-gradient(circle, var(--colour-background-primary) 25%, var(--colour-background-secondary) 100%);
+  background: Canvas;
+	background: linear-gradient(-45deg, var(--colour-background-primary), var(--colour-background-secondary), var(--colour-background-tertiary), var(--colour-background-quaternary));
+	background-size: 400% 400%;
   color: var(--colour-typography-body);
   position: absolute;
   padding: 0;
   margin: 0;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   font: normal 1em/1.618 system-ui, ui-sans-serif, sans-serif;
   display: block;
   transform: translate(-50%, -50%);
@@ -263,6 +291,10 @@ ACCESSIBILITY
 */
 
 @media not (prefers-reduced-motion) {
+  body {
+      animation: gradient var(--timing-background) ease infinite;
+  }
+
   header a:hover img {
     box-shadow: 0 0 0 12px var(--colour-image-hover) !important;
   }

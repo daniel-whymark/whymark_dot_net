@@ -19,7 +19,7 @@ COLOUR SCHEMES
   --colour-image-hover: rgba(0 0 0 / 10%);
   --colour-flag-border: Canvas;
   --colour-icons-fill: var(--colour-typography-header);
-  --colour-icons-hover: ActiveText;
+  --colour-icons-hover: Highlight;
   --timing-transition: 0.3s;
   --timing-background: 15s;
 }

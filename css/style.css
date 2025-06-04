@@ -270,6 +270,19 @@ ACCESSIBILITY
 */
 
 @media not (prefers-reduced-motion) {
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
   header a:hover img {
     box-shadow: 0 0 0 12px var(--colour-image-hover) !important;
   }

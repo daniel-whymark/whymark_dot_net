@@ -5,10 +5,10 @@ COLOUR SCHEMES
 */
 
 :root {
-  --colour-background-primary: rgba(238 119 82 / 100%);
-  --colour-background-secondary: rgba(231 60 126 / 100%);
-  --colour-background-tertiary: rgba(35 166 213 / 100%);
-  --colour-background-quaternary: rgba(35 213 171 / 100%);
+  --colour-background-primary: rgba(255 159 10 / 100%);
+  --colour-background-secondary: rgba(255 69 58 / 100%);
+  --colour-background-tertiary: rgba(10 132 255 / 100%);
+  --colour-background-quaternary: rgba(48 209 88 / 100%);
   --colour-typography-header: rgba(34 34 68 / 100%);
   --colour-typography-body: rgba(34 34 68 / 90%);
   --colour-typography-footer: rgba(68 68 102 / 100%);
@@ -19,18 +19,18 @@ COLOUR SCHEMES
   --colour-image-hover: rgba(0 0 0 / 10%);
   --colour-flag-border: Canvas;
   --colour-icons-fill: var(--colour-typography-header);
-  --colour-icons-hover: rgba(213 0 0 / 90%);
+  --colour-icons-hover: rgba(255 55 95 / 90%);
   --timing-transition: 0.3s;
   --timing-background: 15s;
 }
 
 @media only screen and (prefers-color-scheme: dark) {
   :root {
-    --colour-background-primary: rgba(238 119 82 / 100%);
-    --colour-background-secondary: rgba(231 60 126 / 100%);
-    --colour-background-tertiary: rgba(35 166 213 / 100%);
-    --colour-background-quaternary: rgba(35 213 171 / 100%);
-    --colour-icons-hover: rgba(213 0 0 / 90%);
+    --colour-background-primary: rgba(201 52 0 / 100%);
+    --colour-background-secondary: rgba(215 0 21 / 100%);
+    --colour-background-tertiary: rgba(0 64 221 / 100%);
+    --colour-background-quaternary: rgba(36 138 61 / 100%);
+    --colour-icons-hover: rgba(211 15 69 / 90%);
   }
 }
 

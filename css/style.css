@@ -5,8 +5,10 @@ COLOUR SCHEMES
 */
 
 :root {
-  --colour-background-primary: rgba(98 207 244 / 100%);
-  --colour-background-secondary: rgba(44 103 242 / 100%);
+  --colour-background-primary: rgba(238 119 82 / 100%);
+  --colour-background-secondary: rgba(231 60 126 / 100%);
+  --colour-background-tertiary: rgba(35 166 213 / 100%);
+  --colour-background-quaternary: rgba(35 213 171 / 100%);
   --colour-typography-header: rgba(34 34 68 / 100%);
   --colour-typography-body: rgba(34 34 68 / 90%);
   --colour-typography-footer: rgba(68 68 102 / 100%);
@@ -19,12 +21,16 @@ COLOUR SCHEMES
   --colour-icons-fill: var(--colour-typography-header);
   --colour-icons-hover: rgba(213 0 0 / 90%);
   --timing-transition: 0.3s;
+  --timing-background: 15s;
 }
 
 @media only screen and (prefers-color-scheme: dark) {
   :root {
-    --colour-background-primary: rgba(75 108 183 / 100%);
-    --colour-background-secondary: rgba(24 40 72 / 100%);
+    --colour-background-primary: rgba(238 119 82 / 100%);
+    --colour-background-secondary: rgba(231 60 126 / 100%);
+    --colour-background-tertiary: rgba(35 166 213 / 100%);
+    --colour-background-quaternary: rgba(35 213 171 / 100%);
+    --colour-icons-hover: rgba(213 0 0 / 90%);
   }
 }
 
@@ -42,15 +48,10 @@ html {
 
 body {
   overflow: hidden;
-/*
   background: var(--colour-background-primary);
-  background: radial-gradient(circle, var(--colour-background-primary) 25%, var(--colour-background-secondary) 100%);
-  background-image:linear-gradient(163deg, #4964da 0%, rgba(146, 73, 221, 0.8) 11.8%, rgba(176, 60, 196, 0.6) 23.6%, rgba(192, 55, 173, 0.4) 35.4%, rgba(217, 46, 116, 0) 59%), radial-gradient(100% 100% at 10% 100%, #fdd575 0%, #fcc06a 14.29%, #fbaa63 28.57%, #f99262 42.86%, #f77868 57.14%, #f55973 71.43%, #d22e8c 100%);
-*/
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background: linear-gradient(-45deg, var(--colour-background-primary), var(--colour-background-secondary), var(--colour-background-tertiary), var(--colour-background-quaternary));
 	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-
+	animation: gradient var(--timing-background) ease infinite;
   color: var(--colour-typography-body);
   position: absolute;
   padding: 0;

@@ -37,6 +37,25 @@ COLOUR SCHEMES
 
 /*
 --------------------------------------------------------------
+CSS ANIMATIONS
+--------------------------------------------------------------
+*/
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+/*
+--------------------------------------------------------------
 MAIN
 --------------------------------------------------------------
 */
@@ -51,7 +70,6 @@ body {
   background: Canvas;
 	background: linear-gradient(-45deg, var(--colour-background-primary), var(--colour-background-secondary), var(--colour-background-tertiary), var(--colour-background-quaternary));
 	background-size: 400% 400%;
-	animation: gradient var(--timing-background) ease infinite;
   color: var(--colour-typography-body);
   position: absolute;
   padding: 0;
@@ -271,17 +289,8 @@ ACCESSIBILITY
 */
 
 @media not (prefers-reduced-motion) {
-
-  @keyframes gradient {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
+  body {
+      animation: gradient var(--timing-background) ease infinite;
   }
 
   header a:hover img {

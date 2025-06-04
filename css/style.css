@@ -21,7 +21,7 @@ COLOUR SCHEMES
   --colour-icons-fill: var(--colour-typography-header);
   --colour-icons-hover: red;
   --timing-transition: 0.3s;
-  --timing-background: 15s;
+  --timing-background: 10s;
 }
 
 @media only screen and (prefers-color-scheme: dark) {

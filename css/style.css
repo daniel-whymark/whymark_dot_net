@@ -19,7 +19,7 @@ COLOUR SCHEMES
   --colour-image-hover: rgba(0 0 0 / 10%);
   --colour-flag-border: Canvas;
   --colour-icons-fill: var(--colour-typography-header);
-  --colour-icons-hover: rgba(28 28 30 / 90%);
+  --colour-icons-hover: ActiveText;
   --timing-transition: 0.3s;
   --timing-background: 15s;
 }
@@ -30,8 +30,6 @@ COLOUR SCHEMES
     --colour-background-secondary: rgba(215 0 21 / 100%);
     --colour-background-tertiary: rgba(0 64 221 / 100%);
     --colour-background-quaternary: rgba(36 138 61 / 100%);
-    --colour-icons-hover: rgba(235 235 240 / 90%);
-    --colour-typography-footer: rgba(68 68 102 / 100%);
   }
 }
 

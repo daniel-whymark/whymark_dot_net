@@ -11,7 +11,7 @@ COLOUR SCHEMES
   --colour-background-quaternary: rgba(48 209 88 / 100%);
   --colour-typography-header: rgba(34 34 68 / 100%);
   --colour-typography-body: rgba(34 34 68 / 90%);
-  --colour-typography-footer: rgba(68 68 102 / 100%);
+  --colour-typography-footer: CanvasText;
   --colour-card-primary: rgba(255 255 255 / 35%);
   --colour-card-border: rgba(255 255 255 / 20%);
   --colour-card-shadow: rgba(0 0 0 / 25%);
@@ -31,6 +31,7 @@ COLOUR SCHEMES
     --colour-background-tertiary: rgba(0 64 221 / 100%);
     --colour-background-quaternary: rgba(36 138 61 / 100%);
     --colour-icons-hover: rgba(235 235 240 / 90%);
+    --colour-typography-footer: rgba(68 68 102 / 100%);
   }
 }
 
@@ -48,7 +49,7 @@ html {
 
 body {
   overflow: hidden;
-  background: var(--colour-background-primary);
+  background: Canvas;
 	background: linear-gradient(-45deg, var(--colour-background-primary), var(--colour-background-secondary), var(--colour-background-tertiary), var(--colour-background-quaternary));
 	background-size: 400% 400%;
 	animation: gradient var(--timing-background) ease infinite;

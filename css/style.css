@@ -93,12 +93,12 @@ h1,
 
 h1 {
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .subheading {
   font-size: 16px;
-  font-weight: lighter;
+  font-weight: 400;
 }
 
 p {

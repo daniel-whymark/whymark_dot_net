@@ -157,7 +157,6 @@ header a::after {
 }
 
 header img {
-  width: 120px;
   max-width: 100%;
   border-radius: 50%;
   transition: box-shadow var(--timing-transition) ease-in;

@@ -10,7 +10,7 @@ Content-Security-Policy: upgrade-insecure-requests; default-src 'none'; frame-an
 Access-Control-Allow-Credentials: false
 Access-Control-Max-Age: 600
 Access-Control-Allow-Methods: GET, POST, OPTIONS, HEAD
-Access-Control-Allow-Origin: https://whymark.net
+Access-Control-Allow-Origin: https://whymark.net/
 Link: <https://whymark.net/:splat>; rel="canonical"
 
 /cdn-cgi/*
@@ -18,7 +18,7 @@ X-Robots-Tag: noindex
 ! Link
 ! Access-Control-Allow-Origin
 
-https://preview.whymark.pages.dev/*
+https://:build.whymark.pages.dev/*
 X-Robots-Tag: noindex
 ! Link
-Access-Control-Allow-Origin: https://preview.whymark.pages.dev
+Access-Control-Allow-Origin: https://:build.whymark.pages.dev/

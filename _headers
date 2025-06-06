@@ -18,12 +18,6 @@ X-Robots-Tag: noindex
 ! Link
 ! Access-Control-Allow-Origin
 
-https://preview.whymark.pages.dev/*
-X-Robots-Tag: noindex
-! Link
-Access-Control-Allow-Origin: https://preview.whymark.pages.dev
-
 https://:whymark.pages.dev/*
 X-Robots-Tag: noindex
 ! Link
-! Access-Control-Allow-Origin

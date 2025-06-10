@@ -12,8 +12,8 @@ COLOUR SCHEMES
   --colour-typography-header: rgba(34 34 68 / 100%);
   --colour-typography-body: rgba(34 34 68 / 90%);
   --colour-typography-footer: CanvasText;
-  --colour-card-primary: rgba(255 255 255 / 35%);
-  --colour-card-border: rgba(255 255 255 / 20%);
+  --colour-card-primary: rgba(255 255 255 / 30%);
+  --colour-card-border: rgba(255 255 255 / 30%);
   --colour-card-shadow: rgba(0 0 0 / 25%);
   --colour-image-border: rgba(0 0 0 / 6%);
   --colour-image-hover: rgba(0 0 0 / 10%);
@@ -118,8 +118,8 @@ p {
   border: 1px solid var(--colour-card-border);
   border-radius: 20px;
   background-color: var(--colour-card-primary);
-  box-shadow: 0 0 5px 1px var(--colour-card-shadow);
-  backdrop-filter: blur(15px);
+  box-shadow: 0 0 10px 1px var(--colour-card-shadow);
+  backdrop-filter: blur(5px);
 }
 
 header {

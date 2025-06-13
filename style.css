@@ -291,7 +291,7 @@ ACCESSIBILITY
 
 @media not (prefers-reduced-motion) {
   body {
-      animation: gradient var(--timing-background) ease 2s infinite;
+      animation: gradient var(--timing-background) ease 2s both infinite;
   }
 
   header a:hover img {

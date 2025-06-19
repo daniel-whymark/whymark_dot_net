@@ -21,7 +21,7 @@ COLOUR SCHEMES
   --colour-icons-fill: var(--colour-typography-header);
   --colour-icons-hover: red;
   --animation-transition: 0.3s;
-  --animation-background: 0s; /* override below */
+  --animation-background: 12s;
   --animation-delay: 2s;
 }
 
@@ -292,7 +292,6 @@ ACCESSIBILITY
 
 @media not (prefers-reduced-motion) {
   body {
-    --animation-background: 10s;
     animation: gradient var(--animation-background) ease var(--animation-delay) both infinite;
   }
 

@@ -20,8 +20,8 @@ COLOUR SCHEMES
   --colour-flag-border: Canvas;
   --colour-icons-fill: var(--colour-typography-header);
   --colour-icons-hover: red;
-  --animation-transition: 0.3s;
-  --animation-background: 12s;
+  --animation-transition: 0.25s;
+  --animation-background: 10s;
   --animation-delay: 2s;
 }
 
@@ -292,7 +292,7 @@ ACCESSIBILITY
 
 @media not (prefers-reduced-motion) {
   body {
-    animation: gradient var(--animation-background) ease var(--animation-delay) both infinite;
+    animation: gradient var(--animation-background) ease-in-out var(--animation-delay) both infinite;
   }
 
   header a:hover img {

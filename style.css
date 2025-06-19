@@ -6,9 +6,9 @@ COLOUR SCHEMES
 
 :root {
   --colour-background-primary: navy;
-  --colour-background-secondary: red;
-  --colour-background-tertiary: orange;
-  --colour-background-quaternary: green;
+  --colour-background-secondary: green;
+  --colour-background-tertiary: red;
+  --colour-background-quaternary: orange;
   --colour-typography-header: rgba(29 29 31 / 100%);
   --colour-typography-body: rgba(29 29 31 / 90%);
   --colour-typography-footer: CanvasText;

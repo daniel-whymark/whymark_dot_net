@@ -70,9 +70,8 @@ html {
 
 body {
   overflow: hidden;
-	background:
-    linear-gradient(to top, var(--colour-background-primary), var(--colour-background-secondary)),
-    linear-gradient(to left, var(--colour-background-tertiary), var(--colour-background-quaternary));
+	background: linear-gradient(to top, var(--colour-background-primary), var(--colour-background-secondary));
+  background: linear-gradient(to left, var(--colour-background-tertiary), var(--colour-background-quaternary));
 	background-size: 400% 400%;
   color: var(--colour-typography-body);
   position: absolute;

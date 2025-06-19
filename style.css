@@ -74,8 +74,7 @@ body {
     linear-gradient(-90deg, var(--colour-background-primary), transparent),
     linear-gradient(-45deg, var(--colour-background-secondary), transparent),
     linear-gradient(45deg, var(--colour-background-tertiary), transparent),
-    linear-gradient(90deg, var(--colour-background-quaternary), transparent),
-    Canvas;
+    linear-gradient(90deg, var(--colour-background-quaternary), transparent);
 	background-size: 400% 400%;
   color: var(--colour-typography-body);
   position: absolute;

@@ -5,10 +5,10 @@ COLOUR SCHEMES
 */
 
 :root {
-  --colour-background-primary: navy;
-  --colour-background-secondary: green;
-  --colour-background-tertiary: red;
-  --colour-background-quaternary: orange;
+  --colour-background-primary: orange;
+  --colour-background-secondary: red;
+  --colour-background-tertiary: navy;
+  --colour-background-quaternary: green;
   --colour-typography-header: rgba(29 29 31 / 100%);
   --colour-typography-body: rgba(29 29 31 / 90%);
   --colour-typography-footer: CanvasText;
@@ -70,8 +70,9 @@ html {
 
 body {
   overflow: hidden;
-  background: Canvas;
-	background: linear-gradient(-45deg, var(--colour-background-primary), var(--colour-background-secondary), var(--colour-background-tertiary), var(--colour-background-quaternary));
+	background:
+    linear-gradient(-45deg, var(--colour-background-primary), var(--colour-background-secondary), var(--colour-background-tertiary), var(--colour-background-quaternary)),
+    Canvas;
 	background-size: 400% 400%;
   color: var(--colour-typography-body);
   position: absolute;

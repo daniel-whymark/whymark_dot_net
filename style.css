@@ -70,9 +70,8 @@ html {
 
 body {
   overflow: hidden;
-	background:
-    linear-gradient(-45deg, var(--colour-background-primary), var(--colour-background-secondary), var(--colour-background-tertiary), var(--colour-background-quaternary)),
-    Canvas;
+  background: Canvas;
+	background: linear-gradient(-45deg, var(--colour-background-primary), var(--colour-background-secondary), var(--colour-background-tertiary), var(--colour-background-quaternary));
 	background-size: 400% 400%;
   color: var(--colour-typography-body);
   position: absolute;

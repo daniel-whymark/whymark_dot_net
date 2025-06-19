@@ -22,7 +22,7 @@ COLOUR SCHEMES
   --colour-icons-hover: red;
   --animation-transition: 0.25s;
   --animation-background: 10s;
-  --animation-delay: 2s;
+  --animation-delay: 0s;
 }
 
 @media only screen and (prefers-color-scheme: dark) {

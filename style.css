@@ -148,6 +148,16 @@ input.center {
   margin-inline-start: auto;
 }
 
+footer.left {
+  float: left;
+  padding-left: 0.5em;
+}
+
+footer.right {
+  float: right;
+  padding-right: 0.5em;
+}
+
 
 /* Desktop sizes */
 @media (min-width: 600px) {

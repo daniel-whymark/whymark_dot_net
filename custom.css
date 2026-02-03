@@ -17,8 +17,8 @@ img.avatar {
 }
 
 svg.icon {
-  width: 2em;
-  height: 2em;
+  width: 1em;
+  height: 1em;
 }
 
 ul.socials {
@@ -28,6 +28,6 @@ ul.socials {
   padding: 0;
 }
 
-main {
+header {
   padding: 2em;
 }

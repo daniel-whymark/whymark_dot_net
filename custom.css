@@ -22,3 +22,9 @@ svg.icon {
   width: 2em;
   height: 2em;
 }
+
+ul.twocol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}

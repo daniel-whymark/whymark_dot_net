@@ -1,11 +1,15 @@
 .left {
   float: left;
   padding-left: 0.5em;
+  position: absolute;
+  bottom: 0;
 }
 
 .right {
   float: right;
   padding-right: 0.5em;
+  position: absolute;
+  bottom: 0;
 }
 
 img.avatar {

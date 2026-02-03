@@ -1,0 +1,11 @@
+.left {
+  float: left;
+  padding-left: 0.5em;
+}
+
+.right {
+  float: right;
+  padding-right: 0.5em;
+}
+
+

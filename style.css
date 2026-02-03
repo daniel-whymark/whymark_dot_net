@@ -148,12 +148,12 @@ input.center {
   margin-inline-start: auto;
 }
 
-footer.left {
+p.left {
   float: left;
   padding-left: 0.5em;
 }
 
-footer.right {
+p.right {
   float: right;
   padding-right: 0.5em;
 }

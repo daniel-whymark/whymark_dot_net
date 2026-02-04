@@ -35,7 +35,7 @@ header img {
 }
 
 header img:hover {
-  box-shadow: 0 0 0 1px var(--moredark);
+  box-shadow: 0 0 2px 1px var(--moredark);
   transition: box-shadow 1s;
 }
 

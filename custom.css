@@ -47,7 +47,8 @@ li svg {
   vertical-align: middle;
 }
 
-a {
+li a,
+footer a {
   text-decoration: none;
 }
 

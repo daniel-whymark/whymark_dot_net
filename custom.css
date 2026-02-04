@@ -1,8 +1,4 @@
 :root {
-  /* --light: #1B1918; */
-  /* --lesslight: #000; */
-  /* --dark: #E6E3DF; */
-  /* --moredark: #B8B3AD; */
   border-top: none;
   font-family: system-ui, ui-sans-serif, sans-serif;
 }
@@ -19,10 +15,6 @@ h1 {
 h1+p {
   margin-top: 0;
   color: var(--moredark);
-}
-
-p {
-  font-weight: lighter;
 }
 
 header {
@@ -53,12 +45,15 @@ li svg {
   vertical-align: middle;
 }
 
-li a {
+a {
   text-decoration: none;
 }
 
-li a:hover {
+a:hover {
+  color: var(--moredark);
   text-decoration: underline;
+  text-decoration-color: var(--moredark);
+  text-shadow: 0 0 1px var(--moredark);
 }
 
 footer p {
@@ -101,5 +96,11 @@ footer p:last-child {
 @media (max-height: 600px) {
   footer {
     visibility: hidden;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  p {
+    font-weight: lighter;
   }
 }

@@ -6,42 +6,27 @@
   font-family: system-ui, ui-sans-serif, sans-serif;
 }
 
-footer p:first-child {
-  padding-left: 0.5em;
-  position: fixed;
-  bottom: 0;
-  left: 0;
+body {
+  max-width: 600px;
 }
 
-footer a {
-  text-decoration: none;
+h1 {
+  margin-bottom: 0;
+  font-weight: normal;
 }
 
-footer p:last-child {
-  padding-right: 0.5em;
-  position: fixed;
-  bottom: 0;
-  right: 0;
+h1+p {
+  margin-top: 0;
+  color: var(--moredark);
+}
+
+p {
+  font-weight: lighter;
 }
 
 header img {
   margin-top: 20%;
   border-radius: 50%;
-}
-
-li svg {
-  fill: var(--moredark);
-  width: 1.5em;
-  height: 1.5em;
-  vertical-align: middle;
-}
-
-li a {
-  text-decoration: none;
-}
-
-li a:hover {
-  text-decoration: underline;
 }
 
 nav ul {
@@ -59,20 +44,35 @@ nav ul li:nth-child(n+5) {
   text-align: left;
 }
 
-body {
-  max-width: 600px;
+li svg {
+  fill: var(--moredark);
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
 }
 
-h1 {
-  margin-bottom: 0;
-  font-weight: normal;
+li a {
+  text-decoration: none;
 }
 
-h1+p {
-  margin-top: 0;
-  color: var(--moredark);
+li a:hover {
+  text-decoration: underline;
 }
 
-p {
-  font-weight: lighter;
+footer a {
+  text-decoration: none;
+}
+
+footer p:first-child {
+  padding-left: 0.5em;
+  position: fixed;
+  bottom: 0;
+  left: 1em;
+}
+
+footer p:last-child {
+  padding-right: 0.5em;
+  position: fixed;
+  bottom: 0;
+  right: 1em;
 }

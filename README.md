@@ -13,6 +13,7 @@ A tiny and efficient design, using a minimalist CSS. The goals were maximum spee
 
 - Full HTML5+CSS3 validated compliance.
 - Clear and formatted coding layout.
+- Classless CSS implementation for semantic HTML elements.
 - Below 28Kb total size for both HTML+CSS combined (reduced further to less than 15Kb when served with Gzip/Brotli).
 - Image fallback options to allow for the smallest filesizes possible, using webp where supported.
 - Responsive layout.

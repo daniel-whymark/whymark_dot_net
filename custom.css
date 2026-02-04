@@ -12,13 +12,13 @@ h1 {
   font-weight: normal;
 }
 
-h1+p {
-  margin-top: 0;
-  color: var(--moredark);
-}
-
 header {
   margin-top: 20%;
+}
+
+header p {
+  margin: 0;
+  color: var(--moredark);
 }
 
 header img {
@@ -33,7 +33,7 @@ header img:hover {
 
 nav ul {
   list-style-type: none;
-  margin: 1em;
+  margin: 0;
   padding: 0;
   text-align: center;
 }
@@ -79,7 +79,8 @@ footer p:last-child {
   }
 
   nav ul {
-    margin: 0;
+    margin: 1em;
+    padding: 1em;
     column-count: 2;
     column-gap: 10%;
   }

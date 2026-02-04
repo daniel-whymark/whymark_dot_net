@@ -3,6 +3,7 @@
   --lesslight: #000;
   --dark: #E6E3DF;
   --moredark: #B8B3AD;
+  border-top: none;
   font-family: system-ui, ui-sans-serif, sans-serif;
 }
 

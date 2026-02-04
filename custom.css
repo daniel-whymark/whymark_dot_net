@@ -19,6 +19,8 @@ header {
 header p {
   margin: 0;
   color: var(--moredark);
+  font-weight: lighter;
+  font-variant: small-caps;
 }
 
 header img {

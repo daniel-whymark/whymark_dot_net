@@ -1,33 +1,77 @@
-.bottomLeft {
+:root {
+  --light: #1B1918;
+  --lesslight: #000;
+  --dark: #E6E3DF;
+  --moredark: #B8B3AD;
+  font-family: system-ui, ui-sans-serif, sans-serif;
+}
+
+footer p:first-child {
   padding-left: 0.5em;
   position: fixed;
   bottom: 0;
   left: 0;
 }
 
-.bottomRight {
+footer a {
+  text-decoration: none;
+}
+
+footer p:last-child {
   padding-right: 0.5em;
   position: fixed;
   bottom: 0;
   right: 0;
 }
 
-img.avatar {
+header img {
+  padding-top: 20%;
   border-radius: 50%;
 }
 
-svg.icon {
-  width: 1em;
-  height: 1em;
+li svg {
+  fill: var(--moredark);
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
 }
 
-ul.socials {
+li a {
+  text-decoration: none;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+nav ul {
   column-count: 2;
   list-style-type: none;
-  margin: 0;
   padding: 0;
 }
 
-header {
-  padding: 2em;
+nav ul li:nth-child(-n+5) {
+  text-align: right;
+}
+
+nav ul li:nth-child(n+5) {
+  text-align: left;
+}
+
+body {
+  max-width: 600px;
+}
+
+h1 {
+  margin-bottom: 0;
+  font-weight: normal;
+}
+
+h1+p {
+  margin-top: 0;
+  color: var(--moredark);
+}
+
+p {
+  font-weight: lighter;
 }

@@ -27,6 +27,7 @@ p {
 header img {
   margin-top: 20%;
   border-radius: 50%;
+  box-shadow: 0 0 0 1px var(--moredark);
 }
 
 nav ul {

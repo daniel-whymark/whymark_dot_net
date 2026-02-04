@@ -48,6 +48,7 @@ nav ul {
   column-count: 2;
   list-style-type: none;
   padding: 0;
+  column-gap: 5%;
 }
 
 nav ul li:nth-child(-n+5) {

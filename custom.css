@@ -98,7 +98,7 @@ footer p:last-child {
 }
 
 
-@media screen and (height <=600px) {
+@media screen and (height <=900px) {
   footer {
     visibility: hidden;
   }

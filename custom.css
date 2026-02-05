@@ -57,7 +57,7 @@ a:hover {
   color: var(--moredark);
   text-decoration: underline;
   text-decoration-color: var(--moredark);
-  text-shadow: 0 0 1px var(--moredark);
+  text-shadow: 1px 0 0 var(--moredark);
 }
 
 footer p {

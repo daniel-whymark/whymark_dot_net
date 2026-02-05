@@ -57,7 +57,7 @@ a:hover {
   color: var(--moredark);
   text-decoration: underline;
   text-decoration-color: var(--moredark);
-  text-shadow: 0 0 1px var(--moredark);
+  text-shadow: 1px 0 0 var(--moredark);
 }
 
 footer p {
@@ -76,7 +76,7 @@ footer p:last-child {
   right: 1em;
 }
 
-@media screen and (height >=600px) {
+@media screen and (height >=400px) {
   body {
     max-width: 600px;
   }
@@ -98,7 +98,7 @@ footer p:last-child {
 }
 
 
-@media screen and (height <=600px) {
+@media screen and (height <=900px) {
   footer {
     visibility: hidden;
   }

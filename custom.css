@@ -43,7 +43,7 @@ nav ul {
   padding: 1em;
   text-align: center;
 
-  & li #left {
+  & li a[id^="left"] {
     display: none;
   }
 }
@@ -109,11 +109,11 @@ footer p:last-child {
     & li:nth-child(-n+5) {
       text-align: right;
 
-      & #left {
+      & a[id^="left"] {
         display: unset;
       }
 
-      & #right {
+      & a[id^="right"] {
         display: none;
       }
     }
@@ -121,11 +121,11 @@ footer p:last-child {
     & li:nth-child(n+5) {
       text-align: left;
 
-      & #left {
+      & a[id^="left"] {
         display: none;
       }
 
-      & #right {
+      & a[id^="right"] {
         display: unset
       }
     }

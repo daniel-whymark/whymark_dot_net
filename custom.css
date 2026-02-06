@@ -101,7 +101,6 @@ footer p:last-child {
 }
 
 @media screen and (width >=420px) {
-
   nav ul {
     column-count: 2;
     column-gap: 10%;

@@ -38,6 +38,10 @@ nav ul {
   margin: 1em;
   padding: 1em;
   text-align: center;
+
+  & li #left {
+    display: none;
+  }
 }
 
 li svg {
@@ -98,14 +102,30 @@ footer p:last-child {
     column-count: 2;
     column-gap: 10%;
     font-size: larger;
-  }
 
-  nav ul li:nth-child(-n+5) {
-    text-align: right;
-  }
+    & li:nth-child(-n+5) {
+      text-align: right;
 
-  nav ul li:nth-child(n+5) {
-    text-align: left;
+      & #left {
+        display: unset;
+      }
+
+      & #right {
+        display: none;
+      }
+    }
+
+    & li:nth-child(n+5) {
+      text-align: left;
+
+      & #left {
+        display: none;
+      }
+
+      & #right {
+        display: unset
+      }
+    }
   }
 }
 

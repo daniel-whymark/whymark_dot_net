@@ -5,6 +5,8 @@
 
 body {
   max-width: 75%;
+  text-rendering: optimizelegibility;
+  text-wrap: balance;
 }
 
 h1 {
@@ -29,16 +31,21 @@ header img {
 }
 
 header img:hover {
-  box-shadow: 0 0 2px 1px var(--moredark);
-  transition: box-shadow 1s;
+  box-shadow:
+    0 0 2px 1px var(--moredark),
+    0 0 4px 1px var(--dark);
+  transition: box-shadow 1s ease-out;
 }
 
 nav ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: 1em;
+  padding: 1em;
   text-align: center;
-  font-size: larger;
+
+  & li a[id^="left"] {
+    display: none;
+  }
 }
 
 li svg {
@@ -55,57 +62,90 @@ footer a {
 
 a:hover {
   color: var(--moredark);
+}
+
+a:hover:not(footer *) {
   text-decoration: underline;
   text-decoration-color: var(--moredark);
   text-shadow: 1px 0 0 var(--moredark);
 }
 
-footer p {
-  text-decoration: none;
-  bottom: 0;
-  position: fixed;
+footer {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  width: 100%;
+}
+
+footer>* {
+  display: block;
+  flex: 1 1 auto;
+  max-width: 100%;
+  width: 100%;
+  margin-bottom: auto;
 }
 
 footer p:first-child {
-  padding-left: 0.5em;
-  left: 1em;
+  text-align: left;
 }
 
 footer p:last-child {
-  padding-right: 0.5em;
-  right: 1em;
+  text-align: right;
 }
+
 
 @media screen and (height >=400px) {
   body {
     max-width: 600px;
   }
-
-  nav ul {
-    margin: 1em;
-    padding: 1em;
-    column-count: 2;
-    column-gap: 10%;
-  }
-
-  nav ul li:nth-child(-n+5) {
-    text-align: right;
-  }
-
-  nav ul li:nth-child(n+5) {
-    text-align: left;
-  }
 }
 
+@media screen and (width >=420px) {
+  nav ul {
+    column-count: 2;
+    column-gap: 10%;
+    font-size: larger;
 
-@media screen and (height <=900px) {
-  footer {
-    visibility: hidden;
+    & li:nth-child(-n+5) {
+      text-align: right;
+
+      & a[id^="left"] {
+        display: unset;
+      }
+
+      & a[id^="right"] {
+        display: none;
+      }
+    }
+
+    & li:nth-child(n+5) {
+      text-align: left;
+
+      & a[id^="left"] {
+        display: none;
+      }
+
+      & a[id^="right"] {
+        display: unset
+      }
+    }
   }
 }
 
 @media only screen and (prefers-color-scheme: dark) {
   p {
     font-weight: lighter;
+  }
+}
+
+@supports (font: -webkit-font-smoothing) {
+  body {
+    -webkit-font-smoothing: antialiased !important;
+  }
+}
+
+@supports (text-wrap: pretty) {
+  body {
+    text-wrap: pretty !important;
   }
 }

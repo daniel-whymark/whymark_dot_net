@@ -55,10 +55,14 @@ footer a {
 
 a:hover {
   color: var(--moredark);
+}
+
+a:hover:not(footer *) {
   text-decoration: underline;
   text-decoration-color: var(--moredark);
   text-shadow: 1px 0 0 var(--moredark);
 }
+
 
 footer p {
   text-decoration: none;

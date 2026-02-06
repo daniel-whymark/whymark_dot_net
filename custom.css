@@ -5,6 +5,8 @@
 
 body {
   max-width: 75%;
+  text-rendering: optimizelegibility;
+  text-wrap: balance;
 }
 
 h1 {
@@ -29,8 +31,10 @@ header img {
 }
 
 header img:hover {
-  box-shadow: 0 0 2px 1px var(--moredark);
-  transition: box-shadow 1s;
+  box-shadow:
+    0 0 2px 1px var(--moredark),
+    0 0 4px 1px var(--dark);
+  transition: box-shadow 1s ease-out;
 }
 
 nav ul {
@@ -134,3 +138,14 @@ footer p:last-child {
     font-weight: lighter;
   }
 }
+
+@supports (font: -webkit-font-smoothing) {
+  body {
+    -webkit-font-smoothing: antialiased !important;
+  }
+}
+
+@supports (text-wrap: pretty) {
+  body {
+    text-wrap: pretty !important;
+  }

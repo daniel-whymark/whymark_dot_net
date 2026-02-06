@@ -15,26 +15,27 @@ h1 {
 }
 
 header {
-  margin-top: 20%;
-}
+  margin-top: 15%;
+  margin-bottom: 5%;
 
-header p {
-  margin: 0;
-  color: var(--moredark);
-  font-weight: lighter;
-  font-variant: small-caps;
-}
+  & p {
+    margin: 0;
+    color: var(--moredark);
+    font-weight: lighter;
+    font-variant: small-caps;
+  }
 
-header img {
-  border-radius: 50%;
-  box-shadow: 0 0 0 1px var(--lesslight);
-}
+  & img {
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px var(--lesslight);
+  }
 
-header img:hover {
-  box-shadow:
-    0 0 2px 1px var(--moredark),
-    0 0 4px 1px var(--dark);
-  transition: box-shadow 1s ease-out;
+  & img:hover {
+    box-shadow:
+      0 0 2px 1px var(--moredark),
+      0 0 4px 1px var(--dark);
+    transition: box-shadow 1s ease-out;
+  }
 }
 
 nav ul {
@@ -43,21 +44,20 @@ nav ul {
   padding: 1em;
   text-align: center;
 
+  & li a {
+    text-decoration: none;
+  }
+
   & li a[id^="left"] {
     display: none;
   }
-}
 
-li svg {
-  fill: var(--moredark);
-  width: 1.5em;
-  height: 1.5em;
-  vertical-align: middle;
-}
-
-li a,
-footer a {
-  text-decoration: none;
+  & li svg {
+    fill: var(--moredark);
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+  }
 }
 
 a:hover {
@@ -75,24 +75,27 @@ footer {
   flex-direction: row;
   padding: 0;
   width: 100%;
-}
 
-footer>* {
-  display: block;
-  flex: 1 1 auto;
-  max-width: 100%;
-  width: 100%;
-  margin-bottom: auto;
-}
+  & a {
+    text-decoration: none;
+  }
 
-footer p:first-child {
-  text-align: left;
-}
+  & p:first-child {
+    text-align: left;
+  }
 
-footer p:last-child {
-  text-align: right;
-}
+  & p:last-child {
+    text-align: right;
+  }
 
+  &>* {
+    display: block;
+    flex: 1 1 auto;
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: auto;
+  }
+}
 
 @media screen and (height >=400px) {
   body {
@@ -135,6 +138,10 @@ footer p:last-child {
 @media only screen and (prefers-color-scheme: dark) {
   p {
     font-weight: lighter;
+  }
+
+  nav ul {
+    font-size: medium;
   }
 }
 

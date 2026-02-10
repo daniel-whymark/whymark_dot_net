@@ -2,11 +2,12 @@
 Source code for the [whymark.net](https://whymark.net/) site with links to various related services or resources.
 
 ## Code Status
-| Main  | Preview |
+
+| Main | Preview |
 | ------------- | ------------- |
-| ![Super Linter workflow status, main branch](https://github.com/daniel-whymark/whymark_dot_net/actions/workflows/super_linter.yml/badge.svg?branch=main)  | ![Super Linter workflow status, preview branch](https://github.com/daniel-whymark/whymark_dot_net/actions/workflows/super_linter.yml/badge.svg?branch=preview)  |
-| ![Dependency Review workflow status, main branch](https://github.com/daniel-whymark/whymark_dot_net/actions/workflows/dependency_review.yml/badge.svg?branch=main)  | ![Dependency Review workflow status, preview branch](https://github.com/daniel-whymark/whymark_dot_net/actions/workflows/dependency_review.yml/badge.svg?branch=preview)  |
-| ![Lighthouse workflow status, main branch](https://github.com/daniel-whymark/whymark_dot_net/actions/workflows/lighthouse_check.yml/badge.svg?branch=main)  | ![Lighthouse workflow status, preview branch](https://github.com/daniel-whymark/whymark_dot_net/actions/workflows/lighthouse_check.yml/badge.svg?branch=preview)  |
+| ![Super Linter workflow status, main branch](https://github.com/daniel-whymark/whymark_dot_net/actions/workflows/super_linter.yml/badge.svg?branch=main) | ![Super Linter workflow status, preview branch](https://github.com/daniel-whymark/whymark_dot_net/actions/workflows/super_linter.yml/badge.svg?branch=preview) |
+| ![Dependency Review workflow status, main branch](https://github.com/daniel-whymark/whymark_dot_net/actions/workflows/dependency_review.yml/badge.svg?branch=main) | ![Dependency Review workflow status, preview branch](https://github.com/daniel-whymark/whymark_dot_net/actions/workflows/dependency_review.yml/badge.svg?branch=preview) |
+| ![Lighthouse workflow status, main branch](https://github.com/daniel-whymark/whymark_dot_net/actions/workflows/lighthouse_check.yml/badge.svg?branch=main) | ![Lighthouse workflow status, preview branch](https://github.com/daniel-whymark/whymark_dot_net/actions/workflows/lighthouse_check.yml/badge.svg?branch=preview) |
 
 ## Features
 A tiny and efficient design, using a minimalist CSS. The goals were maximum speed, minimum filesize and enhanced code-readability. There's no JS, only plain HTML and CSS. No frameworks or third-party requirements.
@@ -36,7 +37,7 @@ In addition to the template, the following is present:
 I would strongly recommened that you review the following files and linked documentation to ensure that the level of security is suitable for your site:
 - robots.txt to control [Web Crawlers & Robots](https://en.wikipedia.org/wiki/Robots_exclusion_standard)
 - crossdomain.xml & clientaccespolicy.xml to limit [Flash & Silverlight](https://en.wikipedia.org/wiki/Cross-site_request_forgery)
-- .well-known/mta-sts.txt for [Mail Transfer Agent Strict Transport Security](https://www.ncsc.gov.uk/collection/email-security-and-anti-spoofing/using-mta-sts-to-protect-the-privacy-of-your-emails), the current version we implement is [here](https://github.com/daniel-whymark/whymark_dot_net_mta-sts).
+- .well-known/mta-sts.txt for [Mail Transfer Agent Strict Transport Security](https://www.ncsc.gov.uk/collection/email-security-and-anti-spoofing/using-mta-sts-to-protect-the-privacy-of-your-emails), see the current version [we implement](https://github.com/daniel-whymark/whymark_dot_net_mta-sts).
 - ads.txt for restricting [Authorized Digital Sellers](https://iabtechlab.com/ads-txt/)
 
 

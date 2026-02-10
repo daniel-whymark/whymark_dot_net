@@ -145,14 +145,8 @@ a:hover:not(footer *) {
   }
 }
 
-/* @supports (font: -webkit-font-smoothing) { */
-/* body { */
-/* -webkit-font-smoothing: antialiased !important; */
-/* } */
-/* } */
-
 @supports (text-wrap: pretty) {
   body {
-    text-wrap: pretty !important;
+    text-wrap: pretty;
   }
 }

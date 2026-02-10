@@ -1,6 +1,7 @@
 ---
 name: Lighthouse
 permissions: read-all
+
 on:
   pull_request:
     branches:
@@ -8,6 +9,7 @@ on:
   push:
     branches:
       - "main"
+
 jobs:
   lighthouse-check:
     runs-on: ubuntu-latest
@@ -18,7 +20,10 @@ jobs:
       pull-requests: write
     steps:
       - name: Checkout code
-        uses: actions/checkout@master
+        uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+  
       - name: Lighthouse Checks
         uses: foo-software/lighthouse-check-action@master
         id: lighthouseCheck
@@ -28,6 +33,7 @@ jobs:
           prCommentEnabled: false
           prCommentSaveOld: false
           gitHubAccessToken: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Verify Lighthouse Check results
         uses: foo-software/lighthouse-check-status-action@master
         with:

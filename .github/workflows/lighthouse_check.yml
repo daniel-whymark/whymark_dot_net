@@ -35,7 +35,7 @@ jobs:
           gitHubAccessToken: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Verify Lighthouse Check results
-        uses: foo-software/lighthouse-check-status-action@a80267da2e0244b8a2e457a8575fc47590615852
+        uses: foo-software/lighthouse-check-status-action@2b9d5101f7a0de86ddb153a0d77ad7046aac1052
         with:
           lighthouseCheckResults: ${{ steps.lighthouseCheck.outputs.lighthouseCheckResults }}
           minAccessibilityScore: "50"

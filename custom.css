@@ -55,6 +55,7 @@ footer {
   & p:last-child {
     text-align: right;
     font-size: xx-small;
+    margin-top: auto;
   }
 
   &>* {
@@ -62,7 +63,7 @@ footer {
     flex: 1 1 auto;
     max-width: 100%;
     width: 100%;
-    margin-bottom: auto;
+    margin-bottom: 0;
   }
 }
 

@@ -5,20 +5,25 @@ permissions: read-all
 jobs:
   linting:
     runs-on: ubuntu-latest
+    
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
       cancel-in-progress: true
+      
     permissions:
       contents: read
       packages: read
       issues: write
       pull-requests: write
       statuses: write
+      
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
+          persist-credentials: false
+          
       - name: Reviewing code
         uses: super-linter/super-linter/slim@latest
         env:

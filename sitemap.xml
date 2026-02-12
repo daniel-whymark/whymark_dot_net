@@ -12,5 +12,8 @@
 		<image:image>
 			<image:loc>https://cdn.whymark.net/images/daniel3.png</image:loc>
 		</image:image>
+			<image:image>
+			<image:loc>https://cdn.whymark.net/images/daniel4.png</image:loc>
+		</image:image>
 	</url>
 </urlset>

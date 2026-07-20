@@ -51,3 +51,4 @@ CSS templates and inspirations:
 
 SVG Icons:
 - [Bootstrap](https://icons.getbootstrap.com)
+- [Font Awesome](https://fontawesome.com/icons/)

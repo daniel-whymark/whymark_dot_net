@@ -1,4 +1,5 @@
 /about.html https://whymark.net/ 301
 /@* https://whymark.net/ 301
-/.well-known/host-meta* => https://fed.brid.gy/.well-known/host-meta:splat
-/.well-known/webfinger* => https://fed.brid.gy/.well-known/webfinger:splat
+/.well-known/webfinger?resource=acct:@dan@whymark.net https://bsky.brid.gy/.well-known/webfinger?resource=acct:@whymark.net@bsky.brid.gy 302
+/.well-known/host-meta* => https://fed.brid.gy/.well-known/host-meta:splat 302
+/.well-known/webfinger* => https://fed.brid.gy/.well-known/webfinger:splat 302

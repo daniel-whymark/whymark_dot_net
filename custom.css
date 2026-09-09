@@ -1,154 +1,154 @@
 :root {
-  border-top: none;
-  font-family: system-ui, ui-sans-serif, sans-serif;
+    border-top: none;
+    font-family: system-ui, ui-sans-serif, sans-serif;
 }
 
 body {
-  max-width: 75%;
-  text-rendering: optimizelegibility;
-  text-wrap: balance;
+    max-width: 75%;
+    text-rendering: optimizelegibility;
+    text-wrap: balance;
 }
 
 h1 {
-  margin-bottom: 0;
-  font-weight: normal;
+    margin-bottom: 0;
+    font-weight: normal;
 }
 
 header {
-  margin-top: 15%;
-  margin-bottom: 5%;
+    margin-top: 15%;
+    margin-bottom: 5%;
 
-  & p {
-    margin: 0;
-    color: var(--moredark);
-    font-weight: lighter;
-    font-variant: small-caps;
-  }
+    & p {
+        margin: 0;
+        color: var(--moredark);
+        font-weight: lighter;
+        font-variant: small-caps;
+    }
 
-  & img {
-    border-radius: 50%;
-    box-shadow: 0 0 0 1px var(--lesslight);
-  }
+    & img {
+        border-radius: 50%;
+        box-shadow: 0 0 0 1px var(--lesslight);
+    }
 
-  & img:hover {
-    box-shadow:
-      0 0 2px 1px var(--moredark),
-      0 0 4px 1px var(--dark);
-    transition: box-shadow 1s ease-out;
-  }
+    & img:hover {
+        box-shadow:
+            0 0 2px 1px var(--moredark),
+            0 0 4px 1px var(--dark);
+        transition: box-shadow 1s ease-out;
+    }
 }
 
 footer {
-  display: flex;
-  flex-direction: row;
-  padding: 0;
-  width: 100%;
-
-  & a {
-    text-decoration: none;
-  }
-
-  & p:first-child {
-    text-align: left;
-  }
-
-  & p:last-child {
-    text-align: right;
-    font-size: xx-small;
-    margin-top: auto;
-  }
-
-  &>* {
-    display: block;
-    flex: 1 1 auto;
-    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
     width: 100%;
-    margin-bottom: 0;
-  }
+
+    & a {
+        text-decoration: none;
+    }
+
+    & p:first-child {
+        text-align: left;
+    }
+
+    & p:last-child {
+        text-align: right;
+        font-size: xx-small;
+        margin-top: auto;
+    }
+
+    & > * {
+        display: block;
+        flex: 1 1 auto;
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 0;
+    }
 }
 
 nav ul {
-  list-style-type: none;
-  margin: 1em;
-  padding: 1em;
-  text-align: center;
+    list-style-type: none;
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
 
-  & li a {
-    text-decoration: none;
-  }
+    & li a {
+        text-decoration: none;
+    }
 
-  & li a[id^="left"] {
-    display: none;
-  }
+    & li a[id^="left"] {
+        display: none;
+    }
 
-  & li svg {
-    fill: var(--moredark);
-    width: 1.5em;
-    height: 1.5em;
-    vertical-align: middle;
-  }
+    & li svg {
+        fill: var(--moredark);
+        width: 1.5em;
+        height: 1.5em;
+        vertical-align: middle;
+    }
 }
 
 a:hover {
-  color: var(--moredark);
+    color: var(--moredark);
 }
 
 a:hover:not(footer *) {
-  text-decoration: underline;
-  text-decoration-color: var(--moredark);
-  text-shadow: 1px 0 0 var(--moredark);
+    text-decoration: underline;
+    text-decoration-color: var(--moredark);
+    text-shadow: 1px 0 0 var(--moredark);
 }
 
 @media screen and (height >=400px) {
-  body {
-    max-width: 600px;
-  }
+    body {
+        max-width: 600px;
+    }
 }
 
 @media screen and (width >=420px) {
-  nav ul {
-    column-count: 2;
-    column-gap: 10%;
-    font-size: larger;
+    nav ul {
+        column-count: 2;
+        column-gap: 10%;
+        font-size: larger;
 
-    & li:nth-child(-n+6) {
-      text-align: right;
+        & li:nth-child(-n + 6) {
+            text-align: right;
 
-      & a[id^="left"] {
-        display: unset;
-      }
+            & a[id^="left"] {
+                display: unset;
+            }
 
-      & a[id^="right"] {
-        display: none;
-      }
+            & a[id^="right"] {
+                display: none;
+            }
+        }
+
+        & li:nth-child(n + 6) {
+            text-align: left;
+
+            & a[id^="left"] {
+                display: none;
+            }
+
+            & a[id^="right"] {
+                display: unset;
+            }
+        }
     }
-
-    & li:nth-child(n+6) {
-      text-align: left;
-
-      & a[id^="left"] {
-        display: none;
-      }
-
-      & a[id^="right"] {
-        display: unset
-      }
-    }
-  }
 }
 
 @media only screen and (prefers-color-scheme: dark) {
-  p {
-    font-weight: lighter;
-  }
+    p {
+        font-weight: lighter;
+    }
 
-  nav ul {
-    font-size: medium;
-  }
+    nav ul {
+        font-size: medium;
+    }
 }
 
 @supports (text-wrap: pretty) {
-  body {
-    text-wrap: pretty;
-  }
+    body {
+        text-wrap: pretty;
+    }
 }

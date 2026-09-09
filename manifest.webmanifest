@@ -3,12 +3,12 @@
 	"short_name": "Whymark",
 	"icons": [
 		{
-			"src": "/android-chrome-192x192.png",
+			"src": "/cdn-cgi/image/fit=contain,width=192,height=192,format=png,metadata=copyright,slow-connection-quality=50/https://cdn.whymark.net/images/favicon.png",
 			"type": "image/png",
 			"sizes": "192x192"
 		},
 		{
-			"src": "/android-chrome-512x512.png",
+			"src": "/cdn-cgi/image/fit=contain,width=512,height=512,format=png,metadata=copyright,slow-connection-quality=50/https://cdn.whymark.net/images/favicon.png",
 			"type": "image/png",
 			"sizes": "512x512"
 		}

@@ -6,16 +6,16 @@
 	<url>
 		<loc>https://whymark.net/</loc>
 		<image:image>
-			<image:loc>https://cdn.whymark.net/images/daniel.png</image:loc>
+			<image:loc>https://cdn.whymark.net/daniel.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://cdn.whymark.net/images/daniel2.png</image:loc>
+			<image:loc>https://cdn.whymark.net/daniel2.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://cdn.whymark.net/images/daniel3.png</image:loc>
+			<image:loc>https://cdn.whymark.net/daniel3.png</image:loc>
 		</image:image>
 			<image:image>
-			<image:loc>https://cdn.whymark.net/images/daniel4.png</image:loc>
+			<image:loc>https://cdn.whymark.net/daniel4.png</image:loc>
 		</image:image>
 	</url>
 </urlset>

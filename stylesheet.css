@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --color-background: #0b0b0c;
+    --color-text: #e8e8e8;
+    --color-hover: royalblue;
+
+    border-top: none;
+    line-height: 1.5em;
+    font-family: system-ui, ui-sans-serif, sans-serif;
+    font-size: 16px;
+    color: var(--color-text);
+}
+
+h1 {
+    line-height: 1em;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-weight: normal;
+}
+
+body {
+    background-color: var(--color-background);
+    margin: 0 auto;
+    max-width: 75%;
+    padding: 0 20px 20px;
+    text-rendering: optimizelegibility;
+    text-wrap: balance;
+}
+
+a {
+    outline: none;
+}
+
+a:hover {
+    color: var(--color-hover);
+    text-decoration-color: var(--color-hover);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    margin-top: 15%;
+    margin-bottom: 5%;
+
+    & p {
+        margin: 0;
+        color: var(--moredark);
+        font-weight: lighter;
+        font-variant: small-caps;
+    }
+
+    & img {
+        border-radius: 50%;
+        box-shadow: 0 0 0 1px var(--lesslight);
+    }
+
+    & img:hover {
+        box-shadow:
+            0 0 2px 1px var(--moredark),
+            0 0 4px 1px var(--dark);
+        transition: box-shadow 1s ease-out;
+    }
+}
+
+footer {
+    display: flex;
+    width: 100%;
+
+    & a {
+        text-decoration: none;
+    }
+
+    & p:first-child {
+        text-align: left;
+    }
+
+    & p:last-child {
+        text-align: right;
+        font-size: xx-small;
+        margin-top: auto;
+        opacity: 0.25;
+    }
+
+    & > * {
+        flex: 1 1 auto;
+        width: 100%;
+        margin-bottom: 0;
+    }
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+
+    & a {
+        text-decoration: none;
+    }
+
+    & svg {
+        fill: var(--moredark);
+        width: 1.5em;
+        height: 1.5em;
+        vertical-align: middle;
+    }
+}
+
+a:hover:not(footer *) {
+    text-decoration: underline;
+    text-decoration-color: var(--moredark);
+    text-shadow: 1px 0 0 var(--moredark);
+}
+
+@media screen and (height >=400px) {
+    body {
+        max-width: 600px;
+    }
+}
+
+@supports (text-wrap: pretty) {
+    body {
+        text-wrap: pretty;
+    }
+}

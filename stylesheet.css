@@ -14,7 +14,7 @@
 
     border-top: none;
     line-height: 1.5em;
-    font-family: "Switzer", "Avenir Next", "Helvetica Neue", system-ui, ui-sans-serif, sans-serif;
+    font-family: Geograph, Futura, Avenir Next, Helvetica Neue, Helvetica, Arial, system-ui, ui-sans-serif, sans-serif;
     font-size: 16px;
     color: var(--color-text);
 }
@@ -69,7 +69,6 @@ figure {
         aspect-ratio: 16 / 9;
         object-fit: cover;
         border-radius: 0;
-        height: auto;
     }
 }
 

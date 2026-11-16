@@ -14,7 +14,16 @@
 
     border-top: none;
     line-height: 1.5em;
-    font-family: Geograph, Futura, Avenir Next, Helvetica Neue, Helvetica, Arial, system-ui, ui-sans-serif, sans-serif;
+    font-family:
+        Geograph,
+        Futura,
+        Avenir Next,
+        Helvetica Neue,
+        Helvetica,
+        Arial,
+        system-ui,
+        ui-sans-serif,
+        sans-serif;
     font-size: 16px;
     color: var(--color-text);
 }
@@ -43,7 +52,10 @@ body {
 
     & a {
         color: var(--color-text);
-        outline: none;
+
+        &:focus-visible {
+            outline-style: auto;
+        }
 
         &:hover {
             color: var(--color-hover);
@@ -100,7 +112,7 @@ main {
         line-height: 1.25em;
         text-transform: uppercase;
         margin-bottom: 0;
-        font-weight: bolder;
+        font-weight: lighter;
     }
 
     & h2 + p {

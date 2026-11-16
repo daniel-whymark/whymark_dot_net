@@ -9,11 +9,8 @@ body {
     text-wrap: balance;
 }
 
-title {
-    text-transform: uppercase;
-}
-
 h1 {
+    text-transform: uppercase;
     margin-bottom: 0;
     font-weight: normal;
 }

@@ -46,6 +46,7 @@ body {
 
         &:hover {
             color: var(--color-hover);
+            opacity: 1;
             text-decoration: underline;
             text-decoration-color: var(--color-hover);
             text-shadow:
@@ -90,7 +91,7 @@ main {
     padding-bottom: 1em;
 
     & h2 {
-        line-height: 1em;
+        line-height: 1.25em;
         text-transform: uppercase;
         margin-bottom: 0;
         font-weight: bolder;

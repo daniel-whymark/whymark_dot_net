@@ -48,6 +48,8 @@ body {
     }
 
     & a {
+        color: var(--color-font)
+
         &:focus-visible {
             outline-style: auto;
             outline-color: var(--color-hover);

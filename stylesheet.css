@@ -55,6 +55,7 @@ body {
 
         &:focus-visible {
             outline-style: auto;
+            outline-color: var(--color-hover);
         }
 
         &:hover {

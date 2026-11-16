@@ -38,7 +38,7 @@ body {
     border-right: 1px solid var(--color-border);
 
     & > * {
-        margin-top: 15%;
+        margin-top: 5%;
         margin-bottom: 5%;
     }
 

@@ -28,6 +28,8 @@ body {
     padding: 0 20px 20px;
     text-rendering: optimizelegibility;
     text-wrap: balance;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 a {

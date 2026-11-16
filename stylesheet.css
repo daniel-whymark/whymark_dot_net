@@ -82,7 +82,7 @@ header {
         text-transform: uppercase;
         margin-bottom: 0;
         font-weight: normal;
-        letter-spacing: 0.05em;
+        letter-spacing: 0.25em;
         color: var(--color-headers);
     }
 
@@ -100,7 +100,7 @@ main {
 
     & h2 {
         line-height: 1.3em;
-        letter-spacing: 0.25em;
+        letter-spacing: 0.1em;
         text-transform: uppercase;
         margin-bottom: 0;
         font-weight: lighter;
@@ -144,7 +144,7 @@ footer {
     margin-top: auto;
     font-family: var(--fonts-monospace);
     text-transform: uppercase;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.1em;
 
     & a {
         text-decoration: none;

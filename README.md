@@ -46,7 +46,7 @@ Distributed under [MIT License](https://opensource.org/licenses/MIT). Feel free 
 
 
 ## Credits
-CSS templates and inspirations:
+CSS inspirations:
 - [Neat CSS](https://neat.joeldare.com/)
 
 SVG Icons:

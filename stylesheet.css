@@ -5,6 +5,7 @@
 }
 
 :root {
+    color-scheme: dark;
     --color-background: #0b0b0c;
     --color-text: #e8e8e8;
     --color-hover: white;

@@ -100,7 +100,7 @@ main {
 
     & h2 {
         line-height: 1.3em;
-        letter-spacing: 0.1em;
+        letter-spacing: 0.15em;
         text-transform: uppercase;
         margin-bottom: 0;
         font-weight: lighter;
@@ -144,7 +144,7 @@ footer {
     margin-top: auto;
     font-family: var(--fonts-monospace);
     text-transform: uppercase;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.15em;
 
     & a {
         text-decoration: none;

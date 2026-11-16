@@ -13,7 +13,7 @@
 
     border-top: none;
     line-height: 1.5em;
-    font-family: system-ui, ui-sans-serif, sans-serif;
+    font-family: "Switzer", "Avenir Next", "Helvetica Neue", system-ui, ui-sans-serif, sans-serif;
     font-size: 16px;
     color: var(--color-text);
 }

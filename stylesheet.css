@@ -20,9 +20,14 @@
 
 body {
     background-color: var(--color-background);
+
     margin: 0 auto;
     max-width: 75%;
     padding: 0 20px 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh;
+
     text-rendering: optimizelegibility;
     text-wrap: balance;
     -webkit-font-smoothing: antialiased;
@@ -107,6 +112,7 @@ nav {
 footer {
     display: flex;
     width: 100%;
+    margin-top: auto;
 
     & a {
         text-decoration: none;

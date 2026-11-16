@@ -48,7 +48,7 @@ body {
     }
 
     & a {
-        color: var(--color-font);
+        color: var(--color-text);
 
         &:focus-visible {
             outline-style: auto;

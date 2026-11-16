@@ -1,6 +1,5 @@
 *, *::before, *::after {
     box-sizing: border-box;
-    margin: 0;
 }
 
 
@@ -35,6 +34,10 @@ body {
 
     border-left: 1px solid var(--color-border);
     border-right: 1px solid var(--color-border);
+
+    & > * {
+        margin: 1%;
+    }
 
     & a {
         color: var(--color-text);

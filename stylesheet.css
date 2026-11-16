@@ -48,8 +48,6 @@ body {
     }
 
     & a {
-        color: var(--color-highlight);
-
         &:focus-visible {
             outline-style: auto;
             outline-color: var(--color-hover);
@@ -115,6 +113,10 @@ main {
 
     & h2 + p {
         margin-top: 0;
+    }
+
+    & a {
+        color: var(--color-highlight);
     }
 }
 

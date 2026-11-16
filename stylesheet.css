@@ -1,7 +1,8 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
 }
-
 
 :root {
     --color-background: #0b0b0c;
@@ -47,7 +48,9 @@ body {
             color: var(--color-hover);
             text-decoration: underline;
             text-decoration-color: var(--color-hover);
-            text-shadow: 1px 0 0 var(--color-hover);
+            text-shadow:
+                -0.25px 0 0 var(--color-hover),
+                0.25px 0 0 var(--color-hover);
         }
     }
 }
@@ -150,7 +153,6 @@ footer {
         margin-bottom: 0;
     }
 }
-
 
 @media screen and (height >=400px) {
     body {

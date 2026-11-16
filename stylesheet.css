@@ -83,6 +83,7 @@ main {
     border-bottom: 1px solid var(--color-border);
     margin-inline: -20px;
     padding-inline: 20px;
+    padding: 1em 0;
 
     & h2 {
         line-height: 1em;

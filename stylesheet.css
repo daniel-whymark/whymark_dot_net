@@ -43,15 +43,11 @@ body {
         padding-bottom: 1em;
     }
 
-    footer a {
-        color: var(--color-text);
-
-        &:hover {
-            text-decoration: none;
-        }
+    footer a:hover {
+        text-decoration: none;
     }
 
-    & a:not(footer a) {
+    & a {
         color: var(--color-highlight);
 
         &:focus-visible {

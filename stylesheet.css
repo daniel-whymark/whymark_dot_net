@@ -27,11 +27,11 @@ body {
     & a {
         color: var(--color-text);
         outline: none;
-    }
 
-    &:hover {
-        color: var(--color-hover);
-        text-decoration-color: var(--color-hover);
+        &:hover {
+            color: var(--color-hover);
+            text-decoration-color: var(--color-hover);
+        }
     }
 }
 
@@ -76,7 +76,7 @@ nav {
         width: 1.5em;
         height: 1.5em;
         vertical-align: middle;
-        fill: rgb(156, 156, 156);
+        fill: currentColor;
     }
 }
 

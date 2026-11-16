@@ -36,6 +36,11 @@ body {
     border-left: 1px solid var(--color-dimmed);
     border-right: 1px solid var(--color-dimmed);
 
+    body > * {
+        margin-top: 15%;
+        margin-bottom: 5%;
+    }
+
     & a {
         color: var(--color-text);
         outline: none;
@@ -57,9 +62,6 @@ main {
 }
 
 figure {
-    margin-top: 15%;
-    margin-bottom: 5%;
-
     & img {
         max-width: 100%;
         height: auto;
@@ -68,9 +70,6 @@ figure {
 }
 
 header {
-    margin-top: 15%;
-    margin-bottom: 5%;
-
     & h1 {
         line-height: 1em;
         text-transform: uppercase;

@@ -59,15 +59,15 @@ body {
 }
 
 figure {
-    margin-top: auto;
+    margin-top: 5%;
 
     & img {
         max-width: 100%;
         height: auto;
-        width: 100%;
-        aspect-ratio: 16 / 9;
+        width: 240px;
         object-fit: cover;
-        border-radius: 0;
+        border-radius: 50%;
+        aspect-ratio: 1;
     }
 }
 
@@ -166,12 +166,6 @@ footer {
 @media screen and (height >=400px) {
     body {
         max-width: 600px;
-
-        & figure img {
-            width: 120px;
-            aspect-ratio: 1;
-            border-radius: 50%;
-        }
     }
 }
 

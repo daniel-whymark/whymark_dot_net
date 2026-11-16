@@ -90,7 +90,7 @@ header {
 }
 
 main {
-    border-bottom: 1px solid var(--color-border);
+    border-top: 1px solid var(--color-border);
     margin-inline: -20px;
     padding-inline: 20px;
 

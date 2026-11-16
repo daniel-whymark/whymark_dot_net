@@ -6,18 +6,18 @@
 
 :root {
     --color-background: #0b0b0c;
-    --color-text: #e8e8e8;
+    --color-headers: #e8e8e8;
     --color-hover: white;
-    --color-dimmed: #9c9c9c;
+    --color-text: #9c9c9c;
     --color-border: #1d1d1f;
 
-    --fonts-serif: Geograph, Futura, "Avenir Next", "Helvetica Neue", Helvetica, Arial, system-ui, ui-sans-serif, sans-serif;
+    --fonts-sans: Geograph, Futura, "Avenir Next", "Helvetica Neue", Helvetica, Arial, system-ui, ui-sans-serif, sans-serif;
     --fonts-monospace: "Soehne Mono", "SF Mono", ui-monospace, Menlo, monospace;
 
     color-scheme: dark;
     border-top: none;
     line-height: 1.5em;
-    font-family: var(--fonts-serif);
+    font-family: var(--fonts-sans);
     font-size: 16px;
     color: var(--color-text);
 }
@@ -82,12 +82,12 @@ header {
         text-transform: uppercase;
         margin-bottom: 0;
         font-weight: normal;
+        color: var(--color-headers);
     }
 
     & p {
         font-weight: lighter;
         font-variant: small-caps;
-        color: var(--color-dimmed);
         margin-top: 0;
     }
 }
@@ -102,10 +102,7 @@ main {
         text-transform: uppercase;
         margin-bottom: 0;
         font-weight: lighter;
-    }
-
-    & p {
-        color: var(--color-dimmed);
+        color: var(--color-headers);
     }
 
     & h2 + p {
@@ -121,7 +118,6 @@ nav {
     margin: 1em;
     padding: 1em;
     justify-content: center;
-    color: var(--color-dimmed);
     border-top: 1px solid var(--color-border);
     border-bottom: 1px solid var(--color-border);
     margin-inline: -20px;
@@ -145,6 +141,7 @@ footer {
     width: 100%;
     margin-top: auto;
     font-family: var(--fonts-monospace);
+    text-transform: uppercase;
 
     & a {
         text-decoration: none;

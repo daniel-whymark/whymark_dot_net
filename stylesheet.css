@@ -140,7 +140,7 @@ footer {
         text-align: right;
         font-size: xx-small;
         margin-top: auto;
-        opacity: 0.25;
+        opacity: 0.2;
     }
 
     & > * {

@@ -30,15 +30,19 @@ body {
 
         &:hover {
             color: var(--color-hover);
-            text-decoration-color: var(--color-hover);
+            font-weight: bold;
         }
     }
 }
 
 figure {
+    margin-top: 15%;
+    margin-bottom: 5%;
+
     & img {
         max-width: 100%;
         height: auto;
+        border-radius: 50%;
     }
 }
 
@@ -57,10 +61,6 @@ header {
         margin: 0;
         font-weight: lighter;
         font-variant: small-caps;
-    }
-
-    & img {
-        border-radius: 50%;
     }
 }
 

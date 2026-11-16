@@ -19,7 +19,6 @@ A tiny and efficient design, using a minimalist CSS. The goals were maximum spee
 - Image fallback options to allow for the smallest filesizes possible, using webp where supported.
 - Responsive layout.
 - Mobile browsing reactive.
-- Automatic light & dark mode colour schemes.
 - WCAG AA compliant contrasts for low vision accessibility.
 - Screenreader labelling for maximum compatability.
 - Keyboard browsing friendly.

@@ -164,7 +164,7 @@ footer {
         margin-top: auto;
 
         & a:not(:hover) {
-            opacity: 0.2;
+            opacity: 0.1;
         }
     }
 

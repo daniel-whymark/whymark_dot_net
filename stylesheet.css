@@ -39,11 +39,11 @@ body {
             text-shadow: 1px 0 0 var(--color-hover);
         }
     }
+}
 
-    & hr {
-        width: 100vw;
-        margin-inline: calc(50% - 50vw);
-    }
+main {
+    border-top: 1px solid var(--color-dimmed);
+    border-bottom: 1px solid var(--color-dimmed);
 }
 
 figure {

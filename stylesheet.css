@@ -52,6 +52,8 @@ body {
 main {
     border-top: 1px solid var(--color-dimmed);
     border-bottom: 1px solid var(--color-dimmed);
+    margin-inline: -20px;
+    padding-inline: 20px;
 }
 
 figure {

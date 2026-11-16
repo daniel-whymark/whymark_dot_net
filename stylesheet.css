@@ -95,7 +95,7 @@ header {
         text-transform: uppercase;
         margin-top: 0;
         font-family: var(--fonts-monospace);
-        letter-spacing: 0.2em;
+        letter-spacing: 0.1em;
     }
 }
 
@@ -154,7 +154,7 @@ footer {
     margin-top: auto;
     font-family: var(--fonts-monospace);
     text-transform: uppercase;
-    letter-spacing: 0.14em;
+    letter-spacing: 0.1em;
 
     & a {
         text-decoration: none;

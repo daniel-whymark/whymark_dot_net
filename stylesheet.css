@@ -80,6 +80,7 @@ header {
 
 main {
     border-top: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
     margin-inline: -20px;
     padding-inline: 20px;
 
@@ -109,10 +110,6 @@ nav {
     justify-content: center;
     color: var(--color-dimmed);
 
-    margin-inline: -20px;
-    padding-inline: 20px;
-    border-top: 1px solid var(--color-border);
-
     & a {
         color: inherit;
     }
@@ -126,10 +123,6 @@ nav {
 }
 
 footer {
-    margin-inline: -20px;
-    padding-inline: 20px;
-    border-top: 1px solid var(--color-border);
-
     display: flex;
     width: 100%;
     margin-top: auto;

@@ -1,7 +1,6 @@
 *, *::before, *::after {
     box-sizing: border-box;
-    /*margin: 0;
-    padding: 0;*/
+
 }
 
 
@@ -64,6 +63,11 @@ figure {
 }
 
 header {
+    margin-inline: -20px;
+    padding-inline: 20px;
+    border-bottom: 1px solid var(--color-border);
+
+
     & h1 {
         line-height: 1em;
         text-transform: uppercase;
@@ -79,11 +83,6 @@ header {
 }
 
 main {
-    border-top: 1px solid var(--color-border);
-    border-bottom: 1px solid var(--color-border);
-    margin-inline: -20px;
-    padding-inline: 20px;
-
     & h2 {
         line-height: 1em;
         text-transform: uppercase;
@@ -94,6 +93,10 @@ main {
 }
 
 nav {
+    border-top: 1px solid var(--color-border);
+    margin-inline: -20px;
+    padding-inline: 20px;
+
     display: flex;
     flex-wrap: wrap;
     align-items: center;

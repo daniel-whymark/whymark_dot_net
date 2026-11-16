@@ -5,12 +5,13 @@
 }
 
 :root {
-    color-scheme: dark;
     --color-background: #0b0b0c;
     --color-text: #e8e8e8;
     --color-hover: white;
     --color-dimmed: #9c9c9c;
     --color-border: #1d1d1f;
+
+    color-scheme: dark;
     border-top: none;
     line-height: 1.5em;
     font-family: "Geograph", "Futura", "Avenir Next", "Helvetica Neue", "Helvetica", "Arial", system-ui, ui-sans-serif, sans-serif;

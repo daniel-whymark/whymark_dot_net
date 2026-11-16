@@ -6,7 +6,7 @@
 
 :root {
     --color-background: #0b0b0c;
-    --color-headers: #e8e8e8;
+    --color-highlight: #e8e8e8;
     --color-hover: white;
     --color-text: #9c9c9c;
     --color-border: #1d1d1f;
@@ -48,7 +48,7 @@ body {
     }
 
     & a {
-        color: var(--color-text);
+        color: var(--color-highlight);
 
         &:focus-visible {
             outline-style: auto;
@@ -87,7 +87,7 @@ header {
         margin-bottom: 0;
         font-weight: normal;
         letter-spacing: 0.25em;
-        color: var(--color-headers);
+        color: var(--color-highlight);
     }
 
     & p {
@@ -108,7 +108,7 @@ main {
         text-transform: uppercase;
         margin-bottom: 0;
         font-weight: lighter;
-        color: var(--color-headers);
+        color: var(--color-highlight);
     }
 
     & h2 + p {

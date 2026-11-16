@@ -92,6 +92,9 @@ main {
         font-weight: bolder;
     }
 
+    & h2 + p {
+        margin-top: 0;
+    }
 }
 
 nav {

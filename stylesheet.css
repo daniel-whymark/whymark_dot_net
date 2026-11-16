@@ -10,8 +10,8 @@
     --color-hover: white;
     --color-text: #9c9c9c;
     --color-border: #1d1d1f;
-    --fonts-sans: Geograph, Futura, "Avenir Next", "Helvetica Neue", Helvetica, Arial, system-ui, ui-sans-serif, sans-serif;
-    --fonts-monospace: "Soehne Mono", "SF Mono", ui-monospace, Menlo, monospace;
+    --fonts-sans: geograph, futura, "Avenir Next", "Helvetica Neue", helvetica, arial, system-ui, ui-sans-serif, sans-serif;
+    --fonts-monospace: "Soehne Mono", "SF Mono", ui-monospace, menlo, monospace;
 
     color-scheme: dark;
     border-top: none;

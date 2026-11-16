@@ -30,7 +30,9 @@ body {
 
         &:hover {
             color: var(--color-hover);
-            font-weight: bold;
+            text-decoration: underline;
+            text-decoration-color: var(--color-hover);
+            text-shadow: 1px 0 0 var(--color-hover);
         }
     }
 }

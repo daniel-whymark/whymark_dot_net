@@ -19,11 +19,18 @@ X-Robots-Tag: noindex
 ! Link
 ! Access-Control-Allow-Origin
 
+https://whymark.pages.dev/*
+! Access-Control-Allow-Origin
+Access-Control-Allow-Origin: https://whymark.pages.dev
+X-Robots-Tag: noindex
+! Link
+
 https://preview.whymark.pages.dev/*
+! Access-Control-Allow-Origin
 Access-Control-Allow-Origin: https://preview.whymark.pages.dev
 X-Robots-Tag: noindex
 ! Link
 
-https://:whymark.pages.dev/*
+https://:deployment.whymark.pages.dev/*
 X-Robots-Tag: noindex
 ! Link

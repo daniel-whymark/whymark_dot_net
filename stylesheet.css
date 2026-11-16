@@ -151,7 +151,7 @@ footer {
         font-size: xx-small;
         margin-top: auto;
 
-        & a {
+        & a:not(:hover) {
             opacity: 0.2;
         }
     }

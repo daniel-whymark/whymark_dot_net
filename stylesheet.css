@@ -31,6 +31,7 @@ body {
 }
 
 a {
+    color: var(--color-text);
     outline: none;
 }
 
@@ -50,21 +51,12 @@ header {
 
     & p {
         margin: 0;
-        color: var(--moredark);
         font-weight: lighter;
         font-variant: small-caps;
     }
 
     & img {
         border-radius: 50%;
-        box-shadow: 0 0 0 1px var(--lesslight);
-    }
-
-    & img:hover {
-        box-shadow:
-            0 0 2px 1px var(--moredark),
-            0 0 4px 1px var(--dark);
-        transition: box-shadow 1s ease-out;
     }
 }
 
@@ -102,12 +94,7 @@ nav {
     padding: 1em;
     text-align: center;
 
-    & a {
-        text-decoration: none;
-    }
-
     & svg {
-        fill: var(--moredark);
         width: 1.5em;
         height: 1.5em;
         vertical-align: middle;
@@ -116,8 +103,6 @@ nav {
 
 a:hover:not(footer *) {
     text-decoration: underline;
-    text-decoration-color: var(--moredark);
-    text-shadow: 1px 0 0 var(--moredark);
 }
 
 @media screen and (height >=400px) {

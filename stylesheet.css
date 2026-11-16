@@ -65,8 +65,11 @@ figure {
         height: auto;
         /*border-radius: 50%;*/
 
-        width: 100%; aspect-ratio: 16 / 9;
-        object-fit: cover; border-radius: 0; height: auto;
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        object-fit: cover;
+        border-radius: 0;
+        height: auto;
     }
 }
 
@@ -167,7 +170,9 @@ footer {
         max-width: 600px;
 
         & figure img {
-            width: 120px; aspect-ratio: 1; border-radius: 50%;
+            width: 120px;
+            aspect-ratio: 1;
+            border-radius: 50%;
         }
     }
 }

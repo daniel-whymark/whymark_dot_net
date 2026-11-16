@@ -10,7 +10,6 @@
     --color-hover: white;
     --color-text: #9c9c9c;
     --color-border: #1d1d1f;
-
     --fonts-sans: Geograph, Futura, "Avenir Next", "Helvetica Neue", Helvetica, Arial, system-ui, ui-sans-serif, sans-serif;
     --fonts-monospace: "Soehne Mono", "SF Mono", ui-monospace, Menlo, monospace;
 
@@ -41,10 +40,6 @@ body {
         margin: 1%;
         padding-top: 1em;
         padding-bottom: 1em;
-    }
-
-    footer a:hover {
-        text-decoration: none;
     }
 
     & a {
@@ -135,7 +130,6 @@ nav {
     margin-inline: -20px;
     padding-inline: 20px;
 
-
     & a {
         color: inherit;
     }
@@ -158,6 +152,10 @@ footer {
 
     & a {
         text-decoration: none;
+
+        &:hover {
+            text-decoration: none;
+        }
     }
 
     & p:first-child {

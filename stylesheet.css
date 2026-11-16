@@ -122,10 +122,6 @@ nav {
         vertical-align: middle;
         fill: currentColor;
     }
-
-    & h2 {
-        margin-top: 1em;
-    }
 }
 
 footer {

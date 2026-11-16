@@ -87,10 +87,10 @@ figure {
 
 header {
     & h1 {
-        line-height: 1em;
+        line-height: 1.3em;
         text-transform: uppercase;
         margin-bottom: 0;
-        font-weight: bolder;
+        font-weight: normal;
     }
 
     & p {
@@ -110,7 +110,7 @@ main {
     padding-bottom: 1em;
 
     & h2 {
-        line-height: 1.25em;
+        line-height: 1.3em;
         text-transform: uppercase;
         margin-bottom: 0;
         font-weight: lighter;

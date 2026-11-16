@@ -11,38 +11,25 @@
     --color-hover: white;
     --color-dimmed: #9c9c9c;
     --color-border: #1d1d1f;
-
     border-top: none;
     line-height: 1.5em;
-    font-family:
-        Geograph,
-        Futura,
-        Avenir Next,
-        Helvetica Neue,
-        Helvetica,
-        Arial,
-        system-ui,
-        ui-sans-serif,
-        sans-serif;
+    font-family: "Geograph", "Futura", "Avenir Next", "Helvetica Neue", "Helvetica", "Arial", system-ui, ui-sans-serif, sans-serif;
     font-size: 16px;
     color: var(--color-text);
 }
 
 body {
     background-color: var(--color-background);
-
     margin: 0 auto;
     max-width: 75%;
     padding: 0 20px 20px;
     display: flex;
     flex-direction: column;
     min-height: 100dvh;
-
     text-rendering: optimizelegibility;
     text-wrap: balance;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-
     border-left: 1px solid var(--color-border);
     border-right: 1px solid var(--color-border);
 
@@ -76,8 +63,6 @@ figure {
     & img {
         max-width: 100%;
         height: auto;
-        /*border-radius: 50%;*/
-
         width: 100%;
         aspect-ratio: 16 / 9;
         object-fit: cover;
@@ -116,12 +101,12 @@ main {
         font-weight: lighter;
     }
 
-    & h2 + p {
-        margin-top: 0;
-    }
-
     & p {
         color: var(--color-dimmed);
+    }
+
+    & h2 + p {
+        margin-top: 0;
     }
 }
 
@@ -143,7 +128,7 @@ nav {
         width: 1.5em;
         height: 1.5em;
         vertical-align: middle;
-        fill: currentColor;
+        fill: currentcolor;
     }
 }
 

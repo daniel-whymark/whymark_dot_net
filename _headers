@@ -10,8 +10,11 @@ Content-Security-Policy: upgrade-insecure-requests; default-src 'none'; frame-an
 ! Access-Control-Allow-Credentials
 Access-Control-Allow-Methods: GET, HEAD
 Access-Control-Allow-Origin: https://whymark.net
-Link: <https://whymark.net/:splat>; rel="canonical"
+
+https://whymark.net/
+Link: <https://whymark.net/>; rel="canonical"
 Link: </stylesheet.css>; rel=preload; as=style; fetchpriority="high"; crossorigin="anonymous"
+
 
 https://whymark.pages.dev/*
 ! Access-Control-Allow-Origin

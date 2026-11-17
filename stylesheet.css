@@ -38,8 +38,6 @@ body {
 
     & > * {
         margin: 1%;
-        padding-top: 1em;
-        padding-bottom: 1em;
     }
 
     & a {
@@ -63,8 +61,6 @@ body {
 }
 
 figure {
-    margin-top: 5%;
-
     & img {
         max-width: 100%;
         height: auto;

@@ -87,10 +87,10 @@ header {
 
     & p {
         font-weight: lighter;
-        text-transform: uppercase;
+        font-variant: small-caps;
         margin-top: 0;
         font-family: var(--fonts-monospace);
-        letter-spacing: 0.1em;
+        letter-spacing: 0.15em;
     }
 }
 

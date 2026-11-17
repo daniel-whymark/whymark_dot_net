@@ -15,7 +15,6 @@ https://whymark.net/
 Link: <https://whymark.net/>; rel="canonical"
 Link: </stylesheet.css>; rel=preload; as=style; fetchpriority="high"; crossorigin="anonymous"
 
-
 https://whymark.pages.dev/*
 ! Access-Control-Allow-Origin
 Access-Control-Allow-Origin: https://whymark.pages.dev

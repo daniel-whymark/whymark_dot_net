@@ -88,7 +88,7 @@ header {
         font-variant: small-caps;
         margin-top: 0;
         font-family: var(--fonts-monospace);
-        letter-spacing: 0.15em;
+        letter-spacing: 0.1em;
     }
 }
 
